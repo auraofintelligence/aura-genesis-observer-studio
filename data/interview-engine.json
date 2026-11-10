@@ -1,0 +1,372 @@
+{
+  "version": "1.0.0",
+  "statement": "Rule-based contextual interview navigation. These are generated follow-up routes, not responses from an AI or a count of new authored atlas questions.",
+  "followupPatterns": [
+    {
+      "id": "episode",
+      "title": "A concrete episode",
+      "promptTemplate": "Start with this question: {seed}\nFor {selfLens}, in {condition}, choose one concrete episode. What happened, in what order, and what makes this episode relevant? Keep uncertainty about dates or details visible."
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and unknowns",
+      "promptTemplate": "Return to: {seed}\nTake the account so far: {previousAnswer}\nWhich parts are observation, recollection, testimony, inference or imagination? What could you check, what is unavailable and what should remain unknown?"
+    },
+    {
+      "id": "attention",
+      "title": "The three views",
+      "promptTemplate": "Use this question as the anchor: {seed}\nIn {condition}, separate the wider available scene, what you actually noticed, and what a narrator could observe you doing. Where do the accounts diverge?"
+    },
+    {
+      "id": "meaning",
+      "title": "Your meaning and correction",
+      "promptTemplate": "For {seed}, consider your account so far: {previousAnswer}\nWhat mattered to you that an observer could not know unaided? Correct one plausible misinterpretation and leave any disagreement unresolved if needed."
+    },
+    {
+      "id": "counterexample",
+      "title": "A counterexample",
+      "promptTemplate": "Explore the claim or preference in: {seed}\nGive an episode where the opposite was true. For {selfLens}, what changed in the conditions rather than in your identity?"
+    },
+    {
+      "id": "motives",
+      "title": "Attraction repulsion and urge",
+      "promptTemplate": "Around {seed}, identify separately what attracts you, what repels you and what creates an urge to act. In {condition}, which of these should influence the choice, and which needs more interpretation?"
+    },
+    {
+      "id": "resources",
+      "title": "Resources and resourcefulness",
+      "promptTemplate": "For {seed}, describe available time, tools, people and access. Separately describe your perceived ability to use them. Change one resource condition: what becomes possible and what remains difficult?"
+    },
+    {
+      "id": "choice",
+      "title": "Competing good choices",
+      "promptTemplate": "Consider {seed} through {selfLens}. Name two worthwhile but competing actions. What would each make possible, cost or leave undone for you and others? What would make waiting a useful third option?"
+    },
+    {
+      "id": "future",
+      "title": "Conditional future",
+      "promptTemplate": "Starting from {seed}, describe two possible good futures under different stated conditions. What would have to change, what cannot yet be known and which claim must remain an aspiration?"
+    },
+    {
+      "id": "action",
+      "title": "Make something real",
+      "promptTemplate": "Translate {seed} into an observable experiment, artifact or encounter. Use this domain task as an option: {transferTask}\nState a result that would count against the idea and the permission needed before involving anyone."
+    },
+    {
+      "id": "teach",
+      "title": "Teach and test transfer",
+      "promptTemplate": "Turn the insight in {seed} into a short explanation for a willing learner. What could they do in a different example to show understanding? How could they disagree with you while still demonstrating it?"
+    },
+    {
+      "id": "review",
+      "title": "Return after life",
+      "promptTemplate": "Revisit {seed} after an actual action or encounter. What did you expect, what happened, what did it mean and what should change? If no action occurred, record that honestly and identify the missing condition."
+    }
+  ],
+  "domains": [
+    {
+      "id": "identity",
+      "scenario": "Start with a person and a useful purpose.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful orientation and chosen identity artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "memory",
+      "scenario": "Keep events, recollection and later meaning distinct.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful memory and the changing life story artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "embodiment",
+      "scenario": "Describe lived conditions without inferring diagnoses.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful embodiment and everyday capacity artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "attention",
+      "scenario": "Compare available cues with the cues actually noticed.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful attention and the noticed world artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "mental-stage",
+      "scenario": "Make internal models discussable and revisable.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful mental stage and world models artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "values",
+      "scenario": "Translate principles into choices with visible consequences.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful values and ethical trade-offs artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "motives",
+      "scenario": "Explore forces and conditions without fixed personality scores.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful motives needs and chosen priorities artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "emotion",
+      "scenario": "Preserve first-person experience alongside observations.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful emotion enjoyment and meaning artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "agency",
+      "scenario": "Connect candidate actions with consequences and revision.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful agency decisions and action selection artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "knowledge",
+      "scenario": "Separate claims, sources, confidence and correction.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful knowing evidence and intellectual humility artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "learning",
+      "scenario": "Optimise retained capability rather than consumption speed.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful learning skills and transfer artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "creation",
+      "scenario": "Let imagination produce shareable work with attribution.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful creativity music and expression artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "relationships",
+      "scenario": "Build reciprocal connections without inventing private facts.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful relationships trust and interesting people artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "communication",
+      "scenario": "Make meaning legible across people and settings.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful language listening and teach-back artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "enterprise",
+      "scenario": "Ground ambitious ideas in viable exchanges and evidence.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful work enterprise and useful offers artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "resources",
+      "scenario": "Keep money, contribution, capacity and outcomes distinct.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful resources reciprocity and abundance artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "place",
+      "scenario": "Connect journeys, local knowledge and contextual records.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful place travel and memory palaces artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "time",
+      "scenario": "Use overlapping activity honestly and protect recovery.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful time rhythm and full immersion artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "civic",
+      "scenario": "Turn concern into accountable evidence and participation.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful civic agency rules and institutions artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "ecology",
+      "scenario": "Track interdependence across place, species and generations.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful ecology shared systems and consequences artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "meaning",
+      "scenario": "Keep imaginative depth while making claims testable.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful meaning symbolism and the etheric artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "future",
+      "scenario": "Explore conditional futures without predicting biography.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful past present and possible best selves artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "sovereignty",
+      "scenario": "Give data and delegated action explicit boundaries.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful digital sovereignty models and agent swarms artifact or encounter, then return with evidence and your own meaning."
+    },
+    {
+      "id": "integration",
+      "scenario": "Convert reflection into tested changes that remain yours.",
+      "tensions": [
+        "Your interpretation and another plausible account",
+        "A preferred future and present conditions",
+        "Useful speed and retained understanding"
+      ],
+      "transferTask": "Create a useful integration experiments and qualified self artifact or encounter, then return with evidence and your own meaning."
+    }
+  ],
+  "selfLenses": [
+    {
+      "id": "self-0",
+      "title": "Past in its actual conditions"
+    },
+    {
+      "id": "self-1",
+      "title": "Present"
+    },
+    {
+      "id": "self-2",
+      "title": "Possible best self with stated resources"
+    },
+    {
+      "id": "self-3",
+      "title": "Constrained self with stated conditions"
+    },
+    {
+      "id": "self-4",
+      "title": "Uncertain future without assumed outcomes"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "context-0",
+      "title": "Chosen past episode"
+    },
+    {
+      "id": "context-1",
+      "title": "Present ordinary life"
+    },
+    {
+      "id": "context-2",
+      "title": "Current demanding episode"
+    },
+    {
+      "id": "context-3",
+      "title": "Major life transition"
+    },
+    {
+      "id": "context-4",
+      "title": "Different resource conditions"
+    },
+    {
+      "id": "context-5",
+      "title": "Different access or support conditions"
+    },
+    {
+      "id": "context-6",
+      "title": "Relationship or group encounter"
+    },
+    {
+      "id": "context-7",
+      "title": "Different place or culture"
+    },
+    {
+      "id": "context-8",
+      "title": "Possible future under named conditions"
+    },
+    {
+      "id": "context-9",
+      "title": "Return after action and new evidence"
+    }
+  ]
+}

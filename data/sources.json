@@ -1,0 +1,202 @@
+{
+  "prepared": "2026-11-10",
+  "sources": [
+    {
+      "id": "S01",
+      "filename": "12 Mixture of Experts, Function Callers and AutoGen Agents.pdf",
+      "exists": true,
+      "sha256": "74618eebd312dbd29f98e661be2a75ad92bbcfc73b595f63dbfd1a65c4d48435",
+      "pages": 28,
+      "characters": 65430,
+      "title": "12 Mixture of Experts, Function Callers and AutoGen Agents.pdf",
+      "locator": "pp. 5–9, 20–28",
+      "use": "Agent roles, function definition/calling, human review; historical design, not current library instructions.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "S02",
+      "filename": "13 MoE Extended.pdf",
+      "exists": true,
+      "sha256": "35779fc707772e33d06a85fa6c2f28f064cfe910eac1f58a5b6fbab093568f53",
+      "pages": 32,
+      "characters": 50621,
+      "title": "13 MoE Extended.pdf",
+      "locator": "pp. 28–32; model sections pp. 2–27",
+      "use": "Original environment/character/narrator observer definition and simulation pipeline.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "S03",
+      "filename": "Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx",
+      "exists": true,
+      "sha256": "811f7690e5690af08f74fec4e1031ffe517dd6a6fd0976bd248e006ee56cbe22",
+      "characters": 97749,
+      "title": "Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx",
+      "locator": "Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self",
+      "use": "Purpose-specific onboarding, travel and correction through experience.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "S04",
+      "filename": "Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx",
+      "exists": true,
+      "sha256": "ecc1a96e88ea0364378601379f96b8156d08b06045fc57bff433d113aca68822",
+      "characters": 77112,
+      "title": "Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx",
+      "locator": "Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces",
+      "use": "Own meaning, changing needs, access choices and qualified support.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "S05",
+      "filename": "Aura_Genesis_Children_and_Teens_Australian_Care.docx",
+      "exists": true,
+      "sha256": "794eb83ce475d7dafd761e4e7e5f4aa0bc977bfbf33d7ec24696962ffe65cea4",
+      "characters": 68757,
+      "title": "Aura_Genesis_Children_and_Teens_Australian_Care.docx",
+      "locator": "Sections Deep self reflection and a changing sense of self; Understanding law",
+      "use": "Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "S06",
+      "filename": "C-Hour-Joyful-Responsible-Abundance-Plan.pdf",
+      "exists": true,
+      "sha256": "56eb762e28b1a4c759312694035ebc9bb8f87b3ce045b4d120d76b8c934542db",
+      "pages": 43,
+      "characters": 98418,
+      "title": "C-Hour-Joyful-Responsible-Abundance-Plan.pdf",
+      "locator": "pp. 4, 8–11; whole-plan introductory context",
+      "use": "Voluntary contribution time, reciprocity and distinct actual outcomes.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "S07",
+      "filename": "Joyful Responsible Abundance - Whole System Preview - Updated.docx",
+      "exists": true,
+      "sha256": "63211706d2de45f8a2b85cf28b0ff1c188e45bf788ebab33c5eaf7c7e0097ad3",
+      "characters": 53394,
+      "title": "Joyful Responsible Abundance - Whole System Preview - Updated.docx",
+      "locator": "Chapters Growing a personal record through Genesis; Learning a skill well enough to pass it on",
+      "use": "Recent whole-system explanation connecting everyday action, Genesis and separate teacher training.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "S08",
+      "filename": "Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+      "exists": true,
+      "sha256": "bf5ba0b11ad990c7829432f7949d5bd2989c8351db7566ea0d5969753e30a678",
+      "pages": 29,
+      "characters": 82279,
+      "title": "Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+      "locator": "pp. 5–12, 22–26",
+      "use": "Aura geometry, MVS, retrieval/training/action, Genesis, human and SI alignment.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "S09",
+      "filename": "UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+      "exists": true,
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14",
+      "pages": 8,
+      "characters": 39245,
+      "title": "UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+      "locator": "pp. 2–3 and invitation sequence",
+      "use": "Plural meanings of Joyful Responsible Abundance and capability without domination.",
+      "status": "Supplied source; selected relevant sections closely read; extracted with source boundaries."
+    },
+    {
+      "id": "G3",
+      "title": "Aura Genesis Geode Development Edition 3",
+      "locator": "pp. 2, 5–10, 22–28, 33–36",
+      "url": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/",
+      "use": "Source Genesis clock, MVS, three observers, self/access distinctions and frontier roadmap.",
+      "status": "Supplied 40-page PDF; key pages visually inspected."
+    },
+    {
+      "id": "GDD2",
+      "title": "Aura Genesis Protocol Game Design Document V2",
+      "locator": "pp. 3, 8–9, 29–31",
+      "url": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/",
+      "use": "Source programme and record-state architecture.",
+      "status": "Supplied 40-page PDF; edition-specific reference."
+    },
+    {
+      "id": "T60",
+      "title": "Aura Teacher Training 60 Days",
+      "locator": "60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer",
+      "url": "https://auraofintelligence.github.io/aura-teacher-training/",
+      "use": "Independent adult teacher curriculum; new 2h module budgets are this edition’s design.",
+      "status": "Supplied 60-page PDF; all source day titles retained."
+    },
+    {
+      "id": "M1",
+      "title": "Aura App Matrix Mapping.xlsx",
+      "locator": "Sheet1 including A1233 and repeated spatial grids; see spatial catalogue",
+      "url": "https://auraofintelligence.github.io/aura-matrix-studio/",
+      "use": "Multiple reading directions, spatial addresses, lexicons and meaning associations.",
+      "status": "Workbook structurally inspected; inferred semantics explicitly qualified."
+    },
+    {
+      "id": "M2",
+      "title": "Aura App LifeLogging Part 1 (neutral).xlsx",
+      "locator": "Sheet1 B41:K42; B51:B62; B97:H136; L631:T631",
+      "use": "December age, work modes, memory/action diagrams, motives/modulators and cause/outcome records.",
+      "status": "Workbook structurally inspected with exact spatial regions."
+    },
+    {
+      "id": "M3",
+      "title": "Aura App LifeLogging Part2.xlsx",
+      "locator": "Sheet1 D2:D43 and separate life-stage blocks; see spatial catalogue",
+      "use": "Thought-compute, life-stage and capability collections; no invented numerical pacing prescription.",
+      "status": "Workbook structurally inspected; adjacent collections not assumed row-aligned."
+    },
+    {
+      "id": "P1",
+      "title": "Luke Hayes published visual interview",
+      "locator": "Public interview and local data/visual-interview.json snapshot, reviewed 10 November 2026",
+      "url": "https://auraofintelligence.github.io/redlands-mayoral-campaign/interview.html",
+      "use": "Public self-description, work, creative direction, autonomy and civic themes for labelled demo interpolation.",
+      "status": "Public testimony, not independent verification of every biographical claim."
+    },
+    {
+      "id": "P2",
+      "title": "Open Record Luke Nathan Hayes",
+      "locator": "Public autobiography and README; local snapshot register",
+      "url": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes/blob/main/README.md",
+      "use": "Public life-history themes and birth-date corroboration; no private claims inferred.",
+      "status": "Public self-report with source-specific uncertainty."
+    },
+    {
+      "id": "P3",
+      "title": "Aura of Intelligence home",
+      "locator": "Founder statement and mission; reviewed 10 November 2026",
+      "url": "https://auraofintelligence.github.io/",
+      "use": "Public Aura purpose, personal software ownership and symbolic direction.",
+      "status": "Public project statement."
+    },
+    {
+      "id": "U1",
+      "title": "Current user brief and clarifications",
+      "locator": "10 November 2026, this project",
+      "use": "Full immersion, rapid action, 2x audio/speed reading where useful, eight hours sleep, compatible overlap, businesses, relationships and JRA.",
+      "status": "Direct design instruction; not evidence of future results."
+    },
+    {
+      "id": "FDA1",
+      "title": "FDA HBOT device safety communication",
+      "locator": "25 August 2025; consulted 10 November 2026",
+      "url": "https://www.fda.gov/medical-devices/letters-health-care-providers/follow-instructions-safe-use-hyperbaric-oxygen-therapy-devices-letter-health-care-providers",
+      "use": "Scope boundary: medical device operation follows manufacturer instructions, trained staff and supervision.",
+      "status": "External primary safety reference; does not validate the learning programme."
+    },
+    {
+      "id": "GH1",
+      "title": "GitHub Pages custom workflows",
+      "locator": "Official documentation consulted 10 November 2026",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
+      "use": "Publication options and static-site deployment configuration.",
+      "status": "External primary technical reference."
+    }
+  ]
+}

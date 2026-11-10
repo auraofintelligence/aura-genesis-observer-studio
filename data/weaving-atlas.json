@@ -1,0 +1,3193 @@
+{
+  "version": "1.0.0",
+  "prepared": "2026-11-10",
+  "title": "Whole-of-life and teacher-training question weaving atlas",
+  "targetQuestions": 100000,
+  "batchSize": 50,
+  "plannedBatches": 2000,
+  "territories": [
+    {
+      "id": "T001",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Chosen identity",
+      "objective": "Self-description, name, language, roles and the right to remain more than a profile.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 25,
+      "checked": 25,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about chosen identity; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 25,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 975,
+      "review_flags": 0
+    },
+    {
+      "id": "T002",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Autobiographical episodes",
+      "objective": "Events, uncertain recall, corroboration and changing interpretations across time.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about autobiographical episodes; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T003",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Childhood and adolescence in context",
+      "objective": "Chosen recollections, family and learning environments without compulsory intimate disclosure.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about childhood and adolescence in context; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T004",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Adult transitions",
+      "objective": "Leaving, joining, relocating, retraining and revising direction with actual resources.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about adult transitions; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T005",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Ageing and continuity",
+      "objective": "What to preserve, adapt and keep creating as circumstances and capabilities change.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about ageing and continuity; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T006",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Conditional possible selves",
+      "objective": "Past, present and several futures under different material and social conditions.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about conditional possible selves; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T007",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Narrative disagreement",
+      "objective": "Conflicting memories, others’ accounts, corrections and respectful unresolved differences.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about narrative disagreement; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T008",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Personal symbols and rituals",
+      "objective": "Meaningful practices, imaginative associations and their ordinary effects.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about personal symbols and rituals; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T009",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Unknown and unrecorded selves",
+      "objective": "What remains undefined, unavailable, declined, not yet discovered or deliberately forgotten.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about unknown and unrecorded selves; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T010",
+      "domainId": "identity",
+      "groupTitle": "Identity memory and unfolding lives",
+      "title": "Legacy and succession",
+      "objective": "Skills, memories, responsibilities and artifacts someone may choose to pass on.",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep recollection, contemporaneous evidence and later interpretation distinguishable.",
+        "Cover changed conditions across the life course, including what the person leaves unrecorded.",
+        "Develop distinct source-checked questions about legacy and succession; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T011",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Everyday physical capacity",
+      "objective": "Task-specific readiness, comfort and access without diagnostic inference.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about everyday physical capacity; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T012",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Rest sleep and sustainable intensity",
+      "objective": "Protected sleep, recovery, wind-down and evidence of useful engagement.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about rest sleep and sustainable intensity; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T013",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Food meals and nourishment",
+      "objective": "Preferences, routines, culture, preparation and shared meals without prescribing diets.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about food meals and nourishment; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T014",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Movement and participation",
+      "objective": "Enjoyable movement, access needs, surroundings and compatible attention.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about movement and participation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T015",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Sensory environments",
+      "objective": "Light, sound, touch, crowding and interfaces that change an encounter.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about sensory environments; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T016",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Communication access",
+      "objective": "Speech, text, visual, assisted and alternative communication chosen by the person.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about communication access; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T017",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Support relationships",
+      "objective": "How assistance is offered, directed, understood and reviewed.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about support relationships; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T018",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Changing support needs",
+      "objective": "Transitions in support while retaining current preferences, choice and identity.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about changing support needs; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T019",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Home and daily routines",
+      "objective": "Spaces, objects, task sequences and practical conditions for a worthwhile day.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about home and daily routines; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T020",
+      "domainId": "embodied-life",
+      "groupTitle": "Embodiment care and everyday living",
+      "title": "Care introductions and continuity",
+      "objective": "Reviewed personal context for a new supporter, with clear purpose and permission.",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Separate a person’s account of access and comfort from any clinical inference.",
+        "Explore how support can change while the person’s current choices remain authoritative.",
+        "Develop distinct source-checked questions about care introductions and continuity; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T021",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Friendship and chosen kin",
+      "objective": "Reciprocal connection, shared history and room for difference.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about friendship and chosen kin; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T022",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Affection and chosen boundaries",
+      "objective": "Optional self-defined closeness with no inferred intimate biography.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about affection and chosen boundaries; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T023",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Family and intergenerational life",
+      "objective": "Roles, care, expectations, learning and changing household arrangements.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about family and intergenerational life; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T024",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Trust and repair",
+      "objective": "How trust develops, breaks, is corrected or is deliberately not restored.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about trust and repair; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T025",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Conflict and negotiation",
+      "objective": "Different meanings, interests and workable decisions without coerced agreement.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about conflict and negotiation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T026",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Group participation",
+      "objective": "Entry, voice, belonging, contribution and exit in groups.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about group participation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T027",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Interesting people and discovery",
+      "objective": "Curiosity-led encounters and mutually useful introductions.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about interesting people and discovery; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T028",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Reciprocal collaboration",
+      "objective": "Offers, actual agreements, responsibilities and value to each participant.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about reciprocal collaboration; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T029",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Culture and different worldviews",
+      "objective": "Translation, hospitality, cultural authority and limits of one’s interpretation.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about culture and different worldviews; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T030",
+      "domainId": "relationships",
+      "groupTitle": "Relationships households and belonging",
+      "title": "Network depth and stewardship",
+      "objective": "Maintaining living relationships without treating people as acquisition metrics.",
+      "sourceRefs": [
+        "S04",
+        "S06",
+        "S09",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish a hoped-for relationship, an actual agreement and another person’s own account.",
+        "Include conflict, repair, refusal and reciprocal value rather than only successful connection.",
+        "Develop distinct source-checked questions about network depth and stewardship; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T031",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Work histories and capabilities",
+      "objective": "Skills learnt across jobs, informal work and experiences beyond credentials.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about work histories and capabilities; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T032",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Useful offers and customers",
+      "objective": "Observed problems, people served, clear offers and evidence of actual use.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about useful offers and customers; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T033",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Prototype to service",
+      "objective": "Delivery, maintenance, support and the gap between a demo and a dependable offer.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about prototype to service; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T034",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Business experiments",
+      "objective": "Hypotheses, discovery, willingness to engage, alternatives and stopping rules.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about business experiments; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T035",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Money and practical resources",
+      "objective": "Self-chosen current constraints and source-checked assumptions; no personalised financial advice.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about money and practical resources; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T036",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Ownership and independence",
+      "objective": "Tools, data, dependencies, switching options and control over useful work.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about ownership and independence; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T037",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Voluntary contribution and C-hours",
+      "objective": "Freely given time, verification, actual benefit and correction without ranking worth.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about voluntary contribution and c-hours; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T038",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Shared capability and mutuals",
+      "objective": "Pooling resources, reciprocity, participation and accountable governance choices.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about shared capability and mutuals; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T039",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Work life and intermittent retirement",
+      "objective": "Freedom, learning, care, travel and meaningful work across changing phases.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about work life and intermittent retirement; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T040",
+      "domainId": "livelihood",
+      "groupTitle": "Livelihood enterprise resources and contribution",
+      "title": "Resilience and succession in enterprise",
+      "objective": "Continuity, alternatives, handover and recovery after disruption.",
+      "sourceRefs": [
+        "S06",
+        "S08",
+        "S09",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Test the gap between an attractive offer, a usable prototype and a dependable ongoing service.",
+        "Keep paid work, voluntary contribution, resource use and actual outcomes in separate accounts.",
+        "Develop distinct source-checked questions about resilience and succession in enterprise; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T041",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Home place and Country",
+      "objective": "Belonging, local knowledge and who holds authority over stories and recordings.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about home place and country; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T042",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Travel and encounter",
+      "objective": "Learning through travel, hosts, access and the effects of being a visitor.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about travel and encounter; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T043",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Memory palaces and meaningful objects",
+      "objective": "Place-linked cues with distinguishable original, remembered and reconstructed material.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about memory palaces and meaningful objects; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T044",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Civic questions and participation",
+      "objective": "A concern, actual decision-maker, evidence and a usable participation route.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about civic questions and participation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T045",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Rules sources and consequences",
+      "objective": "Origin, current authority, lived effects and uncertainty in rules.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about rules sources and consequences; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T046",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Institutions and accountability",
+      "objective": "Promises, evidence, corrections, power and accountable decisions.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about institutions and accountability; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T047",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Community preparation and recovery",
+      "objective": "Chosen local roles, continuity, resources and learning from disruption.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about community preparation and recovery; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T048",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Ecology and more-than-human consequences",
+      "objective": "Effects on living systems with appropriate evidence and local perspectives.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about ecology and more-than-human consequences; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T049",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Infrastructure and shared access",
+      "objective": "Useful computing, spaces, energy and services people can understand and maintain.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about infrastructure and shared access; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T050",
+      "domainId": "place-civic",
+      "groupTitle": "Places civic participation and living systems",
+      "title": "Future generations and Earth-space stewardship",
+      "objective": "Long horizons, reversible steps and the responsibilities of expanding capability.",
+      "sourceRefs": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Identify who holds the relevant knowledge or decision authority and what source supports it.",
+        "Include consequences across places, living systems, communities and time delays.",
+        "Develop distinct source-checked questions about future generations and earth-space stewardship; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T051",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Joy and a worthwhile day",
+      "objective": "Enjoyment, play, curiosity, rest and what the person values now.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about joy and a worthwhile day; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T052",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Emotion and personal interpretation",
+      "objective": "First-person meaning beside observable response, with room for correction.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about emotion and personal interpretation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T053",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Values and difficult trade-offs",
+      "objective": "Principles under pressure, hidden costs and plural good lives.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about values and difficult trade-offs; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T054",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Attraction repulsion and urge",
+      "objective": "Distinct contextual motives, volatility and chosen response without personality scoring.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about attraction repulsion and urge; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T055",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Creative practice and authorship",
+      "objective": "Making, revising, finishing and crediting original and assisted work.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about creative practice and authorship; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T056",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Music story and emotional expression",
+      "objective": "Meaning, memory, audience and the value of a creative encounter.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about music story and emotional expression; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T057",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Belief evidence and uncertainty",
+      "objective": "Claims, sources, disconfirmation and the freedom to keep exploring.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about belief evidence and uncertainty; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T058",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Symbolic etheric and infinite",
+      "objective": "Optional metaphysical and symbolic meaning distinguished from measurable claims.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about symbolic etheric and infinite; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T059",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Meaning into material form",
+      "objective": "Intuition to specification, prototype, encounter, measurement and revision.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about meaning into material form; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T060",
+      "domainId": "meaning-creation",
+      "groupTitle": "Creativity joy meaning and inquiry",
+      "title": "Joyful Responsible Abundance in practice",
+      "objective": "Interacting meanings of joy, consequence and useful shared capability.",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M1",
+        "P1",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "whole-of-life",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Preserve symbolic or spiritual meaning without converting it into an unsupported empirical premise.",
+        "Use counterexamples and real creative encounters to explore changed meaning.",
+        "Develop distinct source-checked questions about joyful responsible abundance in practice; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T061",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Learner purpose and starting knowledge",
+      "objective": "What a learner wants, can already do and chooses to explore.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 25,
+      "checked": 25,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about learner purpose and starting knowledge; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 25,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 975,
+      "review_flags": 0
+    },
+    {
+      "id": "T062",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Attention perception and cognitive load",
+      "objective": "Available and noticed cues, task demands and changes in conditions.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about attention perception and cognitive load; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T063",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Memory retrieval and retention",
+      "objective": "Recall, meaningful connection, revision and later access to understanding.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about memory retrieval and retention; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T064",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Concepts misconceptions and explanation",
+      "objective": "Competing models, examples, counterexamples and changed explanations.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about concepts misconceptions and explanation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T065",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Accelerated content and comprehension",
+      "objective": "260–300 delivered words/minute with separately timed pause, recall and application.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about accelerated content and comprehension; the current plan does not yet establish full coverage."
+      ],
+      "priority": "high",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T066",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Skill practice and feedback",
+      "objective": "Demonstration, attempt, informative feedback and another opportunity.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about skill practice and feedback; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T067",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Transfer and generalisation",
+      "objective": "Using understanding in a new setting rather than copying a worked example.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about transfer and generalisation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T068",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Curriculum prerequisites and routes",
+      "objective": "Dependencies, flexible sequence, entry points and purpose-specific depth.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about curriculum prerequisites and routes; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T069",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Inquiry sources and research literacy",
+      "objective": "Finding, reading, comparing and qualifying sources with an audit trail.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about inquiry sources and research literacy; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T070",
+      "domainId": "teacher-learning",
+      "groupTitle": "Teacher understanding learning and curriculum",
+      "title": "Scientific mathematical and systems reasoning",
+      "objective": "Models, quantities, evidence, uncertainty and limits of analogies.",
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Distinguish recognition, immediate recall, later retention and transfer to a new task.",
+        "Ask what a willing learner can actually do, not whether they agree with the teacher.",
+        "Develop distinct source-checked questions about scientific mathematical and systems reasoning; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T071",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Adult facilitation and learner agency",
+      "objective": "A voluntary adult learning relationship with shared purpose and choice.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about adult facilitation and learner agency; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T072",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Teaching across the life course",
+      "objective": "Age/context-sensitive questions and clear scope for supported learning.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about teaching across the life course; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T073",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Access and inclusive explanation",
+      "objective": "Representation, pacing, communication and accessible demonstration choices.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about access and inclusive explanation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T074",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Dialogue listening and follow-up",
+      "objective": "Questions that respond to actual meaning rather than a predetermined script.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about dialogue listening and follow-up; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T075",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Disagreement without enforced conformity",
+      "objective": "Assessing comprehension while preserving a learner’s independent judgement.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about disagreement without enforced conformity; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T076",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Group learning and collaboration",
+      "objective": "Roles, turn-taking, overlooked contributions and shared problem solving.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about group learning and collaboration; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T077",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Play simulation and serious games",
+      "objective": "Scenario design, explicit fiction, debrief and real transfer.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about play simulation and serious games; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T078",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Teaching through making and fieldwork",
+      "objective": "A worthwhile artifact or encounter as the place where learning happens.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about teaching through making and fieldwork; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T079",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Care boundaries and appropriate support",
+      "objective": "Role clarity, consent and referral boundaries without demanding sensitive disclosure.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about care boundaries and appropriate support; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T080",
+      "domainId": "teacher-facilitation",
+      "groupTitle": "Teacher facilitation inclusion and relationships",
+      "title": "Mentorship peer teaching and networks",
+      "objective": "Reciprocal learning, feedback and the ability to pass on useful capability.",
+      "sourceRefs": [
+        "T60",
+        "S04",
+        "S05",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Vary the learner’s chosen purpose, access conditions and social setting without stereotyping.",
+        "Include misunderstanding, disagreement, opting out and repair in facilitation scenarios.",
+        "Develop distinct source-checked questions about mentorship peer teaching and networks; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T081",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Observable learning outcomes",
+      "objective": "What a learner can do, explain or transfer and how it will be seen.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about observable learning outcomes; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T082",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Evidence and assessment design",
+      "objective": "Tasks that genuinely test intended capability rather than compliance or polish.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about evidence and assessment design; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T083",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Feedback correction and another attempt",
+      "objective": "Specific evidence, learner interpretation and improvement opportunities.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about feedback correction and another attempt; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T084",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Three observers in teaching",
+      "objective": "Whole scene, learner attention, observable reactions and learner meaning kept distinct.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about three observers in teaching; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T085",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Lesson design and rehearsal",
+      "objective": "Objectives, examples, tasks, timing and review before teaching.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about lesson design and rehearsal; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T086",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Facilitation under changing conditions",
+      "objective": "Equipment failure, time pressure, misunderstanding and adaptive response.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about facilitation under changing conditions; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T087",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Teaching portfolio and capability claims",
+      "objective": "Actual work and observed learner evidence with unresolved limits visible.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about teaching portfolio and capability claims; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T088",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Teacher self-reflection and conditional selves",
+      "objective": "Own motives, assumptions, constraints and changes across experience.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about teacher self-reflection and conditional selves; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T089",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Teaching as a viable contribution or enterprise",
+      "objective": "Honest offers, delivery capacity, reciprocity and conditions of use.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about teaching as a viable contribution or enterprise; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T090",
+      "domainId": "teacher-practice",
+      "groupTitle": "Teacher assessment reflection and professional growth",
+      "title": "Continued inquiry and stewardship",
+      "objective": "Ongoing improvement, peer review, source maintenance and responsible handover.",
+      "sourceRefs": [
+        "T60",
+        "S02",
+        "S08"
+      ],
+      "quota": 1000,
+      "stream": "teacher",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Require observed learner attempts and corrections rather than teacher confidence alone.",
+        "Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.",
+        "Develop distinct source-checked questions about continued inquiry and stewardship; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T091",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Minimum Viable Self and qualification",
+      "objective": "Purpose-specific own meaning, evidence, permissions, correction and first useful task.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about minimum viable self and qualification; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T092",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Three observer evidence architecture",
+      "objective": "Separation, alignment, uncertainty and disagreement across observer streams.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about three observer evidence architecture; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T093",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Personal models retrieval and training",
+      "objective": "Different operations, selected evidence, evaluation and versioned correction.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about personal models retrieval and training; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T094",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Agent swarm contracts and orchestration",
+      "objective": "Dependencies, tools, budgets, stopping rules and inspected outputs.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about agent swarm contracts and orchestration; the current plan does not yet establish full coverage."
+      ],
+      "priority": "high",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T095",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Spatial matrix and cognitive architecture",
+      "objective": "Addresses, multiple meanings, nonlinear reading and explicit inference limits.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about spatial matrix and cognitive architecture; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T096",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Data sovereignty and permission propagation",
+      "objective": "Capture, storage, retrieval, training and sharing as separate choices.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about data sovereignty and permission propagation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T097",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Genesis clocks and immersive learning",
+      "objective": "Source pressure record, desktop rehearsal, teacher time and real-life transfer.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about genesis clocks and immersive learning; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T098",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Truth Engine hypotheses and evaluation",
+      "objective": "Conditions, baseline, rival explanations and measured limitations.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about truth engine hypotheses and evaluation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T099",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Geode materials and computational ambitions",
+      "objective": "Distinct design stages, material tests and unproven frontier goals.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about geode materials and computational ambitions; the current plan does not yet establish full coverage."
+      ],
+      "priority": "high",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    },
+    {
+      "id": "T100",
+      "domainId": "aura-development",
+      "groupTitle": "Aura Genesis agents and frontier integration",
+      "title": "Human Aura partnership and continuation",
+      "objective": "A growing relationship that makes chosen life and shared capability more possible.",
+      "sourceRefs": [
+        "G3",
+        "GDD2",
+        "S01",
+        "S02",
+        "S08",
+        "M1",
+        "M2",
+        "U1"
+      ],
+      "quota": 1000,
+      "stream": "aura-genesis",
+      "generated": 0,
+      "checked": 0,
+      "answered": 0,
+      "gaps": [
+        "Keep observer view, self lens, permission, record status and spatial address as separate axes.",
+        "Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.",
+        "Develop distinct source-checked questions about human aura partnership and continuation; the current plan does not yet establish full coverage."
+      ],
+      "priority": "normal",
+      "accepted": 0,
+      "needs_revision": 0,
+      "rejected": 0,
+      "simulated_answers": 0,
+      "unfilled": 1000,
+      "review_flags": 0
+    }
+  ],
+  "dimensions": {
+    "lifeContexts": [
+      "Chosen past episode",
+      "Present ordinary life",
+      "Current demanding episode",
+      "Major life transition",
+      "Different resource conditions",
+      "Different access or support conditions",
+      "Relationship or group encounter",
+      "Different place or culture",
+      "Possible future under named conditions",
+      "Return after action and new evidence"
+    ],
+    "teacherContexts": [
+      "Learner starting point",
+      "Teacher planning",
+      "Explanation or demonstration",
+      "Learner attempt",
+      "Misunderstanding or disagreement",
+      "Access or context change",
+      "Feedback and another attempt",
+      "New-context transfer",
+      "Peer teaching or handover",
+      "Longitudinal review"
+    ],
+    "inquiryOperations": [
+      "Describe an episode",
+      "Identify available and noticed evidence",
+      "Explain personal meaning",
+      "Expose a competing account",
+      "Explore attraction repulsion and urge",
+      "Compare resources and resourcefulness",
+      "Generate and choose alternatives",
+      "Design an authentic test or artifact",
+      "Teach or explain across perspectives",
+      "Review outcome and revise the account"
+    ],
+    "coverageDepths": [
+      "Initial account",
+      "Specific example",
+      "Contrast case",
+      "Boundary condition",
+      "Unknown or declined information",
+      "Counterfactual with one changed variable",
+      "Dependency or consequence",
+      "Alternative source or viewpoint",
+      "Observable action and transfer",
+      "Later correction and continuation"
+    ],
+    "observerViews": [
+      "Environment",
+      "Character attention",
+      "Narrator description and tentative interpretation",
+      "Participant meaning account"
+    ],
+    "selfLenses": [
+      "Past in its actual conditions",
+      "Present",
+      "Possible best self with stated resources",
+      "Constrained self with stated conditions",
+      "Uncertain future without assumed outcomes"
+    ],
+    "recordStates": [
+      "planned",
+      "generated",
+      "checked",
+      "rejected",
+      "needs_revision",
+      "answered"
+    ]
+  },
+  "status": {
+    "planned": 100000,
+    "generated": 50,
+    "checked": 50,
+    "accepted": 50,
+    "needs_revision": 0,
+    "rejected": 0,
+    "answered": 0,
+    "simulated_answers": 0,
+    "unfilled": 99950,
+    "review_flags": 0
+  },
+  "seedBank": {
+    "domainPrompts": 288,
+    "crossCuttingLenses": 12,
+    "status": "Separate reviewed seed library; not counted as completed atlas slots."
+  },
+  "allocation": [
+    {
+      "stream": "whole-of-life",
+      "territories": 60,
+      "plannedQuestions": 60000
+    },
+    {
+      "stream": "teacher",
+      "territories": 30,
+      "plannedQuestions": 30000
+    },
+    {
+      "stream": "aura-genesis",
+      "territories": 10,
+      "plannedQuestions": 10000
+    }
+  ],
+  "notes": [
+    "This is a coverage and production plan, not a claim that 100,000 questions have been generated.",
+    "Territory quotas guide breadth. Reject weak or inapplicable combinations instead of filling a quota with paraphrases.",
+    "The 120-hour programme traverses selected pathways; it does not require every atlas question to be spoken or answered.",
+    "The existing 300 prompts are a seed and calibration set, separate from generated atlas output.",
+    "Generated, checked and answered are independent statuses; checking is not personal endorsement of an answer.",
+    "Question generation uses curated design evidence. Exact claims require source verification; a question must not smuggle an unsupported fact into its premise."
+  ],
+  "delivery": {
+    "wordsPerMinute": {
+      "min": 260,
+      "max": 300
+    },
+    "timing": "Count actual delivered words and stream minutes; pauses, answers, reflection and actions have separate intervals.",
+    "example": {
+      "questions": 100000,
+      "assumedWordsPerQuestion": 20,
+      "words": 2000000,
+      "inputHoursAt300": 111.111,
+      "inputHoursAt260": 128.205
+    },
+    "exampleStatus": "Planning arithmetic from an explicit hypothetical average, not a measurement of unwritten questions."
+  },
+  "statusSnapshot": {
+    "snapshotAt": "2026-11-10T06:18:24.552078+00:00",
+    "source": "weaving-status.json",
+    "reviewNote": "Checked counts record summary-only AI editorial reviews of the generated pilot questions. They do not establish primary-source close reading, independent human approval, teaching competence or participant answers."
+  }
+}

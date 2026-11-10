@@ -1,0 +1,284 @@
+{
+  "schema": "aura-weaving-pilot-review/1",
+  "reviewedOn": "2026-11-10",
+  "reviewer": "Independent curriculum/content review agent; separate from the lighter-agent generator",
+  "reviewKind": "AI editorial revision review of all 50 questions against earlier per-ID findings, supplied design-summary packets, source register, sibling questions and current seed bank; not human approval or complete primary-passage verification",
+  "sourceBoundary": "All questions remain authored_synthesis. Exact locators copied from the supplied register are now present. The worker explicitly says only packet summaries and locators were consulted and underlying passages were not independently rechecked. This review verifies that bounded design provenance, not detailed primary-source entailment or source-authored question wording.",
+  "inputHashes": {
+    "weaving-pilot-life-revised.json": "ed90d4c819c629f673e71e932072e732fd1ce986afaf1a3284482c26fc6f5380",
+    "weaving-pilot-teacher-revised.json": "d872b9dbc1512a751c821f597b5119feeae2e135d44f981946a278a8f42898fe"
+  },
+  "priorReview": "data/weaving-pilot-review.json",
+  "counts": {
+    "generatedReviewed": 50,
+    "accepted": 50,
+    "needs_revision": 0,
+    "rejected": 0
+  },
+  "sharedIssue": "Resolved: all revised source notes carry the supplied source locator, a summary-only reading statement, and an authored-synthesis/no-participant-facts boundary. The three rejected substantive duplicates have been replaced with different evidence-seeking inquiries.",
+  "checks": [
+    "life: 25 records, exact keys, permitted dimension labels and source IDs, all cited register locators present",
+    "teacher: 25 records, exact keys, permitted dimension labels and source IDs, all cited register locators present"
+  ],
+  "decisions": [
+    {
+      "id": "W-T001-0001",
+      "decision": "accepted",
+      "note": "Concrete occupational-introduction encounter remains distinct from the broad identity seed; it asks what is chosen for this audience and left open. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0002",
+      "decision": "accepted",
+      "note": "Paired past introductions elicit changes in setting and relationship, retaining the contemporaneous meaning rather than imposing a present trait. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0003",
+      "decision": "accepted",
+      "note": "Pronunciation, shortening, translation and writing choices deepen the forms-of-address seed through actual setting-specific decisions. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0004",
+      "decision": "accepted",
+      "note": "Conditions in which an accurate description becomes misleading add a useful scope test rather than another flattering-description question. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0005",
+      "decision": "accepted",
+      "note": "The revised meaning operation now matches the former-role demands and retained or relinquished parts; no unexamined urge claim remains. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0006",
+      "decision": "accepted",
+      "note": "The present-only route is an actionable alternative to biography disclosure and makes the minimum useful introduction explicit. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0007",
+      "decision": "accepted",
+      "note": "The revised shared-task contribution inquiry has a new evidence target: what others may notice and may not infer from participation. The introduction transfer note remains usable for that encounter. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0008",
+      "decision": "accepted",
+      "note": "Resource-dependent versus continuing identity meaning adds a substantive conditions comparison. At use, choose a named resource change if routing it as a one-variable counterfactual. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0009",
+      "decision": "accepted",
+      "note": "The revised meaning operation fits the hypothetical support change and the correction a new helper should ask about. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0010",
+      "decision": "accepted",
+      "note": "Keeping context and evidence beside an older record is distinct from changing the wording of a current introduction. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0011",
+      "decision": "accepted",
+      "note": "The chosen language, practice or connection under reduced availability elicits continuity and support conditions; the hypothetical route remains open. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0012",
+      "decision": "accepted",
+      "note": "The gap now concerns qualified personal meaning and limits on outside accounts, without attributing the three-observer architecture to these summaries. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0013",
+      "decision": "accepted",
+      "note": "The revised participant-meaning view and meaning operation correctly locate the representative symbol and its limits. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0014",
+      "decision": "accepted",
+      "note": "Distinguishing changed meaning, outdated wording and narrower conditions supports a specific record-revision decision. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0015",
+      "decision": "accepted",
+      "note": "The gap now specifies an identity-wording preference and an inference the record must not make; this gives a concrete record-design deepening of the broader sovereignty seed. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0016",
+      "decision": "accepted",
+      "note": "The participant-meaning view now fits the forced-category dilemma and the alternatives of own wording or omission. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0017",
+      "decision": "accepted",
+      "note": "The replacement asks what two potentially conflicting roles each represent. This adds simultaneous competing meanings, unlike 0007 contribution-on-entry or the seed about assigned/outgrown roles; low-stakes, fictional and skip routes are explicit. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0018",
+      "decision": "accepted",
+      "note": "The recalled respectful-wording encounter seeks what another person did and its interaction effect; can-you-recall permits an absent example. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0019",
+      "decision": "accepted",
+      "note": "The operation now matches audience/control choices, and the explicit category-level or fictional route avoids requiring private identity details. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0020",
+      "decision": "accepted",
+      "note": "The boundary-condition depth fits multiple possible future changes; unknown identity wording remains legitimate rather than a predicted fact. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0021",
+      "decision": "accepted",
+      "note": "Choices alongside surrounding events in a timeline add a record-selection decision about agency and conditions, not merely a list of memories. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0022",
+      "decision": "accepted",
+      "note": "The practical correction phrase and if-any option support an actual encounter after an old label is reused. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0023",
+      "decision": "accepted",
+      "note": "Revision after learning about a group or place is a feedback stage distinct from first-entry identity wording. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0024",
+      "decision": "accepted",
+      "note": "The observable sign that a description narrows others’ expectations supplies a consequence-based retirement trigger, distinct from private meaning change in 0014. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T001-0025",
+      "decision": "accepted",
+      "note": "The participant-designed next question offers a concrete onboarding correction; the revised transfer note no longer treats its use as proof of full understanding. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0001",
+      "decision": "accepted",
+      "note": "A familiar-example boundary task tests a learner’s claimed understanding; T60 alone is an appropriate broad curriculum design reference. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0002",
+      "decision": "accepted",
+      "note": "Competing learner purpose and curriculum sequence require an evidence-based planning decision; this remains the canonical initial-mismatch inquiry. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0003",
+      "decision": "accepted",
+      "note": "Distinguishing unfamiliar content from familiar knowledge under another name gives a specific starting-point diagnostic without inventing learner facts. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0004",
+      "decision": "accepted",
+      "note": "The revised Present lens fits the open learner-attempt scenario and the request for the learner’s method before another demonstration. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0005",
+      "decision": "accepted",
+      "note": "The meaningful-project connection remains optional and supports an actual teaching entry route; U1 is accurately treated as design instruction. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0006",
+      "decision": "accepted",
+      "note": "The added describe-or-imagine route admits novice teachers while retaining the distinction between an observed response and a teacher’s explanation. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0007",
+      "decision": "accepted",
+      "note": "An inspectable comparison of learner and teacher reasoning adds a concrete disagreement inquiry to the broad seed about assessing without forced agreement. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0008",
+      "decision": "accepted",
+      "note": "A readiness sign plus a competing explanation prevents one observable response being silently treated as settled capability. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0009",
+      "decision": "accepted",
+      "note": "Limited time, materials or access leads to an alternative demonstration of intended thinking; it remains distinct from the revised format-equivalence test in 0022. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0010",
+      "decision": "accepted",
+      "note": "The added plan-to-teach route admits novice teachers; demonstrated prerequisite knowledge is separated from school terminology. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0011",
+      "decision": "accepted",
+      "note": "The replacement seeks a task design that reveals outside-school knowledge without rewarding classroom-example familiarity. This is assessment-context design, distinct from the brief recognition question in 0003 and prerequisite terminology in 0010. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0012",
+      "decision": "accepted",
+      "note": "A follow-up discriminating execution error from a different underlying model produces useful next-teaching evidence without diagnostic claims. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0013",
+      "decision": "accepted",
+      "note": "Comparing what two successful methods make visible supports peer explanation, beyond merely checking that either result is correct. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0014",
+      "decision": "accepted",
+      "note": "A learner prediction before a demonstration preserves prior thinking for an observable before/after comparison. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0015",
+      "decision": "accepted",
+      "note": "The halved-time scenario asks which starting-knowledge evidence to preserve; it is a concrete prioritisation decision under one changed constraint. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0016",
+      "decision": "accepted",
+      "note": "Changed participation across tasks is examined through task conditions and rival explanations, not a fixed engagement label. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0017",
+      "decision": "accepted",
+      "note": "The meaning of an unfamiliar learner term is elicited before translation; this is a communication repair rather than a teacher inference about identity. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0018",
+      "decision": "accepted",
+      "note": "An explicit sufficiency threshold and uncertainty record support a bounded planning judgement instead of a claim to know the learner completely. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0019",
+      "decision": "accepted",
+      "note": "The non-personal route preserves learner choice while still obtaining evidence of existing capability. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0020",
+      "decision": "accepted",
+      "note": "The revised transfer note specifies permission, audience, purpose, conditions and uncertainty before actual handover; the temporary observation does not become a fixed label. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0021",
+      "decision": "accepted",
+      "note": "One reduced support tests independent capability after prompted success; this has a distinct observable learning purpose. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0022",
+      "decision": "accepted",
+      "note": "The replacement tests whether two response formats actually reveal equivalent reasoning and what would falsify that assumption. It no longer repeats the request for an alternative access route in 0009. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0023",
+      "decision": "accepted",
+      "note": "Unfamiliar-context work at unit review seeks transfer evidence beyond reproduction of the taught routine. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0024",
+      "decision": "accepted",
+      "note": "Goal revision after course experience is a longitudinal decision, distinct from the initial purpose/sequence mismatch in 0002. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    },
+    {
+      "id": "W-T061-0025",
+      "decision": "accepted",
+      "note": "A post-project account distinguishes what instruction helped from what needed real-world adaptation; it does not assume any participant has already had this experience. Source-note repair verified against the supplied locator and summary-only reading boundary."
+    }
+  ],
+  "remainingGaps": [
+    "Only two of 100 territories have this reviewed pilot coverage; 50 accepted candidates do not establish the 100,000-question target or comprehensive source coverage.",
+    "T60 and several register entries supply broad ranges or section collections. More precise question-specific primary excerpts are a priority for later production packets; this pilot does not claim that source passages explicitly teach every authored question.",
+    "The whole-of-life identity batch is predominantly participant-meaning reflection. Other territories must supply environment, attention, action, time, competing accounts and actual transfer coverage; do not manufacture observer variety in identity prompts merely to fill quotas.",
+    "Full-immersion 260–300 delivered wpm, recall, delayed retention, practical ventures and network contribution require further dedicated territories. Their absence from an identity/starting-knowledge pilot is a coverage gap, not a defect in these questions.",
+    "Routing labels are navigation hints. Open or hypothetical examples should be recorded as such even where a Past lens is offered; a one-variable counterfactual requires choosing the named condition at use.",
+    "Future expansion must continue global semantic review. This bounded check found substantive distinctions within the reviewed pilot and relevant existing seeds; it is not proof of unique meaning against an ungenerated 100,000-item corpus."
+  ],
+  "statusRule": "These are explicit AI reviewer recommendations for the revised input hashes only. This file does not itself import, accept or alter any ledger record. Preserve the raw batches and first review as revision history; an authorised coordinator may record these revised dispositions."
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0",
+  "id": "DEMO-LUKE-2026-12-15",
+  "kind": "simulated",
+  "subject": {
+    "name": "Luke Nathan Hayes",
+    "scenarioDate": "2026-12-15",
+    "age": 44
+  },
+  "purpose": "Demonstrate an Aura that turns chosen reflection into accountable practical action.",
+  "representationStatus": "Unapproved example; never import as an actual personal profile or model-training consent.",
+  "context": {
+    "place": "Minjerribah is the public-context starting point; actual scenario location unconfirmed.",
+    "sleepPreference": "Eight hours per day, explicitly requested in current brief.",
+    "mode": "Full immersion with compatible overlapping activities; retention and useful output govern pace."
+  },
+  "values": [
+    "Joyful Responsible Abundance",
+    "Personal ownership and practical agency",
+    "Source-linked correction",
+    "Ambitious useful creation"
+  ],
+  "currentProjectHypothesis": {
+    "title": "An Aura onboarding and practical learning demonstration",
+    "status": "illustrative, not an existing customer agreement",
+    "nextExperiment": "Show a working reflection-to-action loop to a willing adult peer and test what they can do with it."
+  },
+  "permissions": {
+    "retrieval": false,
+    "modelTraining": false,
+    "publication": "This labelled example only",
+    "externalActions": false
+  },
+  "sourceRefs": [
+    "U1",
+    "P1",
+    "P2",
+    "S03",
+    "S08",
+    "M2"
+  ],
+  "unknown": [
+    "Current health and clinical suitability",
+    "Income",
+    "Private relationships",
+    "Actual December project commitments"
+  ],
+  "review": {
+    "required": true,
+    "reviewer": "Luke",
+    "instruction": "Replace simulated fields with reviewed self-report; keep provenance and do not silently change record kind."
+  }
+}

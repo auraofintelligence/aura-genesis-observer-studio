@@ -1,0 +1,23 @@
+{
+  "schema": "aura-observer-input/1",
+  "scenario_id": "community-workshop-december-2026-demo",
+  "title": "Simulated community workshop cue repair",
+  "record_mode": "simulation",
+  "sources": [
+    {"id": "S-world", "label": "Invented world-state log", "kind": "simulation", "locator": "content/genesis-120-hours.md#a-complete-worked-encounter", "captured_at": "2026-12-08T09:00:00+10:00"},
+    {"id": "S-attention", "label": "Invented focal-character attention log", "kind": "simulation", "locator": "runtime/examples/community-workshop.simulated.json", "captured_at": "2026-12-08T09:01:00+10:00"},
+    {"id": "S-narrator", "label": "Invented narrator log", "kind": "simulation", "locator": "runtime/examples/community-workshop.simulated.json", "captured_at": "2026-12-08T09:02:00+10:00"},
+    {"id": "S-participant", "label": "Invented participant account; not Luke's actual words", "kind": "simulation", "locator": "runtime/examples/community-workshop.simulated.json", "captured_at": "2026-12-08T09:05:00+10:00"}
+  ],
+  "evidence": [
+    {"id": "E-world-room", "stream": "environment", "claim_kind": "world_state", "evidence_class": "simulation", "is_simulated": true, "text": "In this invented scene, the workshop room changed from Room A to Room B and a timetable update was posted.", "source_ids": ["S-world"], "observed_at": "2026-12-08T09:00:00+10:00"},
+    {"id": "E-attention-invitation", "stream": "character_attention", "claim_kind": "noticed_cue", "evidence_class": "simulation", "is_simulated": true, "text": "The focal character's recorded attention contains the original invitation naming Room A and the accessibility request. No updated timetable is in this attention log.", "source_ids": ["S-attention"], "observed_at": "2026-12-08T09:01:00+10:00"},
+    {"id": "E-visible-preparation", "stream": "narrator", "claim_kind": "observable_behavior", "evidence_class": "simulation", "is_simulated": true, "text": "The narrator sees the character preparing materials for Room A.", "source_ids": ["S-narrator"], "observed_at": "2026-12-08T09:02:00+10:00"},
+    {"id": "E-narrator-inference", "stream": "narrator", "claim_kind": "interpretation", "evidence_class": "derived", "is_simulated": true, "text": "Tentative, unconfirmed interpretation: perhaps the character is reluctant to change rooms.", "source_ids": ["S-narrator"], "observed_at": "2026-12-08T09:02:30+10:00", "derived_from": ["E-visible-preparation"]},
+    {"id": "E-narrator-unknown", "stream": "narrator", "claim_kind": "unknown", "evidence_class": "simulation", "is_simulated": true, "text": "The narrator does not know whether the character saw the updated timetable or why Room A is still being prepared.", "source_ids": ["S-narrator"], "observed_at": "2026-12-08T09:03:00+10:00"},
+    {"id": "E-participant-meaning", "stream": "user_meaning", "claim_kind": "self_report", "evidence_class": "simulation", "is_simulated": true, "text": "Simulated participant explanation: I was working from the earlier confirmation; I did not see the update. This is invented dialogue, not an actual answer by Luke.", "source_ids": ["S-participant"], "observed_at": "2026-12-08T09:05:00+10:00", "conflicts_with": ["E-narrator-inference"]},
+    {"id": "E-participant-correction", "stream": "user_meaning", "claim_kind": "correction", "evidence_class": "simulation", "is_simulated": true, "text": "Simulated correction request: preserve the initial inference in the history, but do not use it as a fact about my character. Check how the changed room was communicated.", "source_ids": ["S-participant"], "observed_at": "2026-12-08T09:05:30+10:00", "supersedes": ["E-narrator-inference"], "conflicts_with": ["E-narrator-inference"]}
+  ],
+  "swarm_evidence_ids": ["E-world-room"],
+  "budget": {"max_swarm_tasks": 4, "max_model_calls": 3, "max_prompt_chars": 48000, "max_total_response_tokens": 1536, "per_call_response_tokens": 512, "max_wall_seconds": 120}
+}

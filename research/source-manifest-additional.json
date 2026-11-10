@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S01",
+    "filename": "12 Mixture of Experts, Function Callers and AutoGen Agents.pdf",
+    "exists": true,
+    "sha256": "74618eebd312dbd29f98e661be2a75ad92bbcfc73b595f63dbfd1a65c4d48435",
+    "pages": 28,
+    "characters": 65430
+  },
+  {
+    "id": "S02",
+    "filename": "13 MoE Extended.pdf",
+    "exists": true,
+    "sha256": "35779fc707772e33d06a85fa6c2f28f064cfe910eac1f58a5b6fbab093568f53",
+    "pages": 32,
+    "characters": 50621
+  },
+  {
+    "id": "S03",
+    "filename": "Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx",
+    "exists": true,
+    "sha256": "811f7690e5690af08f74fec4e1031ffe517dd6a6fd0976bd248e006ee56cbe22",
+    "characters": 97749
+  },
+  {
+    "id": "S04",
+    "filename": "Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx",
+    "exists": true,
+    "sha256": "ecc1a96e88ea0364378601379f96b8156d08b06045fc57bff433d113aca68822",
+    "characters": 77112
+  },
+  {
+    "id": "S05",
+    "filename": "Aura_Genesis_Children_and_Teens_Australian_Care.docx",
+    "exists": true,
+    "sha256": "794eb83ce475d7dafd761e4e7e5f4aa0bc977bfbf33d7ec24696962ffe65cea4",
+    "characters": 68757
+  },
+  {
+    "id": "S06",
+    "filename": "C-Hour-Joyful-Responsible-Abundance-Plan.pdf",
+    "exists": true,
+    "sha256": "56eb762e28b1a4c759312694035ebc9bb8f87b3ce045b4d120d76b8c934542db",
+    "pages": 43,
+    "characters": 98418
+  },
+  {
+    "id": "S07",
+    "filename": "Joyful Responsible Abundance - Whole System Preview - Updated.docx",
+    "exists": true,
+    "sha256": "63211706d2de45f8a2b85cf28b0ff1c188e45bf788ebab33c5eaf7c7e0097ad3",
+    "characters": 53394
+  },
+  {
+    "id": "S08",
+    "filename": "Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+    "exists": true,
+    "sha256": "bf5ba0b11ad990c7829432f7949d5bd2989c8351db7566ea0d5969753e30a678",
+    "pages": 29,
+    "characters": 82279
+  },
+  {
+    "id": "S09",
+    "filename": "UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+    "exists": true,
+    "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14",
+    "pages": 8,
+    "characters": 39245
+  }
+]

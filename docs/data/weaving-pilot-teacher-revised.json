@@ -1,0 +1,657 @@
+{
+  "schema": "aura-weaving-batch/1",
+  "jobId": "T061-B01",
+  "territoryId": "T061",
+  "domainId": "teacher-learning",
+  "author": {
+    "kind": "agent",
+    "name": "gpt-6-luna",
+    "runId": "lighter-weaver-pilot-20261110-revision"
+  },
+  "questions": [
+    {
+      "id": "W-T061-0001",
+      "prompt": "When a learner arrives with a strong explanation of what they already know, what brief task would reveal where that explanation works and where it stops? Describe how you would let the learner choose a familiar example.",
+      "tags": [
+        "starting-knowledge",
+        "diagnostic-task"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: starting-knowledge, diagnostic-task. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Learner starting point",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Specific example",
+      "observerView": "Character attention",
+      "selfLens": "Present",
+      "gap": "The packet frames starting knowledge as something to explore through evidence; it does not specify an assessment instrument for this territory.",
+      "transfer": "A short learner-chosen probe could inform the next lesson without treating one response as a complete ability profile.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0002",
+      "prompt": "Recall or imagine a planning moment when a learner’s stated goal and the curriculum’s next step pull in different directions. What evidence would help you decide whether to adapt, connect them, or hold the sequence?",
+      "tags": [
+        "learner-purpose",
+        "curriculum-choice"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: learner-purpose, curriculum-choice. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Teacher planning",
+      "operation": "Generate and choose alternatives",
+      "depth": "Contrast case",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The supplied curriculum summary names learner purpose and starting knowledge but leaves the trade-off between stated goals and sequence open.",
+      "transfer": "A decision rule with evidence and a review point can be tested in a later unit.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0003",
+      "prompt": "Before explaining a new idea, what question could distinguish “has not met this yet” from “knows it under a different name or in another context”?",
+      "tags": [
+        "prior-knowledge",
+        "language"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: prior-knowledge, language. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Learner starting point",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Boundary condition",
+      "observerView": "Character attention",
+      "selfLens": "Present",
+      "gap": "Existing notes identify learner starting points as a territory, while the evidence needed to tell unfamiliarity from different vocabulary is unspecified.",
+      "transfer": "Compare the learner’s own wording with one concrete example before selecting an explanation.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0004",
+      "prompt": "Think of a learner who can complete a worked example but hesitates when the numbers or setting change. What would you ask them to notice about their own method before modelling another solution?",
+      "tags": [
+        "transfer",
+        "metacognition"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: transfer, metacognition. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Learner attempt",
+      "operation": "Explain personal meaning",
+      "depth": "Specific example",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The transfer arc is signposted in the teacher curriculum summary, but the learner’s account of what they carry between examples is not supplied.",
+      "transfer": "Use the learner’s explanation to choose a near-transfer task and check which step remains stable.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0005",
+      "prompt": "If a learner says a topic matters because it connects to a personal project, how might you invite them to show the connection while preserving their choice not to disclose private details?",
+      "tags": [
+        "learner-purpose",
+        "privacy",
+        "choice"
+      ],
+      "sourceRefs": [
+        "T60",
+        "U1"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: learner-purpose, privacy, choice. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. U1 (Current user brief and clarifications), locator: 10 November 2026, this project; used only as direct design instruction about Full immersion, rapid action, 2x audio/speed reading where useful, eight hours sleep, compatible overlap, businesses, relationships and JRA., not evidence of results. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Teacher planning",
+      "operation": "Generate and choose alternatives",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The current brief foregrounds useful learning and real projects; it does not establish what any learner’s project is or what they wish to share.",
+      "transfer": "Offer a public or fictional example as an equal route into the same learning objective.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0006",
+      "prompt": "Describe or imagine a lesson moment when your explanation seemed clear but produced an unexpected learner response. What did you notice in the room or task before deciding what the response meant?",
+      "tags": [
+        "observation",
+        "interpretation"
+      ],
+      "sourceRefs": [
+        "T60",
+        "S02"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: observation, interpretation. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S02 (13 MoE Extended.pdf), locator: pp. 28–32; model sections pp. 2–27; its curated summary concerns Original environment/character/narrator observer definition and simulation pipeline. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Explanation or demonstration",
+      "operation": "Expose a competing account",
+      "depth": "Specific example",
+      "observerView": "Environment",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The observer framework separates environment from interpretation; no classroom incident is supplied, so the episode must come from the respondent or remain hypothetical.",
+      "transfer": "Record the observable response separately from the first explanation and use it to revise the next demonstration.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0007",
+      "prompt": "Imagine a learner disputes your account of why a method works. What would help you compare their reasoning with yours without making agreement the price of participation?",
+      "tags": [
+        "disagreement",
+        "reasoning"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: disagreement, reasoning. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Misunderstanding or disagreement",
+      "operation": "Expose a competing account",
+      "depth": "Alternative source or viewpoint",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The source summaries support competing views and human review, but do not prescribe how a particular learner’s disagreement should be resolved.",
+      "transfer": "A shared example or counterexample can make both accounts inspectable and support a later check.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0008",
+      "prompt": "What is one sign that a learner is ready for a more demanding task, and what alternative explanation could produce the same sign?",
+      "tags": [
+        "readiness",
+        "evidence"
+      ],
+      "sourceRefs": [
+        "T60",
+        "S02"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: readiness, evidence. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S02 (13 MoE Extended.pdf), locator: pp. 28–32; model sections pp. 2–27; its curated summary concerns Original environment/character/narrator observer definition and simulation pipeline. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Learner attempt",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Contrast case",
+      "observerView": "Narrator description and tentative interpretation",
+      "selfLens": "Present",
+      "gap": "Starting-knowledge decisions need observable evidence; the packet contains no validated readiness indicators.",
+      "transfer": "Pair the tentative sign with a learner explanation and a low-cost challenge task before increasing difficulty.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0009",
+      "prompt": "When planning for a learner with limited time, materials, or reliable access, which part of a learning goal can be demonstrated in another way while keeping the intended thinking visible?",
+      "tags": [
+        "access",
+        "equity",
+        "assessment"
+      ],
+      "sourceRefs": [
+        "T60",
+        "U1"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: access, equity, assessment. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. U1 (Current user brief and clarifications), locator: 10 November 2026, this project; used only as direct design instruction about Full immersion, rapid action, 2x audio/speed reading where useful, eight hours sleep, compatible overlap, businesses, relationships and JRA., not evidence of results. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Access or context change",
+      "operation": "Compare resources and resourcefulness",
+      "depth": "Boundary condition",
+      "observerView": "Environment",
+      "selfLens": "Possible best self with stated resources",
+      "gap": "The user brief asks for ambitious applied learning within real constraints; it does not say which constraints a learner faces.",
+      "transfer": "Offer equivalent ways to show the target reasoning, then review whether each route provides interpretable evidence.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0010",
+      "prompt": "Choose a skill you teach or plan to teach: what prerequisite would you check, and what would you do if a learner has the prerequisite in practice but cannot name it in school terminology?",
+      "tags": [
+        "tacit-knowledge",
+        "prerequisite"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: tacit-knowledge, prerequisite. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Teacher planning",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The territory asks what learners can already do; the supplied summary does not settle how tacit knowledge should be recognized.",
+      "transfer": "Use a performance example before adding terminology, then ask the learner to connect the name to the action.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0011",
+      "prompt": "How could you design a task that lets a learner draw on knowledge gained outside formal schooling, then make their reasoning visible without grading familiarity with your classroom examples?",
+      "tags": [
+        "community-knowledge",
+        "starting-point",
+        "task-design"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: community-knowledge, starting-point, task-design. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Teacher planning",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Observable action and transfer",
+      "observerView": "Environment",
+      "selfLens": "Present",
+      "gap": "A task can reward familiarity with classroom examples rather than reveal knowledge a learner can transfer from outside-school experience.",
+      "transfer": "Try a learner-chosen task context and assess their explanation of the target idea; compare the evidence across contexts before planning the next step.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0012",
+      "prompt": "After a learner gives an incorrect answer, what follow-up could separate a slip in execution from a different underlying model of the idea?",
+      "tags": [
+        "misconception",
+        "evidence"
+      ],
+      "sourceRefs": [
+        "T60",
+        "S02"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: misconception, evidence. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S02 (13 MoE Extended.pdf), locator: pp. 28–32; model sections pp. 2–27; its curated summary concerns Original environment/character/narrator observer definition and simulation pipeline. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Learner attempt",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Character attention",
+      "selfLens": "Present",
+      "gap": "The packet asks for meaningful evidence and warns against assuming; it gives no learner answer or cause to diagnose.",
+      "transfer": "Change one feature of the task and compare the learner’s reasoning, not just correctness.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0013",
+      "prompt": "Imagine two learners reach the same correct result using different methods. How could you invite them to compare what each method makes easier to see or do?",
+      "tags": [
+        "peer-learning",
+        "strategy-comparison"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: peer-learning, strategy-comparison. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Peer teaching or handover",
+      "operation": "Teach or explain across perspectives",
+      "depth": "Contrast case",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "Teacher transfer and peer explanation are source anchors; the packet contains no examples of these learners or their methods.",
+      "transfer": "A comparison can reveal which method transfers to a new task and which learner explanation clarifies its conditions.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0014",
+      "prompt": "What would you ask a learner to predict before a demonstration so that their prior idea remains visible for comparison afterward?",
+      "tags": [
+        "prediction",
+        "demonstration"
+      ],
+      "sourceRefs": [
+        "T60",
+        "S02"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: prediction, demonstration. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S02 (13 MoE Extended.pdf), locator: pp. 28–32; model sections pp. 2–27; its curated summary concerns Original environment/character/narrator observer definition and simulation pipeline. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Explanation or demonstration",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Observable action and transfer",
+      "observerView": "Character attention",
+      "selfLens": "Present",
+      "gap": "Observer summaries distinguish what is noticed from later narration; no specific lesson is supplied.",
+      "transfer": "Capture a brief prediction and compare it with the post-demonstration explanation to inform the next practice item.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0015",
+      "prompt": "If the time available for a lesson were cut in half, which evidence about starting knowledge would you preserve, and what could safely wait for another encounter?",
+      "tags": [
+        "constraints",
+        "prioritization"
+      ],
+      "sourceRefs": [
+        "T60",
+        "U1"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: constraints, prioritization. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. U1 (Current user brief and clarifications), locator: 10 November 2026, this project; used only as direct design instruction about Full immersion, rapid action, 2x audio/speed reading where useful, eight hours sleep, compatible overlap, businesses, relationships and JRA., not evidence of results. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Teacher planning",
+      "operation": "Generate and choose alternatives",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Environment",
+      "selfLens": "Constrained self with stated conditions",
+      "gap": "The user brief values efficient, ambitious learning and eight hours of sleep; it does not prescribe a specific lesson budget.",
+      "transfer": "Naming the decision can help protect a minimal learning check while scheduling deferred evidence explicitly.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0016",
+      "prompt": "Describe or imagine a learner who appears disengaged during one activity but becomes active in another. What changed in the task, and what other factors could explain the difference?",
+      "tags": [
+        "engagement",
+        "context"
+      ],
+      "sourceRefs": [
+        "T60",
+        "S02"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: engagement, context. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S02 (13 MoE Extended.pdf), locator: pp. 28–32; model sections pp. 2–27; its curated summary concerns Original environment/character/narrator observer definition and simulation pipeline. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Learner attempt",
+      "operation": "Expose a competing account",
+      "depth": "Contrast case",
+      "observerView": "Narrator description and tentative interpretation",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The packet supplies no learner behaviour; observer separation asks that activity and interpretation remain distinct.",
+      "transfer": "Compare task features and ask for the learner’s meaning before adapting the next activity.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0017",
+      "prompt": "When a learner uses a home, community, or professional term unfamiliar to you, how might you ask what it means in their example before translating it into lesson language?",
+      "tags": [
+        "language",
+        "perspective"
+      ],
+      "sourceRefs": [
+        "T60",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: language, perspective. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Misunderstanding or disagreement",
+      "operation": "Teach or explain across perspectives",
+      "depth": "Alternative source or viewpoint",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The source summaries support varied perspectives and changing meanings; they do not specify a learner’s language, culture, or terminology.",
+      "transfer": "A jointly defined example can retain the learner’s meaning while connecting it to a shared curriculum concept.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0018",
+      "prompt": "What would count as enough evidence to say “we can build from this starting point,” and how would you mark what is still uncertain?",
+      "tags": [
+        "uncertainty",
+        "review"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: uncertainty, review. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Longitudinal review",
+      "operation": "Review outcome and revise the account",
+      "depth": "Unknown or declined information",
+      "observerView": "Narrator description and tentative interpretation",
+      "selfLens": "Present",
+      "gap": "The packet separates planned, generated and reviewed records, but no mastery threshold is supplied.",
+      "transfer": "A provisional note can guide the next lesson and specify what evidence would change the judgment.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0019",
+      "prompt": "If a learner declines to explain why a topic matters to them, what non-personal route could still help you learn what they can already do?",
+      "tags": [
+        "choice",
+        "privacy",
+        "assessment"
+      ],
+      "sourceRefs": [
+        "T60",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: choice, privacy, assessment. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Learner starting point",
+      "operation": "Generate and choose alternatives",
+      "depth": "Unknown or declined information",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The brief requires choice and no intimate disclosure; purpose can remain unknown while learning evidence is gathered.",
+      "transfer": "A neutral task or fictional scenario can assess relevant prior knowledge without requiring a personal account.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0020",
+      "prompt": "How could a teacher hand over a learner’s demonstrated strengths and open questions to a colleague without turning a temporary observation into a fixed label?",
+      "tags": [
+        "handover",
+        "non-labeling"
+      ],
+      "sourceRefs": [
+        "T60",
+        "S01",
+        "S02"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: handover, non-labeling. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S01 (12 Mixture of Experts, Function Callers and AutoGen Agents.pdf), locator: pp. 5–9, 20–28; its curated summary concerns Agent roles, function definition/calling, human review; historical design, not current library instructions. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S02 (13 MoE Extended.pdf), locator: pp. 28–32; model sections pp. 2–27; its curated summary concerns Original environment/character/narrator observer definition and simulation pipeline. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Peer teaching or handover",
+      "operation": "Teach or explain across perspectives",
+      "depth": "Dependency or consequence",
+      "observerView": "Narrator description and tentative interpretation",
+      "selfLens": "Present",
+      "gap": "The source notes include handover and human review, while the record should remain revisable rather than defining the learner.",
+      "transfer": "Before a real handover, agree who may receive which information and for what purpose. Share only the task conditions, observed action, learner wording and uncertainty appropriate to that audience, then invite the colleague to test the note afresh.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0021",
+      "prompt": "After a learner succeeds with extensive prompts, what small change in support would help you see which part they can now manage independently?",
+      "tags": [
+        "scaffolding",
+        "independence"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: scaffolding, independence. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Feedback and another attempt",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Character attention",
+      "selfLens": "Present",
+      "gap": "The teacher curriculum identifies another attempt as a transfer opportunity; no individual prompt history is given.",
+      "transfer": "Vary one prompt or scaffold at a time and compare the learner’s strategy, while restoring support if needed.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0022",
+      "prompt": "Hypothetically, how would you check whether two response formats—such as a written explanation and a spoken explanation—let learners show the same target reasoning? What evidence would make you revise either route?",
+      "tags": [
+        "access",
+        "assessment-equivalence",
+        "evidence"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: access, assessment-equivalence, evidence. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Access or context change",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Contrast case",
+      "observerView": "Environment",
+      "selfLens": "Constrained self with stated conditions",
+      "gap": "An alternative response format may not automatically measure the same reasoning; the comparison needs evidence from the task and its conditions.",
+      "transfer": "Try a small matched task with chosen formats, compare the reasoning each makes visible, and revise the route if one format adds irrelevant barriers.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0023",
+      "prompt": "When reviewing a unit, what evidence would tell you that learners can use an idea in a setting they did not practise, rather than only repeat a familiar routine?",
+      "tags": [
+        "transfer",
+        "curriculum-review"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: transfer, curriculum-review. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "New-context transfer",
+      "operation": "Review outcome and revise the account",
+      "depth": "Observable action and transfer",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "Days 40–60 are described as transfer-focused, but no particular outcome measure or learner work is supplied.",
+      "transfer": "Use a fresh but fair task, ask learners to explain their choices and revise the sequence based on observed transfer.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0024",
+      "prompt": "If a learner changes their learning goal partway through a course, what would you revisit before treating the earlier plan as a failed commitment?",
+      "tags": [
+        "changing-goals",
+        "review"
+      ],
+      "sourceRefs": [
+        "T60"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: changing-goals, review. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Longitudinal review",
+      "operation": "Review outcome and revise the account",
+      "depth": "Later correction and continuation",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The supplied notes permit changing purpose over time; they do not establish what change a learner will make or why.",
+      "transfer": "Revisit current priorities, constraints and demonstrated progress, then make a new bounded plan together.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T061-0025",
+      "prompt": "What would you ask a learner after they apply a taught idea in a real project to find out which part of the lesson actually helped and what they had to adapt?",
+      "tags": [
+        "applied-learning",
+        "reflection"
+      ],
+      "sourceRefs": [
+        "T60",
+        "U1"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: applied-learning, reflection. T60 (Aura Teacher Training 60 Days), locator: 60 source days; day 28 observers; days 21–29 agents; days 40–60 transfer; its curated summary concerns Independent adult teacher curriculum; new 2h module budgets are this edition’s design. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. U1 (Current user brief and clarifications), locator: 10 November 2026, this project; used only as direct design instruction about Full immersion, rapid action, 2x audio/speed reading where useful, eight hours sleep, compatible overlap, businesses, relationships and JRA., not evidence of results. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "New-context transfer",
+      "operation": "Review outcome and revise the account",
+      "depth": "Later correction and continuation",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "Applied learning and project transfer are in the current brief, but no project or result is verified.",
+      "transfer": "A concrete account of adaptation can guide the next project task and correct assumptions about what transferred.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    }
+  ],
+  "generationNotes": "Revised bounded 25-question calibration batch following the independent AI editorial review. Question-relevant supplied locators are recorded with explicit summary-only source limits; selected prompts, operations, dimensions, transfer notes and semantic overlaps were repaired. This remains partial pilot work and does not claim the 100,000-question atlas is complete."
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "PUB01",
+    "title": "open-record-luke-nathan-hayes/README.md",
+    "localPath": "G:/GithubLocal-PC/open-record-luke-nathan-hayes/README.md",
+    "url": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes/blob/HEAD/README.md",
+    "sha256": "5d03ccdcb41e01fb224f58559d3c6e39bd2e8df670862105fe9f967c717b3e23",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB02",
+    "title": "open-record-luke-nathan-hayes/docs/life-record.md",
+    "localPath": "G:/GithubLocal-PC/open-record-luke-nathan-hayes/docs/life-record.md",
+    "url": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes/blob/HEAD/docs/life-record.md",
+    "sha256": "9303c1f489680aecfb89dafffce54559aa23ae2f6ff2708e3bbc166ef40947c4",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB03",
+    "title": "redlands-mayoral-campaign/data/visual-interview.json",
+    "localPath": "G:/GithubLocal-PC/redlands-mayoral-campaign/data/visual-interview.json",
+    "url": "https://github.com/auraofintelligence/redlands-mayoral-campaign/blob/HEAD/data/visual-interview.json",
+    "sha256": "4e3b52ffb923b402954789be8a0a0e198b228d7af6ebee17040fc21d9cd49467",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB04",
+    "title": "redlands-mayoral-campaign/data/visual-profile.json",
+    "localPath": "G:/GithubLocal-PC/redlands-mayoral-campaign/data/visual-profile.json",
+    "url": "https://github.com/auraofintelligence/redlands-mayoral-campaign/blob/HEAD/data/visual-profile.json",
+    "sha256": "ecc8e8d8465450fd6ae9fcfb83b7e8acc041f2b1890a41ab737850a4cdf715d1",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB05",
+    "title": "aura-matrix-studio/README.md",
+    "localPath": "G:/GithubLocal-PC/aura-matrix-studio/README.md",
+    "url": "https://github.com/auraofintelligence/aura-matrix-studio/blob/HEAD/README.md",
+    "sha256": "74fd045c66c7a02ee4a68b6499b5dea49cbe0e47d6c0b646f8b936e3d0edac22",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB06",
+    "title": "aura-matrix-studio/DATASET-CATALOGUE.md",
+    "localPath": "G:/GithubLocal-PC/aura-matrix-studio/DATASET-CATALOGUE.md",
+    "url": "https://github.com/auraofintelligence/aura-matrix-studio/blob/HEAD/DATASET-CATALOGUE.md",
+    "sha256": "50fa712e896ba32139c693cd953a30ffcd570c796d9bc5d711aad964568c13b7",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB07",
+    "title": "aura-matrix-studio/CONNECTED-AURA.md",
+    "localPath": "G:/GithubLocal-PC/aura-matrix-studio/CONNECTED-AURA.md",
+    "url": "https://github.com/auraofintelligence/aura-matrix-studio/blob/HEAD/CONNECTED-AURA.md",
+    "sha256": "703a5d81231be941e090a5b82550fed68239fc6acbb9ddf3a95e8a5cf1d64a1e",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB08",
+    "title": "aura-matrix-studio/core.js",
+    "localPath": "G:/GithubLocal-PC/aura-matrix-studio/core.js",
+    "url": "https://github.com/auraofintelligence/aura-matrix-studio/blob/HEAD/core.js",
+    "sha256": "86086dd0f17bac46822b9098799e669e594eecaee79e16a831a9a4783018b4f2",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB09",
+    "title": "aura-matrix-studio/LICENCE.md",
+    "localPath": "G:/GithubLocal-PC/aura-matrix-studio/LICENCE.md",
+    "url": "https://github.com/auraofintelligence/aura-matrix-studio/blob/HEAD/LICENCE.md",
+    "sha256": "1739f16d59a26068610673df1a27f5cacb5d83af0602b59b7e7d01cc22afbdef",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB10",
+    "title": "aura-teacher-training/IMAGERY-GEOMETRY.md",
+    "localPath": "G:/GithubLocal-PC/aura-teacher-training/IMAGERY-GEOMETRY.md",
+    "url": "https://github.com/auraofintelligence/aura-teacher-training/blob/HEAD/IMAGERY-GEOMETRY.md",
+    "sha256": "8dec2dc972733957c11867d7dfd25a6d475986a7c9321764030abd282d77538c",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB11",
+    "title": "aura-genesis-geode-atlas/content/days-extracted.json",
+    "localPath": "G:/GithubLocal-PC/aura-genesis-geode-atlas/content/days-extracted.json",
+    "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/HEAD/content/days-extracted.json",
+    "sha256": "8dc5a88a3897419d020f438fb2b71877dc1d076f0c4816eee26037551d614641",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  },
+  {
+    "id": "PUB12",
+    "title": "redlands-mayoral-campaign/public/assets/photos/provenance.json",
+    "localPath": "G:/GithubLocal-PC/redlands-mayoral-campaign/public/assets/photos/provenance.json",
+    "url": "https://github.com/auraofintelligence/redlands-mayoral-campaign/blob/HEAD/public/assets/photos/provenance.json",
+    "sha256": "d700ed9ebd96d7025c525d00187f5395c13b98b6eccd148d3bc07171b9f28ca4",
+    "readOn": "2026-11-10",
+    "basis": "local working copy; URL is public counterpart, not a verified matching remote revision"
+  }
+]

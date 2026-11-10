@@ -1,0 +1,645 @@
+{
+  "schema": "aura-matrix-research/1",
+  "research_date": "2026-11-10",
+  "status": "source-interpretation-not-author-approved",
+  "method": "Read-only OOXML structural extraction, embedded-picture visual review, and reconstructed preview of LifeLogging Part 1 B97:H136. No spreadsheet edits or recalculation.",
+  "confidence_definition": {
+    "explicit": "Labels or instructions state the arrangement or relationship.",
+    "structured": "Borders, merges and nearby labels support grouping; full semantics may remain uncertain.",
+    "provisional": "An interpretive connection requiring author confirmation."
+  },
+  "sources": [
+    {
+      "id": "matrix",
+      "filename": "Aura App Matrix Mapping.xlsx",
+      "sha256": "12a8b456f975e9f5f1dc6618a2515755189abd964f9a11028b778a7e74ca4df3",
+      "sheet": "Sheet1",
+      "stored_extent": "A1:FY1523",
+      "nonempty_values": 27289,
+      "stored_cells": 28551,
+      "merged_range_count": 44,
+      "style_count": 143,
+      "formula_record_count": 147,
+      "formula_note": "Includes shared-formula followers; no recalculation was performed.",
+      "drawing_note": "One embedded picture, a colour/character wheel."
+    },
+    {
+      "id": "lifelog-1",
+      "filename": "Aura App LifeLogging Part 1 (neutral).xlsx",
+      "sha256": "a4b5341a7a13c9e8d12600b2d58581b060d00cbca9ab9ad1f087a7637b67603e",
+      "sheet": "Sheet1",
+      "stored_extent": "A2:U922",
+      "nonempty_values": 1723,
+      "stored_cells": 9789,
+      "merged_range_count": 70,
+      "style_count": 331,
+      "formula_record_count": 7,
+      "formula_note": "Includes shared-formula followers; no recalculation was performed.",
+      "drawing_note": "One embedded picture with four human aims and one small shape."
+    },
+    {
+      "id": "lifelog-2",
+      "filename": "Aura App LifeLogging Part2.xlsx",
+      "sha256": "94a7efb72d3348b9e5b32d6c1e8925de2abf2cf3f9e6a93f45100b1b38e83bf1",
+      "sheet": "Sheet1",
+      "stored_extent": "A1:AO140",
+      "nonempty_values": 1093,
+      "stored_cells": 1212,
+      "merged_range_count": 4,
+      "style_count": 23,
+      "formula_record_count": 0,
+      "formula_note": "Includes shared-formula followers; no recalculation was performed.",
+      "drawing_note": "One embedded school time-allocation table picture."
+    }
+  ],
+  "regions": [
+    {
+      "id": "matrix-addressing",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "A1:A16",
+        "B3:Y14",
+        "AB3:AY14",
+        "BB3:BY14",
+        "CB3:CY14",
+        "DB3:DY14",
+        "EB3:EY14",
+        "FB3:FY14"
+      ],
+      "kind": "address_grids",
+      "title": "Seven coloured address grids",
+      "source_observation": "Explicit 12 by 24 grids and labels for questions, faces and first-column identity themes.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Allow optional one-to-many 288-facet addresses for seven colour perspectives; keep record identity independent of spatial address.",
+      "ambiguity": "No claim that every address must be filled for MVS.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-repeated-banks",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "A307:FY321",
+        "A611:FY625",
+        "A915:FY929",
+        "A1220:FY1234"
+      ],
+      "kind": "repeated_templates",
+      "title": "Four later template banks",
+      "source_observation": "Seven-colour grids repeat with differing collections underneath.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Record bank identity as well as colour/facet when interpreting source.",
+      "ambiguity": "Alternative versions, stages or simultaneous banks are not specified.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-reading-directions",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "A1233"
+      ],
+      "kind": "reading_instruction",
+      "title": "Alternate reading direction",
+      "source_observation": "Instruction explicitly calls for switching reading direction for alternate meaning.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Preserve reading direction, grouping and relationship labels in import records.",
+      "ambiguity": "Exact reversal rules and intended alternate meanings are not specified.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-placement-question",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "A338"
+      ],
+      "kind": "unresolved_question",
+      "title": "Traits on vectors or facets",
+      "source_observation": "Author asks whether character traits should be embedded in vector colour groups instead of facet matrices.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Keep facet/vector allocation editable and record alternatives.",
+      "ambiguity": "Do not silently resolve this design choice.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-lexicons",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "M16:EM16",
+        "N17:N304",
+        "AN17:AN304",
+        "BN17:BN304",
+        "CN17:CN304",
+        "DN17:DN304",
+        "EN17:EN304",
+        "FM16:FY304"
+      ],
+      "kind": "lexicon_collection",
+      "title": "Words and grammar",
+      "source_observation": "Common-word and grammar labels accompany several separate vertical word lists.",
+      "topology_confidence": "structured",
+      "proposed_use": "Use participant definitions, examples, synonyms and contrasting interpretations as optional semantic prompts.",
+      "ambiguity": "Same-row words are not paired semantic records; corpus size/frequency claims were not independently validated.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-traits",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "C322:C333",
+        "N322:N345"
+      ],
+      "kind": "theme_and_lenses",
+      "title": "Traits and semantic lenses",
+      "source_observation": "Character themes and a colour/trait/definition/context/example collection coexist.",
+      "topology_confidence": "structured",
+      "proposed_use": "Ask for concrete episodes, counterexamples, personal meanings, ideals and review indicators.",
+      "ambiguity": "A row-wise join between inventories is unsupported.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-practical-life",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "AC322:AC333",
+        "AN322:AN325"
+      ],
+      "kind": "hierarchical_candidate",
+      "title": "Practical life themes",
+      "source_observation": "Home, food, clothing, communication, learning, work, gifts, transport, travel and other themes; home subtopics start separately.",
+      "topology_confidence": "structured",
+      "proposed_use": "Branch from domain to concrete objects, actions, preferences and constraints.",
+      "ambiguity": "Depth and completeness vary by domain.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-relationships",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "BC322:BC333"
+      ],
+      "kind": "theme_collection",
+      "title": "Relationship chapters",
+      "source_observation": "Love, courting, receiving, exit, exploring, negotiation, family and later-life themes.",
+      "topology_confidence": "structured",
+      "proposed_use": "Capture desired reciprocity, boundaries, changes over time and responsible exits.",
+      "ambiguity": "Do not infer the participant has followed a prescribed relationship sequence.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-goals-emotions",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "N626:N646",
+        "AC626:AC628",
+        "BC626:BC628"
+      ],
+      "kind": "parallel_collections",
+      "title": "Emotions, goals and social areas",
+      "source_observation": "Emotions, learning/travel/creative goals and family/courting/friends occupy separate regions.",
+      "topology_confidence": "structured",
+      "proposed_use": "Link goals and emotional self-report through explicit records.",
+      "ambiguity": "Neighbouring repeated word lists are not completed questionnaire answers.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-clock",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "M929:Q929",
+        "N930:N953",
+        "S933"
+      ],
+      "kind": "time_collection",
+      "title": "Clock framework",
+      "source_observation": "Labels span immense to tiny scales; a toroidal clock reference appears nearby.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Capture event time, duration, temporal horizon and approximation separately.",
+      "ambiguity": "List includes mixed or imprecise scientific labels; not a validated conversion table.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-event-counters",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "AA945:AJ955"
+      ],
+      "kind": "lifecycle_collection",
+      "title": "Activation and review",
+      "source_observation": "First/recent activation, count, timeline, calendar, renewal, downtime, thresholds, reminders, synchronisation and backup.",
+      "topology_confidence": "structured",
+      "proposed_use": "Version observations and log activations, reviews and exports.",
+      "ambiguity": "No scheduler implementation is specified.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-focal-points",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "M1234:N1250",
+        "C1235:C1250"
+      ],
+      "kind": "focus_collection",
+      "title": "Focal points and interface",
+      "source_observation": "Interface controls, permissions, urgency, importance and personal concepts begin a larger focus collection.",
+      "topology_confidence": "structured",
+      "proposed_use": "Keep attention controls, permissions and user priorities separate.",
+      "ambiguity": "The selected range is the beginning of a larger collection, not the complete list.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-abstract-language",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "AC1235:AN1250",
+        "CN1235:CN1250"
+      ],
+      "kind": "parallel_collections",
+      "title": "Abstract construction and action words",
+      "source_observation": "Binary/Boolean/shape concepts sit apart from interrogatives and action verbs.",
+      "topology_confidence": "structured",
+      "proposed_use": "Represent compositional relationships explicitly and offer multiple query routes.",
+      "ambiguity": "Proximity does not establish an executable grammar.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-character-table",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "BM1234:BP1490"
+      ],
+      "kind": "reference_table",
+      "title": "Character code reference",
+      "source_observation": "Header labels a character-code collection; CHAR formulas appear in the table.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Treat as a technical reference with its own schema.",
+      "ambiguity": "The source wording 256 Bit ASCii Code is not an endorsed technical definition.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "matrix-startups",
+      "source_id": "matrix",
+      "sheet": "Sheet1",
+      "ranges": [
+        "DM1234:DN1250",
+        "EC1235:EC1250"
+      ],
+      "kind": "parallel_collections",
+      "title": "Startup ideas and self practice",
+      "source_observation": "Project ideas sit separately from self/practice themes.",
+      "topology_confidence": "structured",
+      "proposed_use": "Use project ambition as a goal collection linked to skills, resources and outcomes.",
+      "ambiguity": "These ranges show beginnings of larger inventories; no causal relation to character-code rows is established.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-governance",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B2:K8"
+      ],
+      "kind": "bounded_collection",
+      "title": "Governance and information flow",
+      "source_observation": "Privacy, independence, interdependence, governance and best practices.",
+      "topology_confidence": "structured",
+      "proposed_use": "Capture intended audience, use permissions, review and autonomy boundaries.",
+      "ambiguity": "A recorded permission intention does not enforce access control.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-actions",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B10:D17",
+        "B19:J25",
+        "B27:N37"
+      ],
+      "kind": "related_collections",
+      "title": "Action development, priority and allocation",
+      "source_observation": "Specific action contexts plus importance/urgency/value/rewards and resources/constraints.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Separate action context, priority dimensions, expected value and constraints.",
+      "ambiguity": "No single scoring formula is provided.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-birthday",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B41",
+        "K41:K42"
+      ],
+      "kind": "dated_personal_anchor",
+      "title": "December 2026 age anchor",
+      "source_observation": "My Age at December 3rd; age 44 appears above 2026.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Frame simulations after the December birthday at age 44.",
+      "ambiguity": "This establishes an age/date relationship, not future events or future responses.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-workload",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B51:B62"
+      ],
+      "kind": "mode_collection",
+      "title": "Process reordering modes",
+      "source_observation": "Casual, Part Time, Full Time and Immersion transitions to Busy and Hyper Busy.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Adapt capture granularity and session order to available attention; label new scheduling assumptions.",
+      "ambiguity": "No numerical ratio, required daily duration or cognitive acceleration rate is supplied. F and J columns hold independent lists.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-basic-loop",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B66:H75",
+        "B79:H93"
+      ],
+      "kind": "boxed_architecture",
+      "title": "Memory and action selection",
+      "source_observation": "Memory, perception, action selection, action, arousal, thresholds, motives, expectation comparison and demand sensors.",
+      "topology_confidence": "structured",
+      "proposed_use": "Collect trigger, options, motive, expectation, action and observed outcome.",
+      "ambiguity": "Borders do not fully define edge direction or executable behaviour.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-world-model",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B97:H109"
+      ],
+      "kind": "boxed_architecture",
+      "title": "World models, mental stage and motives",
+      "source_observation": "Long-term memory, world models, mental stage, perception/action selection/action and separate value/emotion/interest bands.",
+      "topology_confidence": "structured",
+      "proposed_use": "Keep experience, world interpretation, motives and action records distinct but linked.",
+      "ambiguity": "No validated cognitive measurement method is supplied.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-self-model",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "C113:H133"
+      ],
+      "kind": "boxed_architecture",
+      "title": "Options, self model and expectation",
+      "source_observation": "Options, self model, declarative/procedural memory, frame, plans, expectation and motive selection.",
+      "topology_confidence": "structured",
+      "proposed_use": "Compare candidate actions and expected outcomes; capture demonstrable procedural knowledge.",
+      "ambiguity": "A hierarchy or a complete computational dependency graph is not specified.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-parameters",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "A135:H136"
+      ],
+      "kind": "parameter_collections",
+      "title": "Motivators and modulators",
+      "source_observation": "Weight/gain/loss/baseline/volatility/range/duration and valence/arousal/understanding/focus/detail/attention.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Offer optional contextual self-report and participant-defined weights with units and meanings.",
+      "ambiguity": "Do not convert to a normative personality score.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-context-action",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B172:G200",
+        "B202:I221"
+      ],
+      "kind": "reflection_and_action",
+      "title": "Observation questions action and participation",
+      "source_observation": "Action circuit explicitly loops observation/questions/actions; doing, sharing and creating are explored through who/what/where/when/reasons.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Repeat evidence-to-action-to-review cycles at personal, interpersonal, project and community scale.",
+      "ambiguity": "Technical claims about biological memory or other mechanisms remain source proposals.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-place-activity",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B233:B256",
+        "B294:B304"
+      ],
+      "kind": "context_queries",
+      "title": "Situation and activity planning",
+      "source_observation": "Place/time/context queries and a bodyboarding/surfing planning example.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Capture opportunities with relevant context, current information, dependencies and decision boundaries.",
+      "ambiguity": "Does not supply current forecast or travel data.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-reflection-library",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B479:B518",
+        "B522:B624"
+      ],
+      "kind": "question_and_list_library",
+      "title": "Repeatable reflection and list making",
+      "source_observation": "Relationship exercises and a broad list-making collection.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Use original prompts or retain attribution when deliberately reusing a sourced exercise.",
+      "ambiguity": "Borrowed-looking exercises and embedded images need attribution before republication.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life1-narrative-evidence",
+      "source_id": "lifelog-1",
+      "sheet": "Sheet1",
+      "ranges": [
+        "B630:B647",
+        "L631:T631"
+      ],
+      "kind": "parallel_schema",
+      "title": "Narrative and evidence of change",
+      "source_observation": "Narrative themes beside cause/effect/state/delay/reasons/evidence/point-of-view headings.",
+      "topology_confidence": "structured",
+      "proposed_use": "Capture narrative episodes with evidence, uncertainty, delay and perspective.",
+      "ambiguity": "Horizontal evidence fields are not nine answers for the neighbouring Motivations row.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life2-time",
+      "source_id": "lifelog-2",
+      "sheet": "Sheet1",
+      "ranges": [
+        "A1:C140"
+      ],
+      "kind": "reference_collection",
+      "title": "Time scales for a torus",
+      "source_observation": "Apply time to horn torus heading and time-measure collection.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Allow multiple temporal horizons and approximate dates.",
+      "ambiguity": "Scientific reference content was not independently validated.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life2-throughput",
+      "source_id": "lifelog-2",
+      "sheet": "Sheet1",
+      "ranges": [
+        "D2:D43"
+      ],
+      "kind": "candidate_parameter_collection",
+      "title": "Thought and communication modes",
+      "source_observation": "Casual/Normal/Urgent/Hyper, REM/brainwave labels, thought/typing/reading/speaking/urge candidates.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Use actual session duration and self-report; retain candidate source parameters only as labelled ideas.",
+      "ambiguity": "Values are not validated human performance norms or participant measurements.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life2-life-context",
+      "source_id": "lifelog-2",
+      "sheet": "Sheet1",
+      "ranges": [
+        "E2:E42",
+        "F2:J140",
+        "K2:K140",
+        "L2:L30"
+      ],
+      "kind": "parallel_collections",
+      "title": "Context, life-stage repetition and capabilities",
+      "source_observation": "Personal context, life-stage activity lists, degree titles and technical capability ideas occupy separate columns.",
+      "topology_confidence": "structured",
+      "proposed_use": "Capture context and chosen life chapters without enforcing a universal sequence.",
+      "ambiguity": "Parenthood heading above column L does not fully explain its technical contents; row-wise joins are unsupported.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life2-school-scenarios",
+      "source_id": "lifelog-2",
+      "sheet": "Sheet1",
+      "ranges": [
+        "N1:X19"
+      ],
+      "kind": "scenario_table",
+      "title": "Schooling allocation candidates",
+      "source_observation": "Week/day/class/modal percentages and time candidates.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Use as inspiration for allocating modes in learning design, with all new allocations checked independently.",
+      "ambiguity": "T2:X2 totals 135; simultaneity versus exclusive categories is unspecified. No formulas are stored.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life2-conversions",
+      "source_id": "lifelog-2",
+      "sheet": "Sheet1",
+      "ranges": [
+        "Z1:AK11"
+      ],
+      "kind": "numeric_reference",
+      "title": "Time and physiological rate candidates",
+      "source_observation": "Conversion-like numbers, heartbeats and breaths.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Separate units and recorded measurements from illustrative constants.",
+      "ambiguity": "Not recalculated or clinically validated; no personal rates are inferred.",
+      "mapping_status": "research-not-author-approved"
+    },
+    {
+      "id": "life2-torus-capacity",
+      "source_id": "lifelog-2",
+      "sheet": "Sheet1",
+      "ranges": [
+        "AM1:AO3"
+      ],
+      "kind": "capacity_comparison",
+      "title": "Torus resolution candidates",
+      "source_observation": "Basic 288-facet, intermediate 1080-facet and scaled/expert capacity labels.",
+      "topology_confidence": "explicit",
+      "proposed_use": "Preserve source resolution candidates while using an explicit versioned address model in implementation.",
+      "ambiguity": "Does not override Matrix Studio fixed 12 by 24 current geometry.",
+      "mapping_status": "research-not-author-approved"
+    }
+  ],
+  "spatial_preview": {
+    "png": "matrix-spatial-preview.png",
+    "svg": "matrix-spatial-preview.svg",
+    "source_id": "lifelog-1",
+    "sheet": "Sheet1",
+    "range": "B97:H136",
+    "note": "Coordinates, merges, fills and borders retained. Row heights/font metrics adjusted for readability. No causal arrows added."
+  },
+  "record_proposal": {
+    "required": [
+      "record_id",
+      "question_id",
+      "author_observer_role",
+      "context",
+      "event_time",
+      "capture_time",
+      "evidence_source_ids",
+      "claim_kind",
+      "uncertainty",
+      "intended_audience",
+      "permitted_uses",
+      "review_date"
+    ],
+    "optional": [
+      "spatial_addresses",
+      "reading_direction",
+      "group_id",
+      "relationship_type",
+      "mapping_status"
+    ],
+    "claim_kinds": [
+      "self-report",
+      "observation",
+      "interpretation",
+      "proposal",
+      "simulation"
+    ],
+    "distinct_answer_states": [
+      "answered",
+      "not_answered",
+      "unknown",
+      "not_applicable",
+      "declined",
+      "contradictory"
+    ]
+  },
+  "matrix_studio_reference": {
+    "url": "https://auraofintelligence.github.io/aura-matrix-studio/",
+    "inspected_files": [
+      "README.md",
+      "DATASET-CATALOGUE.md",
+      "DEVELOPMENT-PLAN.md"
+    ],
+    "caveat": "Evolving collection prototype. Model training, Genesis conversations and clinical assessment are not established by completing its forms."
+  },
+  "private_raw_extract": ".private/research/workbook-spatial-extract.json"
+}

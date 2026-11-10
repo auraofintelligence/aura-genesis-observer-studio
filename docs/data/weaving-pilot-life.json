@@ -1,0 +1,671 @@
+{
+  "schema": "aura-weaving-batch/1",
+  "jobId": "T001-B01",
+  "territoryId": "T001",
+  "domainId": "identity",
+  "author": {
+    "kind": "agent",
+    "name": "gpt-6-luna",
+    "runId": "lighter-weaver-pilot-20261110"
+  },
+  "questions": [
+    {
+      "id": "W-T001-0001",
+      "prompt": "When someone asks “what do you do?”, which parts of your answer feel chosen for this encounter, and what would you rather leave open?",
+      "tags": [
+        "identity",
+        "self-description",
+        "choice"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Explain personal meaning",
+      "depth": "Specific example",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The supplied identity sources describe purpose-specific introductions and a minimum viable self, not a complete profile or required disclosure.",
+      "transfer": "A chosen short introduction can be tested in another setting and revised if it feels too narrow.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0002",
+      "prompt": "Recall a time you used different words for yourself with different people. What changed in the setting or relationship, and which version felt useful to you then?",
+      "tags": [
+        "roles",
+        "context"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Chosen past episode",
+      "operation": "Describe an episode",
+      "depth": "Contrast case",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "Source summaries frame identity as context-sensitive; no personal role, relationship or history is assumed here.",
+      "transfer": "Comparing the two accounts can help distinguish deliberate adaptation from a description that no longer fits.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0003",
+      "prompt": "If your name is pronounced, shortened, translated, or written differently across settings, what choices would you like others to follow in each setting?",
+      "tags": [
+        "name",
+        "language",
+        "agency"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Different place or culture",
+      "operation": "Generate and choose alternatives",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The packet supports chosen identity and language but does not provide the participant’s name or preferences.",
+      "transfer": "A practical preference note can support respectful introductions while leaving exceptions to your discretion.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0004",
+      "prompt": "What is one description of you that is accurate in a particular setting but misleading if treated as the whole story? You may choose a low-stakes example.",
+      "tags": [
+        "identity",
+        "context",
+        "limits"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. S05 summary anchors conditional selves and changing self-meaning; adult design use does not certify child-care practice."
+      },
+      "context": "Present ordinary life",
+      "operation": "Expose a competing account",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The source material warns against reducing a person to a profile; it does not supply any specific traits or roles.",
+      "transfer": "Naming the condition around a description helps a future helper use it provisionally and ask what has changed.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0005",
+      "prompt": "Think of a role you once accepted, resisted, or set aside. What did it ask of you in that period, and what did you choose to keep or leave behind?",
+      "tags": [
+        "roles",
+        "change"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. S05 summary anchors conditional selves and changing self-meaning; adult design use does not certify child-care practice."
+      },
+      "context": "Chosen past episode",
+      "operation": "Explore attraction repulsion and urge",
+      "depth": "Specific example",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "Changing self-meaning is a source anchor; this prompt does not presume a role or a difficult experience.",
+      "transfer": "The account can clarify which parts of a former role remain useful under current conditions.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0006",
+      "prompt": "If you prefer not to discuss personal history, what present-day words, activities, or boundaries would be enough for a helper to understand how to address you?",
+      "tags": [
+        "privacy",
+        "onboarding",
+        "choice"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Present ordinary life",
+      "operation": "Generate and choose alternatives",
+      "depth": "Unknown or declined information",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The identity and support summaries allow a minimum viable account and respect for chosen participation; they do not require disclosure.",
+      "transfer": "A present-focused note can improve a first encounter without recording an unwanted history.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0007",
+      "prompt": "Imagine you are entering a new group with limited time to introduce yourself. What would you include, and what would you invite people to ask later rather than infer now?",
+      "tags": [
+        "onboarding",
+        "boundaries"
+      ],
+      "sourceRefs": [
+        "S03"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed."
+      },
+      "context": "Possible future under named conditions",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Participant meaning account",
+      "selfLens": "Uncertain future without assumed outcomes",
+      "gap": "Purpose-specific onboarding is described in the travel source; no future group or identity detail is known.",
+      "transfer": "A brief introduction can be reviewed after the encounter to see whether it opened the right conversations.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0008",
+      "prompt": "Which parts of your self-description depend on resources or opportunities you currently have, and which remain meaningful when those conditions change?",
+      "tags": [
+        "resources",
+        "conditional-self"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. S05 summary anchors conditional selves and changing self-meaning; adult design use does not certify child-care practice."
+      },
+      "context": "Different resource conditions",
+      "operation": "Compare resources and resourcefulness",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Participant meaning account",
+      "selfLens": "Constrained self with stated conditions",
+      "gap": "Whole-of-life support notes emphasize changing needs and conditional selves; no resources or opportunities are presumed.",
+      "transfer": "Separating condition-dependent descriptions from enduring meaning can make future plans more adaptable.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0009",
+      "prompt": "If an access need or support arrangement changed, what would you want a new helper to ask before updating their understanding of you?",
+      "tags": [
+        "access",
+        "support",
+        "consent"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Different access or support conditions",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Constrained self with stated conditions",
+      "gap": "The source summary foregrounds access choices and qualified support; it does not imply any particular diagnosis or arrangement.",
+      "transfer": "A consent-based check-in can keep practical support current without turning it into an identity label.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0010",
+      "prompt": "When a memory or record describes you differently from how you would describe yourself now, what evidence or context should be kept alongside it?",
+      "tags": [
+        "memory",
+        "correction"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "M2"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. M2 workbook summary anchors memory/action and cause/outcome record structures; it supplies no personal life events."
+      },
+      "context": "Return after action and new evidence",
+      "operation": "Review outcome and revise the account",
+      "depth": "Later correction and continuation",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The sources describe correction through experience and changing identity; no memory record or discrepancy is assumed to exist.",
+      "transfer": "Adding date, context and your present note preserves the record as revisable rather than definitive.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0011",
+      "prompt": "What language, practice, or community connection would you choose to carry into a place where it is less visible or less available? You may answer hypothetically.",
+      "tags": [
+        "language",
+        "culture",
+        "continuity"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Different place or culture",
+      "operation": "Compare resources and resourcefulness",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Possible best self with stated resources",
+      "gap": "Identity sources support language and place-sensitive self-description, but do not specify any participant culture or connection.",
+      "transfer": "The answer can identify one chosen continuity or a substitute that fits the resources actually available.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0012",
+      "prompt": "If people close to you describe a role differently from how you see it, how would you decide whether their perspective adds useful evidence or crosses a boundary?",
+      "tags": [
+        "relationships",
+        "perspective",
+        "boundaries"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. S05 summary anchors conditional selves and changing self-meaning; adult design use does not certify child-care practice."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Expose a competing account",
+      "depth": "Alternative source or viewpoint",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The observer distinction separates viewpoints; source summaries do not establish other people’s views or authority over identity.",
+      "transfer": "A chosen example and boundary can guide whether to incorporate, question or decline the outside description.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0013",
+      "prompt": "What is a low-stakes item, phrase, or routine that feels representative of you in one context? What would it fail to represent?",
+      "tags": [
+        "memory-cue",
+        "identity"
+      ],
+      "sourceRefs": [
+        "M2",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "M2 workbook summary anchors memory/action and cause/outcome record structures; it supplies no personal life events. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Present ordinary life",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Boundary condition",
+      "observerView": "Environment",
+      "selfLens": "Present",
+      "gap": "The life-logging source summarizes memory and action records; it does not validate an object as a proxy for identity.",
+      "transfer": "A concrete item can serve as a memory cue while its limits remain attached to the interpretation.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0014",
+      "prompt": "If a description you once valued no longer fits, what would help you tell whether it has changed meaning, become outdated, or still fits under narrower conditions?",
+      "tags": [
+        "transition",
+        "identity-change"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. S05 summary anchors conditional selves and changing self-meaning; adult design use does not certify child-care practice."
+      },
+      "context": "Major life transition",
+      "operation": "Review outcome and revise the account",
+      "depth": "Later correction and continuation",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "Changing self-reflection is covered by the supplied design summaries; no transition is assumed.",
+      "transfer": "Keeping both the earlier context and present interpretation supports a more accurate later account.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0015",
+      "prompt": "What would you like a support system to remember about how you want your identity described, and what should it avoid inferring from that note?",
+      "tags": [
+        "support",
+        "representation",
+        "control"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Present ordinary life",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Observable action and transfer",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The support source describes qualified self-information; the packet does not authorize a fixed or exhaustive profile.",
+      "transfer": "A concise preference record can be checked in a later encounter and removed or revised at your request.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0016",
+      "prompt": "Suppose a form asks you to choose one category but none feels quite right. What would make choosing, writing your own words, or skipping the item workable for you?",
+      "tags": [
+        "categories",
+        "choice"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Different access or support conditions",
+      "operation": "Generate and choose alternatives",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Environment",
+      "selfLens": "Constrained self with stated conditions",
+      "gap": "The packet emphasizes chosen language and limits of profiling; no form or category set is supplied.",
+      "transfer": "A preferred response route can inform a future form or first encounter without forcing an inaccurate label.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0017",
+      "prompt": "What parts of your identity would you want to introduce first in a new place, and what would you wait to see before sharing?",
+      "tags": [
+        "transition",
+        "disclosure",
+        "choice"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Possible future under named conditions",
+      "operation": "Generate and choose alternatives",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Uncertain future without assumed outcomes",
+      "gap": "Purpose-specific first encounters and adaptation across travel are source anchors, not evidence of a coming move.",
+      "transfer": "A staged introduction can preserve choice as the setting and trust become clearer.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0018",
+      "prompt": "Can you recall a moment when another person’s respectful use of your chosen words changed how easy the interaction felt? What did they do that mattered?",
+      "tags": [
+        "respect",
+        "interaction"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Describe an episode",
+      "depth": "Specific example",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The source summaries support welcoming encounters and chosen identity, but this asks for a respondent-selected example rather than presuming one occurred.",
+      "transfer": "Identifying the concrete action makes it easier to request or repeat it in another encounter.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0019",
+      "prompt": "Which self-description would you keep private, share only with a particular person, or make broadly available? What controls would make that choice clear?",
+      "tags": [
+        "privacy",
+        "audience",
+        "control"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. S05 summary anchors conditional selves and changing self-meaning; adult design use does not certify child-care practice."
+      },
+      "context": "Present ordinary life",
+      "operation": "Compare resources and resourcefulness",
+      "depth": "Unknown or declined information",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "Whole-of-life support allows chosen participation; no private identity detail is requested or presumed.",
+      "transfer": "A simple audience choice can guide what belongs in an introduction, support note or private reflection.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0020",
+      "prompt": "If a future version of you had different work, family, health, or community conditions, which identity words might you expect to revisit, and which are unknown for now?",
+      "tags": [
+        "future",
+        "uncertainty"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. S05 summary anchors conditional selves and changing self-meaning; adult design use does not certify child-care practice."
+      },
+      "context": "Possible future under named conditions",
+      "operation": "Explain personal meaning",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Participant meaning account",
+      "selfLens": "Uncertain future without assumed outcomes",
+      "gap": "The sources describe conditional selves and changing needs; the named conditions are hypothetical prompts, not predictions.",
+      "transfer": "Marking what is unknown prevents a current account from being mistaken for a forecast.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0021",
+      "prompt": "When you look at a timeline or memory collection, what would you want it to show about your choices as well as what happened around you?",
+      "tags": [
+        "memory",
+        "agency",
+        "context"
+      ],
+      "sourceRefs": [
+        "M2",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "M2 workbook summary anchors memory/action and cause/outcome record structures; it supplies no personal life events. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Chosen past episode",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Alternative source or viewpoint",
+      "observerView": "Environment",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The life-logging workbook summary includes cause/outcome records and memory/action diagrams; it does not state an individual life history.",
+      "transfer": "Adding chosen actions beside surrounding conditions can make later reflection more balanced and correctable.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0022",
+      "prompt": "If someone uses an old description of you in a new setting, what gentle correction would feel practical, if any?",
+      "tags": [
+        "correction",
+        "boundaries"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed. S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred."
+      },
+      "context": "Different place or culture",
+      "operation": "Generate and choose alternatives",
+      "depth": "Observable action and transfer",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The travel and support summaries include correction through experience; no particular outdated label or preferred response is assumed.",
+      "transfer": "A short correction phrase or an option to let it pass can help carry your preference into another encounter.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0023",
+      "prompt": "What would you want to be able to revise in a personal introduction after learning more about a new place or group?",
+      "tags": [
+        "adaptation",
+        "reflection"
+      ],
+      "sourceRefs": [
+        "S03"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S03 summary anchors purpose-specific onboarding, welcoming first encounters and correction after travel; no identity detail is assumed."
+      },
+      "context": "Return after action and new evidence",
+      "operation": "Review outcome and revise the account",
+      "depth": "Later correction and continuation",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The tourism source describes adapting a qualified self after experience; the actual future encounter is unknown.",
+      "transfer": "Reviewing what felt relevant afterward can produce a more useful version without rewriting the past account.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0024",
+      "prompt": "If a helpful description of you began to shape other people’s expectations too narrowly, what sign would tell you it is time to add context or retire it?",
+      "tags": [
+        "profile-limits",
+        "review"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no diagnosis or fixed profile is inferred. S05 summary anchors conditional selves and changing self-meaning; adult design use does not certify child-care practice."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Dependency or consequence",
+      "observerView": "Narrator description and tentative interpretation",
+      "selfLens": "Present",
+      "gap": "The sources caution against a profile becoming the whole person; no existing description or harm is presumed.",
+      "transfer": "A chosen review signal can keep practical notes useful while reducing the chance they become fixed expectations.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0025",
+      "prompt": "What one question would you want a new helper to ask so they learn how you prefer to be understood instead of guessing from a record?",
+      "tags": [
+        "handover",
+        "participant-voice"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "S04 summary anchors participant meaning, changing needs, access choices and qualified support; no private facts or fixed profile are inferred."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Teach or explain across perspectives",
+      "depth": "Alternative source or viewpoint",
+      "observerView": "Participant meaning account",
+      "selfLens": "Possible best self with stated resources",
+      "gap": "The support and observer summaries favor revisable interpretation and participant meaning; no particular helper or record is presumed.",
+      "transfer": "A reusable question can improve handovers by inviting the person’s current account before relying on older notes.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    }
+  ],
+  "generationNotes": "Bounded 25-question calibration batch for T001; authored from supplied design summaries without asserting participant facts or verified outcomes. This is partial pilot work, not a claim that the 1,000-question territory or 100,000-question programme is complete."
+}

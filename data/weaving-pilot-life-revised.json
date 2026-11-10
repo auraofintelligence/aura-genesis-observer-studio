@@ -1,0 +1,673 @@
+{
+  "schema": "aura-weaving-batch/1",
+  "jobId": "T001-B01",
+  "territoryId": "T001",
+  "domainId": "identity",
+  "author": {
+    "kind": "agent",
+    "name": "gpt-6-luna",
+    "runId": "lighter-weaver-pilot-20261110-revision"
+  },
+  "questions": [
+    {
+      "id": "W-T001-0001",
+      "prompt": "When someone asks “what do you do?”, which parts of your answer feel chosen for this encounter, and what would you rather leave open?",
+      "tags": [
+        "identity",
+        "self-description",
+        "choice"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: identity, self-description, choice. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Explain personal meaning",
+      "depth": "Specific example",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The supplied identity sources describe purpose-specific introductions and a minimum viable self, not a complete profile or required disclosure.",
+      "transfer": "A chosen short introduction can be tested in another setting and revised if it feels too narrow.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0002",
+      "prompt": "Recall a time you used different words for yourself with different people. What changed in the setting or relationship, and which version felt useful to you then?",
+      "tags": [
+        "roles",
+        "context"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: roles, context. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Chosen past episode",
+      "operation": "Describe an episode",
+      "depth": "Contrast case",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "Source summaries frame identity as context-sensitive; no personal role, relationship or history is assumed here.",
+      "transfer": "Comparing the two accounts can help distinguish deliberate adaptation from a description that no longer fits.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0003",
+      "prompt": "If your name is pronounced, shortened, translated, or written differently across settings, what choices would you like others to follow in each setting?",
+      "tags": [
+        "name",
+        "language",
+        "agency"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: name, language, agency. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Different place or culture",
+      "operation": "Generate and choose alternatives",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The packet supports chosen identity and language but does not provide the participant’s name or preferences.",
+      "transfer": "A practical preference note can support respectful introductions while leaving exceptions to your discretion.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0004",
+      "prompt": "What is one description of you that is accurate in a particular setting but misleading if treated as the whole story? You may choose a low-stakes example.",
+      "tags": [
+        "identity",
+        "context",
+        "limits"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: identity, context, limits. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Present ordinary life",
+      "operation": "Expose a competing account",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The source material warns against reducing a person to a profile; it does not supply any specific traits or roles.",
+      "transfer": "Naming the condition around a description helps a future helper use it provisionally and ask what has changed.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0005",
+      "prompt": "Think of a role you once accepted, resisted, or set aside. What did it ask of you in that period, what did you choose to keep or leave behind, and what did that choice mean to you then?",
+      "tags": [
+        "roles",
+        "change"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: roles, change. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Chosen past episode",
+      "operation": "Explain personal meaning",
+      "depth": "Specific example",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "Changing self-meaning is a source anchor; this prompt does not presume a role or a difficult experience.",
+      "transfer": "The account can clarify which parts of a former role remain useful under current conditions.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0006",
+      "prompt": "If you prefer not to discuss personal history, what present-day words, activities, or boundaries would be enough for a helper to understand how to address you?",
+      "tags": [
+        "privacy",
+        "onboarding",
+        "choice"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: privacy, onboarding, choice. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Present ordinary life",
+      "operation": "Generate and choose alternatives",
+      "depth": "Unknown or declined information",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The identity and support summaries allow a minimum viable account and respect for chosen participation; they do not require disclosure.",
+      "transfer": "A present-focused note can improve a first encounter without recording an unwanted history.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0007",
+      "prompt": "Imagine joining a group around a shared task rather than giving a personal introduction. What contribution would you want the group to notice first, and what would you not want inferred from it?",
+      "tags": [
+        "group-role",
+        "contribution",
+        "boundaries"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: group-role, contribution, boundaries. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Explain personal meaning",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "Purpose-specific onboarding is described in the travel source; no future group or identity detail is known.",
+      "transfer": "A brief introduction can be reviewed after the encounter to see whether it opened the right conversations.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0008",
+      "prompt": "Which parts of your self-description depend on resources or opportunities you currently have, and which remain meaningful when those conditions change?",
+      "tags": [
+        "resources",
+        "conditional-self"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: resources, conditional-self. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Different resource conditions",
+      "operation": "Compare resources and resourcefulness",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Participant meaning account",
+      "selfLens": "Constrained self with stated conditions",
+      "gap": "Whole-of-life support notes emphasize changing needs and conditional selves; no resources or opportunities are presumed.",
+      "transfer": "Separating condition-dependent descriptions from enduring meaning can make future plans more adaptable.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0009",
+      "prompt": "If an access need or support arrangement changed, which part of the change would matter for how you want to be addressed or supported, and what would you want a new helper to ask before updating their understanding?",
+      "tags": [
+        "access",
+        "support",
+        "consent"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: access, support, consent. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Different access or support conditions",
+      "operation": "Explain personal meaning",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Constrained self with stated conditions",
+      "gap": "The source summary foregrounds access choices and qualified support; it does not imply any particular diagnosis or arrangement.",
+      "transfer": "A consent-based check-in can keep practical support current without turning it into an identity label.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0010",
+      "prompt": "When a memory or record describes you differently from how you would describe yourself now, what evidence or context should be kept alongside it?",
+      "tags": [
+        "memory",
+        "correction"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "M2"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: memory, correction. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. M2 (Aura App LifeLogging Part 1 (neutral).xlsx), locator: Sheet1 B41:K42; B51:B62; B97:H136; L631:T631; its curated summary concerns December age, work modes, memory/action diagrams, motives/modulators and cause/outcome records. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Return after action and new evidence",
+      "operation": "Review outcome and revise the account",
+      "depth": "Later correction and continuation",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The sources describe correction through experience and changing identity; no memory record or discrepancy is assumed to exist.",
+      "transfer": "Adding date, context and your present note preserves the record as revisable rather than definitive.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0011",
+      "prompt": "What language, practice, or community connection would you choose to carry into a place where it is less visible or less available? You may answer hypothetically.",
+      "tags": [
+        "language",
+        "culture",
+        "continuity"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: language, culture, continuity. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Different place or culture",
+      "operation": "Compare resources and resourcefulness",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Possible best self with stated resources",
+      "gap": "Identity sources support language and place-sensitive self-description, but do not specify any participant culture or connection.",
+      "transfer": "The answer can identify one chosen continuity or a substitute that fits the resources actually available.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0012",
+      "prompt": "If people close to you describe a role differently from how you see it, how would you decide whether their perspective adds useful evidence or crosses a boundary?",
+      "tags": [
+        "relationships",
+        "perspective",
+        "boundaries"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: relationships, perspective, boundaries. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Expose a competing account",
+      "depth": "Alternative source or viewpoint",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "An outside account may add a useful perspective without replacing your qualified meaning; the relationship and limits remain yours to set.",
+      "transfer": "A chosen example and boundary can guide whether to incorporate, question or decline the outside description.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0013",
+      "prompt": "What is a low-stakes item, phrase, or routine that feels representative of you in one context? What would it fail to represent?",
+      "tags": [
+        "memory-cue",
+        "identity"
+      ],
+      "sourceRefs": [
+        "M2",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: memory-cue, identity. M2 (Aura App LifeLogging Part 1 (neutral).xlsx), locator: Sheet1 B41:K42; B51:B62; B97:H136; L631:T631; its curated summary concerns December age, work modes, memory/action diagrams, motives/modulators and cause/outcome records. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Present ordinary life",
+      "operation": "Explain personal meaning",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The life-logging source summarizes memory and action records; it does not validate an object as a proxy for identity.",
+      "transfer": "A concrete item can serve as a memory cue while its limits remain attached to the interpretation.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0014",
+      "prompt": "If a description you once valued no longer fits, what would help you tell whether it has changed meaning, become outdated, or still fits under narrower conditions?",
+      "tags": [
+        "transition",
+        "identity-change"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: transition, identity-change. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Major life transition",
+      "operation": "Review outcome and revise the account",
+      "depth": "Later correction and continuation",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "Changing self-reflection is covered by the supplied design summaries; no transition is assumed.",
+      "transfer": "Keeping both the earlier context and present interpretation supports a more accurate later account.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0015",
+      "prompt": "What would you like a support system to remember about how you want your identity described, and what should it avoid inferring from that note?",
+      "tags": [
+        "support",
+        "representation",
+        "control"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: support, representation, control. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Present ordinary life",
+      "operation": "Design an authentic test or artifact",
+      "depth": "Observable action and transfer",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The question distinguishes a stored preference about identity wording from an inference the support record should not make.",
+      "transfer": "A concise preference record can be checked in a later encounter and removed or revised at your request.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0016",
+      "prompt": "Suppose a form asks you to choose one category but none feels quite right. What would make choosing, writing your own words, or skipping the item workable for you?",
+      "tags": [
+        "categories",
+        "choice"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: categories, choice. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Different access or support conditions",
+      "operation": "Generate and choose alternatives",
+      "depth": "Counterfactual with one changed variable",
+      "observerView": "Participant meaning account",
+      "selfLens": "Constrained self with stated conditions",
+      "gap": "The packet emphasizes chosen language and limits of profiling; no form or category set is supplied.",
+      "transfer": "A preferred response route can inform a future form or first encounter without forcing an inaccurate label.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0017",
+      "prompt": "Imagine two roles or commitments that could pull in different directions. What might each represent about you without making either one stand for the whole story? You may use a low-stakes or hypothetical example, or skip personal detail.",
+      "tags": [
+        "roles",
+        "competing-commitments",
+        "identity-limits"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: roles, competing-commitments, identity-limits. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Possible future under named conditions",
+      "operation": "Explain personal meaning",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Uncertain future without assumed outcomes",
+      "gap": "Conflicting roles can each matter without becoming a complete identity label; this leaves open how their meaning changes by condition.",
+      "transfer": "A brief role-pair reflection can help a person name the conditions around each role and revisit the balance later.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0018",
+      "prompt": "Can you recall a moment when another person’s respectful use of your chosen words changed how easy the interaction felt? What did they do that mattered?",
+      "tags": [
+        "respect",
+        "interaction"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: respect, interaction. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Describe an episode",
+      "depth": "Specific example",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The source summaries support welcoming encounters and chosen identity, but this asks for a respondent-selected example rather than presuming one occurred.",
+      "transfer": "Identifying the concrete action makes it easier to request or repeat it in another encounter.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0019",
+      "prompt": "Without naming any private identity detail, what broad audience categories—such as only you, chosen helpers, or wider sharing—would you want for a self-description, and what control should accompany each? You may answer with fictional categories or skip the item.",
+      "tags": [
+        "privacy",
+        "audience",
+        "control"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: privacy, audience, control. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Present ordinary life",
+      "operation": "Generate and choose alternatives",
+      "depth": "Unknown or declined information",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "Whole-of-life support allows chosen participation; no private identity detail is requested or presumed.",
+      "transfer": "A simple audience choice can guide what belongs in an introduction, support note or private reflection.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0020",
+      "prompt": "If a future version of you had different work, family, health, or community conditions, which identity words might you expect to revisit, and which are unknown for now?",
+      "tags": [
+        "future",
+        "uncertainty"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: future, uncertainty. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Possible future under named conditions",
+      "operation": "Explain personal meaning",
+      "depth": "Boundary condition",
+      "observerView": "Participant meaning account",
+      "selfLens": "Uncertain future without assumed outcomes",
+      "gap": "The sources describe conditional selves and changing needs; the named conditions are hypothetical prompts, not predictions.",
+      "transfer": "Marking what is unknown prevents a current account from being mistaken for a forecast.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0021",
+      "prompt": "When you look at a timeline or memory collection, what would you want it to show about your choices as well as what happened around you?",
+      "tags": [
+        "memory",
+        "agency",
+        "context"
+      ],
+      "sourceRefs": [
+        "M2",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: memory, agency, context. M2 (Aura App LifeLogging Part 1 (neutral).xlsx), locator: Sheet1 B41:K42; B51:B62; B97:H136; L631:T631; its curated summary concerns December age, work modes, memory/action diagrams, motives/modulators and cause/outcome records. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Chosen past episode",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Alternative source or viewpoint",
+      "observerView": "Environment",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The life-logging workbook summary includes cause/outcome records and memory/action diagrams; it does not state an individual life history.",
+      "transfer": "Adding chosen actions beside surrounding conditions can make later reflection more balanced and correctable.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0022",
+      "prompt": "If someone uses an old description of you in a new setting, what gentle correction would feel practical, if any?",
+      "tags": [
+        "correction",
+        "boundaries"
+      ],
+      "sourceRefs": [
+        "S03",
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: correction, boundaries. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Different place or culture",
+      "operation": "Generate and choose alternatives",
+      "depth": "Observable action and transfer",
+      "observerView": "Participant meaning account",
+      "selfLens": "Present",
+      "gap": "The travel and support summaries include correction through experience; no particular outdated label or preferred response is assumed.",
+      "transfer": "A short correction phrase or an option to let it pass can help carry your preference into another encounter.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0023",
+      "prompt": "What would you want to be able to revise in a personal introduction after learning more about a new place or group?",
+      "tags": [
+        "adaptation",
+        "reflection"
+      ],
+      "sourceRefs": [
+        "S03"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: adaptation, reflection. S03 (Aura_of_Intelligence_Tourism_and_Domestic_Travel.docx), locator: Sections Recording a minimum viable self; A welcoming first encounter; Developing the qualified self; its curated summary concerns Purpose-specific onboarding, travel and correction through experience. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Return after action and new evidence",
+      "operation": "Review outcome and revise the account",
+      "depth": "Later correction and continuation",
+      "observerView": "Participant meaning account",
+      "selfLens": "Past in its actual conditions",
+      "gap": "The tourism source describes adapting a qualified self after experience; the actual future encounter is unknown.",
+      "transfer": "Reviewing what felt relevant afterward can produce a more useful version without rewriting the past account.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0024",
+      "prompt": "If a helpful description of you began to shape other people’s expectations too narrowly, what sign would tell you it is time to add context or retire it?",
+      "tags": [
+        "profile-limits",
+        "review"
+      ],
+      "sourceRefs": [
+        "S04",
+        "S05"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: profile-limits, review. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. S05 (Aura_Genesis_Children_and_Teens_Australian_Care.docx), locator: Sections Deep self reflection and a changing sense of self; Understanding law; its curated summary concerns Conditional selves, changing meanings and Verse Box distinction; adult studio does not certify child-care use. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Identify available and noticed evidence",
+      "depth": "Dependency or consequence",
+      "observerView": "Narrator description and tentative interpretation",
+      "selfLens": "Present",
+      "gap": "The sources caution against a profile becoming the whole person; no existing description or harm is presumed.",
+      "transfer": "A chosen review signal can keep practical notes useful while reducing the chance they become fixed expectations.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    },
+    {
+      "id": "W-T001-0025",
+      "prompt": "What one question would you want a new helper to ask so they learn how you prefer to be understood instead of guessing from a record?",
+      "tags": [
+        "handover",
+        "participant-voice"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "provenance": {
+        "kind": "authored_synthesis",
+        "sourceNotes": "Question-specific focus: handover, participant-voice. S04 (Aura_of_Intelligence_Adaptive_Whole_of_Life_Support.docx), locator: Sections Recording a minimum viable self; Self reflection identity and future wishes; Memory palaces; its curated summary concerns Own meaning, changing needs, access choices and qualified support. Only that packet summary and locator were consulted; the underlying source passage was not independently rechecked. This is authored synthesis and asserts no participant facts."
+      },
+      "context": "Relationship or group encounter",
+      "operation": "Teach or explain across perspectives",
+      "depth": "Alternative source or viewpoint",
+      "observerView": "Participant meaning account",
+      "selfLens": "Possible best self with stated resources",
+      "gap": "The support and observer summaries favor revisable interpretation and participant meaning; no particular helper or record is presumed.",
+      "transfer": "Testing this question in a later handover can show whether the introduction needs revision; it does not prove the helper fully understands the person.",
+      "premiseMode": "open_or_hypothetical",
+      "privateAssumptions": false,
+      "diagnosticInference": false
+    }
+  ],
+  "generationNotes": "Revised bounded 25-question calibration batch following the independent AI editorial review. Question-relevant supplied locators are recorded with explicit summary-only source limits; selected prompts, operations, dimensions, transfer notes and semantic overlaps were repaired. This remains partial pilot work and does not claim the 100,000-question atlas is complete."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "aura-genesis-observer-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Whole-of-life Aura, three observers, a 100,000-question weaving atlas and teacher development.",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "test": "python -m unittest discover -s tests -p '*test.py'",
+    "preview": "python -m http.server 4317 --directory docs"
+  },
+  "devDependencies": { "marked": "17.0.5" }
+}

@@ -1,0 +1,93 @@
+<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Operate the question-weaving pipeline · Aura Genesis Observer Studio</title><meta name="description" content="Operate the question-weaving pipeline: source-grounded whole-of-life and teacher development in Aura Genesis Observer Studio."><link rel="canonical" href="https://auraofintelligence.github.io/aura-genesis-observer-studio/guide-weaving-runtime.html"><link rel="icon" href="assets/favicon-32.png"><link rel="stylesheet" href="assets/reader.css"></head><body id="top"><a class="skip" href="#reading">Skip to reading</a><header><a class="brand" href="index.html"><img src="assets/favicon.png" alt="" width="40" height="40">Aura Genesis <span>Observer Studio</span></a><nav aria-label="Main"><a href="index.html#atlas">100k atlas</a><a href="index.html#questionnaire">Workbook</a><a href="index.html#observers">Observers</a><a href="sitemap.html">All pages</a></nav></header><section class="reading-hero" style="background-image:linear-gradient(90deg,rgba(22,5,35,.95),rgba(22,5,35,.7) 55%,rgba(22,5,35,.3)),url('assets/workshop-hero.webp')"><div><p class="eyebrow">AURA OF INTELLIGENCE / READING ROOM</p><h1>Operate the question-weaving pipeline</h1><p class="tag">Edition 1 · 10 November 2026</p><p class="credit">GenAI concept illustration · <a href="image-credits.html">Image credits</a></p></div></section><div class="reading-layout"><aside><details open><summary>On this page</summary><ol><li><a href="#create-a-local-production-ledger">Create a local production ledger</a></li><li><a href="#give-a-lighter-agent-a-complete-bounded-task">Give a lighter agent a complete bounded task</a></li><li><a href="#required-batch-record">Required batch record</a></li><li><a href="#import-and-inspect">Import and inspect</a></li><li><a href="#record-a-real-review-decision">Record a real review decision</a></li><li><a href="#keep-answered-separate-from-accepted">Keep answered separate from accepted</a></li><li><a href="#read-the-honest-production-totals">Read the honest production totals</a></li><li><a href="#verification-and-practical-limits">Verification and practical limits</a></li></ol></details><p><a href="downloads/weaving-runtime.md" download>Download the Markdown</a></p><p><a href="index.html#sources">Source catalogue</a></p></aside><main id="reading" tabindex="-1"><h1 id="producing-the-one-hundred-thousand-question-atlas">Producing the one hundred thousand question atlas</h1>
+<p>The atlas defines <strong>100,000 planned question slots across 100 territories</strong>: 60,000 for whole-of-life reflection, 30,000 for teacher learning and practice, and 10,000 for Aura and Genesis integration. The local weaving runtime turns that design into 2,000 reviewable jobs of up to 50 questions. It does not pretend those slots already contain authored questions.</p>
+<p>The work proceeds through separate stages: plan, prepare a source-bound packet, ask a chosen agent or human to author a batch, import the batch, review its meaning, and record any later answers separately. The tool has no network client, model invocation, automatic agent spawning or token-spending operation. Choosing and running a model remains an explicit action outside this runtime.</p>
+<h2 id="create-a-local-production-ledger">Create a local production ledger</h2>
+<p>From the repository root, use Python 3.10 or later:</p>
+<pre><code class="language-text">python runtime/weave.py plan --atlas data/weaving-atlas.json --out .private/weaving
+</code></pre>
+<p>The command reads the atlas and the adjacent <code>sources.json</code> and <code>questionnaire.json</code>. It verifies quota totals and source IDs, then creates a deterministic <code>jobs.jsonl</code>, a plan snapshot in <code>manifest.json</code>, and a transactional SQLite ledger. The existing seed questions are registered for duplicate checking; they are not counted as generated atlas slots.</p>
+<p>For this atlas, the result is 100,000 planned slots and 2,000 jobs, with zero generated, checked, accepted or answered questions. The command will not overwrite an existing ledger. Keep using that ledger for subsequent work; use another directory only for a deliberately separate production run.</p>
+<p>The plan files are snapshots. Their initially planned states do not update when batches arrive. Use <code>status</code> for current counts from the ledger.</p>
+<h2 id="give-a-lighter-agent-a-complete-bounded-task">Give a lighter agent a complete bounded task</h2>
+<p>For the first teacher territory:</p>
+<pre><code class="language-text">python runtime/weave.py packet --ledger .private/weaving --job T061-B01 --out .private/weaving/teacher-packet.json
+</code></pre>
+<p>For the first whole-of-life territory, substitute <code>T001-B01</code>. A job ID names a territory and batch. The first job in T061 owns <code>W-T061-0001</code> through <code>W-T061-0050</code>; the twentieth owns <code>W-T061-0951</code> through <code>W-T061-1000</code>.</p>
+<p>The packet includes a standalone authoring prompt, territory objective, exact allowed source references, design summaries and source locators, dimension vocabulary, available IDs, existing territory questions and a complete batch-specific JSON Schema. It can be passed to a chosen lighter agent without requiring that agent to reconstruct the whole chat.</p>
+<p>The default packet contains curated design summaries, <strong>not the complete original PDF or Word passages</strong>. The author must say what informed the question and what was not verified. A source ID is not permission to invent a quotation, factual premise or claim of close reading. A later source steward can provide an appropriately scoped primary passage and record that provenance in the question&#39;s source notes.</p>
+<p>Authoring should weave meaningful distinctions rather than mechanically multiply labels. Useful questions expose a specific dilemma, contrast, ambiguity, context change, practical attempt or transfer task. If only 12 good questions are ready, return 12; the other 38 slots remain open. A quota is a coverage target, not a reason to accept filler.</p>
+<p>Whole-of-life prompts should accommodate chosen life chapters, changing support, relationships, livelihood, place and meaning without inventing personal facts. Teacher prompts should examine learner purpose, explanation, actual attempts, feedback and transfer. Adding “as a teacher” to an ordinary personal question does not by itself create a teaching question.</p>
+<h2 id="required-batch-record">Required batch record</h2>
+<p>The packet contains the authoritative schema. Its shape is:</p>
+<pre><code class="language-json">{
+  &quot;schema&quot;: &quot;aura-weaving-batch/1&quot;,
+  &quot;jobId&quot;: &quot;T061-B01&quot;,
+  &quot;territoryId&quot;: &quot;T061&quot;,
+  &quot;domainId&quot;: &quot;teacher-learning&quot;,
+  &quot;author&quot;: {
+    &quot;kind&quot;: &quot;agent&quot;,
+    &quot;name&quot;: &quot;The actual author or model&quot;,
+    &quot;runId&quot;: &quot;A traceable authoring run identifier&quot;
+  },
+  &quot;questions&quot;: [
+    {
+      &quot;id&quot;: &quot;W-T061-0001&quot;,
+      &quot;prompt&quot;: &quot;A newly authored, open or explicitly hypothetical question belongs here.&quot;,
+      &quot;tags&quot;: [&quot;teacher&quot;, &quot;starting-knowledge&quot;],
+      &quot;sourceRefs&quot;: [&quot;T60&quot;],
+      &quot;provenance&quot;: {
+        &quot;kind&quot;: &quot;authored_synthesis&quot;,
+        &quot;sourceNotes&quot;: &quot;State the actual design evidence used and its limits.&quot;
+      },
+      &quot;context&quot;: &quot;Learner starting point&quot;,
+      &quot;operation&quot;: &quot;Describe an episode&quot;,
+      &quot;depth&quot;: &quot;Specific example&quot;,
+      &quot;observerView&quot;: &quot;Participant meaning account&quot;,
+      &quot;selfLens&quot;: &quot;Present&quot;,
+      &quot;gap&quot;: &quot;Name the specific distinction missing from the existing territory.&quot;,
+      &quot;transfer&quot;: &quot;Describe what an answer could change in an actual teaching encounter.&quot;,
+      &quot;premiseMode&quot;: &quot;open_or_hypothetical&quot;,
+      &quot;privateAssumptions&quot;: false,
+      &quot;diagnosticInference&quot;: false
+    }
+  ],
+  &quot;generationNotes&quot;: &quot;Explain partial coverage, limitations and unresolved source questions.&quot;
+}
+</code></pre>
+<p>This is a shape illustration, not a completed pilot batch. The generator cannot assign <code>accepted</code>, <code>checked</code>, <code>answered</code> or another review status. The authoring record distinguishes questions from answers, measurements, quotations and claims about a participant&#39;s private life.</p>
+<h2 id="import-and-inspect">Import and inspect</h2>
+<p>Save an actual agent-produced batch locally, then import it:</p>
+<pre><code class="language-text">python runtime/weave.py import --ledger .private/weaving --input .private/teacher-batch.json
+</code></pre>
+<p>The importer checks batch size, assigned IDs, territory and domain, approved dimension labels, source scope, required gap and transfer descriptions, provenance declarations and distinct prompts. It rejects unsupported fields and attempts to claim measured or quoted provenance. A limited text check catches some unqualified private-life assumptions; this is an aid to review, not proof that every premise is appropriate.</p>
+<p>Exact duplicates are rejected after Unicode, case, punctuation and whitespace normalisation. This check covers the original seed library and every generated territory. Token-overlap comparisons flag possible near duplicates within the territory and current batch. They do not determine semantic equivalence: differently phrased repetition can escape them, and useful contrast questions can resemble each other. The reviewer decides whether the meaning adds anything.</p>
+<p>Import is transactional: an invalid record rejects the batch without partially recording its valid neighbours. A valid import produces <strong>generated</strong> records. Structural validation is not editorial acceptance and does not increase the checked or answered counts.</p>
+<p>Only selected question text and production metadata enter this ledger. Actual participant answers are not imported by the batch command. Private source material and answer files should stay outside the published website.</p>
+<h2 id="record-a-real-review-decision">Record a real review decision</h2>
+<p>After reading the question, checking source use, judging novelty and assessing its practical purpose, record the reviewer and reason:</p>
+<pre><code class="language-text">python runtime/weave.py review --ledger .private/weaving --ids W-T061-0001 --reviewer &quot;Named reviewer&quot; --decision accepted --note &quot;State the substantive source, novelty and teaching-purpose checks actually performed.&quot;
+</code></pre>
+<p>The other decisions are <code>needs_revision</code> and <code>rejected</code>. A reviewer can inspect a partial batch rather than accepting a whole job. Passing the importer is never a reason by itself to accept a question. A declared reviewer name records responsibility; the software does not authenticate that person&#39;s identity or prove the review occurred as described.</p>
+<p>For a requested revision, create a new packet containing the relevant reviewer notes:</p>
+<pre><code class="language-text">python runtime/weave.py packet --ledger .private/weaving --job T061-B01 --revision --out .private/weaving/teacher-revision-packet.json
+python runtime/weave.py import --ledger .private/weaving --input .private/teacher-revision.json --revise
+</code></pre>
+<p>Only rejected or revision-requested slots without answer records can be replaced in this way. The earlier question is retained in the event history, and the revised record returns to generated status for fresh review. Accepted questions cannot be silently overwritten. There is no automatic retry loop; the coordinator decides whether another attempt is worthwhile.</p>
+<h2 id="keep-answered-separate-from-accepted">Keep answered separate from accepted</h2>
+<p>When an actual answer exists, its local reference can be recorded explicitly:</p>
+<pre><code class="language-text">python runtime/weave.py answer --ledger .private/weaving --id W-T061-0001 --reference .private/answers/teacher-example.json --actor &quot;Answer recorder&quot; --kind actual
+</code></pre>
+<p>The question must already be accepted. <code>--kind simulation</code> records a simulated response instead, and does <strong>not</strong> increase the actual answered count. The runtime records the reference without reading or authenticating its contents. It cannot determine whether the answer is complete, meaningful, endorsed or genuinely experienced. An existing answer reference is not silently replaced.</p>
+<h2 id="read-the-honest-production-totals">Read the honest production totals</h2>
+<pre><code class="language-text">python runtime/weave.py status --ledger .private/weaving
+python runtime/weave.py report --ledger .private/weaving --out .private/weaving/status-snapshot.json
+</code></pre>
+<p>The report gives overall, stream and territory counts. Planned capacity, generated slots, explicitly checked records, accepted records, revision requests, rejections, actual answers and simulated answers remain distinct. <code>unfilled</code> means slots with no generated record; rejected slots still need editorial work even though their generation has been recorded. <code>complete</code> means every planned slot has an accepted question, not that anyone has answered the corpus or completed teacher training.</p>
+<p>Use a current report when preparing a public progress snapshot. A polished coverage map is still a plan until the ledger contains actual text and review decisions. At 100,000 questions, a hypothetical average word count can estimate delivery time, but only generated text can establish actual word counts. Reflection, answers, pauses and practical activity have their own time records.</p>
+<h2 id="verification-and-practical-limits">Verification and practical limits</h2>
+<pre><code class="language-text">python tests/weave_test.py
+</code></pre>
+<p>The tests cover deterministic planning; zero fabricated completion; source-bound packets; separate production states; explicit review and answer classification; atomic rejection; invalid IDs, sources and dimensions; exact and near duplicates; private-premise and provenance checks; and revision history. The software uses only Python&#39;s standard library and SQLite.</p>
+<p>Allocate each job to one authoring worker at a time. Duplicate slot imports are rejected rather than merged automatically. The packet contains earlier questions from its territory so the author can see existing coverage, but there is no automatic semantic search across all 100,000 slots. As the corpus grows, cross-territory conceptual review and learner-use evidence remain necessary.</p>
+<p>The aim is a large, coherent and revisable library whose questions earn their place. The production system makes gaps visible and gives lighter agents bounded work; it does not turn a numerical target into evidence of understanding.</p>
+<nav class="page-turn" aria-label="Reading sequence"><a href="guide-pilot.html">← The lighter-agent pilot and its review</a><a href="#top">Top ↑</a><a href="guide-questionnaire.html">The reflection seed library →</a></nav></main></div><footer><a href="https://auraofintelligence.github.io/" target="_blank" rel="noopener noreferrer">Aura of Intelligence</a> · Luke Nathan Hayes × AI-assisted development · <a href="licence.html">Strange But True Public Source Licence</a> · <a href="sitemap.html">All pages</a></footer></body></html>

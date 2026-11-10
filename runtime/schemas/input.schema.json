@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://auraofintelligence.github.io/aura-genesis-observer-studio/schemas/aura-observer-input-1",
+  "title": "Aura observer input version 1",
+  "description": "Structural contract. runtime/aura.py additionally validates source and prior-evidence references, simulation lineage, measurement origin, permissions and budgets.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "scenario_id", "title", "record_mode", "sources", "evidence"],
+  "properties": {
+    "schema": {"const": "aura-observer-input/1"},
+    "scenario_id": {"type": "string", "minLength": 1, "maxLength": 240},
+    "title": {"type": "string", "minLength": 1, "maxLength": 240},
+    "record_mode": {"enum": ["simulation", "real"]},
+    "sources": {"type": "array", "minItems": 1, "maxItems": 1000, "items": {"$ref": "#/$defs/source"}},
+    "evidence": {"type": "array", "minItems": 1, "maxItems": 1000, "items": {"$ref": "#/$defs/evidence"}},
+    "swarm_evidence_ids": {"$ref": "#/$defs/ids"},
+    "budget": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "max_swarm_tasks": {"type": "integer", "minimum": 0, "maximum": 4, "default": 4},
+        "max_model_calls": {"type": "integer", "minimum": 0, "maximum": 3, "default": 3},
+        "max_prompt_chars": {"type": "integer", "minimum": 0, "maximum": 200000, "default": 48000},
+        "max_total_response_tokens": {"type": "integer", "minimum": 0, "maximum": 12288, "default": 1536},
+        "per_call_response_tokens": {"type": "integer", "minimum": 0, "maximum": 4096, "default": 512},
+        "max_wall_seconds": {"type": "integer", "minimum": 0, "maximum": 300, "default": 120}
+      }
+    }
+  },
+  "$defs": {
+    "ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "label", "kind", "locator", "captured_at"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1, "maxLength": 1000},
+        "label": {"type": "string", "minLength": 1, "maxLength": 1000},
+        "kind": {"enum": ["simulation", "document", "self_report", "observation", "measurement"]},
+        "locator": {"type": "string", "minLength": 1, "maxLength": 1000},
+        "captured_at": {"type": "string", "minLength": 1, "maxLength": 1000},
+        "export_permission": {"const": "none", "default": "none"},
+        "local_model_permission": {"type": "boolean", "default": false}
+      }
+    },
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "stream", "claim_kind", "evidence_class", "is_simulated", "text", "source_ids", "observed_at"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1, "maxLength": 12000},
+        "stream": {"enum": ["environment", "character_attention", "narrator", "user_meaning"]},
+        "claim_kind": {"enum": ["world_state", "noticed_cue", "observable_behavior", "self_report", "interpretation", "unknown", "correction", "proposal"]},
+        "evidence_class": {"enum": ["simulation", "reported", "measured", "derived"]},
+        "is_simulated": {"type": "boolean"},
+        "text": {"type": "string", "minLength": 1, "maxLength": 12000},
+        "source_ids": {"allOf": [{"$ref": "#/$defs/ids"}], "minItems": 1},
+        "observed_at": {"type": "string", "minLength": 1, "maxLength": 12000},
+        "derived_from": {"$ref": "#/$defs/ids"},
+        "supersedes": {"$ref": "#/$defs/ids"},
+        "conflicts_with": {"$ref": "#/$defs/ids"}
+      }
+    }
+  }
+}

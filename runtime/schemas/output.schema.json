@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://auraofintelligence.github.io/aura-genesis-observer-studio/schemas/aura-observer-run-1",
+  "title": "Aura observer run version 1",
+  "description": "Output structure; original_evidence remains authoritative source wording. Model results are unreviewed derived interpretations. No publication or external action capability exists.",
+  "type": "object",
+  "required": ["schema", "scenario_id", "record_mode", "input_sha256", "export_permission", "network_used", "external_actions_executed", "model_training_implemented", "sources", "original_evidence", "observer_packets", "fourth_account", "comparison_ledger", "unknowns", "proposed_action_queue", "swarm", "budget", "validation"],
+  "properties": {
+    "schema": {"const": "aura-observer-run/1"},
+    "scenario_id": {"type": "string"},
+    "record_mode": {"enum": ["simulation", "real"]},
+    "input_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "is_simulation": {"type": "boolean"},
+    "export_permission": {"const": "none"},
+    "network_used": {"type": "boolean"},
+    "external_actions_executed": {"type": "array", "maxItems": 0},
+    "model_training_implemented": {"const": false},
+    "sources": {"type": "array"},
+    "original_evidence": {"type": "array"},
+    "observer_packets": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "prefixItems": [
+        {"allOf": [{"$ref": "#/$defs/packet"}, {"properties": {"observer_id": {"const": "environment"}}}]},
+        {"allOf": [{"$ref": "#/$defs/packet"}, {"properties": {"observer_id": {"const": "character_attention"}}}]},
+        {"allOf": [{"$ref": "#/$defs/packet"}, {"properties": {"observer_id": {"const": "narrator"}}}]}
+      ]
+    },
+    "fourth_account": {"type": "object", "required": ["role", "authority", "records"], "properties": {"role": {"const": "user_meaning"}, "records": {"type": "array"}}},
+    "comparison_ledger": {"type": "array"},
+    "unknowns": {"type": "array"},
+    "proposed_action_queue": {"type": "array", "items": {"type": "object", "required": ["id", "description", "kind", "status", "requires", "source_ids"], "properties": {"kind": {"const": "proposal"}, "status": {"const": "not_executed"}}}},
+    "swarm": {"type": "object", "required": ["coordinator", "mode", "tasks", "completed_tasks", "maximum_tasks", "external_tool_execution_available"], "properties": {"external_tool_execution_available": {"const": false}, "tasks": {"type": "array", "minItems": 4, "maxItems": 4}}},
+    "budget": {"type": "object"},
+    "validation": {"type": "object"},
+    "local_model": {"type": "object", "required": ["endpoint", "model", "calls", "response_tokens_reserved_or_used", "results", "upstream_service_egress_verified", "integration_status"], "properties": {"calls": {"type": "integer", "minimum": 0, "maximum": 3}, "upstream_service_egress_verified": {"const": false}}}
+  },
+  "$defs": {
+    "packet": {
+      "type": "object", "required": ["observer_id", "instruction", "evidence_ids", "payload", "prompt", "prompt_chars", "status"],
+      "properties": {"observer_id": {"enum": ["environment", "character_attention", "narrator"]}, "evidence_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}, "payload": {"type": "object"}, "instruction": {"type": "string"}, "prompt": {"type": "string"}, "prompt_chars": {"type": "integer", "minimum": 0}, "status": {"enum": ["prepared", "budget_stopped"]}}
+    }
+  }
+}

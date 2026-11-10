@@ -1,0 +1,271 @@
+{
+  "schema": "aura-weaving-pilot-review/1",
+  "reviewedOn": "2026-11-10",
+  "reviewer": "Independent curriculum/content review agent; separate from the lighter-agent generator",
+  "reviewKind": "AI editorial review against supplied design-summary packets, source register and current seed questions; not human approval and not complete primary-passage verification",
+  "sourceBoundary": "The batches were reviewed as authored_synthesis from summaries. No claim is made that every underlying primary-source passage was inspected for this pilot. Exact source locations are required in the next sourceNotes revision without upgrading the worker reading claim.",
+  "inputHashes": {
+    "weaving-pilot-life.json": "bf8c6c1f1b10825c5615478f5a36c6c57164a1391c78dd4e2c96d55f4eea4335",
+    "weaving-pilot-teacher.json": "7938623ed1bac8b301969dfc4bcad642fa49835e8f66ca022cea8ce88f5b8f1d"
+  },
+  "counts": {
+    "generatedReviewed": 50,
+    "accepted": 0,
+    "needs_revision": 47,
+    "rejected": 3
+  },
+  "sharedIssue": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement.",
+  "decisions": [
+    {
+      "id": "W-T001-0001",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the occupational-introduction context: it adds a concrete encounter to the broad identity seed."
+    },
+    {
+      "id": "W-T001-0002",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the paired past introductions and the setting/relationship comparison; this elicits an episode rather than a timeless trait."
+    },
+    {
+      "id": "W-T001-0003",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep pronunciation, shortening and translation choices: a concrete deepening of seed MVS-01-03, not a merely cosmetic rewrite."
+    },
+    {
+      "id": "W-T001-0004",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the condition in which an otherwise accurate description becomes misleading; avoid turning its answer into a fixed trait."
+    },
+    {
+      "id": "W-T001-0005",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the former-role demands and retained/relinquished parts. Check the operation tag: the prompt does not explicitly examine urge, so either use a more accurate allowed operation or add that distinction deliberately."
+    },
+    {
+      "id": "W-T001-0006",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the present-only non-disclosure route; it provides a practical alternative rather than requiring biography."
+    },
+    {
+      "id": "W-T001-0007",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep this explicit time-limited new-group introduction and invitation to ask later; use it as the canonical version instead of 0017."
+    },
+    {
+      "id": "W-T001-0008",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep resource-dependent versus continuing identity meaning. Its resource comparison is substantive."
+    },
+    {
+      "id": "W-T001-0009",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the hypothetical support change. Consider a meaning/revision operation instead of an attention-evidence label if no cue comparison is intended."
+    },
+    {
+      "id": "W-T001-0010",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the evidence/context attached to an older record; this is distinct from revising the wording of an introduction."
+    },
+    {
+      "id": "W-T001-0011",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep continuity in a setting where a practice is less available. The hypothetical alternative is clear."
+    },
+    {
+      "id": "W-T001-0012",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the boundary for outside accounts. Repair gap wording: it invokes the observer distinction although the listed S04/S05 summaries do not establish that architecture; describe the qualified-meaning connection or obtain an allowed source packet that supports the observer claim."
+    },
+    {
+      "id": "W-T001-0013",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the concrete symbolic cue and its limits. Change observerView from Environment to Participant meaning account and operation to Explain personal meaning; the question asks what feels representative, not what an environment observer can establish."
+    },
+    {
+      "id": "W-T001-0014",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the distinction among changed meaning, outdated wording and narrower conditions; its answer can guide record revision."
+    },
+    {
+      "id": "W-T001-0015",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep only if its gap is stated more specifically: specify the stored preference and forbidden inference, so it adds to seed MVS-23-01 instead of becoming another broad remember/avoid question."
+    },
+    {
+      "id": "W-T001-0016",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the forced-category interface dilemma. Change observerView to Participant meaning account unless the task is rewritten to examine the form itself."
+    },
+    {
+      "id": "W-T001-0017",
+      "decision": "rejected",
+      "note": "REJECT semantic duplicate of W-T001-0007: introducing identity first and delaying disclosure in a new place does not add a materially different inquiry to the more concrete time-limited group example. Preserve this wording only as an alternate phrasing, not another unique question."
+    },
+    {
+      "id": "W-T001-0018",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the recalled or absent respectful-wording encounter and the concrete action that helped; the can-you-recall wording allows no example."
+    },
+    {
+      "id": "W-T001-0019",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the audience/control inquiry, but change operation from Compare resources and resourcefulness to Generate and choose alternatives. Invite a category-level or fictional response rather than requiring the private content itself."
+    },
+    {
+      "id": "W-T001-0020",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the explicitly hypothetical future account. The current depth claims one changed variable while the prompt lists several condition types; ask the respondent to choose one change or use Boundary condition instead."
+    },
+    {
+      "id": "W-T001-0021",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep chosen actions alongside surrounding conditions in the timeline; it adds agency evidence rather than merely naming events."
+    },
+    {
+      "id": "W-T001-0022",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the practical correction phrase and if-any option. Gentle is a proposed tone, not a required personality characteristic."
+    },
+    {
+      "id": "W-T001-0023",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the after-encounter revision of an introduction; it is a distinct feedback stage from 0007."
+    },
+    {
+      "id": "W-T001-0024",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the external expectation signal for retiring a label; it differs from 0014 by asking about consequences in an encounter."
+    },
+    {
+      "id": "W-T001-0025",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the participant-designed next question; use it to revise onboarding rather than treating it as proof the helper now understands the person."
+    },
+    {
+      "id": "W-T061-0001",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the familiar-example boundary test of a claimed explanation; it directly examines prior understanding."
+    },
+    {
+      "id": "W-T061-0002",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the competing learner purpose/curriculum sequence and evidence for adapting it; canonical version instead of 0011."
+    },
+    {
+      "id": "W-T061-0003",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the distinction between unfamiliar content and familiar knowledge under another name."
+    },
+    {
+      "id": "W-T061-0004",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the learner method account before another demonstration. If the scenario is hypothetical, use Present or an explicit chosen-past framing rather than automatically assigning Past in its actual conditions."
+    },
+    {
+      "id": "W-T061-0005",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the meaningful-project connection with non-disclosure preserved; it adds a real teaching entry route."
+    },
+    {
+      "id": "W-T061-0006",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the separation of observed response from the teacher explanation. Add describe or imagine so novice teachers without a prior incident have an explicit route; the gap note offers that route but the prompt currently does not."
+    },
+    {
+      "id": "W-T061-0007",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep disagreement without forced agreement and an inspectable competing account."
+    },
+    {
+      "id": "W-T061-0008",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep readiness as a tentative interpretation with a rival explanation; no validated indicator is claimed."
+    },
+    {
+      "id": "W-T061-0009",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep alternative evidence under resource/access constraints; use as the canonical question instead of 0022."
+    },
+    {
+      "id": "W-T061-0010",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep prerequisite skill demonstrated without formal terminology. Allow a skill you teach or plan to teach so the question serves the adult trainee as well as an experienced teacher."
+    },
+    {
+      "id": "W-T061-0011",
+      "decision": "rejected",
+      "note": "REJECT semantic duplicate of W-T061-0002: deciding whether an unexpected learner goal connects to the plan or needs another route repeats the same decision already made more concrete by competing demands and evidence in 0002."
+    },
+    {
+      "id": "W-T061-0012",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the slip-versus-model distinction and a changed-task follow-up; this is a learning interpretation, not clinical diagnosis."
+    },
+    {
+      "id": "W-T061-0013",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep two correct methods and peer comparison; the question examines different affordances, not simple correctness."
+    },
+    {
+      "id": "W-T061-0014",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep a prediction before demonstration so hindsight cannot replace the earlier idea."
+    },
+    {
+      "id": "W-T061-0015",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the halved-time constraint and deliberate preservation of starting-knowledge evidence."
+    },
+    {
+      "id": "W-T061-0016",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep alternative explanations for changed participation across tasks; the observed/personal account boundary is preserved."
+    },
+    {
+      "id": "W-T061-0017",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the learner-owned meaning of an unfamiliar term before teacher translation. This differs from 0003 because the teacher, not the learner, lacks the term meaning."
+    },
+    {
+      "id": "W-T061-0018",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep provisional sufficiency and visible uncertainty; no universal mastery threshold is invented."
+    },
+    {
+      "id": "W-T061-0019",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the non-personal route after a learner declines their reason; prior-knowledge evidence can still be gathered."
+    },
+    {
+      "id": "W-T061-0020",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep task-conditional handover rather than a fixed label. Add the intended audience/permission boundary to the transfer note before suggesting actual learner information be shared."
+    },
+    {
+      "id": "W-T061-0021",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep one controlled reduction of support to test independent capability, with restoration when needed."
+    },
+    {
+      "id": "W-T061-0022",
+      "decision": "rejected",
+      "note": "REJECT semantic duplicate of W-T061-0009: a usual response route becoming unavailable leads to the same alternative-evidence/equivalent-thinking inquiry as limited access/materials. A future new question could instead test whether two assessment formats are truly equivalent."
+    },
+    {
+      "id": "W-T061-0023",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep unfamiliar-context evidence at unit review. It extends the personal transfer seed to a teacher decision about a taught unit and observed learner work."
+    },
+    {
+      "id": "W-T061-0024",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep changing a goal after experience without calling it failure; this is a longitudinal revision rather than the initial mismatch in 0002."
+    },
+    {
+      "id": "W-T061-0025",
+      "decision": "needs_revision",
+      "note": "S1: Add the relevant exact locator already supplied by the source register/packet to provenance.sourceNotes, while retaining that the worker used a design summary rather than inspected complete primary-source passages. Current generic summaries are honest but do not meet the weaving guideline source-locus requirement. Keep the retrospective account of what helped and what needed adaptation in a real or explicitly hypothetical project."
+    }
+  ],
+  "statusRule": "These are recommendations for an explicit reviewer operation. This file does not itself import, accept or change any ledger record. Revisions need a new bounded review; no future acceptance is promised."
+}

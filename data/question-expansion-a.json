@@ -1,0 +1,1561 @@
+{
+  "note": "New authored deep follow-up prompts, 10 November 2026. Source references identify design influences, not verbatim questions in the source documents.",
+  "domains": [
+    {
+      "id": "identity",
+      "sourceRefs": [
+        "S03",
+        "S04",
+        "M1"
+      ],
+      "questions": [
+        {
+          "id": "MVS-01-13",
+          "prompt": "Recall an introduction that opened a useful opportunity; which detail made the other person understand you differently?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-14",
+          "prompt": "When have two equally honest descriptions of you led people to expect incompatible things?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-15",
+          "prompt": "Which part of your identity becomes more visible when you have adequate tools, time and trusted company?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-16",
+          "prompt": "What remains recognisably yours when your occupation, location or current project changes?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-17",
+          "prompt": "Describe a role you performed competently but did not want to become your defining identity.",
+          "core": false
+        },
+        {
+          "id": "MVS-01-18",
+          "prompt": "Which label would you replace with a concrete story, and what does the story reveal that the label hides?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-19",
+          "prompt": "What have you stopped claiming about yourself because an actual encounter contradicted it?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-20",
+          "prompt": "Where would your present introduction differ from the one you might give after completing an ambitious project?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-21",
+          "prompt": "What should a public collaborator know about your working style without receiving your private life history?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-22",
+          "prompt": "Which aspect of your identity feels unfinished in a productive way, and what encounter could help it develop?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-23",
+          "prompt": "When does being recognised help you act, and when does recognition begin to constrain your choices?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-24",
+          "prompt": "Which identity claim is an aspiration you are practising rather than a capability you can already demonstrate?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-25",
+          "prompt": "What would an Aura need to preserve if you chose a completely different direction next year?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-26",
+          "prompt": "Describe a moment when you surprised yourself; which earlier description of you became less adequate?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-27",
+          "prompt": "How should the record represent a role you hold reluctantly while you work towards another arrangement?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-28",
+          "prompt": "Which account of your work makes sense to a friend but needs translation for a customer or public audience?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-29",
+          "prompt": "What are you attracted to in a possible future identity, and what consequences of it repel you?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-30",
+          "prompt": "Which immediate urge could be mistaken for a lasting identity preference if the Aura captured only today?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-31",
+          "prompt": "What would your earlier self recognise in your current ambitions, and what would need an explanation?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-32",
+          "prompt": "Which commitments express who you choose to be even when nobody notices or rewards them?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-33",
+          "prompt": "What evidence could distinguish a meaningful identity change from a temporary change in circumstances?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-34",
+          "prompt": "How do you want authorship recorded when your ideas develop through conversations with people and AI?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-35",
+          "prompt": "Which personal description should expire unless you actively review it, and why?",
+          "core": false
+        },
+        {
+          "id": "MVS-01-36",
+          "prompt": "What would you ask a future version of your Aura to challenge about the identity you are presenting today?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "sourceRefs": [
+        "S04",
+        "S05",
+        "M2"
+      ],
+      "questions": [
+        {
+          "id": "MVS-02-13",
+          "prompt": "Choose an ordinary day you remember clearly; which details belong to the event and which came from later retelling?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-14",
+          "prompt": "What sequence of events can you reconstruct from existing messages, objects or dates without filling the gaps?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-15",
+          "prompt": "Which memory changes emotional meaning when you include the resources you actually had at the time?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-16",
+          "prompt": "Describe a decision you once judged harshly; what contextual information is now available that was missing then?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-17",
+          "prompt": "Which remembered success depended on another person's contribution that your usual account leaves too small?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-18",
+          "prompt": "What would you need to check before using a remembered conversation as evidence for someone else's intention?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-19",
+          "prompt": "When has a photograph clarified one part of an event while leaving the experience itself unexplained?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-20",
+          "prompt": "Which period of your life contains several overlapping stories that resist a single chronological account?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-21",
+          "prompt": "What sensory association belongs in a memory record even when it cannot establish what objectively happened?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-22",
+          "prompt": "Which recollection would be useful to revisit after hearing a willing participant's separate account?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-23",
+          "prompt": "What changed between the moment of an event and the first time you wrote or spoke about it?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-24",
+          "prompt": "Which missing date genuinely affects interpretation, and which can remain approximate without losing meaning?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-25",
+          "prompt": "What is a memory you enjoy keeping without turning it into a lesson or a productivity asset?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-26",
+          "prompt": "How would you mark a scene reconstructed from several occasions rather than remembered from one event?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-27",
+          "prompt": "Which past ambition did you abandon for good reasons that your current self might otherwise forget?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-28",
+          "prompt": "What did a routine task teach you gradually, with no single dramatic moment to place on a timeline?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-29",
+          "prompt": "Which source could challenge your preferred account of a turning point, and how would you handle that challenge?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-30",
+          "prompt": "What is the difference between knowing an event occurred and remembering your own experience of it?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-31",
+          "prompt": "Which memory helps you recognise a recurring condition rather than a fixed trait in yourself?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-32",
+          "prompt": "What would you tell a narrator who made your life story more coherent than the surviving evidence allows?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-33",
+          "prompt": "How should a memory record change when a trusted source corrects the location but not your remembered feeling?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-34",
+          "prompt": "Which experience would your future self understand better if you recorded today's uncertainty rather than a polished conclusion?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-35",
+          "prompt": "What link between two life periods is supported by evidence, and what link is an interpretation you find useful?",
+          "core": false
+        },
+        {
+          "id": "MVS-02-36",
+          "prompt": "Which memory would you choose as an example for teaching the difference between recollection, inference and imagination?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "embodiment",
+      "sourceRefs": [
+        "S04",
+        "M1",
+        "M2"
+      ],
+      "questions": [
+        {
+          "id": "MVS-03-13",
+          "prompt": "Walk through a recent demanding task: which physical conditions supported it, and which consumed attention before the work began?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-14",
+          "prompt": "What can you alter in a workspace to reduce unnecessary effort while keeping the task equally ambitious?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-15",
+          "prompt": "Which input method lets you express a complex thought with the least avoidable physical friction?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-16",
+          "prompt": "How would you compare two seating, screen or control arrangements using your own reported experience?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-17",
+          "prompt": "What changes in your task choices after movement, and which part of that change could you actually observe?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-18",
+          "prompt": "Which body-related record would be misleading without time of day, activity or measurement conditions?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-19",
+          "prompt": "What is a practical sign that you need a different interaction format rather than a less demanding idea?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-20",
+          "prompt": "Describe an occasion when an environment made a familiar capability harder to use.",
+          "core": false
+        },
+        {
+          "id": "MVS-03-21",
+          "prompt": "Which everyday task reveals coordination, endurance or comfort more meaningfully than an abstract score would?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-22",
+          "prompt": "What personal explanation should accompany a device reading before the Aura suggests a change to your plan?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-23",
+          "prompt": "How should a sensor gap be represented so that silence is not interpreted as normality or improvement?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-24",
+          "prompt": "What would you want to compare before attributing a change in performance to the programme?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-25",
+          "prompt": "Which comfortable habit becomes awkward when equipment, clothing, travel or another person changes the setting?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-26",
+          "prompt": "What form of embodied rehearsal helps you understand a design before building its physical version?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-27",
+          "prompt": "How could an avatar represent an intended movement without pretending it measures your present ability?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-28",
+          "prompt": "What should be recorded when you choose not to wear or use a proposed device?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-29",
+          "prompt": "Which environmental adjustment would let you participate more fully in a long creative or teaching session?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-30",
+          "prompt": "What distinguishes the feeling of readiness from evidence that a particular task can be completed reliably?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-31",
+          "prompt": "Which movement or meal period should remain an enjoyable primary activity even when learning could overlap it?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-32",
+          "prompt": "How do you want the Aura to recognise that a once-useful physical routine no longer fits your circumstances?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-33",
+          "prompt": "What would a realistic handover explain about your preferred access arrangements without making assumptions about their cause?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-34",
+          "prompt": "Which observation would help you choose between more practice, a changed tool and a changed environment?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-35",
+          "prompt": "What bodily information can be described adequately in ordinary language without adding a measurement device?",
+          "core": false
+        },
+        {
+          "id": "MVS-03-36",
+          "prompt": "What would successful integration look like if increased capability required less strain rather than more intensity?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "attention",
+      "sourceRefs": [
+        "S02",
+        "M2"
+      ],
+      "questions": [
+        {
+          "id": "MVS-04-13",
+          "prompt": "Reconstruct the first thirty seconds of a confusing encounter: which cue reached you first and shaped everything afterwards?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-14",
+          "prompt": "What did you attend to during a successful performance that a spectator could not infer from the result alone?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-15",
+          "prompt": "Which visual arrangement makes two unrelated ideas appear connected, and how could you test that impression?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-16",
+          "prompt": "When has a familiar word caused you to skip the unfamiliar argument around it?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-17",
+          "prompt": "What would a timestamped attention account reveal that a summary written hours later might miss?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-18",
+          "prompt": "Which background sound is compatible with routine work but competes with understanding a new concept?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-19",
+          "prompt": "How do you notice that attention has shifted from the task to judging your own performance?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-20",
+          "prompt": "What should happen when a 260–300-word-per-minute stream continues but you can no longer reconstruct its argument?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-21",
+          "prompt": "Which short retrieval question would reveal whether your attention followed the content or only its rhythm?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-22",
+          "prompt": "What can a narrator observe when you look away, and what explanation must come from you?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-23",
+          "prompt": "Which cue would help an important interruption reach you without making every interruption equally urgent?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-24",
+          "prompt": "When does an apparently irrelevant detail become the clue that changes the whole model of a situation?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-25",
+          "prompt": "How would you distinguish a cue that was hidden, one you overlooked and one you deliberately ignored?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-26",
+          "prompt": "What does a familiar environment allow you to do without conscious monitoring, and when does that assumption fail?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-27",
+          "prompt": "Which task deserves a protected attention window because a partial interruption would lose more than a few minutes?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-28",
+          "prompt": "How could you compare focused and peripheral views of the same scene without treating either as the complete account?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-29",
+          "prompt": "What information should an agent hold until your next review window instead of announcing immediately?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-30",
+          "prompt": "Describe a moment when another person's question restored a perspective you had temporarily lost.",
+          "core": false
+        },
+        {
+          "id": "MVS-04-31",
+          "prompt": "Which transition between topics needs an explicit pause so that the first topic does not contaminate the second?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-32",
+          "prompt": "What would show that your attention improved because the cue changed rather than because you became a different person?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-33",
+          "prompt": "When can rapid alternation between two representations help understanding, and when does it merely create switching work?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-34",
+          "prompt": "Which kind of uncertainty makes you inspect details, and which makes you retreat into a broad explanation?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-35",
+          "prompt": "How should the observer record capture an important event you noticed only after someone else pointed it out?",
+          "core": false
+        },
+        {
+          "id": "MVS-04-36",
+          "prompt": "What would a good attention experiment preserve so that the result can guide tomorrow's actual work?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "mental-stage",
+      "sourceRefs": [
+        "S01",
+        "S02",
+        "M2"
+      ],
+      "questions": [
+        {
+          "id": "MVS-05-13",
+          "prompt": "Choose a system you understand well; what are its state, inputs, transformations and outputs in your own terms?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-14",
+          "prompt": "Which part of a mental model changes when you move from describing what exists to predicting what happens next?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-15",
+          "prompt": "What would you place outside the boundary of a useful first model, and what error might that exclusion create?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-16",
+          "prompt": "How do you recognise that two similar-looking patterns are generated by different underlying processes?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-17",
+          "prompt": "Which relationship in your model is causal, which is correlational and which is an analogy awaiting investigation?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-18",
+          "prompt": "What would a counterexample look like if the model were wrong in an interesting rather than trivial way?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-19",
+          "prompt": "Where does a spatial arrangement help you reason, and where could it falsely imply hierarchy or importance?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-20",
+          "prompt": "Which blank space in a diagram represents a deliberate opening rather than missing work?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-21",
+          "prompt": "How would you preserve a concept that belongs to two systems without forcing it into one parent category?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-22",
+          "prompt": "What changes when a model of a person becomes a model of a person acting in a particular environment?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-23",
+          "prompt": "Which variables can be changed independently in your scenario, and which move together for a reason?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-24",
+          "prompt": "What would you need to know before transferring a pattern from cognition to materials or from society to software?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-25",
+          "prompt": "Which part of an explanation is doing real predictive work, and which part mainly makes it memorable?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-26",
+          "prompt": "How do you decide when a more detailed model becomes less useful for the decision in front of you?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-27",
+          "prompt": "What did an unexpected result reveal about a missing state, delayed effect or hidden assumption?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-28",
+          "prompt": "Which model would you choose for explanation even if another model predicts slightly better, and why?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-29",
+          "prompt": "What should remain uncertain when the available evidence fits several incompatible mechanisms?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-30",
+          "prompt": "How could you ask an expert to challenge one link in your architecture without asking them to endorse the whole vision?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-31",
+          "prompt": "Which feedback loop in your project could amplify a small error into a confident but mistaken conclusion?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-32",
+          "prompt": "What happens to the model when the observer changes the system by asking a question or taking an action?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-33",
+          "prompt": "How would you represent a process whose order matters differently from a collection whose order does not?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-34",
+          "prompt": "Which prediction should be written down before running a simulation so that hindsight cannot quietly improve it?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-35",
+          "prompt": "What would an intentionally simplified model help a newcomer do, and what limitation must travel with it?",
+          "core": false
+        },
+        {
+          "id": "MVS-05-36",
+          "prompt": "Which model revision would make several separate project problems easier to understand at once?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "sourceRefs": [
+        "S08",
+        "S09",
+        "M2"
+      ],
+      "questions": [
+        {
+          "id": "MVS-06-13",
+          "prompt": "Describe a real choice where every available option protected something valuable and sacrificed something else.",
+          "core": false
+        },
+        {
+          "id": "MVS-06-14",
+          "prompt": "Which consequence would you insist on discussing even if it made your preferred proposal harder to support?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-15",
+          "prompt": "What value becomes difficult to practise when time is short, and what arrangement would help preserve it?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-16",
+          "prompt": "When has generosity produced an obligation the recipient did not choose, and how could the offer be redesigned?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-17",
+          "prompt": "What does respecting someone's agency require when you believe their preferred option is mistaken?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-18",
+          "prompt": "Which benefit should not be used to excuse an unrelated cost borne by someone with less power?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-19",
+          "prompt": "What would an honest account include if a project helped you more than the people it claimed to serve?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-20",
+          "prompt": "How do you distinguish a freely chosen sacrifice from a burden someone felt unable to refuse?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-21",
+          "prompt": "Which responsibility follows from making a tool more powerful, even if you did not create the underlying capability?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-22",
+          "prompt": "What would you want an affected person to be able to contest in your decision record?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-23",
+          "prompt": "When does a shared goal justify coordination, and when does coordination begin to suppress worthwhile difference?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-24",
+          "prompt": "Which value would your most reasonable critic say you apply inconsistently?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-25",
+          "prompt": "How could you test that criticism through a concrete decision rather than a debate about your character?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-26",
+          "prompt": "What does joyful responsibility look like when the responsible action is unpleasant in the short term?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-27",
+          "prompt": "Which form of abundance matters to you even if it cannot be sold, scaled or counted easily?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-28",
+          "prompt": "What would make an efficiency gain unacceptable because it removes meaningful human participation?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-29",
+          "prompt": "How should an offer change when a person's apparent agreement depends on limited alternatives?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-30",
+          "prompt": "What is a boundary you would honour even when crossing it would help a project succeed faster?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-31",
+          "prompt": "Which moral intuition changes when you imagine being the person who carries the risk?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-32",
+          "prompt": "What would count as repairing a consequence rather than merely explaining why you intended well?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-33",
+          "prompt": "How do you decide which commitments remain binding after the circumstances that produced them change?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-34",
+          "prompt": "Which public promise could you make more precise so that people can later judge whether it was kept?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-35",
+          "prompt": "When should a disagreement remain visible instead of being resolved into a reassuring shared statement?",
+          "core": false
+        },
+        {
+          "id": "MVS-06-36",
+          "prompt": "What would your chosen values require you to stop doing if the evidence showed the project was missing its purpose?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "motives",
+      "sourceRefs": [
+        "M2",
+        "S08"
+      ],
+      "questions": [
+        {
+          "id": "MVS-07-13",
+          "prompt": "Choose one current goal and separately describe attraction, repulsion and the urge to act before explaining your plan.",
+          "core": false
+        },
+        {
+          "id": "MVS-07-14",
+          "prompt": "Which part of an ambitious project pulls you forward most strongly: discovery, making, recognition, usefulness or another motive?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-15",
+          "prompt": "What do you feel drawn towards that you do not presently choose to pursue, and what makes that distinction important?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-16",
+          "prompt": "Which task repels you because of its consequences, and which repels you mainly because the process is poorly designed?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-17",
+          "prompt": "When has a temporary urge delivered useful momentum, and when did it pull work away from a durable intention?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-18",
+          "prompt": "What would remain motivating if public recognition, competition or comparison disappeared from the situation?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-19",
+          "prompt": "Which resource would change your willingness to attempt a task more than a persuasive explanation would?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-20",
+          "prompt": "Describe a goal that became easier after its meaning changed, even though the practical difficulty stayed similar.",
+          "core": false
+        },
+        {
+          "id": "MVS-07-21",
+          "prompt": "What does your reluctance protect that an overly enthusiastic assistant might fail to recognise?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-22",
+          "prompt": "Which unfinished project still matters, and which survives mainly because you dislike abandoning effort already spent?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-23",
+          "prompt": "How would you distinguish wanting an outcome from wanting to be the person who produces it?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-24",
+          "prompt": "What competing desire appears when a long-sought opportunity becomes real rather than hypothetical?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-25",
+          "prompt": "Which immediate reward could make a useful routine easier without changing the larger purpose of the work?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-26",
+          "prompt": "What would you choose if two projects offered equal impact but very different daily experiences?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-27",
+          "prompt": "How does the prospect of teaching a result change your willingness to understand it deeply?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-28",
+          "prompt": "Which motivation becomes stronger when you work with others, and which needs protected solitude?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-29",
+          "prompt": "When has apparent lack of motivation actually reflected an unclear next action or missing dependency?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-30",
+          "prompt": "What does a meaningful enough result look like before the project expands into its next ambition?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-31",
+          "prompt": "Which feared consequence belongs to the actual opportunity, and which is an assumption that could be tested?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-32",
+          "prompt": "How could an agent help you discover options without selecting the one that is easiest for the agent to complete?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-33",
+          "prompt": "What signs distinguish a goal that is maturing from one that is becoming an avoidant substitute for another commitment?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-34",
+          "prompt": "Which aspiration would you retain under scarcity, and what simpler expression could preserve its meaning?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-35",
+          "prompt": "What would a more resourced version of you attempt that your present self has not yet allowed into the plan?",
+          "core": false
+        },
+        {
+          "id": "MVS-07-36",
+          "prompt": "How should the Aura respond when your stated priority and your repeated choices diverge without assuming either is dishonest?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "emotion",
+      "sourceRefs": [
+        "S04",
+        "M2"
+      ],
+      "questions": [
+        {
+          "id": "MVS-08-13",
+          "prompt": "Describe an enjoyable moment whose value would be diminished if every part of it were measured.",
+          "core": false
+        },
+        {
+          "id": "MVS-08-14",
+          "prompt": "Which emotion helped you detect that a project mattered before you could explain why?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-15",
+          "prompt": "When has a feeling been accurate about your need but inaccurate about another person's intention?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-16",
+          "prompt": "What would you want the Aura to ask before interpreting a change in your tone as a change in your commitment?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-17",
+          "prompt": "Which kind of encouragement increases your freedom to choose, and which creates pressure to keep performing?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-18",
+          "prompt": "How do disappointment, relief and curiosity coexist after a demanding attempt produces an unexpected result?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-19",
+          "prompt": "What part of frustration comes from the task itself, and what part comes from being misunderstood about the task?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-20",
+          "prompt": "Which experience of wonder would you like to recreate for someone else without prescribing their reaction?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-21",
+          "prompt": "When has naming a feeling helped, and when has naming it too quickly narrowed your experience?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-22",
+          "prompt": "What is the difference between enjoying a difficult challenge and feeling obliged to prove you can endure it?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-23",
+          "prompt": "Which ordinary pleasure belongs in the full-immersion day because it makes the larger effort worthwhile?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-24",
+          "prompt": "How would you explain an emotional response that looks contradictory from outside but makes sense in context?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-25",
+          "prompt": "What response from a collaborator helps you recover a sense of possibility after a failed experiment?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-26",
+          "prompt": "When does humour deepen a conversation, and when might it hide something that deserves a direct question?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-27",
+          "prompt": "Which feeling would you prefer to express through sound, movement or an object before putting it into words?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-28",
+          "prompt": "What should a narrator record when your visible expression and your own emotional account do not match its expectation?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-29",
+          "prompt": "Which change of setting makes an emotionally difficult conversation easier to approach?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-30",
+          "prompt": "How can an assistant offer useful company without deciding that every silence needs an intervention?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-31",
+          "prompt": "What would you like remembered about a joyful experience beyond the fact that you rated it positively?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-32",
+          "prompt": "When has satisfaction come from stopping a project at the right point rather than pushing it further?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-33",
+          "prompt": "Which emotion becomes easier to understand after you identify the person, possibility or value it concerns?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-34",
+          "prompt": "What kind of feedback can you welcome about a technical artefact but need handled differently in a personal creative work?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-35",
+          "prompt": "How should a future record distinguish your feeling at the event from the feeling you have while recounting it?",
+          "core": false
+        },
+        {
+          "id": "MVS-08-36",
+          "prompt": "What would emotional growth look like in an actual relationship or project without reducing it to constant positivity?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "sourceRefs": [
+        "S01",
+        "S02",
+        "M2"
+      ],
+      "questions": [
+        {
+          "id": "MVS-09-13",
+          "prompt": "Trace one consequential choice from the first noticed problem to the action actually taken; where did the available options change?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-14",
+          "prompt": "Which step in a decision can proceed in parallel, and which must wait for a fact, permission or human judgement?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-15",
+          "prompt": "What would a useful action proposal contain so that you can approve it without reconstructing the agent's whole conversation?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-16",
+          "prompt": "Which decision deserves a reversible prototype before a public commitment, and what should that prototype resolve?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-17",
+          "prompt": "How should an agent report partial completion when the remaining step could change the meaning of the result?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-18",
+          "prompt": "What is the smallest decisive experiment that could inform a large commitment without pretending the ambition is small?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-19",
+          "prompt": "Which source could change your preferred option enough that it should be checked before acting?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-20",
+          "prompt": "What would a standing instruction need to say for an agent to act correctly when you are unavailable?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-21",
+          "prompt": "Where should that standing instruction end because the new situation changes who bears the consequences?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-22",
+          "prompt": "How would you distinguish an agent following your intention from one merely optimising a proxy you happened to specify?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-23",
+          "prompt": "Which action should require fresh review because a previously approved audience, resource or dependency has changed?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-24",
+          "prompt": "What completed effect must remain visible if you stop a multi-step job halfway through?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-25",
+          "prompt": "How can a failed attempt return useful evidence without becoming an excuse to repeat the same approach indefinitely?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-26",
+          "prompt": "Which routine decision could be made easier by changing the environment instead of adding another reminder?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-27",
+          "prompt": "What would you want recorded when you choose an option that is reasonable but not the model's preferred one?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-28",
+          "prompt": "When has decisive action depended on accepting uncertainty rather than eliminating it?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-29",
+          "prompt": "Which uncertainty is tolerable for a private draft but unacceptable for a public claim or external operation?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-30",
+          "prompt": "How do you decide whether an appealing next step is a real dependency or simply an interesting diversion?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-31",
+          "prompt": "What would a decision handover explain about rejected options so that the next person does not repeat avoidable work?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-32",
+          "prompt": "Which outcome would make you reverse a decision, and how will that signal reach you?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-33",
+          "prompt": "How could you test your ability to recover from a poor choice before relying on the system at a larger scale?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-34",
+          "prompt": "What should happen when two agents independently propose actions that conflict through a shared resource?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-35",
+          "prompt": "Which part of a successful outcome came from your choice, and which depended on conditions you did not control?",
+          "core": false
+        },
+        {
+          "id": "MVS-09-36",
+          "prompt": "How would your next action differ if the purpose were to learn quickly, deliver reliably or preserve a relationship?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "knowledge",
+      "sourceRefs": [
+        "S01",
+        "S02",
+        "S09"
+      ],
+      "questions": [
+        {
+          "id": "MVS-10-13",
+          "prompt": "Choose a claim central to your project and trace it to the earliest source you can actually inspect.",
+          "core": false
+        },
+        {
+          "id": "MVS-10-14",
+          "prompt": "Which sentence in that source supports the claim, and which part of your current wording goes beyond it?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-15",
+          "prompt": "What information about method, sample, context or date would change how much weight you give a result?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-16",
+          "prompt": "How would you compare two apparently conflicting sources before assuming one must be wrong?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-17",
+          "prompt": "Which term may be used differently across the sources you are combining?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-18",
+          "prompt": "What is a source you trust for its observations but question when it generalises from them?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-19",
+          "prompt": "Which evidence would be difficult to obtain but especially useful because it could challenge your favourite conclusion?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-20",
+          "prompt": "What would a fair comparison preserve so that a proposed improvement is not advantaged by easier conditions?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-21",
+          "prompt": "How should a missing result differ from a negative result in your evidence register?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-22",
+          "prompt": "When does a detailed technical explanation conceal that the key empirical observation is still absent?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-23",
+          "prompt": "Which numerical claim needs units, a denominator or a time period before it becomes meaningful?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-24",
+          "prompt": "What source would establish whether a statement describes a proposal, an operational system or a measured outcome?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-25",
+          "prompt": "How could you check whether an attractive citation actually supports the sentence beside it?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-26",
+          "prompt": "Which record should retain the original wording even after a later summary becomes more convenient?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-27",
+          "prompt": "What would a dissenting reviewer need in order to reproduce your reasoning without sharing your enthusiasm?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-28",
+          "prompt": "How can you preserve a valuable personal testimony without treating it as proof of a universal mechanism?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-29",
+          "prompt": "Which claim becomes weaker when you separate independent evidence from several sources repeating the same original account?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-30",
+          "prompt": "What would you conclude if the intervention appeared useful but your proposed explanation was unsupported?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-31",
+          "prompt": "Which result should remain exploratory until a separately planned test confirms it?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-32",
+          "prompt": "How should an agent communicate that a source was not available rather than pretending a summary was verified?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-33",
+          "prompt": "What evidence would justify moving a statement from plausible to provisionally supported in this project?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-34",
+          "prompt": "Which assumptions should be frozen before an experiment so that success cannot be redefined afterwards?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-35",
+          "prompt": "How would you explain the difference between uncertainty about a measurement and disagreement about what matters?",
+          "core": false
+        },
+        {
+          "id": "MVS-10-36",
+          "prompt": "What correction to your public account would you make if a source remained interesting but no longer supported its strongest claim?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "sourceRefs": [
+        "T60",
+        "M2",
+        "U1"
+      ],
+      "questions": [
+        {
+          "id": "MVS-11-13",
+          "prompt": "For a ten-minute hyper stream, how would you use the 2,600–3,000-word budget to move from explanation to application?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-14",
+          "prompt": "What should a 2,800-word script include so that its density comes from connected ideas rather than compressed jargon?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-15",
+          "prompt": "How would you check that a recording at double speed actually delivers 260–300 words per minute rather than assuming the label proves it?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-16",
+          "prompt": "What would you retrieve during the five-minute review after a ten-minute stream before moving to new content?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-17",
+          "prompt": "Which part of a fifteen-minute, 3,900–4,500-word stream should become an artefact you can inspect afterwards?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-18",
+          "prompt": "How would you count actual stream minutes when pauses, replay and your own explanations interrupt the allocated block?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-19",
+          "prompt": "What distinguishes recognising terminology from being able to use the underlying method on a new problem?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-20",
+          "prompt": "Which prerequisite can be taught just before use rather than studied exhaustively in advance?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-21",
+          "prompt": "What would an expert notice in your attempt that a content-completion counter would miss?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-22",
+          "prompt": "How could an agent prepare contrasting examples that expose the boundary of a concept rather than repeat its easiest case?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-23",
+          "prompt": "Which error would you deliberately make in rehearsal to understand the recovery process?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-24",
+          "prompt": "What would demonstrate that you can perform a capability after the prompt, checklist or teacher support is removed?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-25",
+          "prompt": "How do you want tomorrow's review to differ from the immediate recall check at the end of a stream?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-26",
+          "prompt": "Which skill can be practised through the business or community artefact you already intend to produce?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-27",
+          "prompt": "What should you do when accelerated intake outpaces your ability to connect the new ideas with earlier learning?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-28",
+          "prompt": "Which explanation would you rewrite after trying to teach it to someone with a different starting vocabulary?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-29",
+          "prompt": "How would you test transfer from a simulated world to an appropriate real task without claiming the environments are equivalent?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-30",
+          "prompt": "What feedback arrives quickly enough to guide practice, and what result needs a longer observation window?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-31",
+          "prompt": "Which part of an advanced capability is judgement that cannot be demonstrated by recalling instructions alone?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-32",
+          "prompt": "How can a learner choose a meaningful challenge whose result will expose a real gap rather than guarantee a pleasing success?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-33",
+          "prompt": "What evidence would show that practice changed your capability rather than merely increased your familiarity with one example?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-34",
+          "prompt": "Which content should an agent summarise before you read deeply, and which source deserves direct uninterrupted inspection?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-35",
+          "prompt": "How would you structure a learning day so that the morning's ideas are used, questioned and taught before more are added?",
+          "core": false
+        },
+        {
+          "id": "MVS-11-36",
+          "prompt": "What would make you retire a study technique that feels productive but repeatedly fails its transfer test?",
+          "core": false
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "sourceRefs": [
+        "P1",
+        "S08"
+      ],
+      "questions": [
+        {
+          "id": "MVS-12-13",
+          "prompt": "Choose a half-finished work; what experience is it trying to create for another person that the current version does not yet deliver?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-14",
+          "prompt": "Which creative decision is essential to the work's meaning even if an optimisation system would remove it?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-15",
+          "prompt": "What changes when you begin from a sound, material, gesture or place rather than a verbal prompt?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-16",
+          "prompt": "How would you compare two versions of a song or scene without reducing the choice to which received more clicks?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-17",
+          "prompt": "Which unexpected response from an audience would open a useful direction rather than merely count as misunderstanding?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-18",
+          "prompt": "What would a creative brief preserve so that several agents can contribute without dissolving the work into generic style?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-19",
+          "prompt": "Which part of the process benefits from abundance of variations, and which needs a deliberate commitment to one direction?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-20",
+          "prompt": "How can you use a constraint in time, material or form to reveal an idea that unlimited generation obscures?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-21",
+          "prompt": "What would an accurate authorship record say about a work shaped by your decisions, other people's contributions and generated material?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-22",
+          "prompt": "Which reference should influence the work's question rather than its surface appearance?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-23",
+          "prompt": "How would you transform a personally meaningful symbol into an interaction another person can explore on their own terms?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-24",
+          "prompt": "What should remain unresolved in a story because forcing an answer would misrepresent the experience?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-25",
+          "prompt": "Which detail makes a future scene feel inhabited rather than merely technologically impressive?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-26",
+          "prompt": "How could a creative artefact expose a trade-off that a conventional planning document makes too abstract?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-27",
+          "prompt": "What would you test with a rough performance or prototype before investing in production polish?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-28",
+          "prompt": "Which practical production dependency could prevent a good concept from reaching its intended audience?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-29",
+          "prompt": "How does the work change when it must be performed, maintained or taught by someone other than you?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-30",
+          "prompt": "What would you remove if every element had to justify its contribution to the experience?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-31",
+          "prompt": "Which moment of play generated an idea that later became useful in serious technical or civic work?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-32",
+          "prompt": "How can feedback improve a work without making the creator surrender the reason they chose to make it?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-33",
+          "prompt": "What is a creative risk you can take in form or interpretation while remaining accurate about real people and events?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-34",
+          "prompt": "Which fragment from this project could become a reusable learning atom, interface cue or business asset?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-35",
+          "prompt": "What would make a public invitation honest about what the work can offer and what is still being explored?",
+          "core": false
+        },
+        {
+          "id": "MVS-12-36",
+          "prompt": "How would you know that a creative project has increased your capacity to notice, express or collaborate even if its audience remains small?",
+          "core": false
+        }
+      ]
+    }
+  ]
+}

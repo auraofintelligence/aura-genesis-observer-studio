@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "aura-question-weaving-rubric/1",
+  "editionDate": "2026-11-10",
+  "target": {
+    "orderOfMagnitude": 100000,
+    "unit": "substantively distinct question candidates in a navigable atlas",
+    "notRequired": "No person must answer the whole atlas; no claim it fits inside 120 hours.",
+    "countSeparately": [
+      "generated",
+      "acceptedUnique",
+      "humanSampled",
+      "humanReviewed",
+      "answered",
+      "participantReviewed"
+    ],
+    "territories": {
+      "wholeOfLife": 60,
+      "teacherDevelopment": 30,
+      "auraArchitecture": 10,
+      "total": 100
+    }
+  },
+  "batchSizes": [
+    25,
+    50
+  ],
+  "defaultBatchSize": 25,
+  "budgetTemplates": {
+    "batch25": {
+      "generator": {
+        "maxInputTokens": 14000,
+        "maxOutputTokens": 8000,
+        "maxToolCalls": 0
+      },
+      "critic": {
+        "maxInputTokens": 22000,
+        "maxOutputTokens": 5000,
+        "maxToolCalls": 0
+      },
+      "reconciler": {
+        "maxInputTokens": 22000,
+        "maxOutputTokens": 8000,
+        "maxToolCalls": 0
+      }
+    },
+    "batch50": {
+      "generator": {
+        "maxInputTokens": 22000,
+        "maxOutputTokens": 15000,
+        "maxToolCalls": 0
+      },
+      "critic": {
+        "maxInputTokens": 36000,
+        "maxOutputTokens": 9000,
+        "maxToolCalls": 0
+      },
+      "reconciler": {
+        "maxInputTokens": 36000,
+        "maxOutputTokens": 15000,
+        "maxToolCalls": 0
+      }
+    },
+    "meaning": "Planning ceilings, not measured costs. The coordinator checks model context limits, sets a real run/spend ceiling and records actual usage. Workers use prepared packets without external tools. Fewer candidates are acceptable when the budget or meaningful coverage is exhausted."
+  },
+  "maxRevisionCyclesPerCandidate": 2,
+  "roles": [
+    "generator",
+    "critic",
+    "reconciler",
+    "coordinator",
+    "humanReviewer"
+  ],
+  "packetRequired": [
+    "territoryId",
+    "purpose",
+    "boundary",
+    "sourceVersion",
+    "sourceLoci",
+    "sourceExcerptsOrStructuralObservations",
+    "interpretationStatus",
+    "coverageGap",
+    "seedQuestions",
+    "nearestAcceptedQuestions",
+    "permittedVariation",
+    "scenarioBoundary",
+    "reservedQuestionIds",
+    "batchSize",
+    "budget",
+    "reviewOwner"
+  ],
+  "sourceInterpretations": [
+    "explicit",
+    "structured",
+    "provisional"
+  ],
+  "sourceBasis": [
+    "source-wording",
+    "structural-observation",
+    "design-inference",
+    "new-hypothesis"
+  ],
+  "questionRequired": [
+    "id",
+    "prompt",
+    "tags",
+    "sourceRefs",
+    "provenance",
+    "context",
+    "operation",
+    "depth",
+    "observerView",
+    "selfLens",
+    "gap",
+    "transfer",
+    "premiseMode",
+    "privateAssumptions",
+    "diagnosticInference"
+  ],
+  "candidateDefaults": {
+    "provenance.kind": "authored_synthesis",
+    "premiseMode": "open_or_hypothetical",
+    "privateAssumptions": false,
+    "diagnosticInference": false
+  },
+  "hardFailures": [
+    {
+      "id": "schema-invalid",
+      "rule": "Invalid JSON, missing required keys, unknown prohibited keys or unresolved placeholders."
+    },
+    {
+      "id": "identity-invalid",
+      "rule": "Question ID was not reserved, repeats an existing ID or references a nonexistent territory/domain/nearest-question ID."
+    },
+    {
+      "id": "source-invalid",
+      "rule": "Source ID, version or exact locator is absent from the packet or invented."
+    },
+    {
+      "id": "source-misrepresented",
+      "rule": "A new question is presented as a source quotation, or provisional topology is presented as settled source meaning."
+    },
+    {
+      "id": "answer-fabricated",
+      "rule": "The candidate supplies a personal answer, invents a participant fact or assumes an unreported experience/trait/condition."
+    },
+    {
+      "id": "semantic-duplicate",
+      "rule": "Answering the candidate adds no substantive evidence or decision compared with an existing question; wording-only changes do not qualify."
+    },
+    {
+      "id": "coercive-route",
+      "rule": "The question requires personal disclosure without an alternative, treats refusal as diagnostic or ranks human worth."
+    },
+    {
+      "id": "authority-confusion",
+      "rule": "Answering, reading or simulation is treated as consent, verified external fact, treatment completion or authority to act."
+    },
+    {
+      "id": "count-inflation",
+      "rule": "Mechanically generated combinations, rejected candidates or repeated words are represented as unique reviewed questions."
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "grounding",
+      "score0": "No defensible source/design link.",
+      "score1": "Relevant locus and labelled inference; one explanation needs tightening.",
+      "score2": "Exact locus supports the design connection and all interpretation limits are retained."
+    },
+    {
+      "id": "cognitivePurpose",
+      "score0": "No identifiable understanding or decision sought.",
+      "score1": "A useful purpose is present but broad.",
+      "score2": "The answer can resolve a defined distinction, prediction, action or review gap."
+    },
+    {
+      "id": "novelty",
+      "score0": "Paraphrase or cosmetic context substitution.",
+      "score1": "Likely distinction, with nearest-neighbour comparison still needed.",
+      "score2": "Explains how the answer adds evidence or decision value beyond the nearest questions."
+    },
+    {
+      "id": "context",
+      "score0": "Timeless trait assumption or unsupported universal sequence.",
+      "score1": "Some condition, episode or scope is visible.",
+      "score2": "The relevant conditions and information states are explicit without inventing participant facts."
+    },
+    {
+      "id": "answerability",
+      "score0": "Vague, self-contradictory or demands inaccessible knowledge.",
+      "score1": "Understandable but could be narrower or better scoped.",
+      "score2": "A person can answer with an episode, uncertainty, practical record or chosen fictional example."
+    },
+    {
+      "id": "usefulness",
+      "score0": "No plausible use for the answer.",
+      "score1": "A reasonable reflection or action connection is present.",
+      "score2": "The answer has an explicit role in a model revision, experiment, skill, relationship or artefact."
+    },
+    {
+      "id": "agency",
+      "score0": "Coercive, leading or equates disclosure with worth.",
+      "score1": "Optionality is present but could be clearer.",
+      "score2": "Personal meaning, decline, uncertainty and alternative routes remain available."
+    },
+    {
+      "id": "clarity",
+      "score0": "Jargon or nested tasks obscure the question.",
+      "score1": "Readable with a minor wording or complexity issue.",
+      "score2": "Plain, precise wording; any complexity serves one coherent inquiry."
+    }
+  ],
+  "machineAcceptance": {
+    "hardFailuresAllowed": 0,
+    "minimumEachDimension": 1,
+    "minimumTotalOf16": 14,
+    "requiresCriticDisposition": true,
+    "requiresGlobalDuplicateCheck": true,
+    "humanApprovalImplied": false
+  },
+  "decisions": [
+    "accept",
+    "revise",
+    "merge",
+    "defer",
+    "reject"
+  ],
+  "semanticSignature": [
+    "territory",
+    "construct",
+    "episodeOrDecision",
+    "informationState",
+    "relevantCondition",
+    "requestedOperation",
+    "evidenceNeeded",
+    "resultUse"
+  ],
+  "duplicateTriage": {
+    "exactNormalisation": [
+      "casefold",
+      "collapse-whitespace",
+      "normalise-punctuation-for-comparison-only"
+    ],
+    "provisionalTokenSetOverlap": 0.82,
+    "provisionalEmbeddingSimilarity": 0.93,
+    "thresholdStatus": "Uncalibrated starting triage values; calibrate on labelled project pairs before use. Never reject solely on similarity.",
+    "searchScope": "Global catalogue, including neighbouring and cross-domain questions",
+    "mergeRule": "Pure paraphrases become alternate wordings/navigation links of one question. Prediction and actual-outcome review can remain distinct when they elicit different evidence."
+  },
+  "sampling": {
+    "newTerritoryFullBatches": 2,
+    "laterAcceptedSampleFraction": 0.1,
+    "minimumLaterSample": 3,
+    "alwaysInspect": [
+      "source-ambiguity",
+      "sensitive-presupposition",
+      "disputed-semantics",
+      "uncertain-duplicate"
+    ],
+    "sampledHardFailure": "Hold the batch and inspect it fully.",
+    "substantiveDefectRateTrigger": 0.05,
+    "triggerAction": "Revise the packet and return the territory to full inspection for the next two batches.",
+    "claimBoundary": "Sampling is not proof of flawlessness; record precisely which questions received human review."
+  },
+  "states": {
+    "generation": [
+      "seed",
+      "generated"
+    ],
+    "editorial": [
+      "unreviewed",
+      "machine-accepted",
+      "human-reviewed",
+      "disputed",
+      "retired"
+    ],
+    "publication": [
+      "private-candidate",
+      "candidate-catalogue",
+      "reviewed-catalogue"
+    ],
+    "answer": [
+      "unvisited",
+      "declined",
+      "answered",
+      "participant-reviewed",
+      "revised"
+    ],
+    "implementationNote": "These richer categories guide metadata design. Current runtime enforces generated plus explicit accepted/needs_revision/rejected states and separate answer references, not all proposed publication fields."
+  },
+  "metrics": [
+    "candidateCount",
+    "acceptedUniqueCount",
+    "rejectionRate",
+    "mergeRate",
+    "exactSourceResolutionRate",
+    "ambiguityRate",
+    "operationCoverage",
+    "contextCoverage",
+    "sampledDefectRate",
+    "averageRevisionCount",
+    "usefulGapClosure",
+    "participantCorrectionRate",
+    "actualEncounterUse"
+  ],
+  "escalation": [
+    "A source region supports incompatible meanings with different downstream consequences.",
+    "A question needs a participant-specific fact or permission absent from the packet.",
+    "Critic and reconciler remain in substantive disagreement after two cycles.",
+    "A corrected source interpretation affects already published questions or answered records.",
+    "A territory's batch repeatedly fails novelty or evidence checks despite packet revision."
+  ],
+  "hyperMode": {
+    "deliveredWordsPerMinute": [
+      260,
+      300
+    ],
+    "tenStreamMinutesWords": [
+      2600,
+      3000
+    ],
+    "fifteenStreamMinutesWords": [
+      3900,
+      4500
+    ],
+    "rule": "Content throughput only. Reflection, answers, silence, action and pauses have separate actual time. 2x playback is a means to the delivered rate, not an additional multiplier."
+  },
+  "pilot": {
+    "territories": 5,
+    "firstBatchSize": 25,
+    "firstCandidateTotal": 125,
+    "secondBatchSize": 25,
+    "inspection": "Full pilot inspection; no claim the production-scale target is already generated."
+  },
+  "runtimeContract": {
+    "schema": "aura-weaving-batch/1",
+    "topLevelKeys": [
+      "schema",
+      "jobId",
+      "territoryId",
+      "domainId",
+      "author",
+      "questions",
+      "generationNotes"
+    ],
+    "authorKeys": [
+      "kind",
+      "name",
+      "runId"
+    ],
+    "dimensionAuthority": "Exact enums in the selected runtime packet from data/weaving-atlas.json",
+    "sourceBoundary": "Current packets include curated summaries and locators, not complete primary-source passages. SourceNotes must state this limit.",
+    "stateBoundary": "Import creates generated records only. Explicit reviewer operation sets accepted/needs_revision/rejected. No review or answer field is permitted in generator output.",
+    "implementedChecks": "Strict shape, reserved IDs, enums, allowed source IDs, open premises, no answers, exact normalised duplicates, token-overlap warnings. Semantic/source support and richer review protocol are separate."
+  },
+  "prohibitedGeneratorFields": [
+    "answer",
+    "reviewState",
+    "status",
+    "checked",
+    "accepted",
+    "answered",
+    "reviewer"
+  ],
+  "metadataPlacement": {
+    "exactLocatorAndSourceLimits": "provenance.sourceNotes",
+    "noveltyReason": "gap",
+    "resultUse": "transfer",
+    "optionalRoute": "prompt or encounter instructions",
+    "rubricScoresAndReview": "separate critic/reconciler sidecar; never generator self-approval"
+  }
+}

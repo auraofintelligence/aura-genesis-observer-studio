@@ -1,0 +1,24 @@
+# Search discovery grants no additional reuse, commercial or AI-training rights.
+# Project and third-party terms continue to apply.
+# Shared-host crawl rules: https://auraofintelligence.github.io/robots.txt
+# A project-subpath robots file is advisory; host-root rules govern crawlers.
+
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://auraofintelligence.github.io/aura-genesis-observer-studio/sitemap.xml
