@@ -331,10 +331,110 @@ const lensTexts=[
 ['permission','Choose who may see this and separately whether retrieval, training or publication is allowed.'],
 ['review','Set a review point and state what would change your mind; unknown and declined are valid.']
 ];
-const domains=packs.map(([id,title,summary,tags,sourceRefs,qs],d)=>({id,title,summary,tags,sourceRefs,questions:qs.map((prompt,i)=>({id:`MVS-${String(d+1).padStart(2,'0')}-${String(i+1).padStart(2,'0')}`,prompt,core:i===0}))}));
-const questionnaire={version:'1.0.0',title:'Minimum Viable Self and ultra-dense reflection atlas',created:'2026-11-10',purpose:'A selective, revisable personal record for useful action, not a test of personality or completeness.',counts:{domains:domains.length,domainQuestions:domains.reduce((n,d)=>n+d.questions.length,0),crossCuttingLenses:lensTexts.length},domains,lenses:lensTexts.map(([id,prompt])=>({id,prompt}))};
+// The primary themes follow Matrix Studio's philosophical perspectives.
+const chakraLenses = [
+  {
+    "id": "root",
+    "name": "Root",
+    "colour": "Red",
+    "focus": "Embodiment, practical needs, place and stability",
+    "example": "What change to the room, equipment or schedule would make this lesson easier to attend and repeat?"
+  },
+  {
+    "id": "sacral",
+    "name": "Sacral",
+    "colour": "Orange",
+    "focus": "Creativity, enjoyment, relationship and change",
+    "example": "Which format would make this lesson enjoyable to explore, and what quick prototype could you try?"
+  },
+  {
+    "id": "solar-plexus",
+    "name": "Solar plexus",
+    "colour": "Yellow",
+    "focus": "Agency, intentions, capability and action",
+    "example": "What could a learner do unaided by the end, and which task would let them show it?"
+  },
+  {
+    "id": "heart",
+    "name": "Heart",
+    "colour": "Green",
+    "focus": "Care, reciprocity, belonging and stewardship",
+    "example": "Whose experience would improve this lesson, and what could you offer in return for their input?"
+  },
+  {
+    "id": "throat",
+    "name": "Throat",
+    "colour": "Blue",
+    "focus": "Expression, communication and shared understanding",
+    "example": "Which explanation would let a new learner describe the idea accurately in their own words?"
+  },
+  {
+    "id": "brow",
+    "name": "Brow",
+    "colour": "Indigo",
+    "focus": "Attention, interpretation, patterns and discernment",
+    "example": "What observation would help you tell whether a learner understood the idea or remembered the example?"
+  },
+  {
+    "id": "crown",
+    "name": "Crown",
+    "colour": "Violet",
+    "focus": "Meaning, values, integration and wider perspective",
+    "example": "Which wider purpose does this lesson serve, and what would change if that purpose took priority?"
+  }
+];
+
+// Entries follow each domain's existing question order.
+const chakraByDomain = {
+  "identity": "throat solar-plexus throat crown solar-plexus brow throat brow brow crown crown heart",
+  "memory": "crown brow brow root brow crown heart crown brow heart root brow",
+  "embodiment": "root root root root root brow root root root root root brow",
+  "attention": "brow brow brow brow brow brow solar-plexus brow brow solar-plexus brow brow",
+  "mental-stage": "brow brow brow brow brow brow brow brow brow brow throat throat",
+  "values": "crown crown crown heart crown brow solar-plexus heart crown heart heart solar-plexus",
+  "motives": "sacral solar-plexus sacral solar-plexus brow brow brow root brow solar-plexus solar-plexus solar-plexus",
+  "emotion": "sacral heart brow brow brow throat heart brow sacral heart sacral crown",
+  "agency": "solar-plexus solar-plexus solar-plexus brow solar-plexus solar-plexus solar-plexus solar-plexus solar-plexus solar-plexus brow solar-plexus",
+  "knowledge": "brow brow brow brow brow brow brow brow brow throat brow solar-plexus",
+  "learning": "solar-plexus brow solar-plexus brow solar-plexus brow brow solar-plexus brow solar-plexus throat brow",
+  "creation": "sacral sacral throat sacral throat brow solar-plexus heart throat brow sacral sacral",
+  "relationships": "heart heart heart heart heart brow throat heart brow heart heart brow",
+  "communication": "throat throat throat throat throat brow throat throat throat throat brow throat",
+  "enterprise": "solar-plexus heart brow solar-plexus solar-plexus root brow brow throat root crown solar-plexus",
+  "resources": "solar-plexus heart root root heart brow heart brow brow brow heart heart",
+  "place": "root root crown heart root root brow root root heart heart crown",
+  "time": "solar-plexus brow brow brow solar-plexus brow sacral solar-plexus brow root brow solar-plexus",
+  "civic": "heart solar-plexus brow brow heart throat brow brow throat brow crown throat",
+  "ecology": "heart brow brow heart brow brow brow heart crown solar-plexus brow heart",
+  "meaning": "crown solar-plexus crown crown brow throat sacral crown brow crown sacral crown",
+  "future": "crown solar-plexus brow solar-plexus root sacral brow crown brow solar-plexus heart heart",
+  "sovereignty": "solar-plexus solar-plexus solar-plexus solar-plexus solar-plexus brow solar-plexus brow solar-plexus root brow brow",
+  "integration": "solar-plexus throat brow brow crown solar-plexus brow brow solar-plexus brow throat crown"
+};
+const knownChakras = new Set(chakraLenses.map(lens => lens.id));
+
+const domains=packs.map(([id,title,summary,tags,sourceRefs,qs],d)=>({id,title,summary,tags,sourceRefs,questions:qs.map((prompt,i)=>({id:`MVS-${String(d+1).padStart(2,'0')}-${String(i+1).padStart(2,'0')}`,prompt,core:i===0,chakraLens:chakraByDomain[id]?.split(' ')[i]}))}));
+for (const domain of domains) {
+  const tags = chakraByDomain[domain.id]?.split(' ') || [];
+  if (tags.length !== domain.questions.length || tags.some(tag => !knownChakras.has(tag))) {
+    throw new Error('Check chakra themes for ' + domain.id);
+  }
+}
+
+const spatialScope = {
+  tori: 1,
+  sides: 1,
+  selves: 1,
+  facetRows: 12,
+  facetColumns: 24,
+  description: 'Coverage of the seed questions. Individual question placements are unspecified.',
+};
+const questionnaire={spatialScope,chakraLenses,version:'1.0.0',title:'Minimum Viable Self and ultra-dense reflection atlas',created:'2026-11-10',purpose:'A selective, revisable personal record for useful action, not a test of personality or completeness.',counts:{domains:domains.length,domainQuestions:domains.reduce((n,d)=>n+d.questions.length,0),crossCuttingLenses:lensTexts.length},domains,lenses:lensTexts.map(([id,prompt])=>({id,prompt}))};
 await fs.writeFile(path.join(root,'data/questionnaire.json'),JSON.stringify(questionnaire,null,2)+'\n');
-let md='# Minimum Viable Self and ultra-dense reflection atlas\n\nEdition 1 · 10 November 2026. This original synthesis provides 288 domain prompts and 12 cross-cutting reflection prompts: 300 distinct authored prompts. The 24 first questions are optional starting anchors. Density means depth and connectedness; it is not a demand to disclose everything. Use any entry point, revisit it in another direction, and leave unknown, declined or not applicable answers visible.\n\n## How to use the atlas\n\nChoose one intended use. Select relevant anchors, then deepen useful answers with the lenses below. Record time, origin, meaning, access choices and an action or open question. A two-minute capture may later become a long dialogue. A filled questionnaire is not a trained model, and a complete answer count is not a complete person. The system guide defines the MVS acceptance review.\n\n## Twelve reflection lenses\n\n'+questionnaire.lenses.map((l,i)=>`${i+1}. **${l.id}** — ${l.prompt}`).join('\n')+'\n\n';
-for(const d of domains){md+=`## ${d.title}\n\n${d.summary} Design sources: ${d.sourceRefs.join(', ')}. These are new prompts inspired by those sources, not verbatim workbook content.\n\n`;for(const q of d.questions)md+=`- **${q.id}${q.core?' · starting anchor':''}** ${q.prompt}\n`;md+='\n';}
+let md='# Minimum Viable Self and ultra-dense reflection atlas\n\nEdition 1 · 10 November 2026. The 288 domain questions cover the 12 × 24 facets on one side of one torus for one self. The 12 reflection lenses can be reused across questions. The 24 first questions are optional starting anchors. Density means depth and connectedness; it is not a demand to disclose everything. Use any entry point, revisit it in another direction, and leave unknown, declined or not applicable answers visible.\n\n## How to use the atlas\n\nChoose one intended use. Select relevant anchors, then deepen useful answers with the lenses below. Record time, origin, meaning, access choices and an action or open question. A two-minute capture may later become a long dialogue. A filled questionnaire is not a trained model, and a complete answer count is not a complete person. The system guide defines the MVS acceptance review.\n\n## Twelve reflection lenses\n\n'+questionnaire.lenses.map((l,i)=>`${i+1}. **${l.id}** — ${l.prompt}`).join('\n')+'\n\n';
+md += "## Chakra themes for practical questions\n\nThe seven tori represent the chakras of the etheric Aura. Use each as a perspective on an everyday situation. Keep the wording concrete enough to answer from experience, make a choice or try a small experiment. This example uses one lesson across seven perspectives.\n\n| Chakra | Practical focus | Example question |\n| --- | --- | --- |\n" +
+  chakraLenses.map(lens => '| ' + lens.colour + ' · ' + lens.name + ' | ' + lens.focus + ' | ' + lens.example + ' |').join('\n') +
+  "\n\nThe library gives each seed question a primary theme for browsing and retargeting. The seed still covers one torus, one side and one self. A theme describes what a question asks about. A facet placement specifies where you choose to put it. The themes follow [Matrix Studio’s philosophical perspectives](https://github.com/auraofintelligence/aura-matrix-studio/blob/main/DATASET-CATALOGUE.md#philosophical-perspectives).\n\n";
+for(const d of domains){md+=`## ${d.title}\n\n${d.summary} Design sources: ${d.sourceRefs.join(', ')}. These are new prompts inspired by those sources, not verbatim workbook content.\n\n`;for(const q of d.questions){const theme=chakraLenses.find(lens=>lens.id===q.chakraLens);md+=`- **${q.id}${q.core?' · starting anchor':''}** ${q.prompt} _(${theme.name})_\n`;}md+='\n';}
 await fs.writeFile(path.join(root,'content/questionnaires.md'),md.trimEnd()+'\n');
 console.log(JSON.stringify(questionnaire.counts));

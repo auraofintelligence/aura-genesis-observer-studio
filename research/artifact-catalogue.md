@@ -23,7 +23,7 @@ Prepared 10 November 2026; updated 11 November 2026. This catalogue identifies t
 
 | Artifact | Contents and accounting treatment |
 | --- | --- |
-| [data/questionnaire.json](../data/questionnaire.json) | The 288 authored domain seed questions and 12 reusable reflection lenses. This is the initial 300-item seed pilot. |
+| [data/questionnaire.json](../data/questionnaire.json) | The 288 authored seed questions cover one side of one torus for one self. Twelve reusable lenses deepen reflection across questions. |
 | [content/questionnaires.md](../content/questionnaires.md) | Readable source edition of the questionnaire material. |
 | [data/interview-engine.json](../data/interview-engine.json) | Authored branch patterns, domain scenarios, tensions, transfer tasks, self lenses and conditions. Rule-based combinations are not counted as newly authored questions. |
 | [data/weaving-atlas.json](../data/weaving-atlas.json) | 100 territories with quotas, streams, objectives, sources, gaps, dimensions and a status snapshot. The planned target is 100,000 questions, arranged in 2,000 batches of 50. Runtime ledger results should govern refreshed completion counts. |

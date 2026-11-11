@@ -4,6 +4,14 @@ This specification turns the authored seed questions and source maps into a larg
 
 The central task is to discover worthwhile distinctions, missing perspectives, testable alternatives and useful next actions. Changing a few words in a question does not create another worthwhile question. A large count without a coverage map, redundancy control and review history is not the intended result.
 
+The 288 seed questions cover one side of one torus for one self. Treat the 12 reflection lenses as reusable ways to deepen answers. When a gap involves another torus, side or self, identify the difference in context that warrants the question. Keep that coverage distinct from the 100,000-question territory quotas.
+
+## Write and categorise within a chakra theme
+
+Choose the chakra perspective that fits what the question helps someone notice, decide, express, make or test. Use a concrete situation from life or teaching. Root may ask about a practical condition for participation, while Brow may ask for evidence of understanding. The [seven-theme guide and lesson examples](guide-questionnaire.html#chakra-themes-for-practical-questions) use Matrix Studio’s practical vocabulary (MS2). U3 defines the seed’s scope.
+
+Give each new candidate one primary tag from `chakra:root`, `chakra:sacral`, `chakra:solar-plexus`, `chakra:heart`, `chakra:throat`, `chakra:brow` and `chakra:crown`. In `provenance.sourceNotes`, explain the connection between the question’s purpose and the chosen chakra. Add a secondary association only when it helps someone find or reuse the question. Record an intended torus, side and self in that note when those choices have been made. The critic checks whether the question itself fits the theme and whether a learner or participant could use it in the named situation.
+
 ## Operative Aura authoring revision — 11 November 2026
 
 **U2 is the controlling author clarification.** Aura organises patterns in seven nested horn tori with programmable facets. A person selects and stacks patterns, computes with AI to generate documents, websites or other chosen outputs, inspects and corrects the result, regroups and repeats. MVS questions help collect material for that process. The question atlas must also examine using, making, testing and revising with that material; it cannot stop at self-description.
@@ -22,7 +30,7 @@ Across a territory's batches, cover the operations below where they add useful k
 | Correct the right element | Whether a defect arose in evidence, meaning, selection, instruction, ordering or presentation; retain the original account and a reason for the change |
 | Regroup and repeat | A materially changed purpose, circumstance or self lens; what can be reused, what must be recomputed, and what the next attempt tests |
 
-Multiple selves, observer streams, spatial addresses and access domains are separate axes. A past, present or conditional future self may select different patterns without becoming a different observer. The participant's meaning can correct an interpretation without rewriting an observed event. Do not invent seven fixed psychological layer names.
+Multiple selves, observer streams, spatial addresses and access domains are separate axes. A past, present or conditional future self may select different patterns without becoming a different observer. The participant's meaning can correct an interpretation without rewriting an observed event. Use the chakra vocabulary in MS2 for question themes and preserve the participant’s own interpretation.
 
 The author's access architecture places private and secret material internally with differentiated encryption and permissions, and a selected public projection externally with reduced information and capabilities. A question can examine permissioned computation, field-level release, the audience of an output or restrictions inherited from its sources. Permission to read public material does not grant computation, training, writing, execution, republication, external action or access to its internal sources; each further operation needs its own applicable grant. Moving a facet, changing a skin or summarising a record does not itself release information or implement encryption. Do not invent cryptographic mechanisms, delegated roles or actual private records. Use a fictional example or a chosen non-sensitive artifact when that is sufficient.
 
@@ -168,16 +176,16 @@ The two-cycle limit in this guideline governs deliberate review and revision. Th
 
 ## Scope revisions and fresh job packets
 
-The atlas revision is **`2026-11-11-operative-aura`**. Its 100 territory IDs, titles and quotas remain the same. The existing production ledger remains an historical scope snapshot: `runtime/weave.py plan` stores the atlas hash, territory gaps, allowed source IDs and dimensions in its manifest. `packet` reads that frozen manifest. Regenerating the public atlas does **not** refresh packets from an existing ledger, and old packets must not be labelled as using the new scope. Adding U2/MS1 to text beside an old packet does not change its import contract.
+The atlas revision is **`2026-11-11-chakra-targeting`**. Its 100 territory IDs, titles and quotas remain the same. The existing production ledger remains an historical scope snapshot: `runtime/weave.py plan` stores the atlas hash, territory gaps, allowed source IDs and dimensions in its manifest. `packet` reads that frozen manifest. Regenerating the public atlas does **not** refresh packets from an existing ledger, and old packets must not be labelled as using the new scope. An updated source list belongs to the new packet and its manifest.
 
 For fresh work under the revision, create a separate planning workspace and generate a packet from that workspace, for example:
 
 ```powershell
-python runtime/weave.py plan --atlas data/weaving-atlas.json --out .private/weaving-2026-11-11-operative
-python runtime/weave.py packet --ledger .private/weaving-2026-11-11-operative --job T095-B01 --out .private/weaving-2026-11-11-operative/T095-B01.packet.json
+python runtime/weave.py plan --atlas data/weaving-atlas.json --out .private/weaving-2026-11-11-chakra
+python runtime/weave.py packet --ledger .private/weaving-2026-11-11-chakra --job T095-B01 --out .private/weaving-2026-11-11-chakra/T095-B01.packet.json
 ```
 
-Before dispatch, verify `brief.territory.authoringRevision`, the specific `gaps` and `authoringRequirements`, U2/MS1 in both the territory and supplied sources, and the associated manifest's `atlasSha256`. Record these with the worker run. This is a documented coordinator check; the runtime does not compare its stored manifest with the current public atlas automatically. The new directory is another version of the same plan, not another 100,000-question target.
+Before dispatch, verify `brief.territory.authoringRevision`, the specific `gaps` and `authoringRequirements`, U2, MS1, U3 and MS2 in both the territory and supplied sources, and the associated manifest's `atlasSha256`. Record these with the worker run. This is a documented coordinator check; the runtime does not compare its stored manifest with the current public atlas automatically. The new directory is another version of the same plan, not another 100,000-question target.
 
 Preserve the old ledger, manifest, questions, revisions and reviewer events. Reserve new work against the **union of occupied IDs across plan versions**, and supply previously generated questions as a duplicate-comparison reference. As of this revision, the original ledger has 25 accepted questions in T001 and 25 in T061, all from the first 25 slots in each territory; these are AI editorial acceptances, not participant answers or human approval. They keep their original review history. Do not allocate those same IDs again or silently mark them reviewed against the revised scope. Starting a new batch in an unoccupied territory avoids this collision; partially occupied old batches need an explicit slot inventory.
 

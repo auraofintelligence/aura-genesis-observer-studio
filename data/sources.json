@@ -236,6 +236,21 @@
       "url": "https://auraofintelligence.github.io/aura-horn-torus/geometry.html",
       "use": "Geometry source to keep horn tori distinct from open-hole ring tori, decorative rings or rock geodes.",
       "status": "Geometry reference; no inference that geometry alone implements learned intelligence."
+    },
+    {
+      "id": "U3",
+      "title": "Author clarification — question scope and chakra themes",
+      "locator": "11 November 2026, project conversation",
+      "use": "The 288-question seed covers one torus, one side and one self. The tori represent chakras of the etheric Aura. Use each chakra’s frame for practical, modern targeting and categorisation.",
+      "status": "Direct design instruction."
+    },
+    {
+      "id": "MS2",
+      "title": "Aura Matrix Studio — practical chakra perspectives",
+      "locator": "DATASET-CATALOGUE.md, Philosophical perspectives",
+      "url": "https://github.com/auraofintelligence/aura-matrix-studio/blob/main/DATASET-CATALOGUE.md#philosophical-perspectives",
+      "use": "Root, Sacral, Solar plexus, Heart, Throat, Brow and Crown with practical themes. A theme may guide question selection or retargeting before a facet placement is chosen.",
+      "status": "Project vocabulary and editable philosophical associations."
     }
   ]
 }

@@ -56,8 +56,8 @@
     "count": 7,
     "layerNames": null,
     "facetsPerTorus": 288,
-    "indexing": "Numbers 1–7 are neutral shell indices, not cognitive names. The current Matrix profile establishes 12 × 24 = 288 base facets per shell. Geometry coordinates and semantic assignments must reference their explicit geometry version; future profile changes require a new version rather than changing historical addresses.",
-    "functionalAssignment": "No torus is assigned a self, observer, access level, trait, chakra or cognitive function here. Facet-side and outward-layer addresses are geometric/program addresses, not access grants.",
+    "indexing": "Shell indices 1–7 follow the Root-to-Crown chakra correspondence. The current Matrix profile establishes 12 × 24 = 288 base facets per shell. Geometry coordinates and semantic assignments must reference their explicit geometry version; future profile changes require a new version rather than changing historical addresses.",
+    "functionalAssignment": "The seven tori represent the etheric Aura’s chakras. Their practical themes guide pattern and question organisation. A torus, self, observer and access domain each have a separate role.",
     "placementRule": "A programmable facet has a base address and an outward stack of layers. Each layer can carry records, instructions, required JSON and assets. Placement may remain unassigned in this illustrative example; it is never inferred from a pattern label.",
     "commonPinch": "Seven nested horn-torus shells with R = r and a shared pinch; see HG1. Geometry is separate from cognitive labels and access domains.",
     "facetAddress": [
@@ -74,7 +74,59 @@
       "insideOutsideBaseAddresses": 4032,
       "scope": "Current Matrix Studio address profile, not a claim that these numbers define cognitive capacity."
     },
-    "sideVsDomain": "Inside/outside are geometric address spaces. An outside facet is not automatically public, and an inside facet is not encrypted. The separate access-domain field controls the proposed permissions."
+    "sideVsDomain": "Inside/outside are geometric address spaces. An outside facet is not automatically public, and an inside facet is not encrypted. The separate access-domain field controls the proposed permissions.",
+    "chakraCorrespondence": [
+      {
+        "id": "root",
+        "name": "Root",
+        "colour": "Red",
+        "focus": "Embodiment, practical needs, place and stability"
+      },
+      {
+        "id": "sacral",
+        "name": "Sacral",
+        "colour": "Orange",
+        "focus": "Creativity, enjoyment, relationship and change"
+      },
+      {
+        "id": "solar-plexus",
+        "name": "Solar plexus",
+        "colour": "Yellow",
+        "focus": "Agency, intentions, capability and action"
+      },
+      {
+        "id": "heart",
+        "name": "Heart",
+        "colour": "Green",
+        "focus": "Care, reciprocity, belonging and stewardship"
+      },
+      {
+        "id": "throat",
+        "name": "Throat",
+        "colour": "Blue",
+        "focus": "Expression, communication and shared understanding"
+      },
+      {
+        "id": "brow",
+        "name": "Brow",
+        "colour": "Indigo",
+        "focus": "Attention, interpretation, patterns and discernment"
+      },
+      {
+        "id": "crown",
+        "name": "Crown",
+        "colour": "Violet",
+        "focus": "Meaning, values, integration and wider perspective"
+      }
+    ],
+    "questionnaireScope": {
+      "questions": 288,
+      "tori": 1,
+      "sides": 1,
+      "selves": 1,
+      "reflectionLenses": 12,
+      "themeUsage": "Chakra themes guide categorisation and retargeting. Actual facet placement is a separate choice."
+    }
   },
   "independentAxes": [
     {

@@ -1,4 +1,63 @@
 {
+  "spatialScope": {
+    "tori": 1,
+    "sides": 1,
+    "selves": 1,
+    "facetRows": 12,
+    "facetColumns": 24,
+    "description": "Coverage of the seed questions. Individual question placements are unspecified."
+  },
+  "chakraLenses": [
+    {
+      "id": "root",
+      "name": "Root",
+      "colour": "Red",
+      "focus": "Embodiment, practical needs, place and stability",
+      "example": "What change to the room, equipment or schedule would make this lesson easier to attend and repeat?"
+    },
+    {
+      "id": "sacral",
+      "name": "Sacral",
+      "colour": "Orange",
+      "focus": "Creativity, enjoyment, relationship and change",
+      "example": "Which format would make this lesson enjoyable to explore, and what quick prototype could you try?"
+    },
+    {
+      "id": "solar-plexus",
+      "name": "Solar plexus",
+      "colour": "Yellow",
+      "focus": "Agency, intentions, capability and action",
+      "example": "What could a learner do unaided by the end, and which task would let them show it?"
+    },
+    {
+      "id": "heart",
+      "name": "Heart",
+      "colour": "Green",
+      "focus": "Care, reciprocity, belonging and stewardship",
+      "example": "Whose experience would improve this lesson, and what could you offer in return for their input?"
+    },
+    {
+      "id": "throat",
+      "name": "Throat",
+      "colour": "Blue",
+      "focus": "Expression, communication and shared understanding",
+      "example": "Which explanation would let a new learner describe the idea accurately in their own words?"
+    },
+    {
+      "id": "brow",
+      "name": "Brow",
+      "colour": "Indigo",
+      "focus": "Attention, interpretation, patterns and discernment",
+      "example": "What observation would help you tell whether a learner understood the idea or remembered the example?"
+    },
+    {
+      "id": "crown",
+      "name": "Crown",
+      "colour": "Violet",
+      "focus": "Meaning, values, integration and wider perspective",
+      "example": "Which wider purpose does this lesson serve, and what would change if that purpose took priority?"
+    }
+  ],
   "version": "1.0.0",
   "title": "Minimum Viable Self and ultra-dense reflection atlas",
   "created": "2026-11-10",
@@ -26,62 +85,74 @@
         {
           "id": "MVS-01-01",
           "prompt": "How would you introduce yourself to an Aura, and what should it help you make possible first?",
-          "core": true
+          "core": true,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-01-02",
           "prompt": "What would a useful December 2026 version of this relationship actually do with you?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-01-03",
           "prompt": "Which names, pronouns, languages and forms of address fit which settings?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-01-04",
           "prompt": "Which parts of your story do you choose to make central, and which do others overemphasise?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-01-05",
           "prompt": "Which roles are yours by choice, which were assigned, and which are you outgrowing?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-01-06",
           "prompt": "What should someone understand before interpreting your pace, humour or intensity?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-01-07",
           "prompt": "What do you want understood without having to explain it repeatedly?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-01-08",
           "prompt": "Which facts about you are approximate, contested or deliberately left unspecified?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-01-09",
           "prompt": "What is a description of you that sounds flattering but gets you wrong?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-01-10",
           "prompt": "What should the Aura be comfortable leaving unresolved about you?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-01-11",
           "prompt": "What would make this starting representation recognisably yours rather than a generic profile?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-01-12",
           "prompt": "Who may challenge this account, and whose interpretation must never silently replace yours?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         }
       ]
     },
@@ -102,62 +173,74 @@
         {
           "id": "MVS-02-01",
           "prompt": "Which three experiences best explain the direction you are choosing now?",
-          "core": true
+          "core": true,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-02-02",
           "prompt": "What changed in your interpretation of an important experience as you grew older?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-02-03",
           "prompt": "What is the earliest useful memory you want to include, and how certain are its details?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-02-04",
           "prompt": "Which objects, songs, smells or places open a route into a memory?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-02-05",
           "prompt": "Which experience taught a rule you now want to reconsider?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-02-06",
           "prompt": "What achievement matters to you even though it would not appear on a CV?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-02-07",
           "prompt": "Which account has another person remembered differently, and can both versions remain visible?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-02-08",
           "prompt": "What did you learn from a period you once considered wasted?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-02-09",
           "prompt": "Which missing record would help clarify your story without forcing a conclusion?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-02-10",
           "prompt": "What would you tell your earlier self without pretending they had your present resources?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-02-11",
           "prompt": "Which memories should remain outside this collection?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-02-12",
           "prompt": "How should future corrections link to an earlier account without erasing its context?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         }
       ]
     },
@@ -178,62 +261,74 @@
         {
           "id": "MVS-03-01",
           "prompt": "What conditions help you feel physically ready to learn, create and act?",
-          "core": true
+          "core": true,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-02",
           "prompt": "What would you want to notice when a demanding day stops being productive?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-03",
           "prompt": "Which movements, settings or sensory inputs help you settle into a task?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-04",
           "prompt": "What access adjustments make a demanding task more available to you?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-05",
           "prompt": "How do hunger, discomfort or fatigue change the kind of task you choose?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-06",
           "prompt": "Which bodily observations are self-reports and which come from a named device?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-03-07",
           "prompt": "What does adequate recovery look like in your own observable terms?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-08",
           "prompt": "What should an assistant ask before using any body or health-related information?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-09",
           "prompt": "Which ordinary activity is an appropriate baseline for noticing change?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-10",
           "prompt": "Which equipment or practitioner instructions must take priority over a learning plan?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-11",
           "prompt": "What physical information should be recorded only for a particular purpose and then removed?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-03-12",
           "prompt": "How would you distinguish an enjoyable intense experience from a measured lasting improvement?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         }
       ]
     },
@@ -253,62 +348,74 @@
         {
           "id": "MVS-04-01",
           "prompt": "When you become absorbed in an idea, what do you tend to notice and what might disappear from view?",
-          "core": true
+          "core": true,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-02",
           "prompt": "How would you like the Aura to help you revisit an overlooked cue?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-03",
           "prompt": "Recall an event: which cues were present, which were available to you, and which did you actually notice?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-04",
           "prompt": "What captures your attention even when it does not serve your chosen purpose?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-05",
           "prompt": "What can you attend to alongside familiar movement, and what needs a quiet single task?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-06",
           "prompt": "Which interruptions carry useful information and which merely reset your concentration?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-07",
           "prompt": "When has narrowing attention helped you finish something difficult?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-04-08",
           "prompt": "When has widening attention changed your interpretation of a person or situation?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-09",
           "prompt": "How can you tell whether you understood a fast explanation rather than recognised its words?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-10",
           "prompt": "What cue would justify pausing an otherwise valuable stream of work?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-04-11",
           "prompt": "Which observations should stay unknown rather than be filled in by a narrator?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-04-12",
           "prompt": "How would you test whether a new attention habit transfers to an unfamiliar setting?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         }
       ]
     },
@@ -329,62 +436,74 @@
         {
           "id": "MVS-05-01",
           "prompt": "How do you represent a complex idea internally: words, images, spatial patterns, sounds or something else?",
-          "core": true
+          "core": true,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-02",
           "prompt": "Which assumption about how the world works would you most like to test?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-03",
           "prompt": "What is on your mental stage when several competing projects are present?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-04",
           "prompt": "Which model of a situation is useful despite being incomplete?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-05",
           "prompt": "What evidence would make you replace a favoured explanation?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-06",
           "prompt": "How do metaphor, mathematical structure and empirical claim differ in your thinking?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-07",
           "prompt": "When do you reason from a whole pattern and when from individual details?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-08",
           "prompt": "Which pattern recurs across unrelated fields, and where does the analogy break?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-09",
           "prompt": "Which prediction did your model get wrong, and how did you revise it?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-10",
           "prompt": "How do you hold several plausible explanations without prematurely selecting one?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-05-11",
           "prompt": "What would a helpful diagram preserve that prose tends to flatten?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-05-12",
           "prompt": "How should the Aura represent your uncertainty without making it look like indecision?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         }
       ]
     },
@@ -405,62 +524,74 @@
         {
           "id": "MVS-06-01",
           "prompt": "What do joyful, responsible and abundance mean when they must guide an actual decision?",
-          "core": true
+          "core": true,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-06-02",
           "prompt": "Which value would you protect when a promising opportunity puts it under pressure?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-06-03",
           "prompt": "Where do your actions currently fit your stated values, and where is there friction?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-06-04",
           "prompt": "Whose costs are easy for you to miss when judging a useful project?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-06-05",
           "prompt": "Which principle have you changed your mind about, and why?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-06-06",
           "prompt": "How do you distinguish a real responsibility from an inherited expectation?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-06-07",
           "prompt": "What trade-off between freedom and commitment do you willingly make?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-06-08",
           "prompt": "What does fairness require when people have unequal time, money or support?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-06-09",
           "prompt": "When might efficiency reduce something valuable that is hard to count?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-06-10",
           "prompt": "What would make abundance extractive rather than life enhancing?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-06-11",
           "prompt": "What happens when another person defines a good life differently from you?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-06-12",
           "prompt": "What observable decision would show that this value has become practice?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         }
       ]
     },
@@ -480,62 +611,74 @@
         {
           "id": "MVS-07-01",
           "prompt": "What are you most drawn to create now, and what need does it answer?",
-          "core": true
+          "core": true,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-07-02",
           "prompt": "Which competing motive makes choosing the next action difficult?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-07-03",
           "prompt": "What draws you towards a task before any external reward appears?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-07-04",
           "prompt": "What are you trying to preserve, gain, repair or stop losing?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-07-05",
           "prompt": "How does the importance of a goal change across the day or circumstances?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-07-06",
           "prompt": "Which desire is yours, and which may be borrowed from your surroundings?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-07-07",
           "prompt": "How long has a priority mattered, and what would make it fade?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-07-08",
           "prompt": "What resource would relieve a bottleneck more than additional motivation would?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-07-09",
           "prompt": "When does curiosity become avoidance of a difficult but necessary task?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-07-10",
           "prompt": "What is a reasonable enough point for an activity that could expand forever?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-07-11",
           "prompt": "How would you choose between two worthwhile projects with incompatible demands?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-07-12",
           "prompt": "Which self-chosen signal would help you review a priority without scoring your worth?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         }
       ]
     },
@@ -555,62 +698,74 @@
         {
           "id": "MVS-08-01",
           "prompt": "What reliably makes a day feel worth living to you?",
-          "core": true
+          "core": true,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-08-02",
           "prompt": "How would you like an assistant to respond when your enthusiasm and frustration coexist?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-08-03",
           "prompt": "Which events tend to change the emotional tone of your day?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-08-04",
           "prompt": "How does a feeling influence your interpretation before you name it?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-08-05",
           "prompt": "What can someone observe about you, and what would they need to ask to understand it?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-08-06",
           "prompt": "When has laughter opened a difficult conversation?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-08-07",
           "prompt": "What kind of acknowledgement helps, and what feels patronising?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-08-08",
           "prompt": "What conditions allow disappointment to become useful information?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-08-09",
           "prompt": "Which pleasures replenish you and which leave you feeling less able to choose?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-08-10",
           "prompt": "How should the Aura respond when you want company rather than a solution?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-08-11",
           "prompt": "What would you prefer to express creatively rather than analyse?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-08-12",
           "prompt": "What meaning do you give this feeling now, and could it be different tomorrow?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         }
       ]
     },
@@ -631,62 +786,74 @@
         {
           "id": "MVS-09-01",
           "prompt": "What decisions should the Aura help prepare while leaving the final choice to you?",
-          "core": true
+          "core": true,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-02",
           "prompt": "What action would turn one of your current ideas into evidence this week?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-03",
           "prompt": "What options did you see in a recent decision, including doing nothing?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-04",
           "prompt": "What options became visible only after the event?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-09-05",
           "prompt": "How did you compare likely benefit, effort, reversibility and effects on others?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-06",
           "prompt": "Which decisions can be delegated within a standing boundary?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-07",
           "prompt": "What signal should make an agent stop and return to you?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-08",
           "prompt": "When do you prefer a quick reversible trial over more analysis?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-09",
           "prompt": "When is waiting the most active useful choice?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-10",
           "prompt": "How should a failed action change the next plan?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-09-11",
           "prompt": "How will you distinguish a completed external action from a prepared draft?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-09-12",
           "prompt": "What decision record would let your future self understand why you chose this?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         }
       ]
     },
@@ -707,62 +874,74 @@
         {
           "id": "MVS-10-01",
           "prompt": "What kinds of evidence make you trust a claim enough to use it?",
-          "core": true
+          "core": true,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-02",
           "prompt": "Which important belief should the Aura help you challenge constructively?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-03",
           "prompt": "What do you know directly, through testimony, through measurement or through inference?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-04",
           "prompt": "Which claim do you repeat without being able to find its original source?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-05",
           "prompt": "How would you check whether a compelling explanation has omitted a rival account?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-06",
           "prompt": "Which sources are authoritative for a narrow question but not for your whole worldview?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-07",
           "prompt": "What would you want recorded when a source changes or becomes unavailable?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-08",
           "prompt": "How do you recognise a false sense of understanding?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-09",
           "prompt": "What would count as a successful attempt to disconfirm your idea?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-10",
           "prompt": "How should the Aura phrase uncertainty so that you can still act sensibly?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-10-11",
           "prompt": "What is the difference between a vivid simulation and evidence about reality?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-10-12",
           "prompt": "What correction should be propagated to related records and proposed actions?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         }
       ]
     },
@@ -783,62 +962,74 @@
         {
           "id": "MVS-11-01",
           "prompt": "How do you want accelerated learning to change what you can actually do?",
-          "core": true
+          "core": true,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-11-02",
           "prompt": "What would make double-speed audio or speed reading worth keeping for a topic?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-11-03",
           "prompt": "What can you already do without help, and what evidence demonstrates it?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-11-04",
           "prompt": "Which prerequisite is currently limiting a more ambitious skill?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-11-05",
           "prompt": "How can a complex skill be practised through an authentic useful task?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-11-06",
           "prompt": "What should be recalled without notes after a rapid learning block?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-11-07",
           "prompt": "How will you test the same understanding the next day?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-11-08",
           "prompt": "What unfamiliar situation would test transfer rather than memorisation?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-11-09",
           "prompt": "When should playback slow down, pause or switch to a different representation?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-11-10",
           "prompt": "Which mistakes deserve deliberate practice rather than more content?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-11-11",
           "prompt": "What explanation could you give an adult peer, and what would they be able to do next?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-11-12",
           "prompt": "What would show that an apparent improvement came from easier conditions rather than increased skill?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         }
       ]
     },
@@ -858,62 +1049,74 @@
         {
           "id": "MVS-12-01",
           "prompt": "What do you most want to bring into the world through art, music or design?",
-          "core": true
+          "core": true,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-12-02",
           "prompt": "How could a creative work make a difficult idea enjoyable and memorable?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-12-03",
           "prompt": "Which medium fits a feeling that ordinary explanation misses?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-12-04",
           "prompt": "What constraints help you create rather than merely generate variations?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-12-05",
           "prompt": "What part of a work must retain your personal voice?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-12-06",
           "prompt": "How do you choose among abundant AI-generated possibilities?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-12-07",
           "prompt": "What would make a draft finished enough to encounter an audience?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-12-08",
           "prompt": "Which references inspire the work, and how will you respect their creators?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-12-09",
           "prompt": "How should human authorship, AI assistance and source material be credited?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-12-10",
           "prompt": "What audience response would help you revise without chasing approval?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-12-11",
           "prompt": "Which abandoned fragment might become useful in another project?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-12-12",
           "prompt": "How can creative experimentation feed a real service, lesson or gathering?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         }
       ]
     },
@@ -934,62 +1137,74 @@
         {
           "id": "MVS-13-01",
           "prompt": "What kinds of people and shared interests would you like more contact with?",
-          "core": true
+          "core": true,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-13-02",
           "prompt": "What would make a new connection worthwhile for the other person as well as you?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-13-03",
           "prompt": "Which qualities let you trust someone gradually?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-13-04",
           "prompt": "How do you prefer to maintain a connection between meetings?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-13-05",
           "prompt": "What boundary helps closeness remain chosen rather than obligatory?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-13-06",
           "prompt": "Who knows a different side of you, and should those accounts remain separate?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-13-07",
           "prompt": "What is a good invitation that allows an easy refusal?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-13-08",
           "prompt": "What would you contribute to a network before asking it for help?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-13-09",
           "prompt": "How should a personal assistant distinguish a contact, a collaborator and an endorsement?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-13-10",
           "prompt": "What repair would matter after a misunderstanding?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-13-11",
           "prompt": "Which relationship details must never be inferred or published by the Aura?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-13-12",
           "prompt": "How would you notice that a growing network is producing depth as well as reach?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         }
       ]
     },
@@ -1010,62 +1225,74 @@
         {
           "id": "MVS-14-01",
           "prompt": "How should the Aura speak with you when a subject is complex or emotionally important?",
-          "core": true
+          "core": true,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-02",
           "prompt": "What tells you that another person understood what you meant?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-03",
           "prompt": "Which words do you use in a specific way that needs explanation?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-04",
           "prompt": "What do your humour and informal language invite, and what should not be copied?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-05",
           "prompt": "How do you prefer disagreement to be introduced?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-06",
           "prompt": "Which assumptions do different audiences bring to the same explanation?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-14-07",
           "prompt": "What could be shown, demonstrated or enacted instead of described?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-08",
           "prompt": "How do you know when to ask another question rather than keep explaining?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-09",
           "prompt": "What should a summary preserve even when it becomes shorter?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-10",
           "prompt": "Which communication adjustment would help a person with different access needs?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-14-11",
           "prompt": "How can a teacher assess understanding without forcing agreement?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-14-12",
           "prompt": "What should happen when a polished paraphrase changes your meaning?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         }
       ]
     },
@@ -1086,62 +1313,74 @@
         {
           "id": "MVS-15-01",
           "prompt": "Which business or useful offer would you like this intensive programme to make more real?",
-          "core": true
+          "core": true,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-15-02",
           "prompt": "Who would benefit, what would they receive, and why might they choose it?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-15-03",
           "prompt": "What problem have you observed directly rather than inferred from a trend?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-15-04",
           "prompt": "What can you build or demonstrate before seeking substantial commitments?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-15-05",
           "prompt": "Which capability do you personally bring and which depends on another person?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-15-06",
           "prompt": "What are the likely time, material, maintenance and support costs?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-15-07",
           "prompt": "What evidence would distinguish interest from a willingness to use or pay?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-15-08",
           "prompt": "What could an honest small trial teach about a much larger ambition?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-15-09",
           "prompt": "Which promises are you ready to make and which remain exploratory?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-15-10",
           "prompt": "How would you avoid making the venture dependent on a single fragile tool or supplier?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-15-11",
           "prompt": "What would make this work compatible with the life you are trying to create?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-15-12",
           "prompt": "Which result would justify expanding, redesigning or ending the offer?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         }
       ]
     },
@@ -1162,62 +1401,74 @@
         {
           "id": "MVS-16-01",
           "prompt": "What resources would unlock the greatest useful capability for you and others?",
-          "core": true
+          "core": true,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-16-02",
           "prompt": "How should paid work, voluntary contribution and shared benefits be distinguished?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-16-03",
           "prompt": "What time, tools, space, knowledge or relationships are already available?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-16-04",
           "prompt": "Which resource appears abundant but carries a hidden ongoing cost?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-16-05",
           "prompt": "What could be shared without undermining anyone’s agency or livelihood?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-16-06",
           "prompt": "Which bottleneck is coordination rather than absolute scarcity?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-16-07",
           "prompt": "What should a voluntary contribution record say beyond its duration?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-16-08",
           "prompt": "Who can verify a contribution, and how can the contributor correct the record?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-16-09",
           "prompt": "What outcome improved, and how is that different from hours worked?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-16-10",
           "prompt": "Which resource assumptions need current figures before any financial decision?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-16-11",
           "prompt": "What would make a reciprocal arrangement fair to someone with little spare time?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-16-12",
           "prompt": "How would you judge whether useful abundance became more widely accessible?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         }
       ]
     },
@@ -1238,62 +1489,74 @@
         {
           "id": "MVS-17-01",
           "prompt": "How do Minjerribah and the places you travel through shape what you want to build?",
-          "core": true
+          "core": true,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-17-02",
           "prompt": "What journey or place-based experience would teach something you cannot learn at a desk?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-17-03",
           "prompt": "Which place holds a story you want to preserve, and whose story is it?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-17-04",
           "prompt": "What information belongs to the host or community rather than to a visiting recorder?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-17-05",
           "prompt": "Which practical conditions make an unfamiliar place easier to explore?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-17-06",
           "prompt": "What can be learned during passenger travel without missing the experience itself?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-17-07",
           "prompt": "How would you distinguish a remembered place from a reconstructed or imagined one?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-17-08",
           "prompt": "Which actual transport and access facts must be checked near the time of travel?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-17-09",
           "prompt": "What sensory detail helps you recall a place’s meaning?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-17-10",
           "prompt": "How could an enjoyable visit also build a lasting local capability?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-17-11",
           "prompt": "What should stay unrecorded even if a device could capture it?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-17-12",
           "prompt": "What would you bring back from an encounter besides media and consumption?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         }
       ]
     },
@@ -1314,62 +1577,74 @@
         {
           "id": "MVS-18-01",
           "prompt": "What would a full-immersion day with eight hours of sleep help you achieve?",
-          "core": true
+          "core": true,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-18-02",
           "prompt": "Which activities can overlap usefully, and which need your full attention?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-18-03",
           "prompt": "When are your best windows for difficult creation, dialogue, movement and review?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-18-04",
           "prompt": "What should a rapid capture contain so you can resume without rebuilding context?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-18-05",
           "prompt": "Which work can an agent continue while you eat, walk or learn?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-18-06",
           "prompt": "How will you avoid counting one overlapping hour as several elapsed hours?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-18-07",
           "prompt": "What should remain unstructured so that serendipity and relationships can happen?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-18-08",
           "prompt": "Which task should be removed when the plan exceeds the available waking time?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-18-09",
           "prompt": "How will you distinguish productive intensity from repeated switching?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-18-10",
           "prompt": "What transition ritual helps you close one context and open another?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-18-11",
           "prompt": "What evidence should cause tomorrow’s plan to become lighter or differently ordered?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-18-12",
           "prompt": "Which part of your schedule is an experiment rather than a commitment?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         }
       ]
     },
@@ -1390,62 +1665,74 @@
         {
           "id": "MVS-19-01",
           "prompt": "What civic problem would you like people to understand and influence more effectively?",
-          "core": true
+          "core": true,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-19-02",
           "prompt": "How should the Aura help you examine a rule without deciding your politics for you?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-19-03",
           "prompt": "Who actually holds the relevant decision and what is its current source?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-19-04",
           "prompt": "Which effects of a rule differ from its stated purpose?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-19-05",
           "prompt": "Whose experience is absent from your current account?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-19-06",
           "prompt": "What belongs in a public claim and what remains private supporting context?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-19-07",
           "prompt": "How should a proposed reform be distinguished from an existing legal entitlement?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-19-08",
           "prompt": "What is the strongest reasonable disagreement with your preferred approach?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-19-09",
           "prompt": "What would a useful public explanation allow a reader to check themselves?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-19-10",
           "prompt": "Which institutional promise would need evidence before you repeated it?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-19-11",
           "prompt": "How could local practice inform a wider proposal without claiming universal agreement?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-19-12",
           "prompt": "What correction process would remain available after a statement is published?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         }
       ]
     },
@@ -1465,62 +1752,74 @@
         {
           "id": "MVS-20-01",
           "prompt": "What living systems and future people should benefit from the things you build?",
-          "core": true
+          "core": true,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-20-02",
           "prompt": "Which consequence might be displaced elsewhere by an apparently successful project?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-20-03",
           "prompt": "What local observation would help you understand a system before intervening?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-20-04",
           "prompt": "Which resource loop could be repaired, reused or shared more effectively?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-20-05",
           "prompt": "How would you distinguish a regenerative intention from a demonstrated result?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-20-06",
           "prompt": "What baseline and comparison would make an improvement claim meaningful?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-20-07",
           "prompt": "Which time delay could hide damage or benefit?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-20-08",
           "prompt": "Who should participate in interpreting observations about Country or community?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-20-09",
           "prompt": "What would happen if many people copied your proposed activity?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-20-10",
           "prompt": "How do you balance experimentation with maintaining a dependable service?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-20-11",
           "prompt": "Which failure mode would require changing the design rather than increasing effort?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-20-12",
           "prompt": "What stewardship responsibility continues after the exciting launch?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         }
       ]
     },
@@ -1541,62 +1840,74 @@
         {
           "id": "MVS-21-01",
           "prompt": "What does the etheric or infinite mean in your own experience and creative language?",
-          "core": true
+          "core": true,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-21-02",
           "prompt": "How would you turn that meaning into something another person can use or examine?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-21-03",
           "prompt": "Which symbols help you orient attention without needing others to share your belief?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-21-04",
           "prompt": "Where does a spiritual interpretation illuminate an experience, and where is it only one lens?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-21-05",
           "prompt": "Which metaphors should remain metaphors until an empirical claim is stated and tested?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-21-06",
           "prompt": "What would you want a sceptical collaborator to understand about your intention?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-21-07",
           "prompt": "How do beauty, wonder and play influence what you choose to pursue?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-21-08",
           "prompt": "What practice connects an expansive idea with an ordinary useful act?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-21-09",
           "prompt": "Which claimed certainty should stay open to revision?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-21-10",
           "prompt": "How could the same symbol mean something different to another culture or person?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-21-11",
           "prompt": "What tangible artifact would express the idea without claiming proof of its metaphysics?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-21-12",
           "prompt": "What remains meaningful even if a favoured explanation turns out to be wrong?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         }
       ]
     },
@@ -1617,62 +1928,74 @@
         {
           "id": "MVS-22-01",
           "prompt": "What might your best plausible December 2026 self be doing, choosing and learning?",
-          "core": true
+          "core": true,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-22-02",
           "prompt": "Which conditions would have to change for that future to become possible?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-22-03",
           "prompt": "How does your present self differ from an earlier account you still carry?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-22-04",
           "prompt": "What would a more resourced version of you attempt?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-22-05",
           "prompt": "What would a constrained version of you preserve first?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-22-06",
           "prompt": "Which future attracts you because you want it rather than because it impresses others?",
-          "core": false
+          "core": false,
+          "chakraLens": "sacral"
         },
         {
           "id": "MVS-22-07",
           "prompt": "What trade-offs might the appealing future conceal?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-22-08",
           "prompt": "What alternative good future avoids depending on one uncertain breakthrough?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-22-09",
           "prompt": "Which December events are unknown and must not be written as accomplished facts?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-22-10",
           "prompt": "What reversible experiment could discriminate between two possible directions?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-22-11",
           "prompt": "Who else gains or loses freedom in the future you imagine?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         },
         {
           "id": "MVS-22-12",
           "prompt": "What would your future self thank you for recording accurately today?",
-          "core": false
+          "core": false,
+          "chakraLens": "heart"
         }
       ]
     },
@@ -1694,62 +2017,74 @@
         {
           "id": "MVS-23-01",
           "prompt": "What should your personal intelligence remember, and what should it always ask before using?",
-          "core": true
+          "core": true,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-23-02",
           "prompt": "Which jobs would you give an agent swarm, and how would you know the jobs were done well?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-23-03",
           "prompt": "Which records may be used for retrieval, model training, sharing or publication respectively?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-23-04",
           "prompt": "What tools may an agent read, draft with or execute, and within what limits?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-23-05",
           "prompt": "Which action must always return for a specific human decision?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-23-06",
           "prompt": "How should two agents disagree without concealing uncertainty in a consensus summary?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-23-07",
           "prompt": "What budget, time limit and stopping condition should every delegated job have?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-23-08",
           "prompt": "Which untrusted document instruction should an agent treat only as source content?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-23-09",
           "prompt": "What happens when a private record is corrected after it has been exported?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-23-10",
           "prompt": "How will you retain a usable copy if a service or model changes?",
-          "core": false
+          "core": false,
+          "chakraLens": "root"
         },
         {
           "id": "MVS-23-11",
           "prompt": "Which claims about memory, encryption, consciousness or training need actual implementation evidence?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-23-12",
           "prompt": "What audit trail lets you distinguish a plan, a dry run and an external action?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         }
       ]
     },
@@ -1771,62 +2106,74 @@
         {
           "id": "MVS-24-01",
           "prompt": "What is the first real-world result that would make this Aura useful enough to continue?",
-          "core": true
+          "core": true,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-24-02",
           "prompt": "What would you revise if the system understood your words but missed your meaning?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-24-03",
           "prompt": "Which records need to connect for a current question to become answerable?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-24-04",
           "prompt": "What did the environment, attention and narrator accounts disagree about?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-24-05",
           "prompt": "What explanation do you add that none of the observers could know unaided?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         },
         {
           "id": "MVS-24-06",
           "prompt": "What one variable can you change to test a proposed interpretation?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-24-07",
           "prompt": "What outcome do you predict, and what would count against the prediction?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-24-08",
           "prompt": "What actually happened, including surprises and effects on other people?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-24-09",
           "prompt": "What should change in the record, plan or tool after this result?",
-          "core": false
+          "core": false,
+          "chakraLens": "solar-plexus"
         },
         {
           "id": "MVS-24-10",
           "prompt": "Which uncertainty is now smaller, and which new uncertainty has appeared?",
-          "core": false
+          "core": false,
+          "chakraLens": "brow"
         },
         {
           "id": "MVS-24-11",
           "prompt": "How would someone else reproduce the useful part without copying your whole identity?",
-          "core": false
+          "core": false,
+          "chakraLens": "throat"
         },
         {
           "id": "MVS-24-12",
           "prompt": "What makes this evolving account qualified by life rather than merely rich in data?",
-          "core": false
+          "core": false,
+          "chakraLens": "crown"
         }
       ]
     }

@@ -10,7 +10,7 @@ The author's correction specifies **seven nested horn tori with programmable fac
 
 **Collect and organise patterns → select relevant patterns → group or stack them → compute with AI → generate a document, website or other chosen output → inspect and correct → regroup and repeat.**
 
-This loop is the core Aura direction. The three observers and participant meaning account contribute differently scoped evidence and corrections to it; they do not replace it. Likewise, the seven geometric shells, three observer streams, past/present/conditional-best self lenses, and public/private/secret access contexts are distinct axes. No new seven-layer names or fixed psychological meanings are assigned here.
+This loop is the core Aura direction. The three observers and participant meaning account contribute differently scoped evidence and corrections to it; they do not replace it. Likewise, the seven geometric shells, three observer streams, past/present/conditional-best self lenses, and public/private/secret access contexts are distinct axes. The seven tori represent the chakras of the etheric Aura. Matrix Studio’s practical chakra perspectives guide how questions and patterns are categorised.
 
 | Architecture element | Evidence and its scope |
 | --- | --- |

@@ -10,9 +10,11 @@ The controlling design source is **U2, the user’s architecture correction of 1
 
 *Mathematical spatial reference, source HG1: seven nested horn-torus shells using R = r and the 12 × 24 address grid. This illustration depicts geometry; it does not establish AI capability, encryption or access control.*
 
-The seven shells are nested horn tori, with the horn relation R = r and a common pinch. Geometry addresses must survive display transformations. This guide assigns no invented cognitive names or functions to the seven tori. It does not equate a torus with a self, observer, privacy tier or questionnaire domain.
+The seven shells are nested horn tori, with the horn relation R = r and a common pinch. Geometry addresses must survive display transformations. The tori represent the seven chakras of the etheric Aura, from red Root at the centre through Sacral, Solar plexus, Heart, Throat and Brow to violet Crown. Each gives questions and pattern groups a practical focus. A self frame, observer view, permission and life domain each have their own role.
 
 The current Matrix Studio profile has 12 × 24 base facets per shell: 288 per shell, 2,016 across seven, and 4,032 inside/outside base addresses. These describe an implemented address profile, not a measure of intelligence. **Inside/outside is a geometric distinction. An outside facet is not automatically public, and an inside facet is not encrypted.**
+
+The 288 domain questions cover the 12 × 24 facets on one side of one torus for one self. The 12 reflection lenses can be reused across questions. The library uses the [chakra themes](guide-questionnaire.html#chakra-themes-for-practical-questions) to categorise and retarget questions. Set the actual torus, side and self when placing a question in the Aura.
 
 | Structure | What it holds | What its order means |
 |---|---|---|
