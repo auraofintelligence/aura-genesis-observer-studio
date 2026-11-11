@@ -1,8 +1,10 @@
-# From three observers to a working local Aura
+# The observer prototype within the Aura pattern cycle
 
-The local runtime makes one central part of Aura executable: separate what the world model contains, what the focal character noticed, and what the narrator says, then preserve the person's own explanation alongside them. It produces a portable record of evidence, disagreement, proposed action and review. The supplied demonstration also walks a four-role team through a reference-only community-workshop concept.
+The local runtime implements one supporting component of Aura: separate what the world model contains, what the focal character noticed, and what the narrator says, then preserve the person's own explanation alongside them. It produces a portable record of evidence, disagreement, proposed action and review. The supplied demonstration also walks a four-role team through a reference-only community-workshop concept.
 
-The first run is simple:
+The full Aura process organises patterns through seven nested horn tori, programmable facets and outward layer stacks, then selects compositions for AI generation, correction and regrouping across selves and access domains. This observer runtime does not implement that whole engine. See [the pattern-cycle guide](guide-aura.html) for the corrected architecture.
+
+The first observer demonstration is simple:
 
 ```text
 python runtime/aura.py demo --output .private/runs/demo.json

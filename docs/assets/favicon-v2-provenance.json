@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "generatedDate": "2026-11-11",
+  "asset": "Aura nested-surface favicon v2",
+  "tool": "Built-in image_gen.imagegen",
+  "mode": "New original generation; opaque square background",
+  "prompt": "Use case: logo-brand. Asset type: unique square website favicon for Aura of Intelligence, legible at 32 pixels. Create a polished original stylised three-dimensional mark representing SEVEN nested horn-torus surfaces, all meeting at a single shared central pinch point, on a flat deep dark plum background (#160b20). The horn-torus conceptual relation is R=r; there is no open central bore. Use a slightly oblique three-quarter view, a compact balanced sculptural silhouette, generous empty margin, crisp contours and simplified broad programmable-facet divisions. Seven nested coloured surfaces in outer-to-inner order violet, indigo, blue, green, yellow, orange, red, with restrained pale-gold highlights. Show coherent curved surfaces rather than seven disconnected circular outlines. The coloured nested wireframe displayed on the supplied VerseBox concept screen and the stable faceted address map of Aura Matrix Studio informed this new concept; do not depict any booth, monitor or room. Aim for a memorable calm geometrical intelligence mark, with no crystal, rock, gemstone, geode, eye, iris, pupil, doughnut hole, text, lettering, numbers or watermark. This is a stylised concept, not an exact scientific diagram. Square composition, solid background, no transparency.",
+  "referenceInspection": [
+    {
+      "path": "aura-matrix-studio/assets/aura.png",
+      "role": "Viewed as a stable faceted address-map reference; not passed as an image input to the generator."
+    },
+    {
+      "path": "aura-verse-box/documents/verse-box-supplied-reference.jpg",
+      "role": "Viewed for the nested coloured surfaces displayed on the VerseBox concept screen; not passed as an image input to the generator."
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/generated/aura-favicon-v2-original.png",
+      "role": "Original generated image, retained without edits.",
+      "sha256": "9076322981f58009821a67060407d57525f1e9d273b81dece2aaee1197aad378"
+    },
+    {
+      "path": "docs/assets/aura-favicon-v2.png",
+      "width": 192,
+      "height": 192,
+      "role": "Website icon derivative.",
+      "sha256": "19abb50fc3d6280873598c10ab8bb51d5bce5689660f19320d607263ae064b51"
+    },
+    {
+      "path": "docs/assets/aura-favicon-v2-32.png",
+      "width": 32,
+      "height": 32,
+      "role": "Small favicon derivative.",
+      "sha256": "32148ddc9cb3792d841dcc508d43e771826cb302bc49d6117fdaaea548ca1293"
+    }
+  ],
+  "processing": "Original copied to repository. Derivatives resized with Windows System.Drawing high-quality bicubic interpolation; no content edits.",
+  "interpretation": "A stylised seven-colour nested-surface mark meeting at a shared pinch, informed by the Aura references. It is not a mathematically accurate rendering of seven horn tori, a hardware photograph, or an implementation diagram.",
+  "inspection": "Original, 192px and 32px derivatives inspected visually. Shared pinch and distinct nested colours remain legible at icon scale; the hourglass-like stylisation is not asserted to reproduce horn-torus geometry exactly.",
+  "rights": "Original project generation under the repository's Strange But True Public Source Licence. Reference-image rights remain with their respective sources."
+}

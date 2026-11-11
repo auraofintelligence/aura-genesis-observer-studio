@@ -4,6 +4,43 @@ This specification turns the authored seed questions and source maps into a larg
 
 The central task is to discover worthwhile distinctions, missing perspectives, testable alternatives and useful next actions. Changing a few words in a question does not create another worthwhile question. A large count without a coverage map, redundancy control and review history is not the intended result.
 
+## Operative Aura authoring revision — 11 November 2026
+
+**U2 is the controlling author clarification.** Aura organises patterns in seven nested horn tori with programmable facets. A person selects and stacks patterns, computes with AI to generate documents, websites or other chosen outputs, inspects and corrects the result, regroups and repeats. MVS questions help collect material for that process. The question atlas must also examine using, making, testing and revising with that material; it cannot stop at self-description.
+
+**MS1 is implementation evidence with a defined scope.** Matrix Studio's guide and workbench describe records, instructions, structured data and assets attached to addresses; outward stack layers; and sequences/program exports. They demonstrate parts of the organisational and programming interface. They do not establish a complete encrypted AI service. Use U2 for the core design requirement, MS1 for the documented prototype, G3 pp. 25–26 for spatial memory and sovereignty, and exact workbook ranges for the source arrangements. A proposed extension remains authored synthesis.
+
+Across a territory's batches, cover the operations below where they add useful knowledge. A single question should usually investigate one decision or a tightly connected pair. Do not append the whole cycle to every prompt or fill a Cartesian product of colours, selves and operations.
+
+| Operation to investigate | What a useful question elicits |
+|---|---|
+| Capture a usable pattern | Which record, relationship, instruction or asset is needed; its source, uncertainty and intended use; what can remain unplaced or unknown |
+| Choose a group or spatial binding | Why particular records belong together, separately or in more than one context; the practical difference a facet, address or layer assignment makes |
+| Compose an ordered stack | Dependencies, input versions, required instructions and the effect of reordering; distinguish an unordered collection from a program sequence |
+| Select a computation | The intended output, permitted inputs and processing location, useful human/AI division, budget and evidence that the requested operation is appropriate |
+| Generate and inspect an artifact | A concrete document, site, lesson, plan or other output, its audience, source fidelity and a task that reveals whether it works |
+| Correct the right element | Whether a defect arose in evidence, meaning, selection, instruction, ordering or presentation; retain the original account and a reason for the change |
+| Regroup and repeat | A materially changed purpose, circumstance or self lens; what can be reused, what must be recomputed, and what the next attempt tests |
+
+Multiple selves, observer streams, spatial addresses and access domains are separate axes. A past, present or conditional future self may select different patterns without becoming a different observer. The participant's meaning can correct an interpretation without rewriting an observed event. Do not invent seven fixed psychological layer names.
+
+The author's access architecture places private and secret material internally with differentiated encryption and permissions, and a selected public projection externally with reduced information and capabilities. A question can examine permissioned computation, field-level release, the audience of an output or restrictions inherited from its sources. Permission to read public material does not grant computation, training, writing, execution, republication, external action or access to its internal sources; each further operation needs its own applicable grant. Moving a facet, changing a skin or summarising a record does not itself release information or implement encryption. Do not invent cryptographic mechanisms, delegated roles or actual private records. Use a fictional example or a chosen non-sensitive artifact when that is sufficient.
+
+Keep the distinct Geode/HBOT and Verse Box setups explicit. Their respective source roles must inform questions about preparation, learning and integration. A torus address, a Geode material concept and an operating pressure environment are different things; a software question does not supply an equipment procedure.
+
+### Examples of substantive task questions
+
+These are newly authored illustrations of the method, not additional accepted atlas entries or a template to multiply:
+
+- **Whole-of-life creation:** Choose a non-sensitive practical guide you would like to make. Which existing records and instructions would you put together, what would you deliberately leave out, and what defect in the generated guide would make you change the selection rather than its wording?
+- **Conditional selves:** For a project you choose, compare the pattern set useful under today's resources with one useful under a named future condition. Which input or dependency actually changes, and which part of the future output must remain hypothetical?
+- **Public output:** In a fictional stack containing public notes and a restricted source, which claims can appear in a public site without revealing the restricted material? What must be omitted or separately authorised, and how would you preserve an honest source trail?
+- **Teacher explanation:** Put a concept, a rival explanation and a discriminating example into a short lesson sequence. If a learner succeeds only when shown the example, which instruction or dependency would you revise, and what different task would test the change?
+- **Teacher correction:** A generated teaching page looks convincing but a willing learner cannot perform its task. How would you distinguish missing prerequisite evidence, an unclear instruction and an inaccessible representation before regrouping the lesson?
+- **Teacher handover:** Give another teacher a chosen lesson stack with its sources and unresolved gaps. What must they be able to change for a different learner, and what demonstration would distinguish understanding the program from copying its text?
+
+Atlas territories T091–T100 now have separate gaps for qualification, observer separation, retrieval/training, agent handoffs, geometry, permission propagation, clocks, evaluation, Geode development and continuing partnership. Teacher territory gaps include prerequisite routes, retrieval without answer exposure, lesson repair, assessment, accessible representations, permissioned portfolios and independent transfer. Use the particular gap; do not substitute the same generic “how would you use an Aura?” question in each territory.
+
 ## What a lighter agent receives
 
 Give each generator one **territory packet**, not the whole personal archive. A territory is a defined field of inquiry inside or across the 24 broad domains. The current catalogue has 100 territories: 60 whole-of-life, 30 teacher-development and 10 Aura-architecture territories. Territory IDs and their boundaries come from that catalogue. Do not invent IDs or force every territory to produce an equal quota.
@@ -18,6 +55,7 @@ Each packet contains:
 6. Permitted variation: episode, relationship, condition, self lens, information available, resource constraint, consequence, action or evaluation method that can change the knowledge elicited.
 7. A scenario boundary: use a fictional or generic example unless the participant supplied and permitted a real one. Never invent the person's experience to make a question feel personalised.
 8. A batch contract: output IDs reserved by the coordinator, 25 or 50 candidate slots, format, budget, review owner and stop condition.
+9. The authoring revision and its operation requirements, including the applicable U2/MS1 evidence. Record the plan's atlas hash and verify that the packet actually contains the revised territory scope before dispatch.
 
 Use public and source-design context where it is sufficient. A generator does not need private answers merely to create general questions. A later interview navigator can use permissioned answers to choose among accepted questions or draft a clearly labelled contextual follow-up.
 
@@ -27,6 +65,7 @@ The source workbooks are spatial architectures, word inventories, diagrams, repe
 
 | Priority | Source region | Gap worth weaving through | Do not assume |
 |---|---|---|---|
+| P0 | U2, 11 November 2026; MS1 guide sections on stacks, instructions/assets and agent programs; G3 pp. 25–26 | Pattern selection, ordered composition, AI computation, artifact inspection, correction and regrouping across selves and access contexts | Geometry is optional decoration, or the full compute/encryption service is already implemented |
 | P0 | M1 Sheet1 A1233 | Different reading directions; what meaning survives, changes or remains ambiguous | A particular reversal rule has already been approved |
 | P0 | M1 Sheet1 A338 | Facet versus vector placement of a concept; consequences for retrieval and use | The source has resolved the placement question |
 | P0 | M2 Sheet1 B97:H109 and C113:H133 | World state, mental stage, motives, options, expectations and self-model disagreement | Boxes establish a complete causal or computational graph |
@@ -81,11 +120,11 @@ These instructions are intended for the lower-cost generation workers. Tool and 
 
 **Generator instruction**
 
-> Produce up to the requested 25 or 50 new Aura reflection questions for this territory packet. Use only supplied source identities and loci. Questions are newly authored design work, not quotations. Each must add a substantive distinction relative to the supplied nearest questions. Preserve source ambiguities. Ask for evidence or meaning without claiming the participant has an experience, trait or condition. Do not generate answers. Return only JSON matching the candidate schema. If a slot would add only paraphrase, omit it and record the uncovered gap. Stay inside the packet's tool, input and output budgets.
+> Produce up to the requested 25 or 50 new Aura reflection, making and testing questions for this territory packet. Use only supplied source identities and loci. Questions are newly authored design work, not quotations. Each must add a substantive distinction relative to the supplied nearest questions. Follow the territory's authoring revision: select relevant pattern operations and investigate concrete inputs, groups/stacks, computation instructions, outputs, correction or regrouping where useful. Do not reduce every task to self-report or attach the entire cycle mechanically to every question. Preserve source ambiguities and distinguish selves, observers and access contexts. Ask for evidence or meaning without claiming the participant has an experience, trait or condition. Do not generate answers. Return only JSON matching the candidate schema. If a slot would add only paraphrase, omit it and record the uncovered gap. Stay inside the packet's tool, input and output budgets.
 
 **Critic instruction**
 
-> Inspect every candidate against the packet and rubric. For each issue, cite the question ID, the problematic wording, the source or nearest-question comparison, and a concrete repair or rejection reason. Check whether changed context changes the knowledge elicited. Do not infer private facts. Do not treat a source list's spatial proximity as a semantic join. Return only the review schema. Distinguish hard failures, repairable quality gaps and optional improvements. Do not approve any candidate whose source locus is absent or whose novelty depends only on paraphrase.
+> Inspect every candidate against the packet and rubric. For each issue, cite the question ID, the problematic wording, the source or nearest-question comparison, and a concrete repair or rejection reason. Check whether changed context changes the knowledge elicited. Check whether an operative task was weakened into generic self-description, whether a proposed capability was represented as implemented, and whether a derived output silently expanded access. Do not infer private facts. Do not treat a source list's spatial proximity as a semantic join. Return only the review schema. Distinguish hard failures, repairable quality gaps and optional improvements. Do not approve any candidate whose source locus is absent or whose novelty depends only on paraphrase.
 
 **Reconciler instruction**
 
@@ -119,11 +158,32 @@ Each question contains exactly these fields:
 
 `sourceNotes` must state the relevant supplied locator, the source/design connection, and what was not inspected or remains uncertain. It must not claim to have read a complete passage when only the registry summary was provided. A reviewer checks that the explanation is supported. The optional personal-disclosure route belongs in the question's wording or encounter instructions; it is not an extra schema key. The novelty reason belongs in `gap`, with the practical consequence in `transfer`.
 
+The operative revision changes the authoring scope, not the batch schema. Put useful operation tags such as `pattern-selection`, `stack-order`, `instruction-repair`, `artifact-inspection` or `permission-propagation` in `tags` only when applicable. Choose one permitted `operation` from the actual packet. Describe the concrete missing decision in `gap` and the reusable capability in `transfer`; do not add a `pattern`, `stack`, answer or permission-grant object to generator output. A question asking someone to design a program is not itself a request for the worker to execute that program.
+
 Unknown keys, unresolved placeholders, invented source IDs, non-reserved question IDs and any answer/review/acceptance field fail the strict import contract. A source ID check confirms that the ID is allowed, not that its meaning has been interpreted correctly. Exact-locus and semantic support still require review of the actual packet and relevant source. The current importer rejects exact normalised duplicates and emits near-token-overlap warnings; it does not implement a complete global embedding-based semantic review.
 
 Critic and reconciler records are separate review artefacts, not fields inserted into generator output. A review sidecar should identify `jobId`, packet version, reviewer run and one disposition per question. Each disposition records the question ID, decision, rubric scores, hard failures, exact issues, nearest duplicate IDs, source checks and reason. A reconciler returns revised strict-schema candidates plus a sidecar with parent version, reason and merge/defer decisions. The import operation creates `generated` records only. The explicit reviewer operation can set `accepted`, `needs_revision` or `rejected`; a generator cannot grant those states to itself.
 
 The two-cycle limit in this guideline governs deliberate review and revision. The current runtime does not automatically run that loop. A coordinator requests a revision, inspects it and deliberately imports a permitted revision; there is no implied unattended agent service.
+
+## Scope revisions and fresh job packets
+
+The atlas revision is **`2026-11-11-operative-aura`**. Its 100 territory IDs, titles and quotas remain the same. The existing production ledger remains an historical scope snapshot: `runtime/weave.py plan` stores the atlas hash, territory gaps, allowed source IDs and dimensions in its manifest. `packet` reads that frozen manifest. Regenerating the public atlas does **not** refresh packets from an existing ledger, and old packets must not be labelled as using the new scope. Adding U2/MS1 to text beside an old packet does not change its import contract.
+
+For fresh work under the revision, create a separate planning workspace and generate a packet from that workspace, for example:
+
+```powershell
+python runtime/weave.py plan --atlas data/weaving-atlas.json --out .private/weaving-2026-11-11-operative
+python runtime/weave.py packet --ledger .private/weaving-2026-11-11-operative --job T095-B01 --out .private/weaving-2026-11-11-operative/T095-B01.packet.json
+```
+
+Before dispatch, verify `brief.territory.authoringRevision`, the specific `gaps` and `authoringRequirements`, U2/MS1 in both the territory and supplied sources, and the associated manifest's `atlasSha256`. Record these with the worker run. This is a documented coordinator check; the runtime does not compare its stored manifest with the current public atlas automatically. The new directory is another version of the same plan, not another 100,000-question target.
+
+Preserve the old ledger, manifest, questions, revisions and reviewer events. Reserve new work against the **union of occupied IDs across plan versions**, and supply previously generated questions as a duplicate-comparison reference. As of this revision, the original ledger has 25 accepted questions in T001 and 25 in T061, all from the first 25 slots in each territory; these are AI editorial acceptances, not participant answers or human approval. They keep their original review history. Do not allocate those same IDs again or silently mark them reviewed against the revised scope. Starting a new batch in an unoccupied territory avoids this collision; partially occupied old batches need an explicit slot inventory.
+
+The current runtime neither merges ledgers nor enforces cross-ledger slot uniqueness. New revision work must be imported and reviewed in the ledger whose manifest supplied its packet. Keep each ledger's reports attributable, and explicitly reconcile occupied IDs, duplicates and review provenance before consolidating production progress. Do not sync a fresh ledger's zero counters over the published 50 accepted pilot questions or add two plan totals together. Until reconciliation, the original ledger remains the published pilot status source and revision-ledger work is reported separately.
+
+`node scripts/create-weaving-atlas.mjs --atlas-only` reproducibly updates the public design and its docs copy while restoring progress from `data/weaving-status.json`. It does not edit a private ledger or refresh a job packet. A mismatched progress snapshot fails instead of resetting counts. This revision adds uncovered work; it does not assert that the new gaps have been filled.
 
 ## Semantic redundancy controls
 

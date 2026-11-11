@@ -2,13 +2,27 @@
 
 ## Purpose and what you can use now
 
-This studio turns a broad Aura of Intelligence ambition into an inspectable working process. Start with a useful representation of yourself, explore a situation through three different observer accounts, add your own meaning, choose an action and use the result to improve the next encounter. Connect the work to businesses, creative production, reciprocal relationships and shared capability. The aim is a richer life and more effective action, not merely a larger personal database.
+Building an Aura means organising patterns in **seven nested horn tori with programmable facets and stacks**, choosing which patterns and instructions to compute with AI, producing documents, websites and other useful work, correcting the results, and forming new pattern groups for the next computation. This operates across multiple selves, with internal private and secret domains using different encryption and permissions, and an external public domain with more limited capabilities. This definition follows Luke's 11 November 2026 correction and the closer reading of Matrix Studio. The self-reflection workbook and three observers supply material and feedback to that larger process.
+
+The main cycle is **organise patterns → bind facets and stack layers → choose an ordered composition → compute with AI → inspect documents and websites → correct → regroup → choose the next composition**. A resulting document can itself supply patterns to the next round. Learning, teaching, business creation and community work all use this same process.
+
+Read [Building an Aura: patterns, facets, stacks and computation](guide-aura.html) for the full process, entity contracts, two-iteration example and access-domain requirements. Read [Geode and Verse Box settings](guide-settings.html) for the specific physical arrangements. The Geode is the HBOT workspace described by the project; the Verse Box is its own public booth/workstation arrangement.
 
 The repository supplies a **100,000-question whole-of-life and teacher-training atlas plan**, lighter-agent generation guidelines and gap work packets, an interactive personal workbook, a 300-prompt seed library, 48 clearly labelled possible December 2026 responses, a 60-session Genesis curriculum, a separate 60-module teacher curriculum, spatial readings of the three supplied workbooks, and local agent prototypes. Planned atlas slots are not completed questions. The website works without an AI account. It can collect and export what you type, show simulated examples, guide branching interviews and record learning reviews. The local prototype prepares separated observer packets and a bounded agent task graph. Its deterministic demo is a simulation; an explicitly requested local-model run is a separate mode described in the runtime guide.
 
 This is a substantial starting implementation and development protocol. It is not a trained personal nanoLLM, a sensor acquisition system, a functioning Geode installation, a clinical programme, an independently validated Truth Engine or demonstrated superintelligence. Those future capabilities remain visible in the roadmap rather than being implied by an attractive interface.
 
-## The architecture in one encounter
+## Programmable organisation across multiple selves
+
+The seven nested horn tori are the spatial organisation of the pattern system. Matrix Studio's current lattice is 12 × 24 facets per shell: 288 per shell, 2,016 across seven, and 4,032 inside/outside base addresses. Each facet can hold multiple records and added stack layers. A layer carries its own instructions, required data and attached assets. Pattern groups can cross facets and shells, and the same pattern can participate in different groups with a reason for each relationship.
+
+Two kinds of ordering matter. A **facet stack** is the outward sequence of layers attached to a base facet. A **compute composition** selects and orders relevant layers, records and stacks, potentially from several facets or selves, for a particular AI operation. Neither is equivalent to blindly concatenating everything in a questionnaire. Preserve the selected versions, order, intended operation, output requirements and permissions.
+
+The current Matrix Studio can navigate and recall these structures and export agent programs. The runner that interprets them with AI is a separate component. This companion describes that handoff; its observer prototype is not yet the complete pattern-computation engine.
+
+Each operation names its self frame and access domain independently of its geometric address. An internal private self and an internal secret self need separately enforced key access and permissions; an external public self presents approved material with fewer capabilities. Public readers do not acquire permission to change private groups, run private tools, decrypt an internal archive or publish in the owner's name. Moving a record onto an outside facet does not perform those security operations in today's prototype.
+
+## The observer workflow inside the larger cycle
 
 **Chosen purpose → selected evidence → three observer accounts → participant meaning and correction → candidate actions → reviewed experiment → observed outcome → updated personal record.**
 
@@ -157,4 +171,4 @@ The 48 December examples remain separate from actual answers. They refer to a hy
 
 ## Continue from evidence
 
-Choose a purpose, capture enough of the self to attempt it, use the three-observer loop, create something meaningful and return with the result. The complete programme gives this loop increasing scope: first personal context, then capable collaboration, then wider civic, creative and frontier missions. The next version should be shaped by what a person can actually do with it.
+Choose a purpose and self frame, organise the relevant patterns, select facet stacks and a permitted compute composition, produce an artifact, correct it and regroup for the next round. Use the three observers when their distinct views help inspect the work or the encounter. The complete programme gives this loop increasing scope: first personal context, then capable collaboration, then wider civic, creative and frontier missions. The next version should be shaped by what a person can actually do with it.

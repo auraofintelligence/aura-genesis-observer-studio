@@ -7,7 +7,9 @@
       "tool": "Built-in image generation",
       "date": "2026-11-10",
       "prompt": "Use case: stylized-concept. Asset type: wide website hero artwork for Aura Genesis Observer Studio, an ambitious personal intelligence and reflective learning system. Create an original cinematic, richly textured cut-open geode floating just above an island shoreline at blue hour. Within the mineral cavity are three distinct nested translucent viewing shells, luminous cyan, amethyst, and soft amber, each revealing a different scale: environmental patterns, an attentive inner aperture, and a reflective echo. The setting evokes subtropical sand, sea and open sky, without claiming a real photographed location. Elegant scientific-art sensibility, substantial mineral texture, deep midnight blue, violet and warm amber details, luminous but restrained. Main geode slightly right of centre so a website can place copy beside it. Landscape 16:9 composition. No text, letters, numerals, logos, diagrams or watermark. This is conceptual illustration, not a real photograph.",
-      "promptBrief": "Original cinematic cut-open geode above a subtropical shoreline at blue hour, three translucent viewing shells in cyan, amethyst and amber, mineral texture, environmental patterns and reflective apertures, no text or claim of a photographed real place."
+      "promptBrief": "Original cinematic cut-open geode above a subtropical shoreline at blue hour, three translucent viewing shells in cyan, amethyst and amber, mineral texture, environmental patterns and reflective apertures, no text or claim of a photographed real place.",
+      "status": "superseded",
+      "supersededReason": "11 November 2026 author correction: Aura Geode is a specified HBOT setup, and Aura geometry is seven nested horn tori. The rock-geode imagery is not an appropriate representation."
     },
     {
       "id": "favicon",
@@ -16,7 +18,9 @@
       "tool": "Built-in image generation",
       "date": "2026-11-10",
       "prompt": "Use case: logo-brand. Create a unique square website favicon for Aura Genesis Observer Studio. A single very clear tactile cut-geode symbol, an irregular amethyst mineral outer silhouette containing three simple luminous nested apertures: cyan, violet and amber, surrounding a tiny warm white point. Rich midnight plum background filling entire square. Bold graphic silhouette and strong contrast at 32 pixels, large central mark with generous quiet margin, no fine ornamental details, no letters or text, no watermark. Original generative bitmap emblem, not a conventional eye icon.",
-      "promptBrief": "Unique square favicon: tactile amethyst geode silhouette containing three luminous nested cyan/violet/amber apertures around a tiny warm white point, midnight plum background, clear at small size, no text or logo imitation."
+      "promptBrief": "Unique square favicon: tactile amethyst geode silhouette containing three luminous nested cyan/violet/amber apertures around a tiny warm white point, midnight plum background, clear at small size, no text or logo imitation.",
+      "status": "superseded",
+      "supersededReason": "11 November 2026 author correction: Aura Geode is a specified HBOT setup, and Aura geometry is seven nested horn tori. The rock-geode imagery is not an appropriate representation."
     },
     {
       "id": "workshop-hero",
@@ -25,7 +29,8 @@
       "tool": "Built-in image generation",
       "date": "2026-11-10",
       "prompt": "Use case: stylized-concept. Asset type: second wide editorial hero illustration for an ambitious Aura personal-intelligence and teacher-training workshop website. Sunlit subtropical coastal maker studio with an adult learner and an adult teacher, a physical prototype being assembled on a natural timber workbench, annotated paper layouts without readable text, a small keyboard and display, open sea beyond large windows, practical objects and a musical instrument. Above the bench a subtle imaginative translucent amethyst geometric aura map connects to the tangible prototype, showing an idea taking physical form. Humanistic constructive futurism, mixed realistic painterly textures, natural warm daylight, sage greenery, electric cyan and warm gold accents with small violet physical details. Distinct from a mystical night geode. Wide 16:9, uncluttered strong composition, no readable words, no logos, no watermark. This is clearly conceptual illustration of a possible workshop, not documentation of a real programme or real identifiable people.",
-      "promptBrief": "Sunlit coastal maker studio, adult learner and teacher assembling a physical prototype, natural timber, paper layouts, music, open sea and a subtle translucent geometric map; humanistic constructive futurism, no real identifiable people or documented-programme claim."
+      "promptBrief": "Sunlit coastal maker studio, adult learner and teacher assembling a physical prototype, natural timber, paper layouts, music, open sea and a subtle translucent geometric map; humanistic constructive futurism, no real identifiable people or documented-programme claim.",
+      "status": "current"
     }
   ],
   "processing": "Format conversion for web delivery; favicon resized. Generated original artworks retained locally. Real photo files unchanged; responsive crop possible in presentation."

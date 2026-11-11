@@ -2,6 +2,15 @@
 
 This is an ambitious adult teacher-development route for people building personal Auras and helping others build theirs. It keeps the source's sixty-day progression from self-understanding and embodied interfaces through models, agents, civic judgement, frontier research and Earth-space stewardship. The outcome is a portfolio of things the learner can explain, build, test, revise and teach. A completion record is a course record; it does not confer professional accreditation or authorisation for clinical, engineering or child-services practice.
 
+
+## Building the Aura during every encounter
+
+The 11 November author clarification governs what building an Aura means here: organise patterns in seven nested horn tori, attach them to programmable facets and outward stack layers, select an ordered composition for AI work, generate a document or website, correct it, and form new groups for the next run. The [pattern-cycle guide](guide-aura.html) supplies the detailed process. Questionnaires and observer accounts provide patterns and feedback; they do not replace this productive architecture.
+
+For each selected learning card, retain a compact build record: the self frame and access domain; the versioned patterns and group relationships; chosen facet layers and stack order; the intended AI operation and output; the resulting artifact; corrections; and the regrouped composition for a later run. Use internal private, internal secret or an explicitly approved public projection as appropriate. The required encryption and permissions must be enforced by the execution system; the current browser workbook does not provide that enforcement.
+
+A teaching encounter can demonstrate the whole cycle: select examples and learner needs as patterns, produce a lesson and its companion webpage, observe where the explanation fails, correct both outputs, then regroup the improved examples for a different learner or self frame. The [settings guide](guide-settings.html) keeps the seated HBOT Geode, the separate Verse Box workbay and ordinary-device work distinct.
+
 ## Source and new design
 
 The supplied **Aura Teacher Training 60 Days**, dated 14 October 2026, contains sixty readings, one per day. Its day titles and sequence remain the reference. This edition adds a repeatable two-hour learning budget, concrete review standards, a hyper-busy queue and intensive scheduling options. The source does not prescribe a universal two-hour teacher day or a 120-hour teacher total; those are explicitly new planning choices here. Original readings remain available through the linked source site.

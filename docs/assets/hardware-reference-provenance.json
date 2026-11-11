@@ -1,0 +1,22 @@
+{
+  "reviewed": "2026-11-11",
+  "purpose": "Preserve the actual project settings after the author corrected the rock-geode interpretation.",
+  "references": [
+    {
+      "file": "assets/geode-hbot-reference.webp",
+      "sourceRepositoryPath": "aura-genesis-geode-atlas/assets/images/hero-index-v3.webp",
+      "sourcePage": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/",
+      "kind": "GenAI project concept reference",
+      "processing": "Copied byte-for-byte; responsive display may crop the image.",
+      "sha256": "33d4bc295a6e062bfccc93821904594f42e8cd371d13b65acf77d4b9e483360b"
+    },
+    {
+      "file": "assets/verse-box-reference.jpg",
+      "sourceRepositoryPath": "aura-verse-box/documents/verse-box-supplied-reference.jpg",
+      "sourcePage": "https://auraofintelligence.github.io/aura-verse-box/experience.html",
+      "kind": "Supplied single-skin booth concept reference",
+      "processing": "Copied byte-for-byte; responsive display may crop the image.",
+      "sha256": "b460390fcb5133b24186abf26347e613c9b1813909c2f8de44799b252bb9f53b"
+    }
+  ]
+}

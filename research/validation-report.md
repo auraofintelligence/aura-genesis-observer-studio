@@ -2,7 +2,23 @@
 
 Prepared 10 November 2026. This report records observed checks and their limits for the Aura Genesis Observer Studio edition assembled on this date. It is a validation record, not a certificate of clinical efficacy, teaching accreditation, security or completion of the 100,000-question target.
 
-## Executable checks
+## Correction edition — 11 November 2026
+
+The [architecture correction record](architecture-correction-2026-11-11.md) describes the closer source review and the changes made. This section records checks performed on that correction; the 10 November results below remain historical evidence.
+
+- Rebuilt 13 reading guides, including the new pattern-cycle and physical-settings guides.
+- Static site check: **16 HTML pages, 656 internal references, zero errors**. The 288 seeds, 12 lenses, 48 simulated answers, 100 territories and 100,000 planned slots remained intact.
+- All **30 frontend logic contracts passed** against the corrected public data. The observer and weaving runtime implementation did not change; the earlier 31 Python checks were not rerun for this documentation revision.
+- Source research retained three workbook hashes and 33 mapped regions. The author clarification and inspected Matrix Studio, horn geometry, Geode and Verse Box references were added explicitly.
+- The architecture example's two iterations, four artifact revisions, four corrections and source/group/version references were checked. These are fictional design records; no external AI execution is claimed.
+- The weaving agent checked fresh revision-specific packets for architecture and teacher territories, preserved territorial IDs/quotas and the 50 generated/checked/accepted and zero-answered snapshot, and verified the existing private ledger and plan hashes remained unchanged. Existing frozen plans are not silently rewritten.
+- Actual browser inspection covered the corrected homepage, Aura guide, settings guide, mathematical horn-torus diagram and supplied hardware references. All images inspected in the two guides loaded. The homepage and both new guides had no horizontal page overflow at a 375-pixel viewport. The Verse Box section link was activated through the browser and reached the matching heading. The temporary viewport override was reset.
+- The new generated favicon was visually reviewed against the source geometry; an unsuitable hourglass candidate was rejected. The selected favicon is a stylised illustration, while the separate SVG is generated from the mathematical relation. The superseded rock artwork is not used by current pages.
+- The build and whitespace checks passed. No private participant records were added.
+
+These checks do not establish an implemented encrypted AI runner, chamber operation, real learner outcomes or comprehensive accessibility. Those limits remain explicit in the guides.
+
+## Executable checks — 10 November 2026
 
 | Suite | Observed result | What the result supports |
 | --- | --- | --- |

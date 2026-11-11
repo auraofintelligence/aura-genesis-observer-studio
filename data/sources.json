@@ -197,6 +197,45 @@
       "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
       "use": "Publication options and static-site deployment configuration.",
       "status": "External primary technical reference."
+    },
+    {
+      "id": "U2",
+      "title": "Author correction: how an Aura is built",
+      "locator": "11 November 2026, this project; pattern stacks, multiple selves, encryption and distinct Geode/Verse Box settings",
+      "use": "Controlling design clarification: organise patterns in seven nested horn tori and programmable facet stacks; choose AI computations, generate documents/websites, correct, regroup and repeat across selves and access domains.",
+      "status": "Direct author design instruction; overrides the first edition’s narrower reflection/profile interpretation."
+    },
+    {
+      "id": "MS1",
+      "title": "Aura Matrix Studio — guide and working programmer",
+      "locator": "Guide: Stack facets into steps; Instructions, data and attached assets; Strings, loops and agent programs; Your records and sharing. Live guide and UI inspected 11 November 2026.",
+      "url": "https://auraofintelligence.github.io/aura-matrix-studio/guide.html",
+      "use": "Canonical current 12×24 lattice, outward stack layers, records/instructions/JSON/assets, sequence navigation and export; prototype execution and security limits.",
+      "status": "Live project reference and local source inspection; evolving implementation, not the sole authority for the whole Aura."
+    },
+    {
+      "id": "GA1",
+      "title": "Aura Genesis Geode Atlas — hardware pathways",
+      "locator": "Retrofit; geopolymer; crystalline; computational; active self-reflection workspace; entry and emergency egress chapters. Reviewed 11 November 2026.",
+      "url": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/",
+      "use": "Specific seated HBOT workspace and four hardware pathways; touch/XR/sensor side workspace, clear entry, separate compute/control arrangements.",
+      "status": "Project design reference. Existing-device references and future Geode concepts remain distinct."
+    },
+    {
+      "id": "VB1",
+      "title": "Aura Verse Box — experience, trial and supplied reference",
+      "locator": "Live experience.html: What might happen on a first visit? equipment table and supplied single-skin reference; trial guide; corrected proposal pp. 1–3. Reviewed 11 November 2026.",
+      "url": "https://auraofintelligence.github.io/aura-verse-box/experience.html",
+      "use": "Portable braced plywood/felt booth with chair, desk, monitor, microphone, task lighting, curtain and agreed equipment; public introduction separate from HBOT Genesis.",
+      "status": "Project proposal and supplied visual reference; not a claim of an installed service."
+    },
+    {
+      "id": "HG1",
+      "title": "Aura horn-torus geometry",
+      "locator": "Geometry and Tables, linked by Matrix Studio guide; nested horn geometry and common central pinch.",
+      "url": "https://auraofintelligence.github.io/aura-horn-torus/geometry.html",
+      "use": "Geometry source to keep horn tori distinct from open-hole ring tori, decorative rings or rock geodes.",
+      "status": "Geometry reference; no inference that geometry alone implements learned intelligence."
     }
   ]
 }

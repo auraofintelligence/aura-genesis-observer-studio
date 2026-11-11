@@ -1,8 +1,138 @@
 {
   "schema": "aura-matrix-research/1",
   "research_date": "2026-11-10",
-  "status": "source-interpretation-not-author-approved",
-  "method": "Read-only OOXML structural extraction, embedded-picture visual review, and reconstructed preview of LifeLogging Part 1 B97:H136. No spreadsheet edits or recalculation.",
+  "revised_date": "2026-11-11",
+  "status": "author-clarified-core-with-provisional-region-interpretations",
+  "method": "Read-only OOXML structural extraction, embedded-picture visual review, and reconstructed preview of LifeLogging Part 1 B97:H136. November 11 correction applies the author's operative pattern architecture and checks G3 pp. 25-26, Matrix Studio documentation/code and related local website source. No spreadsheet edits or recalculation.",
+  "architecture_clarification": {
+    "id": "user-2026-11-11-aura-pattern-architecture",
+    "date": "2026-11-11",
+    "authority": "Direct author clarification; supersedes the earlier optional-address/passive-mapping interpretation of the core architecture, not every unresolved spreadsheet relationship.",
+    "core": "Seven nested horn tori with programmable facets organise patterns. Select and stack patterns, compute with AI to generate documents, websites and other chosen outputs, inspect and correct, regroup and repeat across multiple selves.",
+    "loop": [
+      "collect_and_organise_patterns",
+      "select_relevant_patterns",
+      "group_or_stack_patterns",
+      "compute_with_ai",
+      "generate_chosen_output",
+      "inspect_and_correct",
+      "regroup_and_repeat"
+    ],
+    "geometry": {
+      "nested_horn_tori": 7,
+      "source_baseline_rows_per_shell": 12,
+      "source_baseline_columns_per_shell": 24,
+      "base_facets_per_shell": 288,
+      "base_facets_total": 2016,
+      "interior_exterior_base_addresses_total": 4032,
+      "binding": "Records retain stable identity while their facet, group, stack and other spatial relationships can change. Selected patterns and ordered stacks are operative organisation for computation, not merely optional display tags.",
+      "layer_semantics": "No new fixed meanings or names are assigned to the seven shells. Source philosophical associations remain attributed and editable.",
+      "source_refs": [
+        "matrix-addressing",
+        "G3:p25",
+        "matrix-studio-readme:enter-the-matrix"
+      ]
+    },
+    "distinct_axes": {
+      "geometry": "Seven nested horn tori, sides, facets and additional addresses or stack layers.",
+      "observer_streams": "Environment, character attention and narrator; participant meaning is a separate attributed account.",
+      "self_lenses": "Past, present and conditional best selves; not assigned one-to-one to shells or observers.",
+      "access_contexts": "Public, private and secret contextual selves; not interchangeable with the three observer identities."
+    },
+    "access_architecture": {
+      "internal": "Private and secret material with differentiated encryption and permissions.",
+      "external": "A selected public projection with reduced information and capabilities. Permission to read does not automatically grant computation, training, editing, execution, republication, external action or access to restricted source material. Each further operation needs its own applicable grant.",
+      "derived_material": "Outputs, summaries, embeddings and other derivatives retain relevant source restrictions unless an explicit disclosure decision permits release.",
+      "movement": "Changing a spatial address, stack or surface must not silently expand authority.",
+      "unresolved_implementation": [
+        "reviewed encryption construction",
+        "key hierarchy and storage",
+        "recovery and rotation",
+        "specific role and operation grants",
+        "enforcement across devices and compute services"
+      ],
+      "source_refs": [
+        "user-2026-11-11-aura-pattern-architecture",
+        "G3:p26",
+        "matrix-studio-plan:encryption-location-and-personal-authority",
+        "horn-torus-geometry:addresses"
+      ]
+    },
+    "implementation_boundary": {
+      "matrix_studio_code_inspected": "Address validation, table-to-facet or stack allocation, local Visit/Recall/Pause sequences, compact stack spans and aura-agent-program/1 packaging.",
+      "intended_next_connection": "Connect selected pattern inputs and instructions to a permitted AI compute service, return source-linked outputs and apply reviewed corrections to versioned records and groupings.",
+      "not_established": [
+        "A connected production AI pattern-compute service in the static studio",
+        "An encrypted personal vault or enforced private/secret/public grants in browser storage",
+        "Personal model training from questionnaire completion",
+        "Automatic integration between this questionnaire and Matrix Studio"
+      ],
+      "verification": "Documentation and selected code paths read; Matrix Studio browser and test suite were not run during this correction. Public URL fetches failed; related website observations use local checked-out HTML."
+    }
+  },
+  "architecture_source_evidence": [
+    {
+      "id": "G3:p25",
+      "source_register_id": "G3",
+      "filename": "Aura_Genesis_Geode_Development_Edition_3.pdf",
+      "locator": "p. 25, Spatial interfaces and navigable memory",
+      "supports": "Seven nested horn tori, 12 by 24 facets per shell, 4,032 interior/exterior addresses, stable record identity, multiple perspectives, edges/vertices/volume/stacked layers/rays, understandable sequences.",
+      "evidence_kind": "supplied-source-design"
+    },
+    {
+      "id": "G3:p26",
+      "source_register_id": "G3",
+      "filename": "Aura_Genesis_Geode_Development_Edition_3.pdf",
+      "locator": "p. 26, Sovereignty across public private and secret selves",
+      "supports": "Public/private/secret contextual selves; internal personal horn-torus tables and encrypted linked records; permission scope by record/field, recipient, purpose, operation and duration; keys, recovery and release as source requirements.",
+      "evidence_kind": "supplied-source-design-not-verified-implementation"
+    },
+    {
+      "id": "matrix-studio-readme:enter-the-matrix",
+      "repository": "aura-matrix-studio",
+      "file": "README.md",
+      "locator": "Enter the matrix; Tables, instructions and agent programs",
+      "supports": "Multi-facet selection, attached records/data/instructions/assets, ordered stack layers, sequence operations and agent-program exports; no automatic LLM invocation.",
+      "evidence_kind": "local-documentation-read"
+    },
+    {
+      "id": "matrix-studio-plan:encryption-location-and-personal-authority",
+      "repository": "aura-matrix-studio",
+      "file": "DEVELOPMENT-PLAN.md",
+      "locator": "Purpose; Keep these decisions separate; A repeatable design cycle; Agent contracts and coordination; Encryption, location and personal authority",
+      "supports": "Retrieve/compute/act/record/revisit cycle; stable identity across geometry; separate authority and location; restrictions on derived information; secure vault/runtime remain proposed.",
+      "evidence_kind": "local-proposed-architecture-read"
+    },
+    {
+      "id": "matrix-studio-code:programs-and-allocation",
+      "repository": "aura-matrix-studio",
+      "files": [
+        "spatial.js",
+        "dataset-allocation.js"
+      ],
+      "locator": "Sequence validation, sequenceLength, sequenceStep, agentPackage; pendingRows, allocationPlan, allocateTable",
+      "supports": "Executable local sequence and allocation code; stack ranges, record selection for exports, and table/row provenance.",
+      "evidence_kind": "code-inspection-not-execution-test"
+    },
+    {
+      "id": "horn-torus-geometry:addresses",
+      "repository": "aura-horn-torus",
+      "file": "geometry.html",
+      "locator": "Addresses section",
+      "url": "https://auraofintelligence.github.io/aura-horn-torus/geometry.html",
+      "supports": "Interior personal/private/encrypted and exterior observer/public/permissioned registers; the specific geometry demo renders labels only and stores nothing.",
+      "evidence_kind": "local-website-source-read-live-fetch-failed"
+    },
+    {
+      "id": "personal-aura:addresses-for-a-deeper-map",
+      "repository": "luke-nathan-hayes-man-and-mind",
+      "file": "personal-aura.html",
+      "locator": "Opening and Addresses for a deeper map",
+      "url": "https://auraofintelligence.github.io/luke-nathan-hayes-man-and-mind/personal-aura.html",
+      "supports": "Navigable body/mind/memory/work/place experience; geometry provides addresses while relationships extend beneath that display.",
+      "evidence_kind": "local-website-source-read-live-fetch-failed"
+    }
+  ],
   "confidence_definition": {
     "explicit": "Labels or instructions state the arrangement or relationship.",
     "structured": "Borders, merges and nearby labels support grouping; full semantics may remain uncertain.",
@@ -71,9 +201,10 @@
       "title": "Seven coloured address grids",
       "source_observation": "Explicit 12 by 24 grids and labels for questions, faces and first-column identity themes.",
       "topology_confidence": "explicit",
-      "proposed_use": "Allow optional one-to-many 288-facet addresses for seven colour perspectives; keep record identity independent of spatial address.",
-      "ambiguity": "No claim that every address must be filled for MVS.",
-      "mapping_status": "research-not-author-approved"
+      "proposed_use": "Use the seven-shell facet architecture to organise and select patterns and compose ordered stacks for AI computation, generated outputs and iterative correction/regrouping. Preserve independent record identity and one-to-many bindings.",
+      "ambiguity": "The operative architecture is author-clarified on 2026-11-11. The meaning of each particular source allocation remains attributed; every address need not be filled for MVS.",
+      "mapping_status": "core-purpose-author-clarified-2026-11-11-specific-bindings-provisional",
+      "clarification_ref": "user-2026-11-11-aura-pattern-architecture"
     },
     {
       "id": "matrix-repeated-banks",
@@ -607,15 +738,31 @@
       "uncertainty",
       "intended_audience",
       "permitted_uses",
-      "review_date"
+      "review_date",
+      "pattern_binding_state"
     ],
     "optional": [
-      "spatial_addresses",
       "reading_direction",
-      "group_id",
       "relationship_type",
       "mapping_status"
     ],
+    "required_when_selected_for_pattern_operation": [
+      "pattern_bindings",
+      "group_or_stack_membership",
+      "ordering",
+      "input_record_versions",
+      "requested_operation",
+      "permission_scope",
+      "output_references",
+      "correction_history"
+    ],
+    "pattern_binding_states": [
+      "unplaced_intake",
+      "placed",
+      "selected_for_operation",
+      "revised"
+    ],
+    "pattern_binding_note": "Proposed exchange fields, not implemented schema guarantees. Intake may be unplaced; spatial bindings and ordered stacks are operative organisation when selected for work. Preserve shell, side, address kind, facet/index and layer where applicable. Output references may be empty before execution; record unknowns explicitly.",
     "claim_kinds": [
       "self-report",
       "observation",
@@ -637,9 +784,12 @@
     "inspected_files": [
       "README.md",
       "DATASET-CATALOGUE.md",
-      "DEVELOPMENT-PLAN.md"
+      "DEVELOPMENT-PLAN.md",
+      "spatial.js",
+      "dataset-allocation.js"
     ],
-    "caveat": "Evolving collection prototype. Model training, Genesis conversations and clinical assessment are not established by completing its forms."
+    "caveat": "Working spatial record and local program-composition prototype within a larger operative architecture. The intended AI compute/correct/regroup loop and private/secret/public encryption policy are not reduced to optional annotation because parts remain unimplemented. A connected AI service, secure vault, model training and Genesis conversations are not established by completing its forms.",
+    "preparation_settings": "README identifies phone or Verse Box MVS preparation before Geode Genesis. Verse Box and Geode are distinct setups."
   },
   "private_raw_extract": ".private/research/workbook-spatial-extract.json"
 }

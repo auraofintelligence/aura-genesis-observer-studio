@@ -1,13 +1,16 @@
 # Artifact catalogue
 
-Prepared 10 November 2026. This catalogue identifies the authored outputs, their source relationships and their intended public or private boundary. Paths are repository-relative. It does not claim completion of the 100,000-question target or an operational medical device, trained personal model or autonomous business.
+Prepared 10 November 2026; updated 11 November 2026. This catalogue identifies the authored outputs, their source relationships and their intended public or private boundary. Paths are repository-relative. It does not claim completion of the 100,000-question target or an operational medical device, trained personal model or autonomous business.
 
 ## Start here
 
 | Reader's purpose | Primary artifact | Role |
 | --- | --- | --- |
 | Use the companion studio | [docs/index.html](../docs/index.html) | Public interactive workspaces for the atlas, Minimum Viable Self, Deep Interview, three observers, Genesis, teacher development, sources and data choices. |
-| Understand the complete architecture | [content/system-guide.md](../content/system-guide.md) | Three observer streams, separately attributed participant meaning, personal records, permissions and the route from a starting self to continuing development. |
+| Understand the complete architecture | [content/aura-pattern-cycle.md](../content/aura-pattern-cycle.md) and [data/aura-pattern-cycle.json](../data/aura-pattern-cycle.json) | Seven nested horn tori, programmable facet layers, selected computations, artifacts, corrections and regrouping; independent self and access axes; a two-iteration illustrative example. |
+| Understand the observers within Aura | [content/system-guide.md](../content/system-guide.md) | Three observer streams and separately attributed participant meaning as inputs to the wider productive pattern cycle. |
+| Identify the physical settings | [content/geode-and-verse-box.md](../content/geode-and-verse-box.md) | The seated HBOT Geode and the distinct plywood/felt Verse Box workstation, with existing project references. |
+| Follow the author correction | [research/architecture-correction-2026-11-11.md](architecture-correction-2026-11-11.md) | Close source inspection, changed interpretation, retained scope and implementation limits. |
 | Understand the large question programme | [content/question-weaving-guidelines.md](../content/question-weaving-guidelines.md) | The 100,000-question design, writing and review requirements, coverage gaps and distinctions between dimensions, questions, answers and outcomes. |
 | Read the accepted pilot | [content/weaving-pilot.md](../content/weaving-pilot.md) and [docs/guide-pilot.html](../docs/guide-pilot.html) | The readable set of 50 accepted revised pilot questions, retaining original and revision provenance. |
 | Follow Genesis | [content/genesis-120-hours.md](../content/genesis-120-hours.md) | Sixty learning encounters tied to the original Genesis design, with pressure-reference, desktop learning and life-calendar clocks kept distinct. |

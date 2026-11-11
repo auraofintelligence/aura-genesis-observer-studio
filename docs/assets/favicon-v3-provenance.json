@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "generatedDate": "2026-11-11",
+  "asset": "Aura nested horn-torus concept favicon v3",
+  "tool": "Built-in image_gen.imagegen",
+  "mode": "Image edit with three actual referenced_image_paths inputs; solid square background",
+  "prompt": "Use case: precise-object-edit. Edit target: image 1, the previous generated favicon. Supporting authoritative geometry references: image 2 is the exact Aura geometry reference board; image 3 is the supplied VerseBox reference, whose central monitor displays the desired broad horizontal nested horn-torus wireframe. Replace the ENTIRE hourglass/two-bowl shape in image 1. Keep only its square deep-plum background and seven-colour palette. The hourglass geometry is wrong and must not remain. Make the result a compact, wide horizontal oval of SEVEN genuinely NESTED complete horn-torus surfaces, R=r, all sharing one central pinch, following the RIGHT-HAND MAIN 3D WIREFRAME on image 2 and the monitor display in image 3. Do not copy the reference board text, labels, arrows, inset meridian slice, booth, furniture or monitor. The OUTER SILHOUETTE must be one broad horizontal softly curved oval approximately 2:1 width:height, with no external waist or notch. The shared pinch is INSIDE that outer envelope. No top and bottom bowls, no hourglass, no separated cones, no stacked bowls, no open central hole, no eye or pupil, no rock. Use a near-side-on view with only a little elevation, like the VerseBox display. Expose the complete nested surfaces with elegant translucent fine lattice curves and brighter simplified main facet boundaries. Violet outermost, then indigo, blue, green, yellow, orange, red innermost. Keep the seven nested scales coherent. Maximise recognisability of the true nested geometry at 32-pixel favicon scale; clean luminous lines, no busy text, no unrelated decoration, no watermark. The coloured mark should occupy about 88% of canvas width and 44% of canvas height, centred with generous dark margins. Geometry references take priority over the incorrect first image. This is a stylised source-informed favicon, not a claim of exact mathematical rendering.",
+  "inputs": [
+    {
+      "path": "assets/generated/aura-favicon-v2-original.png",
+      "role": "Edit target; prior hourglass geometry rejected. Retain palette/background, replace shape."
+    },
+    {
+      "path": "aura-teacher-training/docs/imagery/aura-geometry-reference-board.png",
+      "role": "Authoritative source-geometry reference. Viewed before generation and supplied as actual image input. Right-hand main nested-surface illustration constrains geometry."
+    },
+    {
+      "path": "aura-verse-box/documents/verse-box-supplied-reference.jpg",
+      "role": "Source concept reference. Viewed before generation and supplied as actual image input. Central monitor's broad nested horn-torus wireframe constrains silhouette."
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/generated/aura-favicon-v3-original.png",
+      "role": "Original tool output, retained without edits.",
+      "sha256": "3b79fe786f4f093732259e4c9d6a827aecd8ba155ee235f72f99aaef02ca2dae"
+    },
+    {
+      "path": "docs/assets/aura-favicon-v3.png",
+      "width": 192,
+      "height": 192,
+      "role": "Website icon candidate.",
+      "sha256": "3aff844fa140cb1c9268a6d7ec5d72751e1210241897c0dfa250364dd5926b16"
+    },
+    {
+      "path": "docs/assets/aura-favicon-v3-32.png",
+      "width": 32,
+      "height": 32,
+      "role": "Small favicon candidate.",
+      "sha256": "b62ea77aaffcb49c8fb1d1b981ade87e792c7dae9ce454d395221ff2618fd90d"
+    }
+  ],
+  "processing": "Original copied to repository. Windows System.Drawing high-quality bicubic derivatives; no content edits after generation.",
+  "inspection": "Original and both derivatives visually inspected. Broad continuous horizontal oval silhouette, seven nested colour scales and a common internal pinch; no external hourglass waist, open bore or separated bowls. Fine wireframe detail simplifies at 32px. This inspection does not prove mathematical equivalence to the canonical renderer.",
+  "interpretation": "Source-informed generative visual mark, not a replacement for the exact code-native Aura geometry renderer. Root review is required before using the candidate.",
+  "previousCandidate": "v2 was rejected for an hourglass/two-bowl silhouette and must not be used as the replacement.",
+  "rights": "Original project generation under the repository's Strange But True Public Source Licence. Reference-image rights remain with their respective sources.",
+  "rootReview": {
+    "date": "2026-11-11",
+    "decision": "Selected for this companion after visual comparison with the supplied Verse Box graphic; broad oval, shared central pinch. Stylised mark, not a mathematically exact renderer."
+  }
+}

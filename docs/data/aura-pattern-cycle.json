@@ -1,0 +1,1867 @@
+{
+  "schemaVersion": "aura-pattern-cycle/illustrative-1",
+  "prepared": "2026-11-11",
+  "status": "Illustrative architecture and authored public walkthrough; not an implemented geometry, scheduler, encryption service or AI execution log.",
+  "sourceBasis": {
+    "controllingSource": {
+      "id": "U2",
+      "title": "User architecture correction",
+      "locator": "11 November 2026, this project",
+      "kind": "direct-design-instruction",
+      "summary": "Aura has seven nested horn tori with programmable facets. Patterns are grouped and selected in stacks for AI computation that creates documents and websites. Corrections produce revised patterns and groups, then new chosen stacks and further runs. The cycle operates across multiple selves and internal private/secret and external public domains with different encryption and permissions."
+    },
+    "lineage": [
+      {
+        "id": "HG1",
+        "locator": "Horn-torus geometry reference and project illustration, seven nested shells with R = r and a common pinch",
+        "use": "Mathematical geometry only; no intelligence, encryption or access-control claim."
+      },
+      {
+        "id": "MS1",
+        "url": "https://auraofintelligence.github.io/aura-matrix-studio/guide.html",
+        "locator": "Stack facets into steps; Instructions, data and attached assets; Strings, loops and agent programs; Your records and sharing. Local README: Enter the matrix; Tables, instructions and agent programs.",
+        "use": "Addressed outward facet layers, per-layer records/instructions/JSON/assets, outward-order recall, local Visit/Recall/Pause and agent-program/SKILL.md export. Local guide and README inspected; this does not establish external AI execution or encryption."
+      },
+      {
+        "id": "M1",
+        "locator": "Sheet1 A338, A1233 and spatial catalogue",
+        "use": "Facet/vector placement and multiple reading directions remain unresolved source-design questions."
+      },
+      {
+        "id": "S02",
+        "locator": "pp. 28–32",
+        "use": "Environment, character-attention and narrator are evidence views feeding the cycle."
+      },
+      {
+        "id": "G3",
+        "locator": "pp. 5–8 and 24",
+        "use": "Self frames, access contexts and observer views stay distinct."
+      },
+      {
+        "id": "S03",
+        "locator": "Sections Recording a minimum viable self; Developing the qualified self",
+        "use": "Purpose-specific self representation and correction through experience."
+      },
+      {
+        "id": "U1",
+        "locator": "10 November 2026, this project",
+        "use": "Full immersion, actual artifact creation and compatible overlap; content stream 260–300 delivered words per minute."
+      }
+    ],
+    "authorship": "Entity names, fields, stages, contracts and all example records below are new design synthesis. They are not claimed to occur verbatim in the source documents."
+  },
+  "definition": "Aura is the user-defined seven-nested-horn-torus pattern architecture with programmable facets and an iterative pattern-group → chosen stack → permitted AI computation → artifact → correction → regrouping cycle across selected self frames and access domains.",
+  "geometry": {
+    "form": "seven nested horn tori",
+    "count": 7,
+    "layerNames": null,
+    "facetsPerTorus": 288,
+    "indexing": "Numbers 1–7 are neutral shell indices, not cognitive names. The current Matrix profile establishes 12 × 24 = 288 base facets per shell. Geometry coordinates and semantic assignments must reference their explicit geometry version; future profile changes require a new version rather than changing historical addresses.",
+    "functionalAssignment": "No torus is assigned a self, observer, access level, trait, chakra or cognitive function here. Facet-side and outward-layer addresses are geometric/program addresses, not access grants.",
+    "placementRule": "A programmable facet has a base address and an outward stack of layers. Each layer can carry records, instructions, required JSON and assets. Placement may remain unassigned in this illustrative example; it is never inferred from a pattern label.",
+    "commonPinch": "Seven nested horn-torus shells with R = r and a shared pinch; see HG1. Geometry is separate from cognitive labels and access domains.",
+    "facetAddress": [
+      "torus",
+      "side",
+      "baseFacet",
+      "layer"
+    ],
+    "currentMatrixProfile": {
+      "rows": 12,
+      "columns": 24,
+      "baseFacetsPerTorus": 288,
+      "sevenShellBaseCells": 2016,
+      "insideOutsideBaseAddresses": 4032,
+      "scope": "Current Matrix Studio address profile, not a claim that these numbers define cognitive capacity."
+    },
+    "sideVsDomain": "Inside/outside are geometric address spaces. An outside facet is not automatically public, and an inside facet is not encrypted. The separate access-domain field controls the proposed permissions."
+  },
+  "independentAxes": [
+    {
+      "axis": "geometry",
+      "question": "Where is this facet placed in the declared geometry?",
+      "notEquivalentTo": "self, access or authority"
+    },
+    {
+      "axis": "pattern-and-group",
+      "question": "Which content or relationship is selected, and in which grouping/version?",
+      "notEquivalentTo": "one fixed tree or a global reading order"
+    },
+    {
+      "axis": "self-frame",
+      "question": "Whose selected perspective and conditions apply?",
+      "notEquivalentTo": "observer identity or a new person"
+    },
+    {
+      "axis": "observer-view",
+      "question": "Which evidence was available, noticed or described?",
+      "notEquivalentTo": "a self or access level"
+    },
+    {
+      "axis": "access-domain",
+      "question": "Which storage, recipients and capabilities are authorised?",
+      "notEquivalentTo": "a visible layer or implied permission"
+    },
+    {
+      "axis": "review-and-release",
+      "question": "What has been checked, corrected or deliberately released?",
+      "notEquivalentTo": "generated, displayed, read or answered"
+    }
+  ],
+  "entities": [
+    {
+      "name": "pattern",
+      "purpose": "A reusable, provenance-bearing unit: concept, relationship, observation, instruction, example, question or explicitly labelled hypothesis.",
+      "fields": [
+        "id",
+        "revision",
+        "kind",
+        "contentOrReference",
+        "sourceRefs",
+        "interpretationStatus",
+        "conditions",
+        "selfFrameRefs",
+        "accessDomainId",
+        "permissions",
+        "correctionRefs"
+      ],
+      "invariants": [
+        "A pattern may belong to many groups; a group may contain many patterns. Membership is a relationship, not a copy that silently forks the pattern.",
+        "A pattern is not automatically true because it is selected or frequently retrieved.",
+        "Revision creates a new version; historical versions remain addressable under their original access controls."
+      ]
+    },
+    {
+      "name": "patternGroupRevision",
+      "purpose": "A versioned association of patterns with a stated grouping rationale, relationships and unresolved alternatives.",
+      "fields": [
+        "id",
+        "revision",
+        "title",
+        "purpose",
+        "members",
+        "relations",
+        "readingRule",
+        "parentRevision",
+        "changeReason",
+        "sourceOrCorrectionRefs",
+        "accessDomainId"
+      ],
+      "invariants": [
+        "Membership records pin pattern ID/revision and state the role or reason.",
+        "A group has no automatic top-to-bottom order; readingRule is explicit or unresolved.",
+        "Regrouping may add, remove, split, combine or relate memberships without erasing source patterns."
+      ]
+    },
+    {
+      "name": "facet",
+      "purpose": "An addressable programmable base facet with an outward layer stack; each selected layer binding prepares or performs a bounded operation.",
+      "fields": [
+        "id",
+        "geometryRef",
+        "baseAddress",
+        "stackRevision",
+        "layers",
+        "reviewGate"
+      ],
+      "invariants": [
+        "Geometry placement does not grant data or tool access.",
+        "A binding identifies its actual implementation or says design-only.",
+        "A facet may present several selectable binding versions; each run pins exactly the one it uses.",
+        "Each outward layer pins its address, record selections, instructions, required JSON, assets, program binding and output contract. Retain spatial order and layer boundaries in export and execution."
+      ]
+    },
+    {
+      "name": "stack",
+      "purpose": "Either an outward facet-layer stack, or an explicitly typed compute composition selecting and sequencing one or more facet stacks. The two levels are distinct.",
+      "fields": [
+        "id",
+        "revision",
+        "kind",
+        "purpose",
+        "baseFacetRef",
+        "outwardLayerOrder",
+        "selectedFacetStackRefs",
+        "steps",
+        "selfFrameRefs",
+        "inputRequirements",
+        "outputTargets",
+        "reviewRules",
+        "parentRevision"
+      ],
+      "invariants": [
+        "kind is facet-layer-stack or compute-composition. A facet-layer-stack keeps torus/side/baseFacet/layer addresses and per-layer records, instructions, required JSON and assets. A compute-composition selects those stacks/layers without erasing their provenance or order.",
+        "Each step names a selected pattern/group revision or facet binding and its input/output dependencies.",
+        "Order is local to the stack, not a universal order imposed on the source matrix.",
+        "A changed group does not silently change a saved or running stack.",
+        "A stack requests capabilities; it cannot grant them."
+      ]
+    },
+    {
+      "name": "run",
+      "purpose": "One bounded execution or explicitly labelled authored rehearsal of a selected stack.",
+      "fields": [
+        "id",
+        "kind",
+        "stackRefs",
+        "resolvedInputRefs",
+        "selectedSelfFrames",
+        "accessDomainId",
+        "capabilityGrant",
+        "computeContract",
+        "outputTargets",
+        "taskDependencies",
+        "status",
+        "artifactRefs",
+        "reviewRefs"
+      ],
+      "invariants": [
+        "Resolve and freeze actual inputs before compute; group labels alone are insufficient.",
+        "Record model/program version, budgets, tool calls and actual timings when executed; unknown values stay unknown.",
+        "Child workers receive scoped inputs and capabilities for their task, not a whole parent archive.",
+        "A design trace is not reported as an actual model run."
+      ]
+    },
+    {
+      "name": "artifactRevision",
+      "purpose": "A document, website, diagram, lesson, code output or other concrete result with lineage and its own review/release state.",
+      "fields": [
+        "id",
+        "revision",
+        "kind",
+        "contentOrPath",
+        "runRef",
+        "inputRefs",
+        "selfFrameRefs",
+        "accessDomainId",
+        "reviewState",
+        "releaseState",
+        "parentRevision",
+        "correctionRefs"
+      ],
+      "invariants": [
+        "Generating a public-intended draft does not publish it.",
+        "Derived content retains input restrictions until a specific permitted release projection is reviewed.",
+        "An external page cannot retrieve private or secret parent inputs through its lineage links."
+      ]
+    },
+    {
+      "name": "correction",
+      "purpose": "An attributed change request or dispute about a claim, pattern, grouping, stack, artifact or permission.",
+      "fields": [
+        "id",
+        "targetRefs",
+        "origin",
+        "evidenceRefs",
+        "issue",
+        "proposedChange",
+        "scope",
+        "reviewDisposition",
+        "resultingRevisionRefs"
+      ],
+      "invariants": [
+        "Observed behavior, participant meaning, reviewer inference and fictional feedback remain distinguishable.",
+        "A local correction does not silently become a rule about every self or context.",
+        "Corrections append lineage and can remain disputed or unresolved."
+      ]
+    },
+    {
+      "name": "selfFrame",
+      "purpose": "A selected representation of a person at a time, in a role or under explicitly named conditions.",
+      "fields": [
+        "id",
+        "revision",
+        "subjectRef",
+        "kind",
+        "timeOrConditions",
+        "purpose",
+        "evidenceRefs",
+        "uncertainty",
+        "accessDomainId"
+      ],
+      "invariants": [
+        "Past, present, possible and constrained frames are separate from the three observers.",
+        "A speculative future frame is not evidence of future achievement.",
+        "Selecting another frame does not copy all answers or unlock its records."
+      ]
+    },
+    {
+      "name": "accessDomain",
+      "purpose": "An independently enforced data and capability boundary.",
+      "fields": [
+        "id",
+        "visibility",
+        "principals",
+        "purposes",
+        "readPolicy",
+        "computePolicy",
+        "writePolicy",
+        "exportPolicy",
+        "publicationPolicy",
+        "keyScope",
+        "retentionPolicy"
+      ],
+      "invariants": [
+        "Private, secret and external-public permissions are independently checked.",
+        "Public readability does not confer editing, publishing, spending, messaging or tool authority.",
+        "No external-public worker inherits internal inputs, embeddings, logs, credentials or capabilities."
+      ]
+    }
+  ],
+  "cycle": [
+    {
+      "id": "CYCLE-01",
+      "title": "Frame the intended result",
+      "action": "Name the purpose, artifact, selected self frames, audience and success evidence.",
+      "output": "A mission contract with an output target and explicit access domain."
+    },
+    {
+      "id": "CYCLE-02",
+      "title": "Select permitted evidence",
+      "action": "Resolve authorised MVS entries, observer accounts, sources, existing artifacts and correction records.",
+      "output": "A version-pinned input manifest, including absent or deliberately excluded information."
+    },
+    {
+      "id": "CYCLE-03",
+      "title": "Form or choose pattern groups",
+      "action": "Identify reusable units and grouping rationale; preserve ambiguous spatial readings and many-to-many membership.",
+      "output": "Selected group revisions and unresolved alternatives."
+    },
+    {
+      "id": "CYCLE-04",
+      "title": "Program or select facets",
+      "action": "Choose the base facet and its outward layer stack; pin each layer’s records, instructions, required JSON, assets, program binding, tool scope and budget.",
+      "output": "Facet binding references; design-only bindings remain labelled."
+    },
+    {
+      "id": "CYCLE-05",
+      "title": "Choose the stack",
+      "action": "Select one or more facet stacks, preserve their outward-layer recall/program sequence, and define explicit cross-facet transitions, dependencies, self-frame choices and review gates.",
+      "output": "An immutable run manifest and dependency graph."
+    },
+    {
+      "id": "CYCLE-06",
+      "title": "Compute and make",
+      "action": "Run permitted AI/tool tasks to produce concrete documents, websites or other artifacts; independent jobs may overlap.",
+      "output": "Artifact drafts plus actual execution or failure records. No automatic publication."
+    },
+    {
+      "id": "CYCLE-07",
+      "title": "Encounter and correct",
+      "action": "Inspect outputs and, where agreed, use them in a real task. Separate observed outcomes, interpretations, participant meaning and fictional rehearsal.",
+      "output": "Targeted corrections with evidence, scope and dispositions."
+    },
+    {
+      "id": "CYCLE-08",
+      "title": "Revise and regroup",
+      "action": "Revise affected patterns, create group revisions, split or link groups and update facet bindings where needed.",
+      "output": "New addressable revisions and a dependency impact list; earlier runs remain unchanged."
+    },
+    {
+      "id": "CYCLE-09",
+      "title": "Choose the next stack",
+      "action": "Explicitly select revised versions, compare a meaningful alternative and state what result could change the choice.",
+      "output": "The next run contract or a documented decision to stop, defer or retain disagreement."
+    }
+  ],
+  "accessDomains": [
+    {
+      "id": "internal-private",
+      "visibility": "internal, selected private material",
+      "capabilities": "Only the particular read, compute, write and export operations granted for the current purpose.",
+      "keyScope": "A protected private-domain key/access boundary; implementation and key management remain to be designed.",
+      "inheritance": "No secret access by default; no automatic public release."
+    },
+    {
+      "id": "internal-secret",
+      "visibility": "internal, more narrowly authorised secret material",
+      "capabilities": "Explicit secret-domain authority for each permitted principal and operation; presence in the same Aura is insufficient.",
+      "keyScope": "A separately controlled secret-domain key/access boundary; a private-domain grant or key must not unlock it.",
+      "inheritance": "No automatic inclusion in private-domain retrieval, model context, training, logs or outputs."
+    },
+    {
+      "id": "external-public",
+      "visibility": "publicly released or wholly authored public-safe material",
+      "capabilities": "Fewer capabilities: read selected public material and, when separately granted, prepare scoped drafts. No internal authority is inherited.",
+      "keyScope": "Public payload need not be confidential; integrity, provenance and separate publication credentials still require real controls.",
+      "inheritance": "No private/secret input, key, hidden lineage content or tool authority. Public read is not publication permission."
+    }
+  ],
+  "permissionOperations": [
+    "store",
+    "read",
+    "retrieve",
+    "compute-with",
+    "train-on",
+    "write-revision",
+    "export",
+    "share-with-recipient",
+    "publish",
+    "execute-external-action"
+  ],
+  "encryption": {
+    "status": "Requirements only. The present static site and local pattern walkthrough do not implement these cryptographic domains.",
+    "requirements": [
+      "Protect private and secret content in storage and transit under their respective independently controlled boundaries.",
+      "Manage keys outside public files, model prompts, shared browser storage and exported public examples. Define creation, access, rotation, recovery and revocation responsibilities.",
+      "Check both access policy and cryptographic key authority before decryption; a visual padlock or geometry layer is insufficient.",
+      "Limit plaintext exposure to the authorised worker and task. Define temporary-file, cache, embedding, log, crash-report and backup handling for each domain.",
+      "Treat group memberships, links, titles and correction metadata as potentially revealing; a public graph must not expose forbidden internal structure.",
+      "Preserve input restrictions on derived artifacts. A public release requires an explicit approved projection and inspection for unintended disclosure.",
+      "Record what revocation can prevent going forward and what cannot be recalled from earlier authorised exports or recipients.",
+      "Verify denied-access behavior, key separation, recovery and export boundaries before claiming the architecture is operational."
+    ],
+    "algorithmChoice": "No cryptographic algorithm, product or deployment implementation is chosen by this illustrative document."
+  },
+  "implementationBoundary": {
+    "existing": "Static workbook, source catalogue, authored curricula and limited local observer/task prototypes described elsewhere in this repository.",
+    "newDesign": "Seven-torus pattern bindings, general pattern/group/stack data model, corrective regrouping engine, integrated self/access domain enforcement and cryptographic storage described here.",
+    "notClaimed": [
+      "An implemented nested-torus compute engine",
+      "Autonomous unpublished background runs",
+      "Training model weights merely by regrouping patterns",
+      "Encrypted storage supplied by labels or browser saving",
+      "Real participant results from the fictional example"
+    ]
+  },
+  "stackDistinction": {
+    "facetStack": "A spatial stack growing outward from one base facet: ordered layers addressed by torus + side + base facet + layer. Each layer has its own records, instructions, required JSON and assets. Outward order can define recall/program order.",
+    "computeComposition": "A deliberately selected version-pinned sequence over one or more facet stacks or selected layer addresses, with explicit transitions, operations, dependencies, inputs and outputs. It preserves the spatial stack addresses and ordering rather than flattening all material into a generic prompt.",
+    "patternGroup": "A reusable many-to-many semantic association. Its members may be bound at multiple facet layers. A group is not automatically a spatial stack or an executable programme."
+  },
+  "matrixBridge": {
+    "sourceRef": "MS1",
+    "sourceUrl": "https://auraofintelligence.github.io/aura-matrix-studio/guide.html",
+    "existingNavigation": [
+      "Visit",
+      "Recall",
+      "Pause"
+    ],
+    "exportSchema": "aura-agent-program/1",
+    "skillExport": "SKILL.md containing the same manifest and interpretation instructions",
+    "currentBehavior": "The Matrix browser navigates, recalls attached records and handles timing. It does not execute external AI instructions as tool calls, install the exported skill or schedule background automation.",
+    "runnerBoundary": "A separate authorised runner must resolve addresses, verify versions and access, interpret instructions, perform permitted compute, validate output and return artifact/correction references. This document defines that proposed bridge; it does not implement it.",
+    "recordBoundary": "Matrix table allocation currently copies records into addresses. The reference model here additionally requires explicit lineage between a source pattern and each placed instance; it does not pretend existing copies already synchronise."
+  },
+  "example": {
+    "status": "Fictional, public-safe authored walkthrough. Both runs and all feedback below are design traces, not real learner observations, model calls or publication events.",
+    "topic": "An adult workshop and companion page that teach how to turn selected Aura patterns into a useful artifact and improve it after feedback.",
+    "audience": "A fictional adult creator named Alex. Alex is not Luke or an inference about any real participant.",
+    "accessDomainId": "external-public",
+    "capabilities": {
+      "read": [
+        "inline authored public example records"
+      ],
+      "compute": "illustrative only; no model service called",
+      "write": [
+        "inline example artifact drafts in this document/data file"
+      ],
+      "publish": false,
+      "externalActions": false,
+      "internalAccess": false
+    },
+    "selfFrames": [
+      {
+        "id": "SF-teacher",
+        "revision": 1,
+        "kind": "fictional present teaching perspective",
+        "subjectRef": "fictional-Alex",
+        "conditions": "Explaining an editable pattern-to-artifact cycle to adult peers.",
+        "purpose": "Design a lesson that elicits an actual usable result.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "SF-maker",
+        "revision": 1,
+        "kind": "fictional present interface-making perspective",
+        "subjectRef": "fictional-Alex",
+        "conditions": "Turning the same cycle into a navigable public demonstration.",
+        "purpose": "Make inputs, outputs and revision choices understandable.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "SF-next",
+        "revision": 1,
+        "kind": "fictional possible future under named conditions",
+        "subjectRef": "fictional-Alex",
+        "conditions": "Only if the revised lesson and interface work in a future agreed trial.",
+        "purpose": "Frame a next experiment without declaring mastery or demand.",
+        "accessDomainId": "external-public"
+      }
+    ],
+    "patterns": [
+      {
+        "id": "P01",
+        "revision": 1,
+        "kind": "purpose",
+        "content": "A lesson should help its learner produce and improve one chosen artifact, under a named purpose.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P02",
+        "revision": 1,
+        "kind": "example",
+        "content": "A labelled worked example can connect an explanation to the concrete document and website it creates.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P03",
+        "revision": 1,
+        "kind": "recognition-check",
+        "content": "Matching a term to a label provides evidence of recognition; it does not establish independent application.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P04",
+        "revision": 1,
+        "kind": "versioning-rule",
+        "content": "A chosen stack pins group revisions, facet-layer addresses, binding versions and output dependencies.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P05",
+        "revision": 1,
+        "kind": "provenance-rule",
+        "content": "Every example and its feedback remain labelled fictional until a real encounter supplies separate evidence.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P06",
+        "revision": 1,
+        "kind": "observer-rule",
+        "content": "Environment, character attention and narrator accounts are selected evidence; participant meaning stays separately attributed.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "S02"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P07",
+        "revision": 1,
+        "kind": "artifact-lineage",
+        "content": "Artifact revisions name their source selections and the corrections that changed them.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P08",
+        "revision": 1,
+        "kind": "chosen-context",
+        "content": "The learner can choose a low-stakes task or use the supplied invented scenario.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P09",
+        "revision": 1,
+        "kind": "release-rule",
+        "content": "A public-intended draft is distinct from an authorised publication action.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 1
+      },
+      {
+        "id": "P10",
+        "revision": 1,
+        "kind": "transfer-check",
+        "content": "A learner demonstrates application by choosing and revising a stack for a new task, explaining the change after feedback.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 2
+      },
+      {
+        "id": "P11",
+        "revision": 1,
+        "kind": "navigation-rule",
+        "content": "The page separates Inputs, Create draft, Inspect result and Revise, with visible current versions.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 2
+      },
+      {
+        "id": "P12",
+        "revision": 1,
+        "kind": "architecture-rule",
+        "content": "Show seven nested horn tori and programmable outward facet layers without assigning invented cognitive names to the tori.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2",
+          "MS1"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 2
+      },
+      {
+        "id": "P13",
+        "revision": 1,
+        "kind": "capability-rule",
+        "content": "A public demonstration cannot access private or secret records or acquire publication authority.",
+        "origin": "authored fictional example design",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 2
+      },
+      {
+        "id": "P14",
+        "revision": 1,
+        "kind": "geometry-access-distinction",
+        "content": "Inside/outside geometric addressing does not change access domain; public execution must fail a request for an unauthorised internal record.",
+        "origin": "authored next-iteration requirement from fictional C03; not a passed security test",
+        "sourceRefs": [
+          "U2",
+          "MS1"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 2
+      },
+      {
+        "id": "P15",
+        "revision": 1,
+        "kind": "deliberate-version-selection",
+        "content": "A correction review should show membership/binding differences and let the person deliberately select the next pinned composition.",
+        "origin": "authored next-iteration requirement from fictional C04",
+        "sourceRefs": [
+          "U2"
+        ],
+        "accessDomainId": "external-public",
+        "introducedInIteration": 2
+      }
+    ],
+    "groupRevisions": [
+      {
+        "id": "G-learning",
+        "revision": 1,
+        "title": "Learning explanation",
+        "purpose": "Choose a task, explain it and include an initial recognition check.",
+        "members": [
+          {
+            "patternRef": "P01@1",
+            "membershipReason": "Selected for learning explanation"
+          },
+          {
+            "patternRef": "P02@1",
+            "membershipReason": "Selected for learning explanation"
+          },
+          {
+            "patternRef": "P03@1",
+            "membershipReason": "Selected for learning explanation"
+          },
+          {
+            "patternRef": "P08@1",
+            "membershipReason": "Selected for learning explanation"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": null,
+        "changeReason": "Choose a task, explain it and include an initial recognition check.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-making",
+        "revision": 1,
+        "title": "Artifact making",
+        "purpose": "Use a worked example, pinned inputs and visible artifact lineage.",
+        "members": [
+          {
+            "patternRef": "P02@1",
+            "membershipReason": "Selected for artifact making"
+          },
+          {
+            "patternRef": "P04@1",
+            "membershipReason": "Selected for artifact making"
+          },
+          {
+            "patternRef": "P07@1",
+            "membershipReason": "Selected for artifact making"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": null,
+        "changeReason": "Use a worked example, pinned inputs and visible artifact lineage.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-shared",
+        "revision": 1,
+        "title": "Shared boundaries",
+        "purpose": "Keep fictional evidence, observer roles and publication state explicit.",
+        "members": [
+          {
+            "patternRef": "P05@1",
+            "membershipReason": "Selected for shared boundaries"
+          },
+          {
+            "patternRef": "P06@1",
+            "membershipReason": "Selected for shared boundaries"
+          },
+          {
+            "patternRef": "P09@1",
+            "membershipReason": "Selected for shared boundaries"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": null,
+        "changeReason": "Keep fictional evidence, observer roles and publication state explicit.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-learning",
+        "revision": 2,
+        "title": "Learning through application",
+        "purpose": "C01 moves recognition out of the completion decision and adds a new-task application test.",
+        "members": [
+          {
+            "patternRef": "P01@1",
+            "membershipReason": "Selected for learning through application"
+          },
+          {
+            "patternRef": "P02@1",
+            "membershipReason": "Selected for learning through application"
+          },
+          {
+            "patternRef": "P06@1",
+            "membershipReason": "Selected for learning through application"
+          },
+          {
+            "patternRef": "P08@1",
+            "membershipReason": "Selected for learning through application"
+          },
+          {
+            "patternRef": "P10@1",
+            "membershipReason": "Selected for learning through application"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": "G-learning@1",
+        "changeReason": "C01 moves recognition out of the completion decision and adds a new-task application test.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-recognition",
+        "revision": 1,
+        "title": "Recognition evidence",
+        "purpose": "C01 retains the useful label check as preliminary evidence rather than deleting it.",
+        "members": [
+          {
+            "patternRef": "P03@1",
+            "membershipReason": "Selected for recognition evidence"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": null,
+        "changeReason": "C01 retains the useful label check as preliminary evidence rather than deleting it.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-transfer",
+        "revision": 1,
+        "title": "Transfer and revision",
+        "purpose": "C01 creates a separate reusable group for a new task and evidence-driven revision.",
+        "members": [
+          {
+            "patternRef": "P01@1",
+            "membershipReason": "Selected for transfer and revision"
+          },
+          {
+            "patternRef": "P10@1",
+            "membershipReason": "Selected for transfer and revision"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": null,
+        "changeReason": "C01 creates a separate reusable group for a new task and evidence-driven revision.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-making",
+        "revision": 2,
+        "title": "Artifact making and navigation",
+        "purpose": "C02 adds explicit input/result/revision navigation and visible version selection.",
+        "members": [
+          {
+            "patternRef": "P02@1",
+            "membershipReason": "Selected for artifact making and navigation"
+          },
+          {
+            "patternRef": "P04@1",
+            "membershipReason": "Selected for artifact making and navigation"
+          },
+          {
+            "patternRef": "P07@1",
+            "membershipReason": "Selected for artifact making and navigation"
+          },
+          {
+            "patternRef": "P11@1",
+            "membershipReason": "Selected for artifact making and navigation"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": "G-making@1",
+        "changeReason": "C02 adds explicit input/result/revision navigation and visible version selection.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-shared",
+        "revision": 2,
+        "title": "Shared architecture and boundaries",
+        "purpose": "C02 clarifies the full Aura structure and the public demo’s limited capabilities.",
+        "members": [
+          {
+            "patternRef": "P05@1",
+            "membershipReason": "Selected for shared architecture and boundaries"
+          },
+          {
+            "patternRef": "P06@1",
+            "membershipReason": "Selected for shared architecture and boundaries"
+          },
+          {
+            "patternRef": "P09@1",
+            "membershipReason": "Selected for shared architecture and boundaries"
+          },
+          {
+            "patternRef": "P12@1",
+            "membershipReason": "Selected for shared architecture and boundaries"
+          },
+          {
+            "patternRef": "P13@1",
+            "membershipReason": "Selected for shared architecture and boundaries"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": "G-shared@1",
+        "changeReason": "C02 clarifies the full Aura structure and the public demo’s limited capabilities.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-shared",
+        "revision": 3,
+        "title": "Shared architecture and access distinction",
+        "purpose": "C03 adds the explicit geometric-side versus access-domain distinction.",
+        "members": [
+          {
+            "patternRef": "P05@1",
+            "membershipReason": "Selected for shared architecture and access distinction"
+          },
+          {
+            "patternRef": "P06@1",
+            "membershipReason": "Selected for shared architecture and access distinction"
+          },
+          {
+            "patternRef": "P09@1",
+            "membershipReason": "Selected for shared architecture and access distinction"
+          },
+          {
+            "patternRef": "P12@1",
+            "membershipReason": "Selected for shared architecture and access distinction"
+          },
+          {
+            "patternRef": "P13@1",
+            "membershipReason": "Selected for shared architecture and access distinction"
+          },
+          {
+            "patternRef": "P14@1",
+            "membershipReason": "Selected for shared architecture and access distinction"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": "G-shared@2",
+        "changeReason": "C03 adds the explicit geometric-side versus access-domain distinction.",
+        "accessDomainId": "external-public"
+      },
+      {
+        "id": "G-making",
+        "revision": 3,
+        "title": "Artifact making and deliberate next selection",
+        "purpose": "C04 adds a visible revision diff and deliberate next-version selection.",
+        "members": [
+          {
+            "patternRef": "P02@1",
+            "membershipReason": "Selected for artifact making and deliberate next selection"
+          },
+          {
+            "patternRef": "P04@1",
+            "membershipReason": "Selected for artifact making and deliberate next selection"
+          },
+          {
+            "patternRef": "P07@1",
+            "membershipReason": "Selected for artifact making and deliberate next selection"
+          },
+          {
+            "patternRef": "P11@1",
+            "membershipReason": "Selected for artifact making and deliberate next selection"
+          },
+          {
+            "patternRef": "P15@1",
+            "membershipReason": "Selected for artifact making and deliberate next selection"
+          }
+        ],
+        "readingRule": "Semantic grouping only; execution order comes from the selected facet-layer stack.",
+        "parentRevision": "G-making@2",
+        "changeReason": "C04 adds a visible revision diff and deliberate next-version selection.",
+        "accessDomainId": "external-public"
+      }
+    ],
+    "facetStacks": [
+      {
+        "id": "FS-lesson",
+        "revision": 1,
+        "kind": "facet-layer-stack",
+        "facetId": "F-lesson",
+        "geometryProfile": "MS1 current Matrix profile",
+        "baseAddress": {
+          "torus": null,
+          "side": null,
+          "baseFacet": null
+        },
+        "outwardLayerOrder": [
+          0,
+          1,
+          2
+        ],
+        "selfFrameRef": "SF-teacher@1",
+        "binding": {
+          "id": "lesson-compose",
+          "revision": 1,
+          "status": "design-only; no connected model runner"
+        },
+        "layers": [
+          {
+            "layer": 0,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 0
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-learning@1",
+              "G-shared@1"
+            ],
+            "records": [
+              "P01@1",
+              "P02@1",
+              "P03@1",
+              "P08@1",
+              "P05@1",
+              "P06@1",
+              "P09@1"
+            ],
+            "instructions": "Recall the chosen purpose and evidence boundaries.",
+            "requiredJSON": {
+              "purpose": "Teach a repeatable pattern-to-artifact cycle",
+              "audience": "fictional adult peer",
+              "minutes": 20
+            },
+            "assets": [],
+            "outputContract": "Return the named draft material and source references; no external action."
+          },
+          {
+            "layer": 1,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 1
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-making@1"
+            ],
+            "records": [
+              "P02@1",
+              "P04@1",
+              "P07@1"
+            ],
+            "instructions": "Draft a lesson using the worked example and selected group versions.",
+            "requiredJSON": {
+              "artifactId": "lesson-plan",
+              "revision": 1
+            },
+            "assets": [
+              "inline worked-example text"
+            ],
+            "outputContract": "Return the named draft material and source references; no external action."
+          },
+          {
+            "layer": 2,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 2
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-learning@1"
+            ],
+            "records": [
+              "P01@1",
+              "P02@1",
+              "P03@1",
+              "P08@1"
+            ],
+            "instructions": "Check what the learner evidence does and does not establish; return a reviewable plan.",
+            "requiredJSON": {
+              "reviewMode": "identify recognition evidence"
+            },
+            "assets": [],
+            "outputContract": "Return the named draft material and source references; no external action."
+          }
+        ]
+      },
+      {
+        "id": "FS-site",
+        "revision": 1,
+        "kind": "facet-layer-stack",
+        "facetId": "F-site",
+        "geometryProfile": "MS1 current Matrix profile",
+        "baseAddress": {
+          "torus": null,
+          "side": null,
+          "baseFacet": null
+        },
+        "outwardLayerOrder": [
+          0,
+          1,
+          2
+        ],
+        "selfFrameRef": "SF-maker@1",
+        "binding": {
+          "id": "site-compose",
+          "revision": 1,
+          "status": "design-only; no connected model runner"
+        },
+        "layers": [
+          {
+            "layer": 0,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 0
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-making@1",
+              "G-shared@1"
+            ],
+            "records": [
+              "P02@1",
+              "P04@1",
+              "P07@1",
+              "P05@1",
+              "P06@1",
+              "P09@1"
+            ],
+            "instructions": "Recall the public example inputs and the corresponding lesson-plan revision.",
+            "requiredJSON": {
+              "lessonArtifactRef": "lesson-plan@1"
+            },
+            "assets": [],
+            "outputContract": "Return the named draft material and source references; no external action."
+          },
+          {
+            "layer": 1,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 1
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-making@1"
+            ],
+            "records": [
+              "P02@1",
+              "P04@1",
+              "P07@1"
+            ],
+            "instructions": "Draft the companion page structure and labels.",
+            "requiredJSON": {
+              "artifactId": "companion-page",
+              "revision": 1
+            },
+            "assets": [
+              "inline lesson-plan@1"
+            ],
+            "outputContract": "Return the named draft material and source references; no external action."
+          },
+          {
+            "layer": 2,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 2
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-shared@1"
+            ],
+            "records": [
+              "P05@1",
+              "P06@1",
+              "P09@1"
+            ],
+            "instructions": "Check provenance, access and publication boundaries; retain review findings.",
+            "requiredJSON": {
+              "publish": false,
+              "internalAccess": false,
+              "fictional": true
+            },
+            "assets": [],
+            "outputContract": "Return the named draft material and source references; no external action."
+          }
+        ]
+      },
+      {
+        "id": "FS-lesson",
+        "revision": 2,
+        "kind": "facet-layer-stack",
+        "facetId": "F-lesson",
+        "geometryProfile": "MS1 current Matrix profile",
+        "baseAddress": {
+          "torus": null,
+          "side": null,
+          "baseFacet": null
+        },
+        "outwardLayerOrder": [
+          0,
+          1,
+          2
+        ],
+        "selfFrameRef": "SF-teacher@1",
+        "binding": {
+          "id": "lesson-compose",
+          "revision": 2,
+          "status": "design-only; no connected model runner"
+        },
+        "layers": [
+          {
+            "layer": 0,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 0
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-learning@2",
+              "G-shared@2"
+            ],
+            "records": [
+              "P01@1",
+              "P02@1",
+              "P06@1",
+              "P08@1",
+              "P10@1",
+              "P05@1",
+              "P09@1",
+              "P12@1",
+              "P13@1"
+            ],
+            "instructions": "Recall the chosen purpose and evidence boundaries.",
+            "requiredJSON": {
+              "purpose": "Teach a repeatable pattern-to-artifact cycle",
+              "audience": "fictional adult peer",
+              "minutes": 20
+            },
+            "assets": [],
+            "outputContract": "Return the named draft material and source references; no external action."
+          },
+          {
+            "layer": 1,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 1
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-making@2"
+            ],
+            "records": [
+              "P02@1",
+              "P04@1",
+              "P07@1",
+              "P11@1"
+            ],
+            "instructions": "Draft a lesson using the worked example and selected group versions.",
+            "requiredJSON": {
+              "artifactId": "lesson-plan",
+              "revision": 2
+            },
+            "assets": [
+              "inline worked-example text"
+            ],
+            "outputContract": "Return the named draft material and source references; no external action."
+          },
+          {
+            "layer": 2,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 2
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-recognition@1",
+              "G-transfer@1"
+            ],
+            "records": [
+              "P03@1",
+              "P01@1",
+              "P10@1"
+            ],
+            "instructions": "Check what the learner evidence does and does not establish; return a reviewable plan.",
+            "requiredJSON": {
+              "reviewMode": "separate recognition, new-task application and later transfer"
+            },
+            "assets": [],
+            "outputContract": "Return the named draft material and source references; no external action."
+          }
+        ]
+      },
+      {
+        "id": "FS-site",
+        "revision": 2,
+        "kind": "facet-layer-stack",
+        "facetId": "F-site",
+        "geometryProfile": "MS1 current Matrix profile",
+        "baseAddress": {
+          "torus": null,
+          "side": null,
+          "baseFacet": null
+        },
+        "outwardLayerOrder": [
+          0,
+          1,
+          2
+        ],
+        "selfFrameRef": "SF-maker@1",
+        "binding": {
+          "id": "site-compose",
+          "revision": 2,
+          "status": "design-only; no connected model runner"
+        },
+        "layers": [
+          {
+            "layer": 0,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 0
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-making@2",
+              "G-shared@2"
+            ],
+            "records": [
+              "P02@1",
+              "P04@1",
+              "P07@1",
+              "P11@1",
+              "P05@1",
+              "P06@1",
+              "P09@1",
+              "P12@1",
+              "P13@1"
+            ],
+            "instructions": "Recall the public example inputs and the corresponding lesson-plan revision.",
+            "requiredJSON": {
+              "lessonArtifactRef": "lesson-plan@2"
+            },
+            "assets": [],
+            "outputContract": "Return the named draft material and source references; no external action."
+          },
+          {
+            "layer": 1,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 1
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-making@2"
+            ],
+            "records": [
+              "P02@1",
+              "P04@1",
+              "P07@1",
+              "P11@1"
+            ],
+            "instructions": "Draft the companion page structure and labels.",
+            "requiredJSON": {
+              "artifactId": "companion-page",
+              "revision": 2
+            },
+            "assets": [
+              "inline lesson-plan@2"
+            ],
+            "outputContract": "Return the named draft material and source references; no external action."
+          },
+          {
+            "layer": 2,
+            "address": {
+              "torus": null,
+              "side": null,
+              "baseFacet": null,
+              "layer": 2
+            },
+            "placementStatus": "Base address deliberately unassigned in this teaching example; choose a real address before a Matrix run.",
+            "groupRefs": [
+              "G-shared@2"
+            ],
+            "records": [
+              "P05@1",
+              "P06@1",
+              "P09@1",
+              "P12@1",
+              "P13@1"
+            ],
+            "instructions": "Check provenance, access and publication boundaries; retain review findings.",
+            "requiredJSON": {
+              "publish": false,
+              "internalAccess": false,
+              "fictional": true
+            },
+            "assets": [],
+            "outputContract": "Return the named draft material and source references; no external action."
+          }
+        ]
+      }
+    ],
+    "computeCompositions": [
+      {
+        "id": "CS-workshop",
+        "revision": 1,
+        "kind": "compute-composition",
+        "purpose": "Create a matched lesson and public demonstration page.",
+        "selectedFacetStackRefs": [
+          "FS-lesson@1",
+          "FS-site@1"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "stackRef": "FS-lesson@1",
+            "sequence": "Visit base; Recall layers 0 → 1 → 2 in outward order; Pause for lesson review.",
+            "outputRef": "lesson-plan@1"
+          },
+          {
+            "step": 2,
+            "stackRef": "FS-site@1",
+            "dependsOn": [
+              "lesson-plan@1"
+            ],
+            "sequence": "Visit base; Recall layers 0 → 1 → 2 in outward order; Pause for page review.",
+            "outputRef": "companion-page@1"
+          }
+        ],
+        "runnerNote": "Visit/Recall/Pause describe Matrix navigation. Draft-making instructions require a separate authorised compute runner; this walkthrough uses authored text."
+      },
+      {
+        "id": "CS-workshop",
+        "revision": 2,
+        "kind": "compute-composition",
+        "purpose": "Create a matched lesson and public demonstration page.",
+        "selectedFacetStackRefs": [
+          "FS-lesson@2",
+          "FS-site@2"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "stackRef": "FS-lesson@2",
+            "sequence": "Visit base; Recall layers 0 → 1 → 2 in outward order; Pause for lesson review.",
+            "outputRef": "lesson-plan@2"
+          },
+          {
+            "step": 2,
+            "stackRef": "FS-site@2",
+            "dependsOn": [
+              "lesson-plan@2"
+            ],
+            "sequence": "Visit base; Recall layers 0 → 1 → 2 in outward order; Pause for page review.",
+            "outputRef": "companion-page@2"
+          }
+        ],
+        "runnerNote": "Visit/Recall/Pause describe Matrix navigation. Draft-making instructions require a separate authorised compute runner; this walkthrough uses authored text."
+      }
+    ],
+    "runs": [
+      {
+        "id": "R01",
+        "kind": "authored-design-trace",
+        "stackRefs": [
+          "CS-workshop@1"
+        ],
+        "resolvedInputRefs": [
+          "G-learning@1",
+          "G-making@1",
+          "G-shared@1"
+        ],
+        "selectedSelfFrames": [
+          "SF-teacher@1",
+          "SF-maker@1"
+        ],
+        "accessDomainId": "external-public",
+        "capabilityGrant": "Inline authored drafts only; no internal data, model calls or publication.",
+        "computeContract": {
+          "model": null,
+          "actualRuntimeSeconds": null,
+          "actualTokens": null,
+          "status": "not executed"
+        },
+        "outputTargets": [
+          "lesson-plan@1",
+          "companion-page@1"
+        ],
+        "status": "illustrative trace",
+        "artifactRefs": [
+          "lesson-plan@1",
+          "companion-page@1"
+        ]
+      },
+      {
+        "id": "R02",
+        "kind": "authored-design-trace",
+        "stackRefs": [
+          "CS-workshop@2"
+        ],
+        "resolvedInputRefs": [
+          "G-learning@2",
+          "G-recognition@1",
+          "G-transfer@1",
+          "G-making@2",
+          "G-shared@2"
+        ],
+        "selectedSelfFrames": [
+          "SF-teacher@1",
+          "SF-maker@1"
+        ],
+        "accessDomainId": "external-public",
+        "capabilityGrant": "Inline authored drafts only; no internal data, model calls or publication.",
+        "computeContract": {
+          "model": null,
+          "actualRuntimeSeconds": null,
+          "actualTokens": null,
+          "status": "not executed"
+        },
+        "outputTargets": [
+          "lesson-plan@2",
+          "companion-page@2"
+        ],
+        "status": "illustrative trace",
+        "artifactRefs": [
+          "lesson-plan@2",
+          "companion-page@2"
+        ]
+      }
+    ],
+    "artifactRevisions": [
+      {
+        "id": "lesson-plan",
+        "revision": 1,
+        "kind": "lesson document",
+        "runRef": "R01",
+        "selfFrameRefs": [
+          "SF-teacher@1"
+        ],
+        "accessDomainId": "external-public",
+        "reviewState": "superseded after fictional review",
+        "releaseState": "authored public example only; no publication event",
+        "parentRevision": null,
+        "correctionRefs": [
+          "C01"
+        ],
+        "content": {
+          "title": "Make a first Aura artifact — draft 1",
+          "durationMinutes": 20,
+          "goal": "Explain the cycle and recognise its labels.",
+          "activities": [
+            {
+              "minutes": 2,
+              "task": "Choose a low-stakes artifact purpose."
+            },
+            {
+              "minutes": 6,
+              "task": "Explain pattern groups, a chosen stack and a resulting draft."
+            },
+            {
+              "minutes": 5,
+              "task": "Show a lesson/page example."
+            },
+            {
+              "minutes": 5,
+              "task": "Match the observer and cycle labels to a diagram."
+            },
+            {
+              "minutes": 2,
+              "task": "Mark complete and choose a next project."
+            }
+          ],
+          "problematicCompletionLine": "Matched the labels: ready to build independently.",
+          "issue": "The completion line exceeds the recognition evidence and never asks the learner to make or revise a new stack."
+        }
+      },
+      {
+        "id": "companion-page",
+        "revision": 1,
+        "kind": "website content and interaction draft",
+        "runRef": "R01",
+        "selfFrameRefs": [
+          "SF-maker@1"
+        ],
+        "accessDomainId": "external-public",
+        "reviewState": "superseded after fictional review",
+        "releaseState": "authored public example only; no deployment event",
+        "parentRevision": null,
+        "correctionRefs": [
+          "C02"
+        ],
+        "content": {
+          "title": "Your first Aura",
+          "intro": "Start with a personal record and the observer loop.",
+          "navigation": [
+            "Start",
+            "Create",
+            "Complete"
+          ],
+          "mainAction": "Create",
+          "resultPanel": "Lesson ready",
+          "issue": "The draft lets its onboarding/observer example stand in for the full Aura architecture; the page does not distinguish input selection, draft creation, review and release."
+        }
+      },
+      {
+        "id": "lesson-plan",
+        "revision": 2,
+        "kind": "lesson document",
+        "runRef": "R02",
+        "selfFrameRefs": [
+          "SF-teacher@1"
+        ],
+        "accessDomainId": "external-public",
+        "reviewState": "checked within authored scenario; actual learner trial absent",
+        "releaseState": "authored public example only; no publication event",
+        "parentRevision": "lesson-plan@1",
+        "correctionRefs": [
+          "C01",
+          "C03",
+          "C04"
+        ],
+        "content": {
+          "title": "Choose a stack, make an artifact, revise the pattern groups",
+          "durationMinutes": 20,
+          "goal": "Produce a lesson or page draft from a selected, version-pinned facet-stack composition and justify one evidence-driven revision.",
+          "activities": [
+            {
+              "minutes": 2,
+              "task": "Choose a low-stakes purpose and the teacher or maker self frame; use public example inputs."
+            },
+            {
+              "minutes": 3,
+              "task": "Inspect the seven-torus diagram, a base facet and its outward layers; distinguish geometry, self and access."
+            },
+            {
+              "minutes": 3,
+              "task": "Walk through layer records, instructions, required JSON and assets, then a two-stack composition that creates a lesson and companion page."
+            },
+            {
+              "minutes": 5,
+              "task": "Choose a different artifact purpose. Select group revisions and layer order; write the expected output and one result that would change the selection."
+            },
+            {
+              "minutes": 4,
+              "task": "Use the supplied fictional feedback to revise a group membership or instruction and select a new pinned composition. Preserve the earlier artifact."
+            },
+            {
+              "minutes": 3,
+              "task": "Explain what changed, which evidence supported it, and what an actual later encounter still needs to test."
+            }
+          ],
+          "requiredEvidence": [
+            "Selected group revisions and outward layer sequence",
+            "One artifact draft or explicitly marked manual rehearsal",
+            "A correction linked to a claim or operation",
+            "A new group revision and next-stack choice"
+          ],
+          "reviewCriteria": [
+            "Recognition is recorded separately from application.",
+            "Observer inputs and MVS context do not replace the Aura architecture.",
+            "The revision changes content or operation for a stated reason.",
+            "No public worker or example assumes internal permissions."
+          ]
+        }
+      },
+      {
+        "id": "companion-page",
+        "revision": 2,
+        "kind": "website content and interaction draft",
+        "runRef": "R02",
+        "selfFrameRefs": [
+          "SF-maker@1"
+        ],
+        "accessDomainId": "external-public",
+        "reviewState": "checked within authored scenario; actual usability trial absent",
+        "releaseState": "authored public example only; no deployment event",
+        "parentRevision": "companion-page@1",
+        "correctionRefs": [
+          "C02",
+          "C03",
+          "C04"
+        ],
+        "content": {
+          "title": "Patterns into practice",
+          "intro": "Choose groups of patterns within Aura’s seven nested horn tori, arrange programmable facet layers, select a composition, make a draft, and use corrections to revise the next selection.",
+          "navigation": [
+            "Inputs",
+            "Choose stacks",
+            "Create draft",
+            "Inspect result",
+            "Revise"
+          ],
+          "panels": [
+            {
+              "heading": "Inputs",
+              "body": "Fictional public records only. Selected self frame: teacher or maker. No internal records are available."
+            },
+            {
+              "heading": "Choose stacks",
+              "body": "Show FS-lesson@2 and FS-site@2, their outward layers, required data and the lesson-to-page dependency."
+            },
+            {
+              "heading": "Create draft",
+              "body": "This example contains authored drafts. A connected authorised runner would create the selected outputs; no AI is running on this page."
+            },
+            {
+              "heading": "Inspect result",
+              "body": "Show lesson-plan@2 and companion-page@2 with their earlier versions and correction links."
+            },
+            {
+              "heading": "Revise",
+              "body": "Choose the affected pattern, group or binding; state the reason and prepare the next version selection."
+            }
+          ],
+          "releaseNote": "Readable public example. No publish action or internal access is granted by reading it."
+        }
+      }
+    ],
+    "corrections": [
+      {
+        "id": "C01",
+        "targetRefs": [
+          "lesson-plan@1",
+          "FS-lesson@1",
+          "G-learning@1"
+        ],
+        "origin": "fictional learner-test and editor account, authored for this walkthrough",
+        "evidenceRefs": [
+          "lesson-plan@1 completion line",
+          "scripted scenario: labels were matched but a new stack could not be produced"
+        ],
+        "issue": "Recognition was treated as independent application; the selected useful recognition pattern was applied too broadly.",
+        "proposedChange": "Retain recognition evidence in its own group; add a new-task artifact and revision test.",
+        "scope": "This lesson completion decision and its reusable teaching groups; no claim about a real learner’s competence.",
+        "reviewDisposition": "accepted within fictional design trace",
+        "resultingRevisionRefs": [
+          "P10@1",
+          "G-learning@2",
+          "G-recognition@1",
+          "G-transfer@1",
+          "FS-lesson@2",
+          "lesson-plan@2"
+        ]
+      },
+      {
+        "id": "C02",
+        "targetRefs": [
+          "companion-page@1",
+          "FS-site@1",
+          "G-making@1",
+          "G-shared@1"
+        ],
+        "origin": "fictional interface-review account, authored for this walkthrough",
+        "evidenceRefs": [
+          "companion-page@1 intro, navigation and result panel"
+        ],
+        "issue": "The draft substitutes MVS/observer onboarding for Aura and blurs selecting inputs, creating drafts and releasing outputs.",
+        "proposedChange": "Name the seven nested horn tori and programmable stacks; separate input/stack/result/revision views and public-read permissions.",
+        "scope": "Architecture explanation and task navigation in this public example.",
+        "reviewDisposition": "accepted within fictional design trace",
+        "resultingRevisionRefs": [
+          "P11@1",
+          "P12@1",
+          "P13@1",
+          "G-making@2",
+          "G-shared@2",
+          "FS-site@2",
+          "companion-page@2"
+        ]
+      },
+      {
+        "id": "C03",
+        "targetRefs": [
+          "lesson-plan@2",
+          "companion-page@2",
+          "G-shared@2"
+        ],
+        "origin": "fictional second-iteration editor question, authored for this walkthrough",
+        "evidenceRefs": [
+          "lesson-plan@2 geometry activity",
+          "companion-page@2 stack panel"
+        ],
+        "issue": "A learner might still confuse a geometric inside/outside toggle with an access-domain switch.",
+        "proposedChange": "Add an explicit geometric-side versus permission comparison and a denied internal-read example.",
+        "scope": "Next explanation and public demonstration revision; no real attempted access or security test is claimed.",
+        "reviewDisposition": "accepted as a next-iteration design requirement; not executed",
+        "resultingRevisionRefs": [
+          "P14@1",
+          "G-shared@3"
+        ]
+      },
+      {
+        "id": "C04",
+        "targetRefs": [
+          "companion-page@2",
+          "G-making@2"
+        ],
+        "origin": "fictional second-iteration editor question, authored for this walkthrough",
+        "evidenceRefs": [
+          "companion-page@2 Revise panel"
+        ],
+        "issue": "The page explains revision but lacks a concrete before/after selection that lets a person choose the new pinned composition.",
+        "proposedChange": "Show changed group memberships and layer bindings, then require a deliberate selection of the next versions.",
+        "scope": "Next interface draft; no claim that a user tested or approved it.",
+        "reviewDisposition": "accepted as a next-iteration design requirement; not executed",
+        "resultingRevisionRefs": [
+          "P15@1",
+          "G-making@3"
+        ]
+      }
+    ],
+    "iterations": [
+      {
+        "number": 1,
+        "selectedGroupRefs": [
+          "G-learning@1",
+          "G-making@1",
+          "G-shared@1"
+        ],
+        "selectedCompositionRef": "CS-workshop@1",
+        "runRef": "R01",
+        "artifactRefs": [
+          "lesson-plan@1",
+          "companion-page@1"
+        ],
+        "correctionRefs": [
+          "C01",
+          "C02"
+        ],
+        "newGroupRefs": [
+          "G-learning@2",
+          "G-recognition@1",
+          "G-transfer@1",
+          "G-making@2",
+          "G-shared@2"
+        ],
+        "nextCompositionRef": "CS-workshop@2"
+      },
+      {
+        "number": 2,
+        "selectedGroupRefs": [
+          "G-learning@2",
+          "G-recognition@1",
+          "G-transfer@1",
+          "G-making@2",
+          "G-shared@2"
+        ],
+        "selectedCompositionRef": "CS-workshop@2",
+        "runRef": "R02",
+        "artifactRefs": [
+          "lesson-plan@2",
+          "companion-page@2"
+        ],
+        "correctionRefs": [
+          "C03",
+          "C04"
+        ],
+        "newGroupRefs": [
+          "G-shared@3",
+          "G-making@3"
+        ],
+        "nextSelectionProposal": {
+          "groupRefs": [
+            "G-learning@2",
+            "G-recognition@1",
+            "G-transfer@1",
+            "G-making@3",
+            "G-shared@3"
+          ],
+          "selfFrameRef": "SF-next@1",
+          "status": "Proposed only. Facet bindings and the next compute composition must be versioned and reviewed before a third run."
+        }
+      }
+    ],
+    "openNextQuestions": [
+      "Can a willing adult make a new stack from a fresh purpose without copying the worked example?",
+      "Does the revised page make an artifact revision and a group revision distinguishable?",
+      "Which new source-backed pattern groups or alternative facet-stack order become useful after the next actual encounter?"
+    ]
+  }
+}

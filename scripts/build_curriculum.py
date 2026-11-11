@@ -214,6 +214,15 @@ GENESIS_INTRO = '''# Aura Genesis 120 hour curriculum and programme record
 
 This edition gives the Aura Genesis ambition an executable curriculum: sixty selectable two-hour encounters that build a personal Aura, deepen self-reflection, develop the three-observer system and prepare an increasingly capable human-Aura partnership. It carries the source programme from personal meaning through expert teams, civic life, frontier materials and Earth-space stewardship. It is an authored curriculum and recording design, not a completed intervention, operating installation or claim of demonstrated superintelligence.
 
+
+## Building the Aura during every encounter
+
+The 11 November author clarification governs what building an Aura means here: organise patterns in seven nested horn tori, attach them to programmable facets and outward stack layers, select an ordered composition for AI work, generate a document or website, correct it, and form new groups for the next run. The [pattern-cycle guide](guide-aura.html) supplies the detailed process. Questionnaires and observer accounts provide patterns and feedback; they do not replace this productive architecture.
+
+For each selected learning card, retain a compact build record: the self frame and access domain; the versioned patterns and group relationships; chosen facet layers and stack order; the intended AI operation and output; the resulting artifact; corrections; and the regrouped composition for a later run. Use internal private, internal secret or an explicitly approved public projection as appropriate. The required encryption and permissions must be enforced by the execution system; the current browser workbook does not provide that enforcement.
+
+A teaching encounter can demonstrate the whole cycle: select examples and learner needs as patterns, produce a lesson and its companion webpage, observe where the explanation fails, correct both outputs, then regroup the improved examples for a different learner or self frame. The [settings guide](guide-settings.html) keeps the seated HBOT Geode, the separate Verse Box workbay and ordinary-device work distinct.
+
 ## The original programme and this edition
 
 The supplied Geode Development Edition 3 and Protocol V2 define **120 qualifying hours at the participant's defined HBOT operating pressure**, organised as sixty two-hour qualifying intervals. Preparation, compression, decompression, external tests and surrounding life have separate time records. Their selected categories and sequence are personalised; the first, middle and final twenty sessions are an initial planning framework. This edition preserves that definition. [Geode Edition 3 pp. 2, 9–10, 28; Protocol V2 pp. 3, 8–9.]
@@ -381,6 +390,15 @@ The portable archive contains sources, permission history, versions, corrections
 TEACHER_INTRO = '''# Aura teacher training in hyper busy mode
 
 This is an ambitious adult teacher-development route for people building personal Auras and helping others build theirs. It keeps the source's sixty-day progression from self-understanding and embodied interfaces through models, agents, civic judgement, frontier research and Earth-space stewardship. The outcome is a portfolio of things the learner can explain, build, test, revise and teach. A completion record is a course record; it does not confer professional accreditation or authorisation for clinical, engineering or child-services practice.
+
+
+## Building the Aura during every encounter
+
+The 11 November author clarification governs what building an Aura means here: organise patterns in seven nested horn tori, attach them to programmable facets and outward stack layers, select an ordered composition for AI work, generate a document or website, correct it, and form new groups for the next run. The [pattern-cycle guide](guide-aura.html) supplies the detailed process. Questionnaires and observer accounts provide patterns and feedback; they do not replace this productive architecture.
+
+For each selected learning card, retain a compact build record: the self frame and access domain; the versioned patterns and group relationships; chosen facet layers and stack order; the intended AI operation and output; the resulting artifact; corrections; and the regrouped composition for a later run. Use internal private, internal secret or an explicitly approved public projection as appropriate. The required encryption and permissions must be enforced by the execution system; the current browser workbook does not provide that enforcement.
+
+A teaching encounter can demonstrate the whole cycle: select examples and learner needs as patterns, produce a lesson and its companion webpage, observe where the explanation fails, correct both outputs, then regroup the improved examples for a different learner or self frame. The [settings guide](guide-settings.html) keeps the seated HBOT Geode, the separate Verse Box workbay and ordinary-device work distinct.
 
 ## Source and new design
 

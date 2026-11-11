@@ -1,6 +1,11 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-const root=path.resolve(import.meta.dirname,'..');
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const args=process.argv.slice(2);
+if(args.some(arg=>arg!=='--atlas-only')) throw new Error('Supported option: --atlas-only');
+const atlasOnly=args.includes('--atlas-only');
+const authoringRevision='2026-11-11-operative-aura';
 const groups=[
 ['identity','Identity memory and unfolding lives','whole-of-life',['S03','S04','S05','M2'],[
 ['Chosen identity','Self-description, name, language, roles and the right to remain more than a profile.'],
@@ -125,18 +130,115 @@ const gapSets=[
  ['Require observed learner attempts and corrections rather than teacher confidence alone.','Separate peer role-play, source knowledge and demonstrated real-world teaching evidence.'],
  ['Keep observer view, self lens, permission, record status and spatial address as separate axes.','Distinguish implemented prototype behaviour, testable design, metaphor and frontier ambition.']
 ];
+// These requirements enter each territory packet through the frozen plan manifest.
+// They specify useful operations, not a Cartesian product or an extra questionnaire quota.
+const authoringRequirements=[
+ 'Use U2 as the controlling November 11 author clarification and MS1 as current prototype evidence. Aura organises patterns in seven nested horn tori with programmable facets; questionnaires are one capture route into a compute/create/correct/regroup process.',
+ 'Across a territory’s batches, examine collecting or deriving a pattern, choosing its group or facet/layer binding, selecting an ordered stack and its input records/instructions, generating a useful output, finding a defect, correcting the relevant source or instruction, and regrouping for another attempt. Choose the operations that add a real distinction; do not make every question recite the complete loop.',
+ 'Include concrete making, selection, comparison, inspection and transfer tasks alongside personal reflection. A pattern may hold data, an instruction, a relationship or an asset reference. Explain what a chosen arrangement enables; do not equate geometric proximity with semantic evidence or invent fixed meanings for seven shells.',
+ 'Separate observer evidence, participant meaning, past/present/conditional selves, spatial addresses and public/private/secret access contexts. Compare how a chosen self or audience changes permitted inputs and output purpose without fabricating personal records.',
+ 'Internal private and secret material have differentiated encryption and permissions; an external public projection has reduced information and capabilities. Reading permission does not grant computation, training, writing, execution, republication, external action or access to internal sources; each further operation needs its own applicable grant. Ask about inherited restrictions and field-level release where relevant. A moved facet, visual shell or generated summary cannot silently release a source or expand authority.',
+ 'Use source locators accurately and identify new authored synthesis. Matrix Studio currently supports addressed records, stacks and local sequence/export operations; do not claim its browser already runs an encrypted AI service. Keep Geode/HBOT and Verse Box setups distinct, and distinguish design inquiry from operating equipment.',
+ 'Record the specific gap and transfer value in the existing strict question fields. Use tags for relevant operations rather than adding new schema keys. No invented answers, generic colour/self permutations, compulsory disclosure or unearned completion claims.'
+];
+const territoryGaps={
+ T061:['Choose a learner’s intended artifact and identify the smallest useful set of prior records, examples and instructions for a first pattern stack; test the choice through an attempt rather than inferring readiness from confidence.'],
+ T063:['Compare a stack that recalls its source with one that reveals a polished answer: design a delayed retrieval task showing whether the learner can reconstruct the relationship and find the original evidence.'],
+ T064:['Place two rival explanations and a discriminating example in a teaching stack; ask which result would require correcting the explanation rather than merely changing its visual order.'],
+ T066:['Choose where a demonstration, learner attempt and feedback step belong in an ordered program; identify the instruction to revise when the learner repeats a specific observable error.'],
+ T067:['Regroup a successful lesson’s source patterns for a materially different problem while withholding the worked answer; judge whether the learner selects and adapts useful relationships.'],
+ T068:['Build two routes through the same pattern collection for learners with different demonstrated prerequisites; distinguish a necessary dependency from a teacher’s habitual sequence.'],
+ T073:['Generate two accessible representations from the same permitted concept records and inspect whether either transformation loses an important distinction; let the learner choose how to demonstrate it.'],
+ T074:['Use an actual or fictional learner correction to choose which prompt, pattern relationship or explanation must change; preserve the learner’s meaning instead of classifying disagreement as failure.'],
+ T076:['Compose a shared task from members’ separately permissioned contributions; decide what the group output may reveal and how an absent contribution changes the remaining dependencies.'],
+ T078:['Select records and instructions for a document or website that teaches a making or fieldwork task; inspect the resulting artifact against an actual attempt and regroup the failed step.'],
+ T081:['Define an observable learner action that tests whether selecting and ordering patterns improved capability; distinguish the quality of an AI-generated teaching artifact from the learner’s independent performance.'],
+ T082:['Construct an assessment stack containing source evidence, the task and competing explanations without exposing its answer key; examine what a correct response would and would not establish.'],
+ T083:['Trace a fault in a generated lesson to evidence selection, instruction, ordering or representation; use the learner’s next attempt to test the specific correction.'],
+ T084:['Give the environment, character-attention and narrator accounts separate evidence inputs for a teaching encounter; compare their outputs with learner meaning before revising the teaching stack.'],
+ T085:['Compose and rehearse an ordered lesson program with examples, demonstrations and learner actions; inspect where an AI-generated script asks for a capability the preceding steps never established.'],
+ T086:['When a selected source becomes unavailable or an activity loses time, regroup the lesson around its essential dependency and specify what capability can no longer honestly be claimed.'],
+ T087:['Build a public teaching portfolio from chosen evidence while withholding restricted learner material; inspect whether summaries preserve actual limitations and whether any permissioned claim needs a narrower form.'],
+ T088:['Compare a remembered teaching choice with a present or conditional future self’s proposed pattern selection; identify which changed condition justifies the difference without rewriting the past event.'],
+ T089:['Use a bounded pattern program to draft a teaching-service offer and delivery artifact, then test whether actual preparation, learner access and support work match what the offer promises.'],
+ T090:['Hand a lesson stack to another willing teacher with its source versions and unresolved gaps; identify what they must understand to adapt it rather than reproduce its surface wording.'],
+ T091:[
+  'Distinguish unplaced MVS intake from a chosen pattern set: what source, meaning, instruction or relationship makes a record usable for one first document or site without claiming the person is fully modelled?',
+  'Compare two selections drawn from the same MVS for different intended outputs; identify the useful information missing from each and avoid collecting unrelated private material just to fill facets.',
+  'After the first output is corrected, decide whether to revise a self-description, its contextual qualification, the selected pattern relationship or the output instruction; preserve the earlier account and why it changed.'
+ ],
+ T092:[
+  'Specify which source records each observer may read in a pattern-compute task and construct a case where the character did not notice something available to the environment account.',
+  'Trace a conflicting generated claim back to observer evidence, an instruction or an unsupported combination; keep participant meaning as a separate correction without turning it into omniscient world evidence.',
+  'Regroup a disputed account into a new document or simulation while keeping the unresolved alternatives visible; identify the missing observation that would distinguish them.'
+ ],
+ T093:[
+  'For the same selected patterns, compare retrieval, a one-off prompt computation and a proposed training use: which inputs, permissions, costs and evaluation records differ?',
+  'Change one source version after an output has been generated and decide which derived summaries or artifacts need recomputation; do not treat moving a facet as updating the underlying claim.',
+  'Inspect a useful AI output that cites the wrong record or misstates a condition; choose a retrieval, instruction or model-evaluation correction rather than claiming training occurred automatically.'
+ ],
+ T094:[
+  'Turn a selected stack into a bounded handoff between researcher, builder and critic: name each input, instruction, required output and dependency without granting all agents the whole private archive.',
+  'When one computation fails or exhausts its budget, distinguish reusable intermediate artifacts from results that depend on the failed step; regroup the remaining work and preserve the stop reason.',
+  'Compare running independent pattern computations concurrently with a sequence whose next instruction needs the previous artifact; test duplicate-action prevention and stale-input checks through a reference-only rehearsal.'
+ ],
+ T095:[
+  'Select a concrete record, instruction and asset and explain whether they belong on separate facets, ordered layers of one stack or a shared group; judge the arrangement by a chosen computation and output rather than colour preference.',
+  'Keep a record’s identity through flat, nested-torus and stack views; identify when reordering changes program meaning and when changing presentation should leave the same operation unchanged.',
+  'Use the workbook’s alternate reading direction as an explicit interpretation choice, then compare generated results; retain the chosen relationship rules instead of treating adjacency as proof.'
+ ],
+ T096:[
+  'Compose an output from public, private and secret inputs in a fictional example; determine which fields may reach the chosen model or audience and which require omission, transformation or a new explicit grant.',
+  'Move or regroup a pattern from an internal view to a public-facing stack and identify what must remain restricted until release is authorised; distinguish read permission from write, execution and training permissions.',
+  'After an input permission changes, trace dependent outputs, caches and shared artifacts; distinguish stopping future authorised use from the impossible promise of recalling plaintext already received.'
+ ],
+ T097:[
+  'Track a pattern-selection task, a 260–300 delivered-word-per-minute stream, learner responses and background computation on separate records while preserving one elapsed human interval.',
+  'Compare what MVS pattern preparation can occur in the distinct phone or Verse Box setting with what the source assigns to Geode/HBOT Genesis; retain actual setup and pressure-time boundaries without inventing operating instructions.',
+  'At a planned return point, use a generated artifact or remembered explanation to decide whether to continue, correct or regroup the learning sequence; do not infer retained capability from playback completion.'
+ ],
+ T098:[
+  'Make a source claim, its rival explanation and a discriminating observation available as distinct patterns; inspect whether the generated conclusion preserves the difference between evidence, inference and participant meaning.',
+  'Compare outputs with and without one disputed record while holding the requested task fixed; identify whether the changed result exposes source dependence, prompt sensitivity or a genuinely tested hypothesis.',
+  'Design a correction test that can fail after consensus among several agents; distinguish a reproducible artifact check from agreement produced by shared inputs or repeated wording.'
+ ],
+ T099:[
+  'Separate the programmable seven-torus information architecture from the specific Geode/HBOT physical setup and its development stages; inspect an explanatory artifact for conflated geometry, materials and demonstrated computation.',
+  'Build a source-linked comparison of proposed material capabilities, measured results and untested ambitions; identify the missing result needed before a generated description can call a capability implemented.',
+  'Choose what a software-only pattern-stack rehearsal can test about a future Geode workflow and what remains dependent on separate equipment, material or integration evidence; keep Verse Box preparation distinct.'
+ ],
+ T100:[
+  'Compare the patterns selected by a present self and a conditional future self for a chosen life project; generate contrasting artifacts without asserting that either imagined future has happened.',
+  'After a useful output changes the person’s understanding, decide what to retain, correct, regroup or leave deliberately unresolved so the Aura remains revisable rather than fixing one narrative.',
+  'Prepare a permissioned handover of a pattern program and its source history to a chosen collaborator or successor; distinguish continuity of useful work from claims of identity transfer or continuing consciousness.'
+ ]
+};
 let territories=[];
 for(let g=0;g<groups.length;g++){const [domainId,groupTitle,stream,sourceRefs,items]=groups[g]; for(let i=0;i<items.length;i++){const [title,objective]=items[i];territories.push({id:`T${String(g*10+i+1).padStart(3,'0')}`,domainId,groupTitle,title,objective,sourceRefs,quota:1000,stream,generated:0,checked:0,answered:0,gaps:[...gapSets[g],`Develop distinct source-checked questions about ${title.toLowerCase()}; the current plan does not yet establish full coverage.`],priority:['T065','T094','T099'].includes(`T${String(g*10+i+1).padStart(3,'0')}`)?'high':'normal'});}}
+for(const territory of territories){
+ territory.sourceRefs=[...new Set([...territory.sourceRefs,'U2','MS1'])];
+ territory.authoringRevision=authoringRevision;
+ territory.authoringRequirements=[...authoringRequirements];
+ territory.gaps.push(...(territoryGaps[territory.id]||[]));
+}
+const sourceIds=new Set(JSON.parse(await fs.readFile(path.join(root,'data/sources.json'),'utf8')).sources.map(source=>source.id));
+for(const territory of territories) for(const ref of territory.sourceRefs){
+ if(!sourceIds.has(ref)) throw new Error(`Cannot regenerate atlas: ${territory.id} references missing source ${ref}.`);
+}
 const dimensions={
 lifeContexts:['Chosen past episode','Present ordinary life','Current demanding episode','Major life transition','Different resource conditions','Different access or support conditions','Relationship or group encounter','Different place or culture','Possible future under named conditions','Return after action and new evidence'],
 teacherContexts:['Learner starting point','Teacher planning','Explanation or demonstration','Learner attempt','Misunderstanding or disagreement','Access or context change','Feedback and another attempt','New-context transfer','Peer teaching or handover','Longitudinal review'],
-inquiryOperations:['Describe an episode','Identify available and noticed evidence','Explain personal meaning','Expose a competing account','Explore attraction repulsion and urge','Compare resources and resourcefulness','Generate and choose alternatives','Design an authentic test or artifact','Teach or explain across perspectives','Review outcome and revise the account'],
+inquiryOperations:['Describe an episode','Identify available and noticed evidence','Explain personal meaning','Expose a competing account','Explore attraction repulsion and urge','Compare resources and resourcefulness','Generate and choose alternatives','Design an authentic test or artifact','Teach or explain across perspectives','Review outcome and revise the account','Compose a pattern group or ordered stack','Choose computation inputs instructions and scope','Inspect an artifact and correct its generating pattern','Regroup patterns across selves and access contexts'],
 coverageDepths:['Initial account','Specific example','Contrast case','Boundary condition','Unknown or declined information','Counterfactual with one changed variable','Dependency or consequence','Alternative source or viewpoint','Observable action and transfer','Later correction and continuation'],
 observerViews:['Environment','Character attention','Narrator description and tentative interpretation','Participant meaning account'],
 selfLenses:['Past in its actual conditions','Present','Possible best self with stated resources','Constrained self with stated conditions','Uncertain future without assumed outcomes'],
 recordStates:['planned','generated','checked','rejected','needs_revision','answered']
 };
 const atlas={version:'1.0.0',prepared:'2026-11-10',title:'Whole-of-life and teacher-training question weaving atlas',targetQuestions:100000,batchSize:50,plannedBatches:2000,territories,dimensions,status:{planned:100000,generated:0,checked:0,answered:0},seedBank:{domainPrompts:288,crossCuttingLenses:12,status:'Separate reviewed seed library; not counted as completed atlas slots.'},allocation:[{stream:'whole-of-life',territories:60,plannedQuestions:60000},{stream:'teacher',territories:30,plannedQuestions:30000},{stream:'aura-genesis',territories:10,plannedQuestions:10000}],notes:['This is a coverage and production plan, not a claim that 100,000 questions have been generated.','Territory quotas guide breadth. Reject weak or inapplicable combinations instead of filling a quota with paraphrases.','The 120-hour programme traverses selected pathways; it does not require every atlas question to be spoken or answered.','The existing 300 prompts are a seed and calibration set, separate from generated atlas output.','Generated, checked and answered are independent statuses; checking is not personal endorsement of an answer.','Question generation uses curated design evidence. Exact claims require source verification; a question must not smuggle an unsupported fact into its premise.'],delivery:{wordsPerMinute:{min:260,max:300},timing:'Count actual delivered words and stream minutes; pauses, answers, reflection and actions have separate intervals.',example:{questions:100000,assumedWordsPerQuestion:20,words:2000000,inputHoursAt300:111.111,inputHoursAt260:128.205},exampleStatus:'Planning arithmetic from an explicit hypothetical average, not a measurement of unwritten questions.'}};
+atlas.version='1.1.0';
+atlas.revised='2026-11-11';
+atlas.authoringRevision={id:authoringRevision,sourceRefs:['U2','MS1'],summary:'Operative pattern capture, selection, stacks, AI computation, artifact generation, correction and regrouping across selves and access contexts. Territory IDs, titles and quotas are unchanged.',packetPolicy:'Existing runtime plan manifests are immutable scope snapshots. Use a new revision-specific plan directory for fresh packets; do not present packets from the earlier ledger as updated. Keep accepted IDs and progress from the existing ledger. Cross-ledger progress consolidation requires explicit reconciliation; creating another plan does not create another target or replace the production ledger.'};
+atlas.notes.push('November 11 is an authoring-scope revision. The original private ledger and atlas hash remain unchanged. Historical accepted questions retain their review record and are not automatically reclassified as reviewed against the revised scope.');
 // Regenerating the coverage design must never erase recorded production work.
 const statusPath=path.join(root,'data/weaving-status.json');
 const counterKeys=['planned','generated','checked','accepted','needs_revision','rejected','answered','simulated_answers','unfilled','review_flags'];
@@ -180,7 +282,8 @@ if(progress){
 await fs.writeFile(path.join(root,'data/weaving-atlas.json'),JSON.stringify(atlas,null,2)+'\n');
 await fs.mkdir(path.join(root,'docs/data'),{recursive:true});
 await fs.copyFile(path.join(root,'data/weaving-atlas.json'),path.join(root,'docs/data/weaving-atlas.json'));
-if(progress) await fs.copyFile(statusPath,path.join(root,'docs/data/weaving-status.json'));
+if(progress&&!atlasOnly) await fs.copyFile(statusPath,path.join(root,'docs/data/weaving-status.json'));
+if(!atlasOnly){
 const domainMap=JSON.parse(await fs.readFile(path.join(root,'data/questionnaire.json'),'utf8')).domains;
 const patterns=[
 ['episode','A concrete episode','Start with this question: {seed}\nFor {selfLens}, in {condition}, choose one concrete episode. What happened, in what order, and what makes this episode relevant? Keep uncertainty about dates or details visible.'],
@@ -199,4 +302,5 @@ const patterns=[
 const engine={version:'1.0.0',statement:'Rule-based contextual interview navigation. These are generated follow-up routes, not responses from an AI or a count of new authored atlas questions.',followupPatterns:patterns.map(([id,title,promptTemplate])=>({id,title,promptTemplate})),domains:domainMap.map(d=>({id:d.id,scenario:d.summary,tensions:['Your interpretation and another plausible account','A preferred future and present conditions','Useful speed and retained understanding'],transferTask:`Create a useful ${d.title.toLowerCase()} artifact or encounter, then return with evidence and your own meaning.`})),selfLenses:dimensions.selfLenses.map((title,i)=>({id:'self-'+i,title})),conditions:dimensions.lifeContexts.map((title,i)=>({id:'context-'+i,title}))};
 await fs.writeFile(path.join(root,'data/interview-engine.json'),JSON.stringify(engine,null,2)+'\n');
 await fs.copyFile(path.join(root,'data/interview-engine.json'),path.join(root,'docs/data/interview-engine.json'));
-console.log(JSON.stringify({territories:territories.length,slots:territories.reduce((n,t)=>n+t.quota,0),batches:atlas.plannedBatches}));
+}
+console.log(JSON.stringify({territories:territories.length,slots:territories.reduce((n,t)=>n+t.quota,0),batches:atlas.plannedBatches,authoringRevision,atlasOnly,status:atlas.status}));

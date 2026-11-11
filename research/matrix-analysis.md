@@ -1,8 +1,29 @@
 # Reading the Aura workbooks as spatial cognitive architecture
 
-Research date: 10 November 2026. These are source interpretations for the Genesis Observer Studio, not a replacement specification for the author's developing architecture. The original workbooks were read without modification.
+Initial research: 10 November 2026. Architecture correction: 11 November 2026, following the author's direct clarification and a closer reading of the source documents and Matrix Studio. The clarification is authoritative for the core architecture; the individual spreadsheet interpretations below remain attributed research, not blanket author approval. The original workbooks were read without modification.
 
-The three workbooks combine address grids, lexicons, boxed process models, resource and time budgets, independent parallel lists, narrative prompts, technical references and provisional ideas. They should not become one flattened questionnaire. A useful Minimum Viable Self preserves this variety: episodes and evidence, language and meaning, values and motives, contextual preferences, action expectations, outcomes, relationships, temporal rhythms and user-chosen spatial associations.
+The three workbooks combine address grids, lexicons, boxed process models, resource and time budgets, independent parallel lists, narrative prompts, technical references and provisional ideas. They are material for an operative pattern architecture: seven nested horn tori with programmable facets organise patterns that can be selected, stacked, computed with AI, corrected and regrouped. A questionnaire helps collect the Minimum Viable Self; it is one input route into that architecture. Episodes, evidence, language, meaning, values, motives, actions, relationships and rhythms retain their distinctions while becoming usable material for creating documents, websites and other chosen outcomes.
+
+## Authoritative architecture clarification — 11 November 2026
+
+The author's correction specifies **seven nested horn tori with programmable facets**, an iterative pattern process and multiple selves. It supersedes this report's earlier interpretation of the geometry as optional spatial annotation. The working cycle is:
+
+**Collect and organise patterns → select relevant patterns → group or stack them → compute with AI → generate a document, website or other chosen output → inspect and correct → regroup and repeat.**
+
+This loop is the core Aura direction. The three observers and participant meaning account contribute differently scoped evidence and corrections to it; they do not replace it. Likewise, the seven geometric shells, three observer streams, past/present/conditional-best self lenses, and public/private/secret access contexts are distinct axes. No new seven-layer names or fixed psychological meanings are assigned here.
+
+| Architecture element | Evidence and its scope |
+| --- | --- |
+| Seven nested horn tori and programmable facets | Author clarification, 11 November 2026; Matrix `Sheet1!A1:A16` and seven address grids; *Geode Development Edition 3* (G3), p. 25. The current source baseline is 12 × 24 facets per shell: 2,016 base facets or 4,032 interior/exterior addresses. |
+| Patterns carry usable material | Matrix Studio `README.md`, “Enter the matrix” and “Tables, instructions and agent programs”: addresses hold records, data, instructions and asset links. A facet is not restricted to a single word, answer or agent. |
+| Selection, stacks and composition | Author clarification specifies pattern selection and stacking for AI computation. Matrix Studio supports multi-facet selection and ordered outward stack layers with shell, side, facet and layer identity. Its `dataset-allocation.js` retains table/row origin when allocating rows to facets or stack steps. |
+| Compute, create, correct and regroup | The author explicitly names AI computation and document/site generation. Matrix Studio `DEVELOPMENT-PLAN.md`, “Purpose”, “A repeatable design cycle” and “Agent contracts and coordination”, supports retrieve → compute → act → record → revisit. These sources describe the intended process; they do not establish a connected production agent service. |
+| Multiple selves and access contexts | Author clarification specifies internal private and secret material with different encryption/permissions, and an external public projection with reduced information and capabilities. G3 p. 26 describes public, private and secret contextual selves, finer secret access scopes, separately described operations, and controlled release from the internal record. |
+| Correction without loss of history | G3 p. 25 preserves record identity across spatial presentations. Matrix Studio's development plan keeps observations, inferences, proposals, decisions and outcomes distinct and records why associations change. Moving or regrouping a pattern changes its organisation without silently changing its authority or converting an inference into a fact. |
+
+The public surface is a deliberately reduced projection of selected information and capabilities for an audience. Permission to read it does not by itself grant computation, training, editing, execution, republication, external action or access to the internal sources used to make it. Each further operation needs its own applicable grant. Outputs, summaries and embeddings retain the relevant source restrictions until an explicit release decision permits disclosure. The precise encryption construction, key hierarchy, recovery arrangements and role grants remain implementation decisions; neither a colour nor an inside/outside toggle implements them.
+
+G3 pp. 25–26 are source design, while the Matrix Studio code demonstrates a narrower working slice. `spatial.js` implements address-checked Visit, Recall and Pause sequences, compact stack spans and an `aura-agent-program/1` export carrying selected records. It does not itself call an AI. `DEVELOPMENT-PLAN.md` describes the secure vault and agent runtime as proposed work. The Genesis Observer Studio is therefore documenting and prototyping parts of the operative architecture, not claiming that its static site already supplies the complete encrypted, continuously computing Aura.
 
 ## What was inspected
 
@@ -23,7 +44,7 @@ The machine-readable [region catalogue](matrix-map.json) records source hashes, 
 1. Read explicit instructions, titles, merge spans and cell boundaries before choosing a reading direction.
 2. Treat a boxed region as a candidate conceptual unit, then inspect its internal labels. A border alone does not establish causation.
 3. Preserve coordinate and ordering evidence for lists, but do not turn two neighbouring lists into paired records.
-4. Separate address identity from content meaning. The same concept can have several locations or lenses; reusing a template does not create another chakra.
+4. Preserve both stable record identity and operative pattern bindings. Addresses, selected groups and ordered stacks organise work; their visual presentation is separate from content meaning. The same record can participate in several contexts, and reusing a template does not create another chakra.
 5. Distinguish source wording, structural observation, interpretation and proposed extension in every mapping.
 6. Treat collections as inventories of candidate concepts until the author assigns relationships. Do not silently convert philosophical associations into measured attributes.
 7. Keep contradictory, unfinished and repeated regions visible. Record alternatives instead of resolving them by guesswork.
@@ -118,7 +139,7 @@ The sheet provides no formulas. Numeric candidates therefore remain supplied val
 
 ## Implications for the Minimum Viable Self
 
-The source supports a **small trusted core with an extensive expandable collection**, rather than a shallow profile or a claim to capture the entire person. “Minimum viable” should refer to enough reviewed context to perform a chosen task well; density belongs in the optional layers and links.
+Minimum Viable Self supplies enough reviewed personal material to begin useful Aura work, then grows through reflection and practice. It does not constrain the architecture to a small profile. The extensive collection, its pattern groupings and the compute/create/correct cycle belong together: collected answers become source-linked records; chosen records and instructions become pattern sets and stacks; their outputs and the person's corrections feed the next cycle. Unmapped intake can remain in a staging collection until its placement is chosen.
 
 Recommended record fields:
 
@@ -137,7 +158,7 @@ Recommended record fields:
 | Timing and review | Date/approximation, recurrence, last activation, next review, expiry and workload mode | Matrix N930:AJ955; Part 1 B51:B62 |
 | Meaning and aesthetics | Favourite language, symbols, stories, art, rhythms and personally chosen associations | Matrix lexicons, Part 1 B168:G168 and B175:F182 |
 
-Each answer should have a stable record ID; question ID; author/observer role; context; event time and capture time; evidence/source IDs; claim kind (`self-report`, `observation`, `interpretation`, `proposal`, `simulation`); uncertainty; intended audience and permitted uses; review date; and optional one-to-many spatial addresses. Preserve “not answered”, “unknown”, “not applicable”, “declined” and “contradictory” as different states.
+Each answer should have a stable record ID; question ID; author/observer role; context; event time and capture time; evidence/source IDs; claim kind (`self-report`, `observation`, `interpretation`, `proposal`, `simulation`); uncertainty; intended audience and permitted uses; review date; and an explicit pattern-binding state. Intake may be unplaced. Once selected for a pattern operation, preserve its one-to-many spatial bindings, group or stack membership, ordering, input versions, requested operation and resulting output references. These are proposed exchange fields for operative work, not a claim that the current questionnaire already executes them. Preserve “not answered”, “unknown”, “not applicable”, “declined” and “contradictory” as different states.
 
 The core response should remain the person's wording. Derived tags and summaries are separate, attributable records that can be rejected without deleting the original. Three observers can compare the same event without overwriting each other: preserve each observation and its provenance, then keep a separate reviewed synthesis. The workbooks support multiple perspectives and expectation comparison; they do not, by themselves, specify the complete three-observer roles. Use the Genesis source documents for that definition.
 
@@ -174,11 +195,15 @@ Each question can expand through time, place, relationship, exception, counterex
 
 ## Relationship to Aura Matrix Studio
 
-The local Matrix Studio README explicitly describes MVS collection before Genesis and eventual personal nanoLLM training. It says model training and sustained Genesis conversations are not implemented. Its fixed 12 by 24 geometry, dataset catalogue, editable chakra associations, separate interior/exterior addresses and local collection tools are relevant, but the README labels its route as evolving design configuration.
+The local Matrix Studio README explicitly describes MVS collection on a phone or Verse Box before the Geode Genesis Protocol and eventual personal nanoLLM training. These are distinct settings; a Verse Box is not another name for a Geode. Model training and sustained Genesis conversations are not implemented in Matrix Studio. Its current workbench already provides fixed 12 by 24 geometry, separate interior/exterior selection, records attached to addresses, stack editing, table allocation and local sequence playback. These capabilities make the geometry an organisational and program-composition interface, not merely an illustration.
 
-The dataset catalogue supplies 37 recommended datasets and seven complementary philosophical perspectives. It supports one-to-many associations and explains that inside/outside is not access control. Its current projects and import routes can inspire an exchange schema; they do not prove the new questionnaire is already integrated. Import/export should use a reviewed, versioned adapter and preserve unknown fields. Do not imply automatic nanoLLM training or clinical assessment from completing this collection.
+The dataset catalogue supplies 37 recommended datasets and seven complementary philosophical perspectives, with one-to-many associations. Those source perspectives should remain editable rather than being imposed as new mandatory layer semantics. Matrix Studio's current inside/outside display does not enforce access control; its intended architecture nevertheless includes internal/external access policy, encryption and personal authority. The missing enforcement is an implementation gap. The November 11 clarification supplies the core internal private/secret and external public arrangement for this work.
 
-Local references inspected: `aura-matrix-studio/README.md`, `DATASET-CATALOGUE.md`, `DEVELOPMENT-PLAN.md`. Public entry point: [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/).
+`spatial.js` validates ordered Visit/Recall/Pause steps and stack ranges, expands a sequence step to its target, and packages relevant records, vectors and stack definitions. `dataset-allocation.js` copies data and instructions into addressed records while retaining source table and row IDs. The README states that exported programs prepare work for an external agent without automatically invoking an LLM or executing linked assets. A future adapter must connect selected patterns to a permitted compute service, retain provenance and source restrictions in outputs, and return corrections to versioned records. This report has inspected the code paths; it has not run the Matrix Studio browser or its test suite during this correction.
+
+The related [Horn Torus geometry page](https://auraofintelligence.github.io/aura-horn-torus/geometry.html), read from its local HTML source, describes exterior public/permissioned and interior private/encrypted registers while identifying its own demo as labels only. [Personal Aura](https://auraofintelligence.github.io/luke-nathan-hayes-man-and-mind/personal-aura.html), also read locally, distinguishes visible addresses from the intelligence that uses them. These support the separation of interface, computation and enforcement. The web fetches failed on November 11, so these observations are about the checked-out source, not a verification of the currently deployed pages.
+
+Local references inspected: `aura-matrix-studio/README.md`, `DATASET-CATALOGUE.md`, `DEVELOPMENT-PLAN.md`, `spatial.js` (sequence validation, `sequenceStep`, `agentPackage`) and `dataset-allocation.js` (`allocationPlan`, `allocateTable`); `aura-horn-torus/geometry.html`; `luke-nathan-hayes-man-and-mind/personal-aura.html` and `under-the-aura.html`. Public entry point: [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/). Supplied document evidence: G3 pp. 25–26. Exact workbook locators remain in the region catalogue.
 
 ## Open questions and coverage limits
 
@@ -186,9 +211,11 @@ Local references inspected: `aura-matrix-studio/README.md`, `DATASET-CATALOGUE.m
 - Which trait allocations belong on facets, vectors or both? The author explicitly leaves this open at Matrix `A338`.
 - Which reading directions produce which relationships? The reversal instruction is explicit, but no complete rule set is supplied.
 - How should linguistic lists, narrative episodes and action models cross-link? New links must retain their author and evidence.
+- Which pattern-binding and operation schema should the new studio exchange with Matrix Studio? Selection, stacking, AI computation, correction and regrouping are settled core requirements; their complete interchange format is still to be specified.
+- Which encryption, key recovery and operation-specific grants implement the clarified private, secret and public contexts? The source defines their purpose without establishing a reviewed deployed implementation.
 - Are the numerical throughput and school-allocation values assumptions, illustrations or targets? No normative meaning should be assigned without clarification.
 - What sources and reuse terms apply to the embedded pictures and borrowed-looking prompt collections? They remain local pending attribution.
 - Counts cover all stored cells, but semantic interpretation focuses on named structural regions; no claim is made that every one of the 30,105 nonempty stored values has been exhaustively interpreted.
 - These sources do not establish that a questionnaire produces consciousness, a digital continuation of a person, accurate future predictions or a clinically valid assessment. They establish a substantial design vocabulary for a personal knowledge and reflection system.
 
-The ambitious next step is a working cycle: capture a meaningful episode, preserve its contexts and alternative views, choose an action, observe the result, and revise the model while retaining the history. The 120-hour protocol can repeatedly exercise that cycle at personal, interpersonal, project, community and wider-world scales.
+The next implementation step is the operative cycle: capture meaningful material and its contexts, organise and select patterns across the seven nested tori, group or stack them for a chosen purpose, compute with AI to produce a document, site or other artifact, inspect the result, correct the relevant records or instructions, regroup and repeat. Three-observer evidence and participant meaning inform this cycle across different selves and access contexts. The 120-hour protocol can exercise it at personal, interpersonal, project, community and wider-world scales while retaining sources, history and authority.

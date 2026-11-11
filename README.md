@@ -1,10 +1,14 @@
 # Aura Genesis Observer Studio
 
-An evolving whole-of-life Aura, a three-observer process, Minimum Viable Self reflection, the 120-hour Genesis learning route and a substantial teacher-development programme. This edition turns Luke's source documents and spatial matrices into an explorable studio and a bounded production process for lighter agents.
+An Aura built through seven nested horn tori, programmable facets and stacks: organise patterns, select AI computation, produce documents and websites, correct, regroup and compute again across multiple selves and access domains. Minimum Viable Self reflection and the three observers supply patterns and feedback within this wider whole-of-life and teacher-development process. This edition turns Luke's source documents and spatial matrices into an explorable studio and a bounded production process for lighter agents.
 
 [Open the companion site](https://auraofintelligence.github.io/aura-genesis-observer-studio/) · [All reading guides](https://auraofintelligence.github.io/aura-genesis-observer-studio/sitemap.html) · [Aura of Intelligence](https://auraofintelligence.github.io/)
 
-## Begin with a useful encounter
+## Begin with a pattern and a purpose
+
+Read [Building an Aura](content/aura-pattern-cycle.md) first. The pattern architecture is the organising and productive system. Internal private and secret selves require separately enforced encryption and permissions; the external public self exposes approved material with reduced capabilities. The current static companion documents those requirements and supports reflection; it is not yet the encrypted AI execution engine.
+
+The [Geode and Verse Box guide](content/geode-and-verse-box.md) preserves the specific seated HBOT workspace and the separate portable public booth. Source-reference imagery replaces the first edition’s mistaken rock-geode illustration.
 
 1. Open **Minimum Viable Self** and choose a question that matters in your present life. Add your own answer, context, evidence and uncertainty. Use **Deep Interview** to follow it through different conditions, examples, tensions and practical attempts.
 2. Open **Three observers**. Record the wider available scene, the character's actual attention and a narrator's description separately. Add your own meaning or correction. These are attributed accounts, not three independent witnesses merely because three prompts exist.
@@ -103,4 +107,4 @@ Original project work uses the [Strange But True Public Source Licence](LICENCE.
 
 Original generated hero illustrations and a generated favicon are mixed with credited real photographs. The [image credits](docs/image-credits.html), [generation prompts](docs/assets/image-provenance.json), [photo provenance](docs/assets/photo-provenance.json) and bundled font notices preserve the separate third-party terms.
 
-Luke Nathan Hayes / Strange But True / Aura of Intelligence. Developed with an AI team, including a lighter-agent authoring pilot. Edition 1, 10 November 2026.
+Luke Nathan Hayes / Strange But True / Aura of Intelligence. Developed with an AI team, including a lighter-agent authoring pilot. Edition 2, 11 November 2026.
