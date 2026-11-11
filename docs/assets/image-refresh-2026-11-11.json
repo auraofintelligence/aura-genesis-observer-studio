@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-11",
+  "request": "Fuller Aura logo with small equal top/side padding; refresh GenAI imagery against actual symbolism, programming, AI, HBOT and Verse Box",
+  "tool": "Built-in image_gen.imagegen",
+  "assets": [
+    {
+      "role": "Aura mark",
+      "file": "aura-favicon-v5.png",
+      "manifest": "favicon-v5-provenance.json"
+    },
+    {
+      "role": "Pattern-programming hero",
+      "file": "aura-pattern-programming-hero-v1.webp",
+      "manifest": "aura-pattern-programming-hero-v1.provenance.json"
+    },
+    {
+      "role": "Geode active workspace",
+      "file": "geode-workspace-hero-v2.webp",
+      "manifest": "geode-workspace-hero-v2-provenance.json"
+    },
+    {
+      "role": "Verse Box community workstation",
+      "file": "verse-box-community-v2.webp",
+      "manifest": "verse-box-community-v2.provenance.json"
+    }
+  ],
+  "referencePolicy": "Original hardware references and exact geometry diagram remain available. New art is concept visualisation; it does not demonstrate completed software or installed hardware.",
+  "photoPolicy": "Real photographs and their attribution are unchanged."
+}

@@ -28,3 +28,6 @@
 .aura-settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:30px 0}.aura-settings-grid figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}.aura-settings-grid img{width:100%;aspect-ratio:16/10;object-fit:contain;background:var(--deep)}.aura-settings-grid figcaption{padding:20px 24px}.aura-settings-grid figcaption strong{display:block;font-size:21px;font-weight:550;margin-bottom:7px;color:var(--ink)}.aura-settings-grid figcaption span{display:block;font-size:14px;color:var(--muted);line-height:1.65}@media(max-width:680px){.aura-settings-grid{grid-template-columns:1fr}.aura-settings-grid figcaption{padding:18px 20px}}@media print{.aura-settings-grid figure{background:none}.aura-settings-grid figcaption strong,.aura-settings-grid figcaption span{color:#222}}
 
 @media(max-width:1050px){.primary-nav{display:none}}
+
+/* Keep the square Aura artwork intact in flexible headers. */
+.brand img{object-fit:contain;flex-shrink:0}

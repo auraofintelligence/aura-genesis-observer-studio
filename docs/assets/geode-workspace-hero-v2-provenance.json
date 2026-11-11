@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "title": "Geode active-workspace hero v2",
+  "tool": "Built-in image_gen.imagegen",
+  "mode": "Reference-guided image edit",
+  "prompt": "Use case: precise-object-edit. Asset type: NEW landscape 16:9 website hero for Aura Genesis Observer Studio. Input image 1 is the authoritative Aura Genesis Geode Atlas seated HBOT concept reference. Input image 2 is the canonical Aura geometry board, used ONLY for a small source-faithful pattern on the experience display. Preserve the exact compact one-person chamber architecture in image 1: an upright adjustable ivory recliner, a full-height transparent front door hinged and swung fully aside on the right, clear low threshold and assisted-entry floor, reachable side-mounted adjustable haptic display facing the seated person, a recognisable lightweight XR headset on its side dock, two neatly parked wearable bands, recessed sensor sockets and a discreet receiver in the genuine side service bay. Equipment is mounted inside the shell beside the seat, never on the door; keep elbow, shoulder and head room. Preserve the smooth lined interior and the reference's manufactured ivory/quartz/lilac/mint mineral-composite shell with restrained champagne seams: this is a shaped enclosure, never a natural rock geode, floating gemstone or crystal cave. Transform the isolated product shot into an inviting believable working design-studio setting with warm indirect daylight, tactile materials and calm dark-plum/deep-jade architecture. The chamber and equipment occupy the RIGHT 58% of the wide frame, three-quarter front view at seated eye height. Keep the LEFT 40% visually quiet, a softly lit dark wall and subtle floor with no equipment or text, for a large headline. Add a modest separate external AI-compute workstation beyond the chamber on the far right or rear, visibly outside the pressure enclosure, with a compact serviceable compute cabinet and a single small monitor showing restrained abstract facet-stack cards and a document/page preview. That general-AI workstation is physically and visually distinct from the chamber's own dedicated controller; do not connect AI controls to the pressure system, do not merge their interfaces, and do not show AI pressure settings or a treatment readout. The chamber's side EXPERIENCE display can show the broad nested horn-torus wireframe from the RIGHT MAIN geometry image of reference 2, seven nested shells sharing a central pinch, no open hole, with a few abstract reflection cards beneath it. No giant holograms and no fantasy interfaces. The open door and clear entry indicate a prepared active workspace/rehearsal before any pressure session; no person receiving treatment and no implied certification. No people, masks, logos, labels, numbers, readable UI text, certification seals or operating instructions. Make the apparatus compact and usable, not a walk-in room. Editorial architectural product photography, realistic materials, plausible clean cable routing, calm warm light, highly legible layout, premium but practical. This image is a speculative design visualisation, not a photograph of installed or approved medical equipment. Preserve the reference setup rather than inventing a different chamber.",
+  "imageInputs": [
+    {
+      "path": "docs/assets/geode-hbot-reference.webp",
+      "sourceProject": "aura-genesis-geode-atlas",
+      "originalPath": "assets/images/hero-index-v3.webp",
+      "sourceUrl": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/",
+      "role": "Authoritative seated chamber layout and materials reference. Viewed before use and passed through referenced_image_paths.",
+      "sha256": "33d4bc295a6e062bfccc93821904594f42e8cd371d13b65acf77d4b9e483360b"
+    },
+    {
+      "path": "aura-teacher-training/docs/imagery/aura-geometry-reference-board.png",
+      "role": "Canonical Aura geometry reference for the small experience-screen pattern. Viewed before use and passed through referenced_image_paths.",
+      "sha256": "5b8e2a3c8aabc9bf08d36226872c498177b051fdb51340d16c5f96c26a2c692a"
+    }
+  ],
+  "writtenSources": [
+    {
+      "path": "content/geode-and-verse-box.md",
+      "use": "Distinct HBOT Geode setup, active side bay, external compute/controller separation and reference-image status."
+    },
+    {
+      "project": "aura-genesis-geode-atlas",
+      "path": "content/pages.mjs",
+      "use": "Seated retrofit, entry and egress, active workspace, separate compute and control duties."
+    },
+    {
+      "project": "aura-genesis-geode-atlas",
+      "path": "content/hero-artwork.json",
+      "use": "Original hero-index-v3 prompt and layout invariants."
+    }
+  ],
+  "sourceRefs": [
+    "GA1",
+    "U2",
+    "MS1"
+  ],
+  "outputs": [
+    {
+      "path": "assets/generated/geode-workspace-hero-v2-original.png",
+      "role": "Unmodified original imagegen output",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2088564,
+      "sha256": "a6ce8b3d31cf69065808cafb9e30d75870ce8b24abedfaed940dd8fff3be02a8"
+    },
+    {
+      "path": "docs/assets/geode-workspace-hero-v2.webp",
+      "role": "Optimised website hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 180050,
+      "sha256": "bb6419532ca33b1ae5091e4b66e4cf89a7b9df3e5176711bd509324460f1e62c"
+    }
+  ],
+  "processing": "Original copied into assets/generated. Web derivative encoded with Pillow 11.3.0, RGB WebP quality 88, method 6. No crop, rescale or aspect-ratio change.",
+  "suggestedAlt": "Generated Geode workspace concept with an upright recliner, open transparent front door, side experience display, docked XR headset, sensor bay and separate external AI computer.",
+  "suggestedCaption": "Generated design visualisation based on the Genesis Geode Atlas seated-workspace reference. The mineral-composite enclosure and equipment layout are conceptual; this is not a photograph of installed or certified HBOT equipment.",
+  "inspection": {
+    "reviewed": [
+      "Original generated image",
+      "Final WebP derivative"
+    ],
+    "observed": [
+      "Compact upright seated chamber and open full-height front door preserved.",
+      "Experience display, XR dock, wearable bands and connection bay remain beside the chair.",
+      "External AI workstation and compute cabinet shown outside the chamber.",
+      "Front access remains visible; left side provides quiet headline space.",
+      "No rock-geode cave or floating mineral specimen; no person undergoing treatment.",
+      "No displayed AI pressure-control interface or treatment setting."
+    ],
+    "limits": "Visual source alignment only. No engineering, medical-device, compatibility, emergency-egress or pressure-control verification. Small screen glyphs are illustrative; they do not implement the Aura or prove exact geometry."
+  },
+  "integration": "Prepared asset only. No HTML, CSS or shared asset manifest modified.",
+  "rights": "Original project generation follows the repository Strange But True Public Source Licence; source-reference rights remain with their respective projects."
+}

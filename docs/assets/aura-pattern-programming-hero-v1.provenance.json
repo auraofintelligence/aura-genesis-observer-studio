@@ -1,0 +1,59 @@
+{
+  "schema": "aura-generated-image-provenance/1",
+  "assetId": "aura-pattern-programming-hero-v1",
+  "created": "2026-11-11",
+  "purpose": "Primary Aura pattern-programming hero; an authored concept illustration, not an actual product screenshot or AI execution record.",
+  "generation": {
+    "mode": "built-in image_gen",
+    "tool": "image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Asset: NEW wide landscape editorial website hero for the Aura of Intelligence pattern-programming studio, ideally 16:9. Create a polished, believable human workbench scene with restrained illustrative precision on its screens, not a screenshot of a finished product.\n\nREFERENCE IMAGE: The supplied geometry reference board is a technical geometry reference only, not a layout, label, or aesthetic to reproduce. Follow its actual nested horn-torus construction: seven differently sized complete closed shells, red smallest/innermost through orange, yellow, green, blue, indigo to violet outermost; all share one central pinch, major radius equals tube radius. Do not turn them into seven separated doughnuts, atomic orbits, a spiral, an open central hole, a vertical spike, or seven horizontally stacked rings. Use the board's right-hand nested wireframe as the geometric model and its left-hand single selected facet as the programming-detail reference.\n\nSCENE AND COMPOSITION: A generic adult maker, viewed over the right shoulder and from the side, calmly engaged at a thoughtful timber workstation in a contemporary subtropical Queensland studio. A realistic large high-resolution desktop display occupies the right half and centre-right of the image. Warm coastal afternoon light and subtle eucalyptus/Moreton Bay glimpses through the studio window give place without becoming a travel postcard. Keep the LEFT 38 percent quiet, dark plum, softly textured and uncluttered for a title overlay; no lettering in this quiet region. The computer and attentive maker are the story, with tactile materials and natural human posture. Do not portray a specific known person.\n\nSCREEN CONTENT MUST CONVEY THE OPERATIVE AURA: On the large monitor, show a carefully composed dark-plum visual programming workbench with three clear regions. First, one large view of seven genuinely nested horn tori sharing one pinch, with a fine rectangular facet lattice and a few selected gold facets; an adjacent detail shows three or four ordered outward layers attached to one selected facet, like separated structured data/instruction cards, not floating gems. Second, a small ordered sequence of linked pattern/instruction cards leading into a modest AI-computation module represented by a clear restrained node/processing symbol. Third, two recognisable output previews: a clean document page and a website page with an image block and orderly content panels. Show one small correction mark on an output and a single precise gold return path going back to a revised pattern group, communicating inspect, correct, regroup, choose again. All these graphics belong visibly to the computer display, not holograms floating around the room. Hierarchy matters more than the number of cards. Small source/version dots may suggest provenance but do not add words, numbers, nonsense glyphs or fake text paragraphs.\n\nSTYLE AND LIGHT: Sophisticated human-centred editorial concept image, a convincing photographed environment with deliberately clean screen illustrations. Plum shadows, warm gold accents, natural timber, soft cream and controlled seven-colour spectral geometry. Calm confidence, intellectually ambitious, useful creative production. Screen graphics legible at hero size, restrained glow, realistic reflections kept light enough to read the geometry.\n\nSTRICT AVOIDS: No rock geodes, crystals, atoms, brains, humanoid robots, medical equipment, hyperbaric chambers, booths, VR helmets, random sacred geometry, occult symbols, corporate logos, watermarks, labels or headings. Do not imply this is an installed product, an actual AI run or a real user record. This is an authored concept illustration of pattern selection, programming, AI-assisted output and correction.",
+    "transparentBackground": false,
+    "iterations": 1
+  },
+  "reference": {
+    "repository": "aura-teacher-training",
+    "path": "docs/imagery/aura-geometry-reference-board.png",
+    "sha256": "5b8e2a3c8aabc9bf08d36226872c498177b051fdb51340d16c5f96c26a2c692a",
+    "role": "Technical geometry reference, inspected before generation: seven nested closed horn-torus shells with one shared pinch and the selected-facet programming detail. Not a style or identity reference."
+  },
+  "sourceBasis": [
+    "U2: author architecture clarification, 11 November 2026",
+    "content/aura-pattern-cycle.md",
+    "MS1: Matrix Studio address, facet-layer and program concepts"
+  ],
+  "files": [
+    {
+      "path": "assets/generated/aura-pattern-programming-hero-v1.png",
+      "role": "Unaltered generated original",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2313910,
+      "sha256": "483a8e0bc6e89f56f73ca444f36bfe60012aeb4e102898c83e1d40375d89e351"
+    },
+    {
+      "path": "docs/assets/aura-pattern-programming-hero-v1.webp",
+      "role": "Web delivery asset",
+      "width": 1672,
+      "height": 941,
+      "bytes": 218012,
+      "sha256": "522133184da400766a901b782a35eeb04fde57d0367314ded7c56a3766958c43",
+      "conversion": "Pillow RGB WebP, quality 88, method 6; no crop, repainting or content change."
+    }
+  ],
+  "altText": "Generated concept of a maker at a workstation: a shared-pinch rainbow Aura lattice connects selected facet details to an ordered program, document and website previews, with a return path for correction.",
+  "inspection": {
+    "reviewed": "Generated original visually inspected; web conversion checked at native dimensions.",
+    "observed": [
+      "Quiet plum title space on the left; human workbench and screen on the right.",
+      "Seven-colour nested common-pinch lattice, selected facet details, ordered pattern cards, a processing symbol, document and website previews, and a correction return path.",
+      "Natural timber and subtropical setting; no rock geodes, atom/brain motifs, robots, pressure chamber or Verse Box.",
+      "No legible UI labels, claims or personal data."
+    ],
+    "limitations": [
+      "Editorial generated illustration; not a coordinate-certified geometry render or a claim that every facet/layer is numerically exact.",
+      "Screen imagery symbolises the intended computation cycle; it does not demonstrate a connected runner, encryption or successful model execution.",
+      "Generic invented adult and setting, not Luke or a documented real participant."
+    ]
+  },
+  "integration": "New sibling asset. No HTML, CSS or shared image manifest was edited by the image subtask."
+}

@@ -3,3 +3,6 @@
 @media(max-width:850px){header{align-items:flex-start;flex-direction:column}header nav{flex-wrap:wrap;gap:16px}.brand span{display:none}.reading-hero{min-height:310px;padding:30px 6vw}.reading-layout{display:block;margin-top:28px;padding:0 22px}aside{position:static;max-height:250px;overflow:auto;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:30px}.page-turn{flex-wrap:wrap}body{font-size:16px}td,th{padding:10px;min-width:120px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{header,.reading-hero,aside,footer,.page-turn,.skip{display:none}.reading-layout{display:block;margin:0;padding:0}body{background:white;font:11pt/1.45 Georgia,serif;color:black}main{max-width:none}h2{page-break-after:avoid;margin-top:22pt}h3{page-break-after:avoid}a{color:black}table{font-size:9pt}.table-scroll{overflow:visible}tr{break-inside:avoid}pre{white-space:pre-wrap;background:#eee;color:black}}
+
+/* Preserve the square source and full-height Aura mark. */
+.brand img{width:40px;height:40px;object-fit:contain;flex:0 0 40px}

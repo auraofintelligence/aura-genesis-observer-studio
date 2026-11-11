@@ -30,8 +30,10 @@
       "date": "2026-11-10",
       "prompt": "Use case: stylized-concept. Asset type: second wide editorial hero illustration for an ambitious Aura personal-intelligence and teacher-training workshop website. Sunlit subtropical coastal maker studio with an adult learner and an adult teacher, a physical prototype being assembled on a natural timber workbench, annotated paper layouts without readable text, a small keyboard and display, open sea beyond large windows, practical objects and a musical instrument. Above the bench a subtle imaginative translucent amethyst geometric aura map connects to the tangible prototype, showing an idea taking physical form. Humanistic constructive futurism, mixed realistic painterly textures, natural warm daylight, sage greenery, electric cyan and warm gold accents with small violet physical details. Distinct from a mystical night geode. Wide 16:9, uncluttered strong composition, no readable words, no logos, no watermark. This is clearly conceptual illustration of a possible workshop, not documentation of a real programme or real identifiable people.",
       "promptBrief": "Sunlit coastal maker studio, adult learner and teacher assembling a physical prototype, natural timber, paper layouts, music, open sea and a subtle translucent geometric map; humanistic constructive futurism, no real identifiable people or documented-programme claim.",
-      "status": "current"
+      "status": "superseded",
+      "supersededReason": "11 November refresh: replace generic geometric workshop motif with source-informed pattern programming, selected facet stacks, AI outputs and correction feedback."
     }
   ],
-  "processing": "Format conversion for web delivery; favicon resized. Generated original artworks retained locally. Real photo files unchanged; responsive crop possible in presentation."
+  "processing": "Format conversion for web delivery; favicon resized. Generated original artworks retained locally. Real photo files unchanged; responsive crop possible in presentation.",
+  "currentImageSet": "image-refresh-2026-11-11.json"
 }

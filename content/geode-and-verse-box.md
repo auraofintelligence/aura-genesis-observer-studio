@@ -6,9 +6,9 @@ Aura is the pattern organisation and computation system. The Geode and the Verse
 
 The [Genesis Geode Atlas](https://auraofintelligence.github.io/aura-genesis-geode-atlas/) describes a compact, one-person seated HBOT setting. The participant has an upright adjustable chair or recliner, an accessible front entry and room to interact with the Aura. The active-workspace design reserves a reachable side-mounted haptic display, a VR/XR use envelope and dock, wearable-sensor connections and receiver hardware. Equipment stows alongside the seat so the entry and assisted-transfer route remain clear.
 
-![Project concept reference showing a compact seated Geode with a full-height transparent door, side display, XR dock and sensor bay](assets/geode-hbot-reference.webp)
+![Project concept reference showing a compact seated Geode with a full-height transparent door, side display, XR dock and sensor bay](assets/geode-workspace-hero-v2.webp)
 
-*Reference artwork from the existing Aura Genesis Geode Atlas, `hero-index-v3.webp`. This is the project's generated design visualisation, not a photograph of an installed or certified chamber. It establishes the intended visual and spatial reference for this companion.*
+*Refreshed generated concept, 11 November 2026, based on the existing Aura Genesis Geode Atlas [reference artwork](assets/geode-hbot-reference.webp). It preserves the seated setup and shows general AI compute outside the chamber. This is a design visualisation, not a photograph of an installed or certified chamber. [Prompt and provenance](assets/geode-workspace-hero-v2-provenance.json).*
 
 The atlas keeps four pathways distinct:
 
@@ -29,9 +29,9 @@ The word **Geode** names this specified HBOT and development system. A floating 
 
 The [Verse Box experience](https://auraofintelligence.github.io/aura-verse-box/experience.html) and [trial guide](https://auraofintelligence.github.io/aura-verse-box/trial.html) describe a public introduction to Aura through a practical portable station. The supplied reference is a **single-skin plywood booth with braced framing, plum felt panels, a curtain, a desk, an adjustable task chair, task lighting, a monitor, keyboard and microphone**. A compact computer sits on a side shelf. The reference also shows an outward-facing public information display.
 
-![Supplied Verse Box reference with plywood structure, plum panels, curtain, desk, task chair, Aura monitor, microphone and outward public display](assets/verse-box-reference.jpg)
+![Supplied Verse Box reference with plywood structure, plum panels, curtain, desk, task chair, Aura monitor, microphone and outward public display](assets/verse-box-community-v2.webp)
 
-*The existing Verse Box project's supplied single-skin concept reference, reproduced unchanged for comparison. This is a visual specification reference, not evidence of a completed public installation.*
+*Refreshed generated concept, 11 November 2026, based on the existing Verse Box [supplied single-skin reference](assets/verse-box-reference.jpg), with the nested Aura geometry on the workstation screen. This is a design illustration, not evidence of a completed public installation. [Prompt and provenance](assets/verse-box-community-v2.provenance.json).*
 
 The work area has depth for the rear workstation, the seated person and the approach to the desk. It is not a shallow screen kiosk. Suitable reused computers and displays are part of the proposed lower-cost approach. Cameras, phone mounts, lighting, sensors and measuring tools depend on the activities actually offered and agreed. The structure, equipment mounts, assembly, stability and access arrangements are matters for the particular trial design.
 
@@ -56,4 +56,4 @@ Across all three, the person chooses which self frame and access domain are invo
 - **VB1:** Verse Box experience, trial, corrected proposal and supplied single-skin image; local `content/pages.mjs`, `content/proposal-sections.json` and `documents/verse-box-supplied-reference.jpg`.
 - **MS1:** [Matrix Studio guide](https://auraofintelligence.github.io/aura-matrix-studio/guide.html), including stack layers, program export and the prototype's actual boundaries.
 
-The earlier floating rock illustration is superseded. The reference pictures here preserve the existing projects' specific layouts and attribution. The observer companion does not overwrite those source projects or assume every evolving design decision in them is final.
+The earlier floating rock illustration is superseded. The refreshed pictures use the existing projects' specific layouts; the unchanged source references and their attribution remain linked. The observer companion does not overwrite those source projects or assume every evolving design decision in them is final.

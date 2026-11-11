@@ -1,0 +1,71 @@
+{
+  "schema": "aura-generated-image-provenance/1",
+  "assetId": "verse-box-community-v2",
+  "createdAt": "2026-11-11T04:54:26.319Z",
+  "createdFor": "Aura Genesis Observer Studio",
+  "mode": "Built-in image_gen tool; reference-based generation",
+  "type": "AI-generated concept visualisation, not a photograph of an installed or certified structure",
+  "prompt": "Use case: photorealistic-natural.\nAsset type: new landscape website illustration of the Verse Box public workstation; approximately 3:2 landscape. This is a new, faithful reference-based visualisation, not a claim of a built installation.\n\nInput image 1 is the authoritative construction/layout reference: the supplied single-skin Verse Box booth. Preserve its recognisable construction and working depth.\nInput image 2 is the exact Aura geometry reference: use the RIGHT-HAND seven genuinely nested horn-torus wireframe geometry only for the interior monitor. Do not reproduce the reference board or its annotations.\n\nScene: a welcoming everyday community room in natural daylight. Show the entire booth at a clear three-quarter front view, with comfortable floor and headroom, similar practical perspective to reference 1 but as a fresh polished illustration. No person is needed: keep the seated workspace and equipment legible.\n\nBooth: honest single-skin pale plywood panels with visible grain, screws, timber upright frame and structural bracing; open front, a plum fabric curtain pulled to the side on its rail, plum felt acoustic panels on the inner walls and lower exterior side. Retain real depth from the approach through the adjustable padded task chair to the rear desk. The desk has legroom, keyboard and mouse, a task lamp and upright desktop microphone. A compact black computer sits on a side shelf with orderly cables. Retain the outward-facing public information display on the exterior side wall. This is a practical portable plywood-and-felt booth, not a shallow screen kiosk.\n\nInterior monitor: show the seven complete nested horn tori from reference 2, with the smallest red shell inside orange, yellow, green, blue, indigo and the largest violet shell. Every shell has the horn relation R=r and all converge at ONE shared central pinch. Show a fine facet/wire lattice with readable nested structure against a dark monitor background. There must be NO open doughnut hole, NO disconnected floating rings, NO vertical spine, NO stacked doughnuts, and NO aura around a person's head. Keep the geometry contained within the ordinary monitor.\n\nExterior public display: a restrained purple information interface with the existing exact heading \"P4A\" and simple unlettered cards/icons. Header sign above entry: exact text \"VERSE BOX\", as already present in reference 1. These are the only readable words anywhere. No invented logos, slogans, fine-print, watermarks or other labels.\n\nLighting and materials: soft warm daylight, realistic plywood edge thickness, fabric texture and everyday room detail; inviting and practical, not science fiction. Keep all booth features coherent and physically plausible. Do not add pressure-chamber hardware, sealed doors, medical tubes, crystal rocks, fantasy holograms or a luxury futuristic kiosk. Do not make a photograph of the reference board. Deliver one coherent landscape image.",
+  "sourceReferences": [
+    {
+      "id": "VB1-image",
+      "projectPath": "docs/assets/verse-box-reference.jpg",
+      "source": "Supplied single-skin Verse Box construction reference; copied unchanged into this project",
+      "sha256": "b460390fcb5133b24186abf26347e613c9b1813909c2f8de44799b252bb9f53b",
+      "role": "Primary construction, material and equipment layout reference; viewed before generation"
+    },
+    {
+      "id": "HG1-board",
+      "repository": "aura-teacher-training",
+      "projectPath": "docs/imagery/aura-geometry-reference-board.png",
+      "sha256": "5b8e2a3c8aabc9bf08d36226872c498177b051fdb51340d16c5f96c26a2c692a",
+      "role": "Right-hand seven nested horn-torus geometry reference for the interior monitor; viewed before generation"
+    },
+    {
+      "id": "physical-guide",
+      "projectPath": "content/geode-and-verse-box.md",
+      "sha256": "3b30c31c2c53d5016aa090282fd42c7eb0e9382090a2701197a48e674de873c5",
+      "role": "Read for the distinction between the plywood/felt public workstation and the seated HBOT Geode"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/generated/verse-box-community-v2-original.png",
+      "sha256": "7156778d6a6fb27a2f3913578258266df49020645833026ed84393e2700091c8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "processing": "Unmodified built-in generated output, copied to the project"
+    },
+    {
+      "path": "docs/assets/verse-box-community-v2.webp",
+      "sha256": "3de61c16fc92d51420dc92b7726d2d11e30079148b85ebfa2975d3b246c196b8",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "format": "WEBP",
+      "processing": "uniform ratio-preserving thumbnail, maximum edge 1440; no crop or compositing; Pillow WebP quality 90, method 6"
+    }
+  ],
+  "visualReview": {
+    "reviewer": "AI assistant visual inspection",
+    "status": "accepted for an illustrative website scene",
+    "observed": [
+      "Single-skin plywood booth, visible timber framing and realistic working depth",
+      "Plum felt panels and pulled curtain",
+      "Adjustable task chair, rear desk, keyboard/mouse, microphone and task lighting",
+      "Compact computer on a side shelf and outward-facing P4A display",
+      "Interior monitor shows nested coloured horn-torus-like wire geometry with a shared central pinch",
+      "Landscape composition in natural welcoming community-room light; no pressure-chamber equipment or fantasy kiosk"
+    ],
+    "limitations": [
+      "Generated artwork is not a construction drawing or evidence of an operating public installation.",
+      "Monitor geometry is an illustrative rendering of the exact supplied board, not a mathematical replacement for that deterministic reference.",
+      "No encryption, AI execution, clinical benefit, certification or participant outcome is implied."
+    ]
+  },
+  "integration": "Standalone asset delivery only. HTML, CSS and shared manifests were not edited."
+}

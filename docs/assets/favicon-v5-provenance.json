@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-11",
+  "tool": "Built-in image_gen.imagegen",
+  "intent": "User correction: fuller mark with small equal padding at top and sides",
+  "prompt": "Use case: precise-object-edit. Edit target: image 1, the latest Aura logo. Geometry reference: image 2, use the main nested seven-shell wireframe on the right. USER CORRECTION: the logo is STILL too compressed, and padding at the top and sides must be EQUAL and SMALL. Produce a SQUARE logo tile in which the complete coloured mark reaches x=5% to95% and y=5% to95%: equal five-percent clear padding on ALL FOUR sides. The coloured outer silhouette must therefore be nearly circular, with height equal to width, and fill the tile evenly. Change the camera/proportions to a fuller elevated three-dimensional view of SEVEN COMPLETE NESTED HORN TORI. Do not retain the flattened oval. Preserve red innermost, then orange/yellow/green/blue/indigo/violet outermost; one common central pinch; coherent fine luminous facet lattice; dark plum square background. Show nested volume and the closed horn centre, not a pupil or an open doughnut hole. No necked exterior/hourglass, no isolated bowls, no extra shapes, no text. Do NOT add a thick border. Do NOT crop any coloured contours. Do NOT leave excess blank space top and bottom. Keep equal small margins and an almost round compact envelope. This is a stylised logo; preserve the Aura nested shell identity.",
+  "inputs": [
+    {
+      "path": "Earlier generated v4 candidate",
+      "role": "Edit target; still too compressed per user"
+    },
+    {
+      "path": "aura-teacher-training/docs/imagery/aura-geometry-reference-board.png",
+      "role": "Geometry reference; inspected and supplied as actual image input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "assets/generated/aura-favicon-v5-original.png",
+      "sha256": "47f2e48de1fdf1e1a46924ed757ca5f2d7b957c940d393826805284b1798bb3a"
+    },
+    {
+      "path": "docs/assets/aura-favicon-v5.png",
+      "sha256": "4cbe8d915931e5e74e52e5be99aae5c5d0a8cb6ff5fb1e077baabcdcaa67f7f7"
+    },
+    {
+      "path": "docs/assets/aura-favicon-v5-32.png",
+      "sha256": "bc82d9badc3638701755de9c23e12e632a9b89b9229c32814635b5449902f88c"
+    }
+  ],
+  "implementation": "Square source is downscaled proportionally to 192 and 32 pixels. No CSS stretching; flex shrink is disabled. Stylised logo, not mathematical diagram."
+}
